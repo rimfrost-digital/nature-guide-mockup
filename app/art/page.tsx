@@ -1,46 +1,94 @@
+import { notFound } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
-import { Scale, Beef, PawPrint, MapPin } from "lucide-react"
+import type { Metadata } from "next"
+import { Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon } from "lucide-react"
 import { SpeciesTopNav } from "@/components/species-top-nav"
 import { SpeciesAudioPlayer } from "@/components/species-audio-player"
 import { SpeciesGallery } from "@/components/species-gallery"
 import { TalkToNature } from "@/components/talk-to-nature"
+import { speciesPagesData, type Lang } from "@/lib/species-pages-data"
 
-const quickFacts = [
-  { icon: Scale, label: "Vikt", value: "15–30 kg" },
-  { icon: Beef, label: "Föda", value: "Köttätare (främst rådjur & hare)" },
-  { icon: PawPrint, label: "Spår", value: "Runda, utan klomärken" },
-  { icon: MapPin, label: "Livsmiljö", value: "Tät skog och bergig terräng" },
-]
+// Icons to cycle through for quick facts
+const FACT_ICONS = [Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon]
 
-const gallery = [
-  {
-    src: "/images/lynx-rock.png",
-    alt: "Lodjur som rör sig genom skogen",
-    tall: true,
-    video: "https://videos.pexels.com/video-files/4763824/4763824-uhd_2560_1440_24fps.mp4",
-    poster: "/images/lynx-rock.png",
-  },
-  { src: "/images/lynx-face.png", alt: "Närbild på ett lodjurs ansikte" },
-  { src: "/images/lynx-tracks.png", alt: "Lodjursspår i snön" },
-  { src: "/images/sp-lynx.png", alt: "Lodjur i vinterskog" },
-]
+type Props = {
+  searchParams: Promise<{ namn?: string; lang?: string }>
+}
 
-const related = [
-  { slug: "alg", name: "Älg", latin: "Alces alces", image: "/images/species-moose.png" },
-  { slug: "skogshare", name: "Skogshare", latin: "Lepus timidus", image: "/images/sp-hare.png" },
-  { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/sp-badger.png" },
-]
+export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
+  const { namn = "lodjur", lang = "sv" } = await searchParams
+  const data = speciesPagesData[namn]
+  if (!data) return {}
+  const l = (["sv", "en", "de"].includes(lang) ? lang : "sv") as Lang
+  const m = data.meta[l]
+  return { title: m.title, description: m.description }
+}
 
-export default function ArtPage() {
+export default async function ArtPage({ searchParams }: Props) {
+  const { namn = "lodjur", lang = "sv" } = await searchParams
+  const data = speciesPagesData[namn]
+  if (!data) notFound()
+
+  const l = (["sv", "en", "de"].includes(lang) ? lang : "sv") as Lang
+
+  const name = data.names[l]
+  const category = data.category[l]
+  const content = data.content[l]
+  const quickFacts = data.quickFacts[l]
+  const interactive = data.interactive[l]
+  const heroAlt = data.media.heroImage.alt[l]
+  const detailAlt = data.media.detailImage?.alt[l] ?? ""
+  const galleryImages = data.media.galleryImages
+  const relatedHeading = data.relatedSectionHeading[l]
+  const relatedLink = data.relatedLinkLabel[l]
+
+  // Localized UI strings
+  const audioTitle =
+    l === "sv" ? "Lyssna på guiden" : l === "en" ? "Listen to the guide" : "Hören Sie den Guide"
+  const galleryHeading =
+    l === "sv"
+      ? "Bilder från närområdet"
+      : l === "en"
+        ? "Images from the area"
+        : "Bilder aus der Umgebung"
+  const quickFactsHeading =
+    l === "sv" ? "Snabbfakta" : l === "en" ? "Quick Facts" : "Kurzfakten"
+  const chatWelcome =
+    l === "sv"
+      ? `Hej! Jag är ${name}. Vad vill du veta?`
+      : l === "en"
+        ? `Hi! I'm the ${name}. What would you like to know?`
+        : `Hallo! Ich bin der ${name}. Was möchtest du wissen?`
+  const chatPlaceholder =
+    l === "sv"
+      ? "Skriv din fråga här..."
+      : l === "en"
+        ? "Type your question here..."
+        : "Schreib deine Frage hier..."
+  const chatAriaLabel =
+    l === "sv"
+      ? `Skriv din fråga till ${name}`
+      : l === "en"
+        ? `Type your question to the ${name}`
+        : `Schreib deine Frage an den ${name}`
+  const tagLabel =
+    l === "sv" ? "Prata med naturen" : l === "en" ? "Talk to Nature" : "Mit der Natur sprechen"
+  const subNote =
+    l === "sv"
+      ? `En lekfull guide för barn \u2013 svaren skapas av en digital ${name.toLowerCase()}skompis.`
+      : l === "en"
+        ? `A playful guide for children \u2013 answers are created by a digital ${name.toLowerCase()} companion.`
+        : `Ein spielerischer Guide für Kinder \u2013 Antworten werden von einem digitalen ${name}-Begleiter erstellt.`
+
   return (
     <main className="bg-[#F4F1E8]">
       {/* Hero */}
       <section className="relative h-[80vh] w-full overflow-hidden">
         <SpeciesTopNav />
         <Image
-          src="/images/lynx-hero.png"
-          alt="Lodjur i en snötäckt nordisk skog"
+          src={data.media.heroImage.url}
+          alt={heroAlt}
           fill
           priority
           className="object-cover"
@@ -50,12 +98,14 @@ export default function ArtPage() {
         <div className="absolute inset-x-0 bottom-0">
           <div className="mx-auto max-w-6xl px-5 pb-12 sm:px-8">
             <span className="inline-block rounded-md bg-[#B89452] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[#1d2521]">
-              Däggdjur
+              {category}
             </span>
             <h1 className="mt-4 font-serif text-6xl font-semibold leading-none text-[#F4F1E8] sm:text-7xl md:text-8xl">
-              Lodjur
+              {name}
             </h1>
-            <p className="mt-2 font-sans text-xl italic text-[#B89452] sm:text-2xl">Lynx lynx</p>
+            <p className="mt-2 font-sans text-xl italic text-[#B89452] sm:text-2xl">
+              {data.scientificName}
+            </p>
           </div>
         </div>
       </section>
@@ -63,17 +113,19 @@ export default function ArtPage() {
       {/* Audio guide */}
       <section className="border-t-4 border-[#B89452] bg-[#F4F1E8]">
         <div className="mx-auto max-w-6xl px-5 py-6 sm:px-8">
-          <SpeciesAudioPlayer />
+          <SpeciesAudioPlayer audioTitle={audioTitle} />
         </div>
       </section>
 
       {/* Quick facts */}
       <section className="bg-[#F4F1E8]">
         <div className="mx-auto max-w-6xl px-5 pb-14 pt-6 sm:px-8">
-          <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">Snabbfakta</h2>
+          <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
+            {quickFactsHeading}
+          </h2>
           <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-            {quickFacts.map((fact) => {
-              const Icon = fact.icon
+            {quickFacts.map((fact, i) => {
+              const Icon = FACT_ICONS[i % FACT_ICONS.length]
               return (
                 <div
                   key={fact.label}
@@ -95,55 +147,73 @@ export default function ArtPage() {
         </div>
       </section>
 
-      {/* Talk to nature (for children) */}
-      <TalkToNature />
+      {/* Talk to nature */}
+      <TalkToNature
+        title={interactive.title}
+        intro={interactive.intro}
+        presetQuestions={interactive.presetQuestions}
+        avatarImage={data.avatarImage}
+        avatarAlt={data.chatAvatarAlt}
+        welcomeMessage={chatWelcome}
+        inputPlaceholder={chatPlaceholder}
+        inputAriaLabel={chatAriaLabel}
+        tagLabel={tagLabel}
+        subNote={subNote}
+        speciesId={namn}
+      />
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-20 sm:px-8 lg:grid-cols-2">
           <div>
             <h2 className="text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
-              Hälsinglands mystiska landskapsdjur
+              {content.heroSubtitle}
             </h2>
-            <p className="mt-6 leading-relaxed text-[#1d2521]">
-              Ett möte med lodjuret är en sällsynt och magisk upplevelse. Det är norra Europas största
-              kattdjur, känt för sina karakteristiska tofsar på öronen och sin korta svans. Lodjuret smyger
-              ljudlöst fram genom de djupa skogarna längs Kustvägen och är en mästare på att undvika
-              upptäckt. Den trivs bäst i oländig terräng där den kan ligga i bakhåll.
-            </p>
-            <blockquote className="mt-8 border-l-4 border-[#B89452] pl-5 font-serif text-xl italic leading-relaxed text-[#5A6B54]">
-              &ldquo;Att få se ett vilt lodjur i dess naturliga miljö är som att få en skymt av själva
-              skogens själ.&rdquo;
-            </blockquote>
+            <p className="mt-6 leading-relaxed text-[#1d2521]">{content.intro}</p>
+
+            {content.sections.map((section) => (
+              <div key={section.heading} className="mt-8">
+                <h3 className="font-serif text-2xl font-semibold text-[#2f4437]">
+                  {section.heading}
+                </h3>
+                <p className="mt-3 leading-relaxed text-[#1d2521]">{section.body}</p>
+              </div>
+            ))}
           </div>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
-            <Image
-              src="/images/lynx-paw-snow.png"
-              alt="Närbild på ett lodjurs tass i snön"
-              fill
-              className="object-cover"
-            />
-          </div>
+          {data.media.detailImage && (
+            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
+              <Image
+                src={data.media.detailImage.url}
+                alt={detailAlt}
+                fill
+                className="object-cover"
+              />
+            </div>
+          )}
         </div>
       </section>
 
       {/* Gallery */}
       <section className="bg-[#1d2521]">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
-          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">Bilder från närområdet</h2>
-          <SpeciesGallery items={gallery} />
+          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
+            {galleryHeading}
+          </h2>
+          <SpeciesGallery items={galleryImages} />
         </div>
       </section>
 
       {/* Related species */}
       <section className="bg-[#2f4437]">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
-          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">Upptäck fler däggdjur</h2>
+          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
+            {relatedHeading}
+          </h2>
           <div className="grid gap-6 sm:grid-cols-3">
-            {related.map((sp) => (
+            {data.relatedSpecies.map((sp) => (
               <Link
                 key={sp.slug}
-                href="/art"
+                href={`/art?namn=${sp.slug}`}
                 className="group overflow-hidden rounded-2xl bg-[#1d2521]"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
@@ -167,7 +237,7 @@ export default function ArtPage() {
               href="/arkiv"
               className="rounded-full border border-[#F4F1E8] px-8 py-3 text-sm font-medium tracking-wide text-[#F4F1E8] transition-colors hover:bg-[#F4F1E8] hover:text-[#2f4437]"
             >
-              Visa alla däggdjur
+              {relatedLink}
             </Link>
           </div>
         </div>

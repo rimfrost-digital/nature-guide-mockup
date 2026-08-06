@@ -11,7 +11,7 @@ function formatTime(seconds: number) {
   return `${m}:${s.toString().padStart(2, "0")}`
 }
 
-export function SpeciesAudioPlayer() {
+export function SpeciesAudioPlayer({ audioTitle = "Lyssna på guiden" }: { audioTitle?: string }) {
   const [playing, setPlaying] = useState(false)
   const [elapsed, setElapsed] = useState(0)
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
@@ -58,7 +58,7 @@ export function SpeciesAudioPlayer() {
       <div className="flex min-w-0 flex-1 flex-col gap-2">
         <div className="flex items-center justify-between gap-3">
           <span className="font-serif text-lg font-medium text-[#2f4437] sm:text-xl">
-            Lyssna på guiden
+            {audioTitle}
           </span>
           <span className="font-mono text-xs text-[#5A6B54] tabular-nums sm:text-sm">
             {formatTime(elapsed)} / 1:45

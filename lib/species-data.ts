@@ -35,6 +35,14 @@ export const species: Species[] = [
     image: "/images/sp-lynx.png",
   },
   {
+    slug: "rodrav",
+    name: "Rödräv",
+    latin: "Vulpes vulpes",
+    badge: "Däggdjur",
+    category: "daggdjur",
+    image: "/images/rodrav-hero.png",
+  },
+  {
     slug: "alg",
     name: "Älg",
     latin: "Alces alces",

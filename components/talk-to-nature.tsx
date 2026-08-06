@@ -6,13 +6,19 @@ import { useChat } from "@ai-sdk/react"
 import { DefaultChatTransport } from "ai"
 import { Send } from "lucide-react"
 
-const SUGGESTED = [
-  "Hur mycket väger du?",
-  "Kan du klättra i träd?",
-  "Vad äter du?",
-  "Hur snabbt springer du?",
-  "Var bor du på vintern?",
-]
+type TalkToNatureProps = {
+  title: string
+  intro: string
+  presetQuestions: string[]
+  avatarImage: string
+  avatarAlt: string
+  welcomeMessage: string
+  inputPlaceholder: string
+  inputAriaLabel: string
+  tagLabel: string
+  subNote: string
+  speciesId: string
+}
 
 function getText(message: { parts?: Array<{ type: string; text?: string }> }) {
   return (
@@ -23,10 +29,24 @@ function getText(message: { parts?: Array<{ type: string; text?: string }> }) {
   )
 }
 
-export function TalkToNature() {
+export function TalkToNature({
+  title,
+  intro,
+  presetQuestions,
+  avatarImage,
+  avatarAlt,
+  welcomeMessage,
+  inputPlaceholder,
+  inputAriaLabel,
+  tagLabel,
+  subNote,
+  speciesId,
+}: TalkToNatureProps) {
   const [input, setInput] = useState("")
   const { messages, sendMessage, status } = useChat({
-    transport: new DefaultChatTransport({ api: "/api/prata-med-naturen" }),
+    transport: new DefaultChatTransport({
+      api: `/api/prata-med-naturen?namn=${speciesId}`,
+    }),
   })
   const scrollRef = useRef<HTMLDivElement>(null)
   const isBusy = status === "submitted" || status === "streaming"
@@ -47,18 +67,13 @@ export function TalkToNature() {
         <div className="rounded-3xl bg-[#2f4437] p-6 sm:p-10">
           {/* Header */}
           <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#B89452]">
-            <span aria-hidden="true">🐾</span> Prata med naturen
+            <span aria-hidden="true">🐾</span> {tagLabel}
           </p>
           <h2 className="mt-3 font-serif text-4xl font-semibold text-[#F4F1E8] sm:text-5xl">
-            Fråga lodjuret
+            {title}
           </h2>
-          <p className="mt-3 max-w-2xl leading-relaxed text-[#F4F1E8]/80">
-            Undrar du något speciellt? Ställ en fråga direkt till mig och lär dig mer om hur jag lever här
-            längs Kustvägen.
-          </p>
-          <p className="mt-2 text-sm italic text-[#B89452]">
-            En lekfull guide för barn &ndash; svaren skapas av en digital lodjurskompis.
-          </p>
+          <p className="mt-3 max-w-2xl leading-relaxed text-[#F4F1E8]/80">{intro}</p>
+          <p className="mt-2 text-sm italic text-[#B89452]">{subNote}</p>
 
           {/* Chat window */}
           <div className="mt-6 overflow-hidden rounded-2xl bg-[#F4F1E8] shadow-inner">
@@ -69,14 +84,14 @@ export function TalkToNature() {
               {/* Welcome message */}
               <div className="flex items-end gap-3">
                 <Image
-                  src="/images/lynx-face.png"
-                  alt="Lodjurets ansikte"
+                  src={avatarImage}
+                  alt={avatarAlt}
                   width={40}
                   height={40}
                   className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
                 />
                 <div className="relative max-w-[80%] rounded-2xl rounded-bl-sm bg-[#E8E5DA] px-4 py-3 text-[#1d2521]">
-                  Hej! Jag är lodjuret. Vad vill du veta?
+                  {welcomeMessage}
                 </div>
               </div>
 
@@ -96,8 +111,8 @@ export function TalkToNature() {
                 return (
                   <div key={message.id} className="flex items-end gap-3">
                     <Image
-                      src="/images/lynx-face.png"
-                      alt="Lodjurets ansikte"
+                      src={avatarImage}
+                      alt={avatarAlt}
                       width={40}
                       height={40}
                       className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
@@ -113,8 +128,8 @@ export function TalkToNature() {
               {status === "submitted" && (
                 <div className="flex items-end gap-3">
                   <Image
-                    src="/images/lynx-face.png"
-                    alt="Lodjurets ansikte"
+                    src={avatarImage}
+                    alt={avatarAlt}
                     width={40}
                     height={40}
                     className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
@@ -129,7 +144,7 @@ export function TalkToNature() {
 
               {/* Suggested questions */}
               <div className="mt-1 flex flex-wrap gap-2">
-                {SUGGESTED.map((q) => (
+                {presetQuestions.map((q) => (
                   <button
                     key={q}
                     type="button"
@@ -154,8 +169,14 @@ export function TalkToNature() {
               <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="Skriv din fråga här..."
-                aria-label="Skriv din fråga till lodjuret"
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" && !e.nativeEvent.isComposing && !(e.keyCode === 229)) {
+                    e.preventDefault()
+                    ask(input)
+                  }
+                }}
+                placeholder={inputPlaceholder}
+                aria-label={inputAriaLabel}
                 className="flex-1 rounded-full border border-[#5A6B54] bg-[#F4F1E8] px-4 py-2.5 text-[#1d2521] outline-none placeholder:text-[#5A6B54]/70 focus:border-[#B89452]"
               />
               <button
