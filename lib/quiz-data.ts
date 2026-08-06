@@ -54,7 +54,7 @@ const easyQuestions: Question[] = [
     question: "Vilket djur ser vargen mest ut som?",
     options: [
       { label: "Hund",     image: "/images/sp-dog.png",      imageAlt: "En hund sitter ute" },
-      { label: "Elefant",  image: "/images/sp-eaglenest.png", imageAlt: "En havsörn i sitt bo" },
+      { label: "Elefant",  image: "/images/sp-elephant.png",  imageAlt: "Elefanter i naturen" },
       { label: "Kanin",    image: "/images/sp-hare.png",      imageAlt: "En hare i naturen" },
     ],
     correctIndex: 0,
@@ -108,7 +108,7 @@ const easyQuestions: Question[] = [
     options: [
       { label: "Hjortron", image: "/images/sp-cloudberry.png",    imageAlt: "Gula hjortron på kärr" },
       { label: "Blåbär",   image: "/images/species-blueberry.png", imageAlt: "Blåbär på ris" },
-      { label: "Lingon",   image: "/images/sp-buckthorn.png",      imageAlt: "Röda lingonbär på ris" },
+      { label: "Lingon",   image: "/images/sp-lingon.png",         imageAlt: "Röda lingonbär på ris" },
     ],
     correctIndex: 2,
     explanation: "Lingon är röda och sura bär som vanligtvis mognar under augusti och september.",

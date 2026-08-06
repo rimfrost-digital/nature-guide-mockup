@@ -138,6 +138,7 @@ export function QuizQuestion({
                 selectedAnswer={selectedAnswer}
                 answerIsLocked={answerIsLocked}
                 onAnswer={onAnswer}
+                priority={currentIndex === 0}
               />
             ) : (
               <ImageOptions
@@ -214,9 +215,10 @@ interface VisualCardsProps {
   selectedAnswer: number | null
   answerIsLocked: boolean
   onAnswer: (i: number) => void
+  priority?: boolean
 }
 
-function VisualCards({ question, selectedAnswer, answerIsLocked, onAnswer }: VisualCardsProps) {
+function VisualCards({ question, selectedAnswer, answerIsLocked, onAnswer, priority = false }: VisualCardsProps) {
   const count = question.options.length // always 3
 
   return (
@@ -274,6 +276,7 @@ function VisualCards({ question, selectedAnswer, answerIsLocked, onAnswer }: Vis
                   src={option.image}
                   alt={option.imageAlt}
                   fill
+                  priority={priority}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className={cn(
                     "object-cover transition-transform duration-200",
