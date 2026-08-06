@@ -121,6 +121,7 @@ export function QuizClient({ lang }: { lang: Lang }) {
           resultText={resultText}
           onRestart={handleRestart}
           onSwitchQuiz={handleStart}
+          onBack={handleBack}
         />
       )}
     </main>

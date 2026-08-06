@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link"
 import { RotateCcw, ArrowRight } from "lucide-react"
 import type { Quiz, ResultText } from "@/lib/quiz-data"
 
@@ -11,6 +10,7 @@ interface QuizResultProps {
   resultText: ResultText
   onRestart: () => void
   onSwitchQuiz: (id: "easy" | "challenge") => void
+  onBack: () => void
 }
 
 export function QuizResult({
@@ -20,6 +20,7 @@ export function QuizResult({
   resultText,
   onRestart,
   onSwitchQuiz,
+  onBack,
 }: QuizResultProps) {
   const total = quiz.questions.length
   const pct = Math.round((score / total) * 100)
@@ -111,12 +112,12 @@ export function QuizResult({
           </div>
 
           <div className="mt-6">
-            <Link
-              href="/quiz"
+            <button
+              onClick={onBack}
               className="rounded text-sm text-[#5A6B54] underline-offset-4 transition-colors hover:text-[#193C2C] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#193C2C] focus-visible:ring-offset-2"
             >
               Tillbaka till quiz
-            </Link>
+            </button>
           </div>
         </div>
       </div>
