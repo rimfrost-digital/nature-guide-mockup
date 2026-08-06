@@ -6,6 +6,42 @@ import { Check, X, ChevronRight, ArrowRight, ArrowLeft } from "lucide-react"
 import type { Question, TextQuestion, ImageChoiceQuestion } from "@/lib/quiz-data"
 import { cn } from "@/lib/utils"
 
+// ---------------------------------------------------------------------------
+// Consistent A/B/C accent colors — same on every question
+// ---------------------------------------------------------------------------
+const CARD_ACCENTS = [
+  // A — soft berry/coral
+  {
+    bg: "bg-[#F2A999]",
+    border: "border-[#F2A999]",
+    selectedBorder: "border-[#C94C38]",
+    ring: "ring-[#C94C38]",
+    label: "bg-[#C94C38]",
+    text: "text-[#5A1A12]",
+  },
+  // B — clear sky blue
+  {
+    bg: "bg-[#8BBFE8]",
+    border: "border-[#8BBFE8]",
+    selectedBorder: "border-[#2565A3]",
+    ring: "ring-[#2565A3]",
+    label: "bg-[#2565A3]",
+    text: "text-[#0E2E50]",
+  },
+  // C — fresh moss green
+  {
+    bg: "bg-[#85C49A]",
+    border: "border-[#85C49A]",
+    selectedBorder: "border-[#1D6B40]",
+    ring: "ring-[#1D6B40]",
+    label: "bg-[#1D6B40]",
+    text: "text-[#0A3020]",
+  },
+] as const
+
+// ---------------------------------------------------------------------------
+// Props
+// ---------------------------------------------------------------------------
 interface QuizQuestionProps {
   quiz: { id: string; title: string; questions: Question[] }
   currentIndex: number
@@ -16,6 +52,9 @@ interface QuizQuestionProps {
   onBack: () => void
 }
 
+// ---------------------------------------------------------------------------
+// Main component
+// ---------------------------------------------------------------------------
 export function QuizQuestion({
   quiz,
   currentIndex,
@@ -30,6 +69,7 @@ export function QuizQuestion({
   const isLast = currentIndex === total - 1
   const feedbackRef = useRef<HTMLDivElement>(null)
   const isCorrect = answerIsLocked && selectedAnswer === question.correctIndex
+  const progressPct = ((currentIndex + 1) / total) * 100
 
   useEffect(() => {
     if (!answerIsLocked || !feedbackRef.current) return
@@ -38,14 +78,12 @@ export function QuizQuestion({
     feedbackRef.current.scrollIntoView({ behavior: "smooth", block: "nearest" })
   }, [answerIsLocked])
 
-  const progressPct = ((currentIndex + 1) / total) * 100
-
   return (
-    <section className="mx-auto w-full max-w-3xl px-6 py-8 sm:py-14">
-      {/* Progress header */}
-      <div className="mb-8">
+    <section className="mx-auto w-full max-w-[1050px] px-4 py-6 sm:px-6 sm:py-10">
+
+      {/* ── Top bar ── */}
+      <div className="mb-5">
         <div className="mb-3 flex items-center justify-between gap-4">
-          {/* Back */}
           <button
             onClick={onBack}
             className="inline-flex items-center gap-1.5 rounded text-sm text-[#5A6B54] transition-colors hover:text-[#193C2C] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#193C2C] focus-visible:ring-offset-2"
@@ -62,9 +100,9 @@ export function QuizQuestion({
           </span>
         </div>
 
-        {/* Colorful segmented progress bar */}
+        {/* Progress bar */}
         <div
-          className="h-2 w-full overflow-hidden rounded-full bg-[#193C2C]/10"
+          className="h-2.5 w-full overflow-hidden rounded-full bg-[#2f4437]/10"
           role="progressbar"
           aria-valuenow={currentIndex + 1}
           aria-valuemin={1}
@@ -78,36 +116,24 @@ export function QuizQuestion({
         </div>
       </div>
 
-      {/* Question card */}
-      <div className="overflow-hidden rounded-2xl border border-[#193C2C]/10 bg-white shadow-sm">
-        {/* Optional question image */}
-        {question.type === "text" && (question as TextQuestion).image && (
-          <div className="relative h-52 w-full overflow-hidden sm:h-64">
-            <Image
-              src={(question as TextQuestion).image!}
-              alt={(question as TextQuestion).imageAlt ?? ""}
-              fill
-              sizes="(max-width: 768px) 100vw, 768px"
-              className="object-cover"
-            />
-          </div>
-        )}
+      {/* ── Question card ── */}
+      <div className="overflow-hidden rounded-[18px] border border-[#193C2C]/10 bg-white shadow-sm">
+        <div className="px-6 pb-6 pt-7 sm:px-8 sm:pb-8 sm:pt-8">
 
-        <div className="p-6 sm:p-8">
           {/* Category eyebrow */}
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#5A6B54]">
             {question.category}
           </p>
 
-          {/* Question text */}
+          {/* Question heading */}
           <h2 className="font-serif text-2xl font-semibold text-balance text-[#193C2C] sm:text-3xl">
             {question.question}
           </h2>
 
-          {/* Answer options */}
+          {/* Answer grid */}
           <div className="mt-7">
             {question.type === "text" ? (
-              <TextOptions
+              <VisualCards
                 question={question as TextQuestion}
                 selectedAnswer={selectedAnswer}
                 answerIsLocked={answerIsLocked}
@@ -123,7 +149,7 @@ export function QuizQuestion({
             )}
           </div>
 
-          {/* Feedback banner */}
+          {/* ── Feedback ── */}
           {answerIsLocked && (
             <div
               ref={feedbackRef}
@@ -132,16 +158,14 @@ export function QuizQuestion({
               aria-atomic="true"
               className={cn(
                 "mt-6 rounded-xl border p-4",
-                isCorrect
-                  ? "border-[#2B6E4E]/25 bg-[#E8F5EE]"
-                  : "border-[#B8473A]/20 bg-[#FDF0EE]",
+                isCorrect ? "border-[#2B6E4E]/25 bg-[#E8F5EE]" : "border-[#C94C38]/20 bg-[#FDF0EE]",
               )}
             >
               <div className="flex items-start gap-3">
                 <span
                   className={cn(
                     "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-white",
-                    isCorrect ? "bg-[#2B6E4E]" : "bg-[#B8473A]",
+                    isCorrect ? "bg-[#2B6E4E]" : "bg-[#C94C38]",
                   )}
                   aria-hidden="true"
                 >
@@ -159,7 +183,7 @@ export function QuizQuestion({
             </div>
           )}
 
-          {/* Next / finish button */}
+          {/* ── Next button ── */}
           {answerIsLocked && (
             <div className="mt-6 flex justify-end">
               <button
@@ -182,83 +206,116 @@ export function QuizQuestion({
 }
 
 // ---------------------------------------------------------------------------
-// Text answer options
+// Visual answer cards (text questions — now with images)
 // ---------------------------------------------------------------------------
 
-interface TextOptionsProps {
+interface VisualCardsProps {
   question: TextQuestion
   selectedAnswer: number | null
   answerIsLocked: boolean
   onAnswer: (i: number) => void
 }
 
-function TextOptions({ question, selectedAnswer, answerIsLocked, onAnswer }: TextOptionsProps) {
+function VisualCards({ question, selectedAnswer, answerIsLocked, onAnswer }: VisualCardsProps) {
+  const count = question.options.length // always 3
+
   return (
-    <ul className="flex flex-col gap-3" role="list">
+    /*
+     * Desktop: 3 equal columns
+     * Tablet (sm): 2 cols, third card centered below
+     * Mobile: 1 col full-width
+     */
+    <ul
+      className={cn(
+        "grid gap-4",
+        count === 3 && "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3",
+        count === 2 && "grid-cols-1 sm:grid-cols-2",
+      )}
+      role="list"
+    >
       {question.options.map((option, i) => {
+        const accent = CARD_ACCENTS[i % CARD_ACCENTS.length]
         const isSelected = selectedAnswer === i
-        const isCorrect = i === question.correctIndex
-        const isWrong = answerIsLocked && isSelected && !isCorrect
-        const showCorrect = answerIsLocked && isCorrect
+        const isCorrectIdx = i === question.correctIndex
+        const isWrong = answerIsLocked && isSelected && !isCorrectIdx
+        const showCorrect = answerIsLocked && isCorrectIdx
+        const dimmed = answerIsLocked && !isSelected && !isCorrectIdx
+        const letter = String.fromCharCode(65 + i) // A, B, C
+
+        // On sm with 3 options, last card should span both cols to center
+        const isLastOfThree = count === 3 && i === 2
 
         return (
-          <li key={i}>
+          <li key={i} className={cn(isLastOfThree && "sm:col-span-2 lg:col-span-1 sm:mx-auto sm:w-1/2 lg:w-full lg:mx-0")}>
             <button
               onClick={() => !answerIsLocked && onAnswer(i)}
               disabled={answerIsLocked}
               aria-pressed={isSelected}
               className={cn(
-                "group flex w-full items-center gap-4 rounded-xl border px-5 py-4 text-left text-sm font-medium transition-all duration-150",
-                "min-h-[56px] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#193C2C] focus-visible:ring-offset-2",
-                // idle
-                !answerIsLocked && !isSelected &&
-                  "border-[#193C2C]/12 bg-[#F2F7F4] text-[#193C2C] hover:border-[#2B6E4E]/50 hover:bg-[#E8F5EE] cursor-pointer",
-                // selected pre-lock
-                !answerIsLocked && isSelected &&
-                  "border-[#2B6E4E] bg-[#E8F5EE] text-[#193C2C] cursor-pointer",
-                // correct revealed
-                showCorrect &&
-                  "border-[#2B6E4E] bg-[#E8F5EE] text-[#193C2C] cursor-default",
-                // wrong
-                isWrong &&
-                  "border-[#B8473A]/40 bg-[#FDF0EE] text-[#8A2E23] cursor-default",
-                // dimmed unselected after lock
-                answerIsLocked && !isSelected && !isCorrect &&
-                  "border-[#193C2C]/8 bg-[#F7F9F8] text-[#193C2C]/40 cursor-default",
+                "group relative flex w-full flex-col overflow-hidden rounded-2xl border-2 transition-all",
+                "focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2",
+                // base accent
+                accent.border,
+                // hover
+                !answerIsLocked && "cursor-pointer hover:-translate-y-1 hover:shadow-lg active:translate-y-0",
+                // locked states
+                !answerIsLocked && !isSelected && "bg-white",
+                !answerIsLocked && isSelected && `${accent.bg} border-[3px]`,
+                showCorrect && "border-[#2B6E4E] bg-[#E8F5EE] ring-4 ring-[#2B6E4E]/30 ring-offset-2 border-[3px]",
+                isWrong && "border-[#C94C38] bg-[#FDF0EE] ring-4 ring-[#C94C38]/20 ring-offset-2 border-[3px]",
+                dimmed && "opacity-45 cursor-default",
+                "motion-safe:transition-all motion-safe:duration-200",
               )}
+              style={{ minHeight: 230 }}
             >
-              {/* Letter badge */}
-              <span
-                className={cn(
-                  "flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-xs font-bold transition-colors",
-                  !answerIsLocked && !isSelected &&
-                    "border-[#193C2C]/20 bg-white text-[#193C2C]/60",
-                  !answerIsLocked && isSelected &&
-                    "border-[#2B6E4E] bg-[#2B6E4E] text-white",
-                  showCorrect &&
-                    "border-[#2B6E4E] bg-[#2B6E4E] text-white",
-                  isWrong &&
-                    "border-[#B8473A] bg-[#B8473A] text-white",
-                  answerIsLocked && !isSelected && !isCorrect &&
-                    "border-[#193C2C]/12 bg-transparent text-[#193C2C]/30",
+              {/* ── Image area ── */}
+              <div className="relative w-full overflow-hidden" style={{ aspectRatio: "4/3" }}>
+                <Image
+                  src={option.image}
+                  alt={option.imageAlt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className={cn(
+                    "object-cover transition-transform duration-200",
+                    !answerIsLocked && "group-hover:scale-[1.03]",
+                  )}
+                />
+                {/* Correct / wrong badge — top right on image */}
+                {answerIsLocked && (showCorrect || isWrong) && (
+                  <div
+                    className={cn(
+                      "absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full text-white shadow-md",
+                      showCorrect ? "bg-[#2B6E4E]" : "bg-[#C94C38]",
+                    )}
+                    aria-hidden="true"
+                  >
+                    {showCorrect ? <Check className="h-4 w-4" /> : <X className="h-4 w-4" />}
+                  </div>
                 )}
-                aria-hidden="true"
-              >
-                {answerIsLocked && showCorrect ? (
-                  <Check className="h-3.5 w-3.5" />
-                ) : answerIsLocked && isWrong ? (
-                  <X className="h-3.5 w-3.5" />
-                ) : (
-                  String.fromCharCode(65 + i)
+              </div>
+
+              {/* ── Label area ── */}
+              <div className={cn("flex items-center gap-3 px-4 py-3", accent.bg)}>
+                {/* Letter chip */}
+                <span
+                  className={cn(
+                    "flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white",
+                    accent.label,
+                  )}
+                  aria-hidden="true"
+                >
+                  {letter}
+                </span>
+                <span className={cn("text-sm font-bold leading-tight", accent.text)}>
+                  {option.label}
+                </span>
+                {/* "Rätt svar" hint on non-selected correct */}
+                {answerIsLocked && isCorrectIdx && !isSelected && (
+                  <span className="ml-auto shrink-0 text-xs font-semibold text-[#2B6E4E]">
+                    Rätt svar
+                  </span>
                 )}
-              </span>
-
-              <span className="flex-1">{option}</span>
-
-              {/* Correct label on non-selected correct answer */}
-              {answerIsLocked && isCorrect && !isSelected && (
-                <span className="shrink-0 text-xs font-semibold text-[#2B6E4E]">Rätt svar</span>
-              )}
+              </div>
             </button>
           </li>
         )
@@ -268,7 +325,7 @@ function TextOptions({ question, selectedAnswer, answerIsLocked, onAnswer }: Tex
 }
 
 // ---------------------------------------------------------------------------
-// Image answer options
+// Image-choice options (track questions) — same visual card style
 // ---------------------------------------------------------------------------
 
 interface ImageOptionsProps {
@@ -282,11 +339,13 @@ function ImageOptions({ question, selectedAnswer, answerIsLocked, onAnswer }: Im
   return (
     <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3" role="list">
       {question.options.map((option, i) => {
+        const accent = CARD_ACCENTS[i % CARD_ACCENTS.length]
         const isSelected = selectedAnswer === i
-        const isCorrect = i === question.correctIndex
-        const isWrong = answerIsLocked && isSelected && !isCorrect
-        const showCorrect = answerIsLocked && isCorrect
-        const hasImage = Boolean(option.image)
+        const isCorrectIdx = i === question.correctIndex
+        const isWrong = answerIsLocked && isSelected && !isCorrectIdx
+        const showCorrect = answerIsLocked && isCorrectIdx
+        const dimmed = answerIsLocked && !isSelected && !isCorrectIdx
+        const letter = String.fromCharCode(65 + i)
 
         return (
           <li key={i}>
@@ -295,61 +354,66 @@ function ImageOptions({ question, selectedAnswer, answerIsLocked, onAnswer }: Im
               disabled={answerIsLocked}
               aria-pressed={isSelected}
               className={cn(
-                "group flex w-full flex-col overflow-hidden rounded-xl border transition-all duration-150",
-                "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#193C2C] focus-visible:ring-offset-2",
-                !answerIsLocked && !isSelected &&
-                  "border-[#193C2C]/12 bg-white hover:border-[#2B6E4E]/50 cursor-pointer",
-                !answerIsLocked && isSelected &&
-                  "border-[#2B6E4E] bg-[#E8F5EE] cursor-pointer",
-                showCorrect && "border-[#2B6E4E] bg-[#E8F5EE] cursor-default",
-                isWrong && "border-[#B8473A]/40 bg-[#FDF0EE] cursor-default",
-                answerIsLocked && !isSelected && !isCorrect &&
-                  "border-[#193C2C]/8 bg-[#F7F9F8] opacity-55 cursor-default",
+                "group relative flex w-full flex-col overflow-hidden rounded-2xl border-2 transition-all",
+                "focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-offset-2",
+                accent.border,
+                !answerIsLocked && "cursor-pointer hover:-translate-y-1 hover:shadow-lg active:translate-y-0",
+                !answerIsLocked && !isSelected && "bg-white",
+                !answerIsLocked && isSelected && `${accent.bg} border-[3px]`,
+                showCorrect && "border-[#2B6E4E] bg-[#E8F5EE] ring-4 ring-[#2B6E4E]/30 ring-offset-2 border-[3px]",
+                isWrong && "border-[#C94C38] bg-[#FDF0EE] ring-4 ring-[#C94C38]/20 ring-offset-2 border-[3px]",
+                dimmed && "opacity-45 cursor-default",
+                "motion-safe:transition-all motion-safe:duration-200",
               )}
+              style={{ minHeight: 230 }}
             >
-              {/* Image */}
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#E8F0EB]">
-                {hasImage ? (
+              <div className="relative w-full overflow-hidden" style={{ aspectRatio: "4/3" }}>
+                {option.image ? (
                   <Image
                     src={option.image}
                     alt={option.alt}
                     fill
                     sizes="(max-width: 640px) 100vw, 33vw"
-                    className="object-cover"
+                    className={cn(
+                      "object-cover transition-transform duration-200",
+                      !answerIsLocked && "group-hover:scale-[1.03]",
+                    )}
                   />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center">
+                  <div className="flex h-full w-full items-center justify-center bg-[#E8F0EB]">
                     <p className="px-4 text-center text-xs text-[#2f4437]/40">Bild saknas</p>
                   </div>
                 )}
                 {answerIsLocked && (showCorrect || isWrong) && (
                   <div
                     className={cn(
-                      "absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full text-white",
-                      showCorrect ? "bg-[#2B6E4E]" : "bg-[#B8473A]",
+                      "absolute right-2 top-2 flex h-8 w-8 items-center justify-center rounded-full text-white shadow-md",
+                      showCorrect ? "bg-[#2B6E4E]" : "bg-[#C94C38]",
                     )}
                     aria-hidden="true"
                   >
-                    {showCorrect ? <Check className="h-3.5 w-3.5" /> : <X className="h-3.5 w-3.5" />}
+                    {showCorrect ? <Check className="h-4 w-4" /> : <X className="h-4 w-4" />}
                   </div>
                 )}
               </div>
 
-              {/* Label */}
-              <div className="flex items-center justify-between px-4 py-3">
+              <div className={cn("flex items-center gap-3 px-4 py-3", accent.bg)}>
                 <span
                   className={cn(
-                    "text-sm font-semibold",
-                    showCorrect && "text-[#193C2C]",
-                    isWrong && "text-[#8A2E23]",
-                    !answerIsLocked && "text-[#193C2C]",
-                    answerIsLocked && !isSelected && !isCorrect && "text-[#193C2C]/40",
+                    "flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white",
+                    accent.label,
                   )}
+                  aria-hidden="true"
                 >
+                  {letter}
+                </span>
+                <span className={cn("text-sm font-bold leading-tight", accent.text)}>
                   {answerIsLocked ? option.revealLabel : option.label}
                 </span>
-                {answerIsLocked && isCorrect && !isSelected && (
-                  <span className="text-xs font-semibold text-[#2B6E4E]">Rätt svar</span>
+                {answerIsLocked && isCorrectIdx && !isSelected && (
+                  <span className="ml-auto shrink-0 text-xs font-semibold text-[#2B6E4E]">
+                    Rätt svar
+                  </span>
                 )}
               </div>
             </button>

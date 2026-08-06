@@ -1,14 +1,17 @@
 // Quiz data for Kustvägen Naturguide
-// Images for quiz questions not yet in /public/images/ are marked with TODO comments.
+
+export type QuizOption = {
+  label: string
+  image: string
+  imageAlt: string
+}
 
 export type TextQuestion = {
   id: string
   type: "text"
   category: string
   question: string
-  image?: string
-  imageAlt?: string
-  options: string[]
+  options: QuizOption[]
   correctIndex: number
   explanation: string
 }
@@ -48,11 +51,12 @@ const easyQuestions: Question[] = [
     id: "easy-1",
     type: "text",
     category: "Däggdjur",
-    // TODO: Add Varg_Huvudbild_01.jpg to /public/images/
-    image: undefined,
-    imageAlt: "En varg i naturen",
     question: "Vilket djur ser vargen mest ut som?",
-    options: ["Hund", "Elefant", "Kanin"],
+    options: [
+      { label: "Hund",     image: "/images/sp-dog.png",      imageAlt: "En hund sitter ute" },
+      { label: "Elefant",  image: "/images/sp-eaglenest.png", imageAlt: "En havsörn i sitt bo" },
+      { label: "Kanin",    image: "/images/sp-hare.png",      imageAlt: "En hare i naturen" },
+    ],
     correctIndex: 0,
     explanation:
       "Vargen är stamfader till hunden och kommunicerar på liknande sätt genom att bland annat skälla, morra, gny och yla.",
@@ -61,11 +65,12 @@ const easyQuestions: Question[] = [
     id: "easy-2",
     type: "text",
     category: "Däggdjur",
-    // TODO: Add Alg_Huvudbild_01.jpg to /public/images/
-    image: undefined,
-    imageAlt: "En älg i skogen",
     question: "Vilket djur kallas ofta för skogens konung?",
-    options: ["Räv", "Älg", "Ekorre"],
+    options: [
+      { label: "Räv",     image: "/images/rodrav-hero.png",    imageAlt: "En rödräv i naturen" },
+      { label: "Älg",     image: "/images/species-moose.png",  imageAlt: "En älg i skogen" },
+      { label: "Ekorre",  image: "/images/sp-squirrel.png",    imageAlt: "En ekorre på en gren" },
+    ],
     correctIndex: 1,
     explanation: "Älgen kallas skogens konung och är det största djuret i skogen.",
   },
@@ -73,11 +78,12 @@ const easyQuestions: Question[] = [
     id: "easy-3",
     type: "text",
     category: "Däggdjur",
-    // TODO: Add Igelkott_Huvudbild_01.jpg to /public/images/
-    image: undefined,
-    imageAlt: "En igelkott i gräset",
     question: "Vilket djur rullar ihop sig till en taggig boll när det blir skrämt?",
-    options: ["Bäver", "Rådjur", "Igelkott"],
+    options: [
+      { label: "Bäver",    image: "/images/sp-beaver.png",   imageAlt: "En bäver vid vatten" },
+      { label: "Rådjur",   image: "/images/sp-roedeer.png",  imageAlt: "Ett rådjur på en äng" },
+      { label: "Igelkott", image: "/images/sp-hedgehog.png", imageAlt: "En igelkott i gräset" },
+    ],
     correctIndex: 2,
     explanation: "Igelkotten har ungefär 5 000–7 000 taggar och rullar ofta ihop sig för att skydda sig.",
   },
@@ -85,11 +91,12 @@ const easyQuestions: Question[] = [
     id: "easy-4",
     type: "text",
     category: "Svampar",
-    // TODO: Add Kantarell_Huvudbild_01.jpg to /public/images/
-    image: undefined,
-    imageAlt: "Gula kantareller i skogen",
     question: "Vilken svamp brukar kallas för skogens guld?",
-    options: ["Röd flugsvamp", "Kantarell", "Fnöskticka"],
+    options: [
+      { label: "Röd flugsvamp", image: "/images/sp-flugsvamp.png",       imageAlt: "En röd flugsvamp med vita prickar" },
+      { label: "Kantarell",     image: "/images/species-chanterelle.png", imageAlt: "Gula kantareller i skogen" },
+      { label: "Fnöskticka",    image: "/images/sp-tinderbracket.png",    imageAlt: "Fnöskticka på ett träd" },
+    ],
     correctIndex: 1,
     explanation: "Kantarellen kallas skogens guld och är en mycket omtyckt matsvamp.",
   },
@@ -97,11 +104,12 @@ const easyQuestions: Question[] = [
     id: "easy-5",
     type: "text",
     category: "Växter och bär",
-    // TODO: Add Lingon_Huvudbild_01.jpg to /public/images/
-    image: undefined,
-    imageAlt: "Röda lingon på ett lingonris",
     question: "Vilket av dessa bär är rött och surt?",
-    options: ["Hjortron", "Blåbär", "Lingon"],
+    options: [
+      { label: "Hjortron", image: "/images/sp-cloudberry.png",    imageAlt: "Gula hjortron på kärr" },
+      { label: "Blåbär",   image: "/images/species-blueberry.png", imageAlt: "Blåbär på ris" },
+      { label: "Lingon",   image: "/images/sp-buckthorn.png",      imageAlt: "Röda lingonbär på ris" },
+    ],
     correctIndex: 2,
     explanation: "Lingon är röda och sura bär som vanligtvis mognar under augusti och september.",
   },
@@ -120,22 +128,19 @@ const challengeQuestions: Question[] = [
     options: [
       {
         label: "Spår A",
-        // TODO: Add Alg_Spar_01.jpg to /public/images/
-        image: "",
+        image: "/images/sp-moosetracks.png",
         alt: "Spår från en älg",
         revealLabel: "Älgspår",
       },
       {
         label: "Spår B",
-        // TODO: Add Varg_Spar_01.jpg to /public/images/ — this is the correct answer
-        image: "",
+        image: "/images/sp-wolftracks.png",
         alt: "Spår från en varg",
         revealLabel: "Vargspår",
       },
       {
         label: "Spår C",
-        // TODO: Add Lodjur_Spar_01.jpg to /public/images/
-        image: "",
+        image: "/images/sp-lynxtracks.png",
         alt: "Spår från ett lodjur",
         revealLabel: "Lodjursspår",
       },
@@ -149,7 +154,11 @@ const challengeQuestions: Question[] = [
     type: "text",
     category: "Däggdjur",
     question: "Vilket djur har stora, platta tassar som fungerar ungefär som snöskor?",
-    options: ["Räv", "Järv", "Utter"],
+    options: [
+      { label: "Räv",   image: "/images/rodrav-hero.png",    imageAlt: "En rödräv" },
+      { label: "Järv",  image: "/images/sp-wolverine.png",   imageAlt: "En järv i snölandskap" },
+      { label: "Utter", image: "/images/sp-otter.png",       imageAlt: "En utter vid vatten" },
+    ],
     correctIndex: 1,
     explanation:
       "Järvens stora och platta tassar fungerar som snöskor och gör att den lätt kan ta sig fram över snön.",
@@ -160,7 +169,11 @@ const challengeQuestions: Question[] = [
     category: "Däggdjur",
     question:
       "Vilket djur använder sin breda, platta svans för att styra i vattnet och varna genom att plaska?",
-    options: ["Bäver", "Gråsäl", "Mink"],
+    options: [
+      { label: "Bäver",  image: "/images/sp-beaver.png", imageAlt: "En bäver vid vatten" },
+      { label: "Gråsäl", image: "/images/sp-seal.png",   imageAlt: "En gråsäl" },
+      { label: "Mink",   image: "/images/sp-mink.png",   imageAlt: "En mink" },
+    ],
     correctIndex: 0,
     explanation:
       "Bävern använder den breda svansen för att styra i vattnet och plaskar hårt med den när den anar fara.",
@@ -170,7 +183,11 @@ const challengeQuestions: Question[] = [
     type: "text",
     category: "Fåglar",
     question: "Vilken fågels bo kan väga omkring 500 kilo?",
-    options: ["Tjäder", "Bofink", "Havsörn"],
+    options: [
+      { label: "Tjäder",   image: "/images/sp-capercaillie.png", imageAlt: "En tjäder i skogen" },
+      { label: "Bofink",   image: "/images/sp-chaffinch.png",    imageAlt: "En bofink på en gren" },
+      { label: "Havsörn",  image: "/images/species-eagle.png",   imageAlt: "En havsörn" },
+    ],
     correctIndex: 2,
     explanation:
       "Havsörnens stora och tunga bo kan väga omkring 500 kilo och byggs därför i mycket gamla och kraftiga träd.",
@@ -181,7 +198,11 @@ const challengeQuestions: Question[] = [
     category: "Fiskar",
     question:
       "Vilken fisk föds i rinnande vatten, vandrar ut i Östersjön och återvänder till sin födelseplats för att lägga rom?",
-    options: ["Abborre", "Lax", "Lake"],
+    options: [
+      { label: "Abborre", image: "/images/sp-perch.png",  imageAlt: "En abborre" },
+      { label: "Lax",     image: "/images/sp-salmon.png", imageAlt: "En lax" },
+      { label: "Lake",    image: "/images/sp-burbot.png", imageAlt: "En lake" },
+    ],
     correctIndex: 1,
     explanation:
       "Den baltiska laxen föds i älvar och åar, växer till sig i Östersjön och återvänder sedan till platsen där den föddes.",
@@ -191,7 +212,11 @@ const challengeQuestions: Question[] = [
     type: "text",
     category: "Fiskar",
     question: "I vilket hav leker ålen?",
-    options: ["Bottenhavet", "Sargassohavet", "Medelhavet"],
+    options: [
+      { label: "Bottenhavet",   image: "/images/sp-bottenhavet.png",   imageAlt: "Östersjöns kust" },
+      { label: "Sargassohavet", image: "/images/sp-sargasso.png",      imageAlt: "Sargassohavet med tång" },
+      { label: "Medelhavet",    image: "/images/sp-mediterranean.png", imageAlt: "Medelhavet" },
+    ],
     correctIndex: 1,
     explanation:
       "Den vuxna ålen vandrar till Sargassohavet för att leka. De små glasålarna följer sedan Golfströmmen tillbaka mot våra vatten.",
@@ -201,7 +226,11 @@ const challengeQuestions: Question[] = [
     type: "text",
     category: "Svampar",
     question: "Vilken svamp kallas också för karljohanssvamp?",
-    options: ["Stensopp", "Smörsopp", "Fårticka"],
+    options: [
+      { label: "Stensopp",  image: "/images/sp-porcini.png",      imageAlt: "En stensopp i skogen" },
+      { label: "Smörsopp",  image: "/images/sp-smörsopp.png",     imageAlt: "Smörsopp i skogen" },
+      { label: "Fårticka",  image: "/images/sp-fårticka.png",     imageAlt: "Fårticka vid ett träd" },
+    ],
     correctIndex: 0,
     explanation:
       "Stensoppen kallas ofta karljohanssvamp. Namnet förknippas med kung Karl XIV Johan, som tog med sig sina franska matvanor till Sverige.",
@@ -212,7 +241,11 @@ const challengeQuestions: Question[] = [
     category: "Svampar och träd",
     question:
       "Vad kallas samarbetet där svampar hjälper träd att ta upp näring och får kolföreningar tillbaka?",
-    options: ["Pollinering", "Mykorrhiza", "Fotosyntes"],
+    options: [
+      { label: "Pollinering", image: "/images/sp-pollination.png",   imageAlt: "Ett bi pollinerar en blomma" },
+      { label: "Mykorrhiza",  image: "/images/sp-mykorrhiza.png",    imageAlt: "Svampnätverk i marken" },
+      { label: "Fotosyntes",  image: "/images/sp-photosynthesis.png", imageAlt: "Solljus genom trädkronor" },
+    ],
     correctIndex: 1,
     explanation:
       "Mykorrhiza är ett samarbete mellan svampar och träd. Svampen hjälper trädet att ta upp näringsämnen, medan trädet ger svampen kolföreningar.",
@@ -222,7 +255,11 @@ const challengeQuestions: Question[] = [
     type: "text",
     category: "Träd",
     question: "Vilket träd har ett ytligt rotsystem och faller därför lättare vid storm?",
-    options: ["Rönn", "Gran", "Tall"],
+    options: [
+      { label: "Rönn", image: "/images/sp-rowan.png",     imageAlt: "En rönn med röda bär" },
+      { label: "Gran", image: "/images/sp-gran.png",      imageAlt: "En gran" },
+      { label: "Tall", image: "/images/sp-pine-tree.png", imageAlt: "En tall i solljus" },
+    ],
     correctIndex: 1,
     explanation:
       "Granen har ett ytligt rotsystem och är därför mer känslig för att falla när det stormar.",
@@ -233,7 +270,11 @@ const challengeQuestions: Question[] = [
     category: "Växter och bär",
     question:
       "Vilken växt kan klara temperaturer ner mot minus 40 grader, även om blommorna är känsliga för frost?",
-    options: ["Smultron", "Hjortron", "Hallon"],
+    options: [
+      { label: "Smultron", image: "/images/sp-strawberry.png", imageAlt: "Smultron på skogsmark" },
+      { label: "Hjortron", image: "/images/sp-cloudberry.png", imageAlt: "Gula hjortron på kärr" },
+      { label: "Hallon",   image: "/images/sp-raspberry.png",  imageAlt: "Röda hallon på buske" },
+    ],
     correctIndex: 1,
     explanation:
       "Hjortronplantan är mycket köldtålig och kan klara temperaturer ner mot minus 40 grader, men blommorna kan skadas av frost.",
@@ -267,7 +308,7 @@ export const quizzes: Quiz[] = [
   {
     id: "easy",
     title: "Lilla naturquizet",
-    description: "Ett enkelt och roligt quiz för barn och nyfikna naturupptäckare.",
+    description: "Ett enkelt och roligt quiz för barn som vill upptäcka djuren och naturen.",
     estimatedTime: "Cirka 2 minuter",
     questionCount: 5,
     questions: easyQuestions,
