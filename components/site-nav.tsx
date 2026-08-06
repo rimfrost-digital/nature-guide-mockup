@@ -9,6 +9,7 @@ const links = [
   { href: "/", label: "Startsida" },
   { href: "/arkiv", label: "Arkivsida" },
   { href: "/art", label: "Artsida" },
+  { href: "/quiz", label: "Quiz" },
 ]
 
 export function SiteNav() {
