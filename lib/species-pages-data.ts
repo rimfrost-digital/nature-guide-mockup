@@ -187,8 +187,7 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
           src: "/images/lynx-rock.png",
           alt: "Lodjur som rör sig genom skogen",
           tall: true,
-          video:
-            "https://videos.pexels.com/video-files/4763824/4763824-uhd_2560_1440_24fps.mp4",
+          video: "/video/lodjur.mp4",
           poster: "/images/lynx-rock.png",
         },
         { src: "/images/lynx-face.png", alt: "Närbild på ett lodjurs ansikte" },
