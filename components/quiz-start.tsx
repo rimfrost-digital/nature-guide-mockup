@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image"
-import { ArrowRight } from "lucide-react"
 import type { Quiz } from "@/lib/quiz-data"
 import type { Lang } from "@/lib/species-pages-data"
 
@@ -53,8 +52,8 @@ const LABELS: Record<
     eyebrow: "TESTA DINA KUNSKAPER",
     heading: "Hur bra koll har du på naturen?",
     subheading: "Välj nivå och testa vad du kan om djuren, växterna, svamparna och livet längs Kustvägen.",
-    startEasy: "Starta enkelt quiz",
-    startChallenge: "Starta naturutmaningen",
+    startEasy: "Starta Quiz (Enkelt)",
+    startChallenge: "Starta Quiz (Svårt)",
     questions: (n) => `${n} frågor`,
     easyTitle: "Lilla naturquizet",
     challengeTitle: "Naturutmaningen",
@@ -68,8 +67,8 @@ const LABELS: Record<
     eyebrow: "TEST YOUR KNOWLEDGE",
     heading: "How well do you know nature?",
     subheading: "Choose a level and test what you know about animals, plants, mushrooms and life along Kustvägen.",
-    startEasy: "Start easy quiz",
-    startChallenge: "Start the challenge",
+    startEasy: "Start Quiz (Easy)",
+    startChallenge: "Start Quiz (Hard)",
     questions: (n) => `${n} questions`,
     easyTitle: "Little Nature Quiz",
     challengeTitle: "Nature Challenge",
@@ -83,8 +82,8 @@ const LABELS: Record<
     eyebrow: "TESTE DEIN WISSEN",
     heading: "Wie gut kennst du die Natur?",
     subheading: "Wähle ein Level und teste, was du über Tiere, Pflanzen, Pilze und das Leben entlang des Kustvägen weißt.",
-    startEasy: "Einfaches Quiz starten",
-    startChallenge: "Naturherausforderung starten",
+    startEasy: "Quiz starten (Einfach)",
+    startChallenge: "Quiz starten (Schwer)",
     questions: (n) => `${n} Fragen`,
     easyTitle: "Kleines Naturquiz",
     challengeTitle: "Naturherausforderung",
@@ -187,15 +186,12 @@ export function QuizStart({ onStart, quizzes, lang = "sv" }: QuizStartProps) {
               {/* CTA button */}
               <button
                 onClick={(e) => { e.stopPropagation(); onStart(quiz.id) }}
-                className="mt-4 inline-flex w-full items-center justify-between gap-2 rounded-xl px-5 py-[14px] text-sm font-semibold tracking-wide text-white transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
-                style={{
-                  backgroundColor: cfg.accent,
-                }}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = cfg.accentHover }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = cfg.accent }}
+                className="mt-4 w-full rounded-xl px-5 py-4 text-sm font-semibold tracking-wide text-white transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                style={{ backgroundColor: "#2F4437" }}
+                onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#1f3026" }}
+                onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#2F4437" }}
               >
-                <span>{buttonLabel}</span>
-                <ArrowRight className="h-4 w-4 transition-transform duration-150 group-hover:translate-x-0.5" aria-hidden="true" />
+                {buttonLabel}
               </button>
             </div>
           </article>
