@@ -157,8 +157,8 @@ function SpeciesCard({
 function InfoBanner() {
   return (
     <div className="my-8 flex items-center gap-5 rounded-xl bg-[#B89452] p-6 md:p-8">
-      <div className="flex size-16 shrink-0 items-center justify-center rounded-lg bg-[#1d2521]/10 md:size-20">
-        <QrCode className="size-10 text-[#1d2521] md:size-12" aria-hidden="true" />
+      <div className="flex size-16 shrink-0 items-center justify-center rounded-lg bg-white md:size-20">
+        <QrCode className="size-10 text-black md:size-12" aria-hidden="true" />
       </div>
       <p className="font-sans text-base leading-relaxed text-[#1d2521] md:text-lg">
         Ute i naturen? Skanna QR-koden på våra fysiska skyltar längs Kustvägen
