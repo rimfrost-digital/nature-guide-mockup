@@ -3,50 +3,86 @@
 import { useEffect, useRef, useState } from "react"
 import { Play, Pause } from "lucide-react"
 
-const TOTAL_SECONDS = 105 // 1:45
-
 function formatTime(seconds: number) {
+  if (!isFinite(seconds)) return "0:00"
   const m = Math.floor(seconds / 60)
   const s = Math.floor(seconds % 60)
   return `${m}:${s.toString().padStart(2, "0")}`
 }
 
-export function SpeciesAudioPlayer({ audioTitle = "Lyssna på guiden" }: { audioTitle?: string }) {
+interface SpeciesAudioPlayerProps {
+  audioTitle?: string
+  audioSrc?: string
+}
+
+export function SpeciesAudioPlayer({
+  audioTitle = "Lyssna på guiden",
+  audioSrc,
+}: SpeciesAudioPlayerProps) {
+  const audioRef = useRef<HTMLAudioElement | null>(null)
   const [playing, setPlaying] = useState(false)
   const [elapsed, setElapsed] = useState(0)
-  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  const [duration, setDuration] = useState(0)
 
+  // Sync duration once metadata loads
   useEffect(() => {
-    if (playing) {
-      intervalRef.current = setInterval(() => {
-        setElapsed((prev) => {
-          if (prev >= TOTAL_SECONDS) {
-            setPlaying(false)
-            return TOTAL_SECONDS
-          }
-          return prev + 1
-        })
-      }, 1000)
-    }
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current)
-    }
-  }, [playing])
+    const el = audioRef.current
+    if (!el) return
+    const onLoaded = () => setDuration(el.duration)
+    el.addEventListener("loadedmetadata", onLoaded)
+    if (el.readyState >= 1) setDuration(el.duration)
+    return () => el.removeEventListener("loadedmetadata", onLoaded)
+  }, [audioSrc])
 
-  const progress = (elapsed / TOTAL_SECONDS) * 100
+  // Sync elapsed time
+  useEffect(() => {
+    const el = audioRef.current
+    if (!el) return
+    const onTime = () => setElapsed(el.currentTime)
+    const onEnded = () => { setPlaying(false); setElapsed(0) }
+    el.addEventListener("timeupdate", onTime)
+    el.addEventListener("ended", onEnded)
+    return () => {
+      el.removeEventListener("timeupdate", onTime)
+      el.removeEventListener("ended", onEnded)
+    }
+  }, [])
 
   function toggle() {
-    if (elapsed >= TOTAL_SECONDS) setElapsed(0)
+    const el = audioRef.current
+    if (!el || !audioSrc) return
+    if (playing) {
+      el.pause()
+    } else {
+      el.play()
+    }
     setPlaying((p) => !p)
   }
 
+  function seek(e: React.MouseEvent<HTMLDivElement>) {
+    const el = audioRef.current
+    if (!el || !duration) return
+    const rect = e.currentTarget.getBoundingClientRect()
+    const ratio = (e.clientX - rect.left) / rect.width
+    el.currentTime = ratio * duration
+  }
+
+  const progress = duration > 0 ? (elapsed / duration) * 100 : 0
+  const hasAudio = !!audioSrc
+
   return (
     <div className="flex w-full items-center gap-5 rounded-2xl bg-[#2f4437]/5 px-5 py-4 sm:px-6">
+      {/* Hidden real audio element */}
+      {hasAudio && (
+        <audio ref={audioRef} src={audioSrc} preload="metadata" />
+      )}
+
       <button
         type="button"
         onClick={toggle}
+        disabled={!hasAudio}
         aria-label={playing ? "Pausa guiden" : "Spela upp guiden"}
-        className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-[#2f4437] text-[#F4F1E8] transition-transform hover:scale-105"
+        className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-[#2f4437] text-[#F4F1E8] transition-transform hover:scale-105 disabled:cursor-not-allowed disabled:opacity-40"
       >
         {playing ? (
           <Pause className="h-6 w-6" fill="currentColor" />
@@ -61,15 +97,22 @@ export function SpeciesAudioPlayer({ audioTitle = "Lyssna på guiden" }: { audio
             {audioTitle}
           </span>
           <span className="font-mono text-xs text-[#5A6B54] tabular-nums sm:text-sm">
-            {formatTime(elapsed)} / 1:45
+            {formatTime(elapsed)} / {duration > 0 ? formatTime(duration) : "--:--"}
           </span>
         </div>
 
+        {/* Seekable progress bar */}
         <div className="flex items-center gap-3">
-          {/* Progress bar */}
-          <div className="relative h-1.5 flex-1 overflow-hidden rounded-full bg-[#5A6B54]/25">
+          <div
+            role="progressbar"
+            aria-valuenow={Math.round(elapsed)}
+            aria-valuemin={0}
+            aria-valuemax={Math.round(duration)}
+            onClick={hasAudio ? seek : undefined}
+            className="relative h-1.5 flex-1 overflow-hidden rounded-full bg-[#5A6B54]/25 cursor-pointer"
+          >
             <div
-              className="absolute inset-y-0 left-0 rounded-full bg-[#B89452] transition-[width] duration-1000 ease-linear"
+              className="absolute inset-y-0 left-0 rounded-full bg-[#B89452] transition-[width] duration-300 ease-linear"
               style={{ width: `${progress}%` }}
             />
           </div>

@@ -196,7 +196,7 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
         { src: "/images/sp-lynx.png", alt: "Lodjur i vinterskog" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/lodjur-sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },

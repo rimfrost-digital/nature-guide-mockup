@@ -44,8 +44,8 @@ export default async function ArtPage({ searchParams }: Props) {
   const relatedLink = data.relatedLinkLabel[l]
 
   // Localized UI strings
-  const audioTitle =
-    l === "sv" ? "Lyssna på guiden" : l === "en" ? "Listen to the guide" : "Hören Sie den Guide"
+  const audioTitle = data.media.audio[l].title
+  const audioSrc = data.media.audio[l].url
   const galleryHeading =
     l === "sv"
       ? "Bilder från närområdet"
@@ -113,7 +113,7 @@ export default async function ArtPage({ searchParams }: Props) {
       {/* Audio guide */}
       <section className="border-t-4 border-[#B89452] bg-[#F4F1E8]">
         <div className="mx-auto max-w-6xl px-5 py-6 sm:px-8">
-          <SpeciesAudioPlayer audioTitle={audioTitle} />
+          <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
         </div>
       </section>
 
