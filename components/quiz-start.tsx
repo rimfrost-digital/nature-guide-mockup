@@ -160,7 +160,7 @@ export function QuizStart({ onStart, quizzes, lang = "sv" }: QuizStartProps) {
               {/* Question count badge — top-right, compact pill */}
               <span
                 className="absolute right-3 top-3 rounded-md px-2.5 py-1 text-xs font-bold text-white"
-                style={{ backgroundColor: cfg.accent }}
+                style={{ backgroundColor: "#2F4437" }}
               >
                 {t.questions(quiz.questionCount)}
               </span>
