@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image"
-import { ChevronRight } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import type { Quiz } from "@/lib/quiz-data"
 import type { Lang } from "@/lib/species-pages-data"
 
@@ -11,50 +11,88 @@ interface QuizStartProps {
   lang?: Lang
 }
 
-const CARD_CONFIG: Record<
-  "easy" | "challenge",
-  { src: string; alt: string; bg: string; buttonBg: string; buttonHover: string }
-> = {
+// Per-card static config — only visual, no logic
+const CARD_CFG = {
   easy: {
     src: "/images/quiz-easy-thumb.png",
-    alt: "2D-illustration av älg och räv i sommaräng",
-    bg: "bg-[#3B6E8F]",
-    buttonBg: "bg-[#F4F1E8]",
-    buttonHover: "hover:bg-[#e8e5d8]",
+    alt: "2D-illustration av vänlig älg och räv på en sommaräng",
+    accent: "#2B6E4E",       // deep forest green button
+    accentHover: "#1f5239",
+    cardBorder: "#C8E6D8",   // soft mint border
+    cardBg: "#F4FAF7",       // near-white with cool mint tint
   },
   challenge: {
     src: "/images/quiz-challenge-thumb.png",
-    alt: "2D-illustration av lodjur framför barrskog",
-    bg: "bg-[#C46A2B]",
-    buttonBg: "bg-[#F4F1E8]",
-    buttonHover: "hover:bg-[#e8e5d8]",
+    alt: "2D-illustration av lodjur framför tealgrön barrskog",
+    accent: "#193C2C",       // darkest forest green button
+    accentHover: "#102618",
+    cardBorder: "#B8D4CA",   // cool sage border
+    cardBg: "#F2F7F5",       // near-white with sage tint
   },
-}
+} as const
 
-const LABELS: Record<Lang, { startEasy: string; startChallenge: string; questions: string; intro: string; heading: string; footer: string }> = {
+const LABELS: Record<
+  Lang,
+  {
+    eyebrow: string
+    heading: string
+    subheading: string
+    startEasy: string
+    startChallenge: string
+    questions: (n: number) => string
+    easyTitle: string
+    challengeTitle: string
+    easyDesc: string
+    challengeDesc: string
+    easyTime: string
+    challengeTime: string
+    footer: string
+  }
+> = {
   sv: {
+    eyebrow: "TESTA DINA KUNSKAPER",
     heading: "Hur bra koll har du på naturen?",
-    intro: "Testa dina kunskaper",
+    subheading: "Välj nivå och testa vad du kan om djuren, växterna, svamparna och livet längs Kustvägen.",
     startEasy: "Starta enkelt quiz",
-    startChallenge: "Starta avancerat quiz",
-    questions: "frågor",
+    startChallenge: "Starta naturutmaningen",
+    questions: (n) => `${n} frågor`,
+    easyTitle: "Lilla naturquizet",
+    challengeTitle: "Naturutmaningen",
+    easyDesc: "Ett enkelt och roligt quiz för barn och nyfikna naturupptäckare.",
+    challengeDesc: "Lite klurigare frågor om djurspår, arter, livsmiljöer och naturens samband.",
+    easyTime: "Cirka 2 minuter",
+    challengeTime: "Cirka 5 minuter",
     footer: "En fråga i taget · Direkt återkoppling · Ingen inloggning behövs",
   },
   en: {
+    eyebrow: "TEST YOUR KNOWLEDGE",
     heading: "How well do you know nature?",
-    intro: "Test your knowledge",
+    subheading: "Choose a level and test what you know about animals, plants, mushrooms and life along Kustvägen.",
     startEasy: "Start easy quiz",
-    startChallenge: "Start advanced quiz",
-    questions: "questions",
+    startChallenge: "Start the challenge",
+    questions: (n) => `${n} questions`,
+    easyTitle: "Little Nature Quiz",
+    challengeTitle: "Nature Challenge",
+    easyDesc: "A simple and fun quiz for children and curious nature explorers.",
+    challengeDesc: "Trickier questions about animal tracks, species, habitats and natural connections.",
+    easyTime: "About 2 minutes",
+    challengeTime: "About 5 minutes",
     footer: "One question at a time · Instant feedback · No login needed",
   },
   de: {
+    eyebrow: "TESTE DEIN WISSEN",
     heading: "Wie gut kennst du die Natur?",
-    intro: "Teste dein Wissen",
+    subheading: "Wähle ein Level und teste, was du über Tiere, Pflanzen, Pilze und das Leben entlang des Kustvägen weißt.",
     startEasy: "Einfaches Quiz starten",
-    startChallenge: "Erweitertes Quiz starten",
-    questions: "Fragen",
-    footer: "Eine Frage auf einmal · Sofortiges Feedback · Keine Anmeldung nötig",
+    startChallenge: "Naturherausforderung starten",
+    questions: (n) => `${n} Fragen`,
+    easyTitle: "Kleines Naturquiz",
+    challengeTitle: "Naturherausforderung",
+    easyDesc: "Ein einfaches und lustiges Quiz für Kinder und neugierige Naturentdecker.",
+    challengeDesc: "Kniffligere Fragen über Tierspuren, Arten, Lebensräume und natürliche Zusammenhänge.",
+    easyTime: "Etwa 2 Minuten",
+    challengeTime: "Etwa 5 Minuten",
+    footer: "Eine Frage nach der anderen · Sofortiges Feedback · Keine Anmeldung nötig",
   },
 }
 
@@ -63,67 +101,109 @@ export function QuizStart({ onStart, quizzes, lang = "sv" }: QuizStartProps) {
   const challenge = quizzes.find((q) => q.id === "challenge")!
   const t = LABELS[lang]
 
+  const cards = [
+    {
+      quiz: easy,
+      cfg: CARD_CFG.easy,
+      buttonLabel: t.startEasy,
+      title: t.easyTitle,
+      desc: t.easyDesc,
+      time: t.easyTime,
+    },
+    {
+      quiz: challenge,
+      cfg: CARD_CFG.challenge,
+      buttonLabel: t.startChallenge,
+      title: t.challengeTitle,
+      desc: t.challengeDesc,
+      time: t.challengeTime,
+    },
+  ]
+
   return (
-    <section className="mx-auto w-full max-w-6xl px-6 py-16 sm:py-24">
-      {/* Hero text */}
-      <div className="mb-12 max-w-2xl">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#5A6B54]">
-          {t.intro}
+    <section className="mx-auto w-full max-w-5xl px-6 py-12 sm:py-20">
+      {/* Page introduction */}
+      <div className="mb-10 max-w-xl">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#5A6B54]">
+          {t.eyebrow}
         </p>
-        <h1 className="mt-3 font-serif text-4xl font-semibold text-balance text-[#2f4437] sm:text-5xl">
+        <h1 className="mt-2 font-serif text-4xl font-semibold text-balance text-[#193C2C] sm:text-5xl">
           {t.heading}
         </h1>
+        <p className="mt-3 text-base leading-relaxed text-[#2f4437]/70">
+          {t.subheading}
+        </p>
       </div>
 
-      {/* Quiz level cards */}
+      {/* Two quiz cards */}
       <div className="grid gap-6 sm:grid-cols-2">
-        {([easy, challenge] as Quiz[]).map((quiz) => {
-          const cfg = CARD_CONFIG[quiz.id]
-          const buttonLabel = quiz.id === "easy" ? t.startEasy : t.startChallenge
-
-          return (
-            <div
-              key={quiz.id}
-              className={`group flex flex-col overflow-hidden rounded-2xl ${cfg.bg} shadow-sm transition-shadow hover:shadow-lg`}
-            >
-              {/* Square illustrated thumbnail */}
-              <div className="relative w-full" style={{ aspectRatio: "1 / 1" }}>
-                <Image
-                  src={cfg.src}
-                  alt={cfg.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, 50vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                />
-                {/* Question count — bare, no background */}
-                <span className="absolute right-4 top-4 text-xl font-bold text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.5)]">
-                  {quiz.questionCount} {t.questions}
-                </span>
-              </div>
-
-              {/* Card body */}
-              <div className="flex flex-1 flex-col gap-4 p-6">
-                <h2 className="font-serif text-3xl font-semibold text-[#F4F1E8] sm:text-4xl">
-                  {quiz.title}
-                </h2>
-
-                <div className="mt-auto pt-2">
-                  <button
-                    onClick={() => onStart(quiz.id)}
-                    className={`inline-flex w-full items-center justify-center gap-2 rounded-xl ${cfg.buttonBg} px-6 py-3 text-sm font-semibold tracking-wide text-[#2f4437] transition-colors ${cfg.buttonHover} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#F4F1E8] focus-visible:ring-offset-2`}
-                  >
-                    {buttonLabel}
-                    <ChevronRight className="h-4 w-4" aria-hidden="true" />
-                  </button>
-                </div>
-              </div>
+        {cards.map(({ quiz, cfg, buttonLabel, title, desc, time }) => (
+          <article
+            key={quiz.id}
+            onClick={() => onStart(quiz.id)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); onStart(quiz.id) } }}
+            aria-label={`${title} — ${t.questions(quiz.questionCount)}`}
+            className="group flex cursor-pointer flex-col overflow-hidden rounded-2xl border shadow-sm outline-none transition-all duration-200 motion-safe:hover:-translate-y-1 motion-safe:hover:shadow-lg focus-visible:ring-2 focus-visible:ring-[#193C2C] focus-visible:ring-offset-2"
+            style={{ borderColor: cfg.cardBorder, backgroundColor: cfg.cardBg }}
+          >
+            {/* Square illustration */}
+            <div className="relative w-full overflow-hidden" style={{ aspectRatio: "1 / 1" }}>
+              <Image
+                src={cfg.src}
+                alt={cfg.alt}
+                fill
+                sizes="(max-width: 640px) 100vw, 50vw"
+                className="object-cover transition-transform duration-200 ease-out motion-safe:group-hover:scale-[1.02]"
+                priority
+              />
+              {/* Question count badge — top-right, compact pill */}
+              <span
+                className="absolute right-3 top-3 rounded-md px-2.5 py-1 text-xs font-bold text-white"
+                style={{ backgroundColor: cfg.accent }}
+              >
+                {t.questions(quiz.questionCount)}
+              </span>
             </div>
-          )
-        })}
+
+            {/* Card content */}
+            <div className="flex flex-1 flex-col gap-2 p-6">
+              <h2 className="font-serif text-2xl font-semibold text-[#193C2C] sm:text-3xl">
+                {title}
+              </h2>
+
+              <p className="text-sm leading-relaxed text-[#2f4437]/70">
+                {desc}
+              </p>
+
+              <p className="mt-1 flex items-center gap-1.5 text-xs font-medium text-[#5A6B54]">
+                <svg viewBox="0 0 16 16" fill="currentColor" className="h-3.5 w-3.5 shrink-0" aria-hidden="true">
+                  <path fillRule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1ZM4.75 8a.75.75 0 0 1 .75-.75h2V5.75a.75.75 0 0 1 1.5 0V8A.75.75 0 0 1 8.75 8.75h-2.25A.75.75 0 0 1 4.75 8Z" clipRule="evenodd" />
+                </svg>
+                {time}
+              </p>
+
+              {/* CTA button */}
+              <button
+                onClick={(e) => { e.stopPropagation(); onStart(quiz.id) }}
+                className="mt-4 inline-flex w-full items-center justify-between gap-2 rounded-xl px-5 py-[14px] text-sm font-semibold tracking-wide text-white transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+                style={{
+                  backgroundColor: cfg.accent,
+                }}
+                onMouseEnter={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = cfg.accentHover }}
+                onMouseLeave={(e) => { (e.currentTarget as HTMLButtonElement).style.backgroundColor = cfg.accent }}
+              >
+                <span>{buttonLabel}</span>
+                <ArrowRight className="h-4 w-4 transition-transform duration-150 group-hover:translate-x-0.5" aria-hidden="true" />
+              </button>
+            </div>
+          </article>
+        ))}
       </div>
 
-      {/* Discrete info row */}
-      <p className="mt-8 text-center text-sm text-[#2f4437]/50">
+      {/* Discrete footer note */}
+      <p className="mt-8 text-center text-xs text-[#2f4437]/40">
         {t.footer}
       </p>
     </section>
