@@ -188,7 +188,6 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
           alt: "Lodjur som rör sig genom skogen",
           tall: true,
           video: "/video/lodjur.mp4",
-          poster: "/images/lynx-rock.png",
         },
         { src: "/images/lynx-face.png", alt: "Närbild på ett lodjurs ansikte" },
         { src: "/images/lynx-tracks.png", alt: "Lodjursspår i snön" },

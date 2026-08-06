@@ -50,7 +50,7 @@ function VideoTile({ item }: { item: GalleryItem }) {
       <video
         ref={videoRef}
         src={item.video}
-        poster={item.poster || item.src}
+        {...(item.poster ? { poster: item.poster } : {})}
         controls={playing}
         playsInline
         preload="none"
