@@ -12,6 +12,7 @@ export default async function QuizPage({
   const lang: Lang = VALID_LANGS.includes(params.lang as Lang)
     ? (params.lang as Lang)
     : "sv"
+  const resetKey = params.reset ?? "0"
 
-  return <QuizClient lang={lang} />
+  return <QuizClient key={resetKey} lang={lang} />
 }

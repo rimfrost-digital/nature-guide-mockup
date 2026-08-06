@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import { Leaf } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -14,6 +14,7 @@ const links = [
 
 export function SiteNav() {
   const pathname = usePathname()
+  const router = useRouter()
 
   // The species page is an immersive QR-landing experience with its own floating nav.
   if (pathname.startsWith("/art")) return null
@@ -29,10 +30,19 @@ export function SiteNav() {
         <ul className="flex items-center gap-1 sm:gap-2">
           {links.map((link) => {
             const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href)
+            const isCurrentQuiz = link.href === "/quiz" && pathname === "/quiz"
             return (
               <li key={link.href}>
                 <Link
                   href={link.href}
+                  onClick={
+                    isCurrentQuiz
+                      ? (e) => {
+                          e.preventDefault()
+                          router.push(`/quiz?reset=${Date.now()}`)
+                        }
+                      : undefined
+                  }
                   className={cn(
                     "rounded-full px-4 py-2 text-sm font-medium tracking-wide transition-colors",
                     isActive
