@@ -53,7 +53,7 @@ function VideoTile({ item }: { item: GalleryItem }) {
         {...(item.poster ? { poster: item.poster } : {})}
         controls={playing}
         playsInline
-        preload="none"
+        preload="metadata"
         onPause={() => setPlaying(false)}
         onEnded={() => setPlaying(false)}
         className="h-auto w-full object-cover"
