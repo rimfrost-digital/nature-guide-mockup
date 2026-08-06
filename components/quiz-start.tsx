@@ -58,7 +58,7 @@ const LABELS: Record<
     questions: (n) => `${n} frågor`,
     easyTitle: "Lilla naturquizet",
     challengeTitle: "Naturutmaningen",
-    easyDesc: "Ett enkelt och roligt quiz för barn och nyfikna naturupptäckare.",
+    easyDesc: "Ett enkelt och roligt quiz för barn som vill upptäcka djuren och naturen.",
     challengeDesc: "Lite klurigare frågor om djurspår, arter, livsmiljöer och naturens samband.",
     easyTime: "Cirka 2 minuter",
     challengeTime: "Cirka 5 minuter",
@@ -173,7 +173,7 @@ export function QuizStart({ onStart, quizzes, lang = "sv" }: QuizStartProps) {
                 {title}
               </h2>
 
-              <p className="text-sm leading-relaxed text-[#2f4437]/70">
+              <p className="min-h-[2.75rem] text-sm leading-relaxed text-[#2f4437]/70">
                 {desc}
               </p>
 
