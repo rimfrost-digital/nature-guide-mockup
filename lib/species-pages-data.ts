@@ -189,9 +189,10 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
           tall: true,
           video: "/video/lodjur.mp4",
         },
-        { src: "/images/lynx-face.png", alt: "Närbild på ett lodjurs ansikte" },
-        { src: "/images/lynx-tracks.png", alt: "Lodjursspår i snön" },
-        { src: "/images/sp-lynx.png", alt: "Lodjur i vinterskog" },
+        { src: "/images/lodjur-sno.png",    alt: "Lodjur vandrar genom vinterlandskap" },
+        { src: "/images/lodjur-spår.png",   alt: "Lodjursspår i nysnö" },
+        { src: "/images/lodjur-sommar.png", alt: "Lodjur i sommarskog" },
+        { src: "/images/lodjur-skog.png",   alt: "Lodjur bland mossbeklädda stenar" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "/audio/lodjur-sv.mp3" },
