@@ -201,6 +201,13 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Gallery */}
       <section className="bg-[#1d2521]">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
+            {galleryHeading}
+          </h2>
+          <SpeciesGallery items={galleryImages} />
+        </div>
+      </section>
 
       {/* Related species */}
       <section className="bg-[#2f4437]">
