@@ -194,20 +194,13 @@ export default async function ArtPage({ searchParams }: Props) {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section className="bg-[#1d2521]">
-        <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
-          <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
-            {galleryHeading}
-          </h2>
-          <SpeciesGallery items={galleryImages} />
-        </div>
-      </section>
-
       {/* Tracks & signs */}
       {data.tracksSigns && (
         <SpeciesTracksSection data={data.tracksSigns} lang={l} />
       )}
+
+      {/* Gallery */}
+      <section className="bg-[#1d2521]">
 
       {/* Related species */}
       <section className="bg-[#2f4437]">
