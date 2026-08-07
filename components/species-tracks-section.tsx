@@ -12,7 +12,7 @@ export function SpeciesTracksSection({ data, lang }: Props) {
   return (
     <section className="bg-[#F4F1E8]">
       <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
-        <h2 className="mb-10 font-serif text-4xl font-semibold text-[#2f4437]">
+        <h2 className="mb-10 text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
           {data.heading[lang]}
         </h2>
 

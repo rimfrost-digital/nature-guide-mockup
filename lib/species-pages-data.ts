@@ -124,58 +124,19 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
         heroSubtitle: "Norra Europas mystiska kattdjur",
         intro:
           "Lodjuret är Europas största vilda kattdjur och kan bli upp till 130 centimeter långt och väga omkring 25 kilo. Det känns lätt igen på sina spetsiga öron med svarta tofsar och sin korta svans. Lodjuret har mycket bra hörsel, luktsinne och mörkerseende och är därför ofta aktivt på natten. Det är ett köttätande rovdjur som bland annat jagar rådjur, renar och rävar. Lodjuret lever oftast ensamt och är mycket skyggt, vilket gör det ovanligt att få syn på i naturen. Honan tar hand om sina ungar och lär dem att bli skickliga jägare innan de efter ungefär ett år får klara sig själva.",
-        sections: [
-          {
-            heading: "Hälsinglands mystiska landskapsdjur",
-            body: "Ett möte med lodjuret är en sällsynt och magisk upplevelse. Det trivs bäst i oländig terräng där det kan ligga i bakhåll och vänta på sitt byte. Lodjuret är väldigt tyst och svårt att få syn på – man hittar det lättast via dess spår i snön.",
-          },
-          {
-            heading: "Jakt och föda",
-            body: "Lodjuret är en köttätare som jagar genom att smyga och ligga i bakhåll. Det föredrar rådjur och harar. Med sina stora tassar som fungerar som snöskor rör det sig effektivt i djup snö.",
-          },
-          {
-            heading: "Spår och tecken",
-            body: "Lodjursspår är runda och saknar klomärken, till skillnad från hundar och vargar. I snön kan man följa ett lodjurs väg långa sträckor. Avföringen lämnas ofta öppet som ett revirmarkerande tecken.",
-          },
-        ],
+        sections: [],
       },
       en: {
         heroSubtitle: "The mysterious cat of Northern Europe",
         intro:
           "The Eurasian Lynx is Northern Europe's largest cat, recognized by its characteristic ear tufts and short tail. It moves silently through the deep forests along the Coastal Road, a master of staying hidden.",
-        sections: [
-          {
-            heading: "Hälsingland's mysterious landscape animal",
-            body: "An encounter with a lynx is rare and magical. It prefers rugged terrain where it can ambush prey. The lynx is extremely quiet and difficult to spot — its tracks in snow are the most reliable sign of its presence.",
-          },
-          {
-            heading: "Hunting and diet",
-            body: "The lynx is a carnivore that hunts by stalking and ambushing. It favors deer and hares. Its large paws act as snowshoes, allowing efficient movement through deep snow.",
-          },
-          {
-            heading: "Tracks and signs",
-            body: "Lynx tracks are round and lack claw marks, unlike dogs or wolves. In snow, you can follow a lynx's trail for long distances. Droppings are often left prominently as territorial markers.",
-          },
-        ],
+        sections: [],
       },
       de: {
         heroSubtitle: "Die geheimnisvolle Katze Nordeuropas",
         intro:
           "Der Eurasische Luchs ist Nordeuropas größte Katze, erkennbar an seinen charakteristischen Ohrpinseln und dem kurzen Schwanz. Er bewegt sich lautlos durch die tiefen Wälder entlang des Kustvägen.",
-        sections: [
-          {
-            heading: "Hälsinglands geheimnisvolles Landschaftstier",
-            body: "Eine Begegnung mit einem Luchs ist selten und magisch. Er bevorzugt unwegsames Gelände, um Beute aus dem Hinterhalt zu jagen. Er ist extrem leise und schwer zu entdecken — seine Spuren im Schnee sind das zuverlässigste Zeichen seiner Anwesenheit.",
-          },
-          {
-            heading: "Jagd und Nahrung",
-            body: "Der Luchs ist ein Fleischfresser, der durch Pirsch und Hinterhalt jagt. Er bevorzugt Rehe und Hasen. Seine großen Pfoten wirken wie Schneeschuhe und ermöglichen effiziente Bewegung im Tiefschnee.",
-          },
-          {
-            heading: "Spuren und Zeichen",
-            body: "Luchsspuren sind rund und ohne Krallenmärke, anders als bei Hunden oder Wölfen. Im Schnee kann man die Spur eines Luchses über weite Strecken verfolgen. Losung wird oft offen als Reviermarkierung hinterlassen.",
-          },
-        ],
+        sections: [],
       },
     },
     media: {
