@@ -6,6 +6,7 @@ import { Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon } from "lucide-react"
 import { SpeciesTopNav } from "@/components/species-top-nav"
 import { SpeciesAudioPlayer } from "@/components/species-audio-player"
 import { SpeciesGallery } from "@/components/species-gallery"
+import { SpeciesTracksSection } from "@/components/species-tracks-section"
 import { TalkToNature } from "@/components/talk-to-nature"
 import { speciesPagesData, type Lang } from "@/lib/species-pages-data"
 
@@ -202,6 +203,11 @@ export default async function ArtPage({ searchParams }: Props) {
           <SpeciesGallery items={galleryImages} />
         </div>
       </section>
+
+      {/* Tracks & signs */}
+      {data.tracksSigns && (
+        <SpeciesTracksSection data={data.tracksSigns} lang={l} />
+      )}
 
       {/* Related species */}
       <section className="bg-[#2f4437]">

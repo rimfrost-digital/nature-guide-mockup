@@ -25,6 +25,18 @@ export type RelatedSpecies = {
   image: string
 }
 
+export type TrackSign = {
+  image: string
+  alt: string
+  label: Record<Lang, string>
+  description: Record<Lang, string>
+}
+
+export type TracksSignsData = {
+  heading: Record<Lang, string>
+  items: TrackSign[]
+}
+
 export type SpeciesPageData = {
   id: string
   scientificName: string
@@ -46,6 +58,7 @@ export type SpeciesPageData = {
     detailImage?: { url: string; alt: Record<Lang, string> }
     audio: Record<Lang, { title: string; url: string }>
   }
+  tracksSigns?: TracksSignsData
   interactive: Record<
     Lang,
     {
@@ -199,6 +212,35 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },
+    },
+    tracksSigns: {
+      heading: {
+        sv: "Spår & spillning",
+        en: "Tracks & signs",
+        de: "Spuren & Zeichen",
+      },
+      items: [
+        {
+          image: "/images/lodjur-spår.png",
+          alt: "Lodjursspår i nysnö",
+          label: { sv: "Spår", en: "Tracks", de: "Spuren" },
+          description: {
+            sv: "Lodjurets tassavtryck är runda och stora – ungefär 8–9 cm breda. Klorna är indragbara och syns därför inte i spåret. I snö placer­ar lodjuret bakfoten precis i framfotens avtryck, vilket ger ett snyggt enkelt spårmönster längs marken.",
+            en: "The lynx paw print is round and large – roughly 8–9 cm wide. Claws are retractable and do not show in the print. In snow, the lynx places its hind foot exactly in the front footprint, creating a clean single-line trail.",
+            de: "Die Pfotenabdrücke des Luchses sind rund und groß – etwa 8–9 cm breit. Krallen sind einziehbar und hinterlassen keine Abdrücke. Im Schnee setzt der Luchs die Hinterpfote genau in den Abdruck der Vorderpfote.",
+          },
+        },
+        {
+          image: "/images/lodjur-spillning.png",
+          alt: "Lodjursspillning i vinterskogen",
+          label: { sv: "Spillning", en: "Droppings", de: "Kot" },
+          description: {
+            sv: "Lodjurets spillning är avlång och mörkbrun, ofta med synliga päls- och benrester från bytet. Den är vanligen 5–10 cm lång. Lodjuret lämnar spillningen öppet synlig som en revirhållande markering, till skillnad från huskatten som gräver ner sin.",
+            en: "Lynx droppings are elongated and dark brown, often containing visible fur and bone fragments from prey. Usually 5–10 cm long. The lynx leaves droppings openly visible as a territorial marker, unlike domestic cats which bury theirs.",
+            de: "Der Lotsenkot ist länglich und dunkelbraun, oft mit sichtbaren Fell- und Knochenresten. Meist 5–10 cm lang. Der Luchs hinterlässt den Kot offen sichtbar als Reviermarkierung.",
+          },
+        },
+      ],
     },
     interactive: {
       sv: {
