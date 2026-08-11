@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import Image from "next/image"
 import { useChat } from "@ai-sdk/react"
 import { DefaultChatTransport } from "ai"
-import { Send } from "lucide-react"
+import { Play, Send } from "lucide-react"
 
 type TalkToNatureProps = {
   title: string
@@ -18,6 +18,8 @@ type TalkToNatureProps = {
   tagLabel: string
   subNote: string
   speciesId: string
+  audioSrc?: string
+  audioLabel?: string
 }
 
 function getText(message: { parts?: Array<{ type: string; text?: string }> }) {
@@ -41,6 +43,8 @@ export function TalkToNature({
   tagLabel,
   subNote,
   speciesId,
+  audioSrc,
+  audioLabel = "Så här låter lodjuret",
 }: TalkToNatureProps) {
   const [input, setInput] = useState("")
   const { messages, sendMessage, status } = useChat({
@@ -74,6 +78,23 @@ export function TalkToNature({
           </h2>
           <p className="mt-3 max-w-2xl leading-relaxed text-[#F4F1E8]/80">{intro}</p>
           <p className="mt-2 text-sm italic text-[#B89452]">{subNote}</p>
+
+          {audioSrc && (
+            <div className="mt-5 flex justify-end">
+              <button
+                type="button"
+                onClick={() => {
+                  const audio = new Audio(audioSrc)
+                  audio.play().catch(() => undefined)
+                }}
+                aria-label={audioLabel}
+                className="inline-flex items-center gap-2 rounded-full border border-[#B89452] px-4 py-2 text-sm font-medium text-[#F4F1E8] transition-colors hover:bg-[#B89452] hover:text-[#1d2521]"
+              >
+                <Play className="h-4 w-4" fill="currentColor" aria-hidden="true" />
+                {audioLabel}
+              </button>
+            </div>
+          )}
 
           {/* Chat window */}
           <div className="mt-6 overflow-hidden rounded-2xl bg-[#F4F1E8] shadow-inner">

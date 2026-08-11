@@ -38,6 +38,7 @@ export default async function ArtPage({ searchParams }: Props) {
   const quickFacts = data.quickFacts[l]
   const interactive = data.interactive[l]
   const heroAlt = data.media.heroImage.alt[l]
+  const lynxSound = namn === "lodjur" || namn === "lodjur-v2" ? "/audio/what-does-the-lynx-say.mp3" : undefined
   const detailAlt = data.media.detailImage?.alt[l] ?? ""
   const galleryImages = data.media.galleryImages
   const relatedHeading = data.relatedSectionHeading[l]
@@ -158,9 +159,11 @@ export default async function ArtPage({ searchParams }: Props) {
         inputPlaceholder={chatPlaceholder}
         inputAriaLabel={chatAriaLabel}
         tagLabel={tagLabel}
-        subNote={subNote}
-        speciesId={namn}
-      />
+          subNote={subNote}
+          speciesId={namn}
+          audioSrc={lynxSound}
+          audioLabel="Så här låter lodjuret"
+        />
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
