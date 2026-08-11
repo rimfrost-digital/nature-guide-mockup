@@ -118,7 +118,7 @@ export function TalkToNature({
                 aria-pressed={isPlayingSound}
                 className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md"
               >
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1d2521]/10">
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white">
                   {isPlayingSound ? (
                     <span className="flex items-end gap-[2px]" aria-hidden="true">
                       <span className="h-2 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_infinite] rounded-full bg-[#1d2521]" />
