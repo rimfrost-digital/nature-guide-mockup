@@ -171,6 +171,14 @@ export default async function ArtPage({ searchParams }: Props) {
             </h2>
             <p className="mt-6 leading-relaxed text-[#1d2521]">{content.intro}</p>
 
+            {content.quote && (
+              <blockquote className="mt-8 border-l-4 border-[#B89452] pl-6">
+                <p className="font-serif text-lg italic leading-relaxed text-[#5A6B54]">
+                  &ldquo;{content.quote}&rdquo;
+                </p>
+              </blockquote>
+            )}
+
             {content.sections.map((section) => (
               <div key={section.heading} className="mt-8">
                 <h3 className="font-serif text-2xl font-semibold text-[#2f4437]">

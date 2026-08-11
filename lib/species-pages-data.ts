@@ -49,6 +49,7 @@ export type SpeciesPageData = {
     {
       heroSubtitle: string
       intro: string
+      quote?: string
       sections: ContentSection[]
     }
   >
@@ -121,9 +122,11 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
     },
     content: {
       sv: {
-        heroSubtitle: "Norra Europas mystiska kattdjur",
+        heroSubtitle: "Hälsinglands mystiska landskapsdjur",
         intro:
-          "Lodjuret är Europas största vilda kattdjur och kan bli upp till 130 centimeter långt och väga omkring 25 kilo. Det känns lätt igen på sina spetsiga öron med svarta tofsar och sin korta svans. Lodjuret har mycket bra hörsel, luktsinne och mörkerseende och är därför ofta aktivt på natten. Det är ett köttätande rovdjur som bland annat jagar rådjur, renar och rävar. Lodjuret lever oftast ensamt och är mycket skyggt, vilket gör det ovanligt att få syn på i naturen. Honan tar hand om sina ungar och lär dem att bli skickliga jägare innan de efter ungefär ett år får klara sig själva.",
+          "Ett möte med lodjuret är en sällsynt och magisk upplevelse. Det är norra Europas största kattdjur, känt för sina karakteristiska tofsar på öronen och sin korta svans. Lodjuret smyger ljudlöst fram genom de djupa skogarna längs Kustvägen och är en mästare på att undvika upptäckt. Den trivs bäst i oländig terräng där den kan ligga i bakhåll.",
+        quote:
+          "Att få se ett vilt lodjur i dess naturliga miljö är som att få en skymt av själva skogens själ.",
         sections: [],
       },
       en: {
