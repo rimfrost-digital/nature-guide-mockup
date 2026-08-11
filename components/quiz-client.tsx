@@ -94,7 +94,7 @@ export function QuizClient({ lang }: { lang: Lang }) {
     : { title: "", text: "" }
 
   return (
-    <main className="min-h-screen bg-[#F4F1E8]">
+    <div className="bg-[#F4F1E8]">
       <div ref={quizTopRef} aria-hidden="true" />
 
       {view === "start" && (
@@ -124,6 +124,6 @@ export function QuizClient({ lang }: { lang: Lang }) {
           onBack={handleBack}
         />
       )}
-    </main>
+    </div>
   )
 }

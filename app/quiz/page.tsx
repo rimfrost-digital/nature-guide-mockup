@@ -14,5 +14,9 @@ export default async function QuizPage({
     : "sv"
   const resetKey = params.reset ?? "0"
 
-  return <QuizClient key={resetKey} lang={lang} />
+  return (
+    <main className="min-h-screen bg-[#F4F1E8]">
+      <QuizClient key={resetKey} lang={lang} />
+    </main>
+  )
 }
