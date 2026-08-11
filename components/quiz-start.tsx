@@ -120,7 +120,7 @@ export function QuizStart({ onStart, quizzes, lang = "sv" }: QuizStartProps) {
   ]
 
   return (
-    <section className="mx-auto w-full max-w-5xl px-6 py-12 sm:py-20">
+    <section className="mx-auto w-full max-w-5xl px-6 pt-12 pb-0 sm:pt-20">
       {/* Page introduction */}
       <div className="mb-10 max-w-xl">
         <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#5A6B54]">
