@@ -74,16 +74,24 @@ export function TalkToNature({
     setInput("")
   }
 
-  function playSound() {
-    if (!audioSrc || isPlayingSound) return
+  function toggleSound() {
+    if (!audioSrc) return
+
+    if (isPlayingSound) {
+      soundRef.current?.pause()
+      setIsPlayingSound(false)
+      return
+    }
 
     if (!soundRef.current) {
       soundRef.current = new Audio(audioSrc)
-      soundRef.current.addEventListener("ended", () => setIsPlayingSound(false))
+      soundRef.current.addEventListener("ended", () => {
+        setIsPlayingSound(false)
+        if (soundRef.current) soundRef.current.currentTime = 0
+      })
     }
 
     setIsPlayingSound(true)
-    soundRef.current.currentTime = 0
     soundRef.current.play().catch(() => setIsPlayingSound(false))
   }
 
@@ -105,10 +113,10 @@ export function TalkToNature({
             <div className="mt-5 flex justify-start">
               <button
                 type="button"
-                onClick={playSound}
-                disabled={isPlayingSound}
-                aria-label={audioLabel}
-                className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:bg-[#B89452] disabled:hover:shadow-sm"
+                onClick={toggleSound}
+                aria-label={isPlayingSound ? `Pausa: ${audioLabel}` : audioLabel}
+                aria-pressed={isPlayingSound}
+                className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md"
               >
                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1d2521]/10">
                   {isPlayingSound ? (
@@ -121,7 +129,7 @@ export function TalkToNature({
                     <Play className="h-3 w-3 translate-x-px" fill="currentColor" aria-hidden="true" />
                   )}
                 </span>
-                {audioLabel}
+                {isPlayingSound ? "Pausa" : audioLabel}
               </button>
             </div>
           )}
