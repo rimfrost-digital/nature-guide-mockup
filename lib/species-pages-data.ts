@@ -300,6 +300,134 @@ SÄKERHET:
     },
   },
 
+  "lodjur-v2": {
+    id: "lodjur-v2",
+    scientificName: "Lynx lynx",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Lodjur", en: "Eurasian Lynx", de: "Eurasischer Luchs" },
+    meta: {
+      sv: {
+        title: "Lodjur – Kustvägen Naturguide",
+        description: "Lär känna lodjuret, Hälsinglands mystiska landskapsdjur.",
+      },
+      en: {
+        title: "Eurasian Lynx – Kustvägen Nature Guide",
+        description: "Meet the Eurasian lynx, the mysterious cat of Northern Europe.",
+      },
+      de: {
+        title: "Eurasischer Luchs – Kustvägen Naturführer",
+        description: "Lernen Sie den Eurasischen Luchs kennen, Nordeuropas geheimnisvolle Katze.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "15–30 kg" },
+        { label: "Längd", value: "Upp till 130 cm" },
+        { label: "Föda", value: "Rådjur, renar och rävar" },
+        { label: "Livsmiljö", value: "Skogar och oländig terräng" },
+      ],
+      en: [
+        { label: "Weight", value: "15–30 kg" },
+        { label: "Length", value: "Up to 130 cm" },
+        { label: "Diet", value: "Deer, reindeer and foxes" },
+        { label: "Habitat", value: "Forests and rugged terrain" },
+      ],
+      de: [
+        { label: "Gewicht", value: "15–30 kg" },
+        { label: "Länge", value: "Bis zu 130 cm" },
+        { label: "Nahrung", value: "Rehe, Rentiere und Füchse" },
+        { label: "Lebensraum", value: "Wälder und unwegsames Gelände" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Hälsinglands mystiska landskapsdjur",
+        intro:
+          "Lodjuret är Europas största vilda kattdjur och kan bli upp till 130 centimeter långt och väga omkring 25 kilo. Det känns lätt igen på sina spetsiga öron med svarta tofsar och sin korta svans. Lodjuret har mycket bra hörsel, luktsinne och mörkerseende och är därför ofta aktivt på natten. Det är ett köttätande rovdjur som bland annat jagar rådjur, renar och rävar. Lodjuret lever oftast ensamt och är mycket skyggt, vilket gör det ovanligt att få syn på i naturen. Honan tar hand om sina ungar och lär dem att bli skickliga jägare innan de efter ungefär ett år får klara sig själva.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "Hälsingland's mysterious landscape animal",
+        intro:
+          "The Eurasian lynx is Europe's largest wild cat and can grow up to 130 centimetres long and weigh around 25 kilos. It is easy to recognise by its pointed ears with black tufts and short tail. The lynx has excellent hearing, smell and night vision, and is therefore often active at night. It is a carnivorous predator that hunts deer, reindeer and foxes. Lynx usually live alone and are very shy, making them rarely seen in nature. The mother cares for her young and teaches them to become skilled hunters before they are independent after about a year.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Hälsinglands geheimnisvolles Landschaftstier",
+        intro:
+          "Der Eurasische Luchs ist Europas größte Wildkatze. Er kann bis zu 130 Zentimeter lang werden und etwa 25 Kilogramm wiegen. Er ist an seinen spitzen Ohren mit schwarzen Pinseln und seinem kurzen Schwanz leicht zu erkennen. Der Luchs hat ein ausgezeichnetes Gehör, einen guten Geruchssinn und Nachtsicht und ist deshalb oft nachts aktiv. Als Fleischfresser jagt er unter anderem Rehe, Rentiere und Füchse. Luchse leben meist allein und sind sehr scheu. Das Weibchen zieht die Jungen auf und bringt ihnen das Jagen bei, bevor sie nach etwa einem Jahr selbstständig werden.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/lodjur-v2-hero.jpg",
+        alt: {
+          sv: "Lodjur sitter på en snötäckt klippa",
+          en: "Lynx sitting on a snow-covered rock",
+          de: "Luchs auf einem schneebedeckten Felsen",
+        },
+      },
+      detailImage: {
+        url: "/images/lodjur-v2-unge.jpg",
+        alt: {
+          sv: "Ungt lodjur i grön skog",
+          en: "Young lynx in a green forest",
+          de: "Junger Luchs im grünen Wald",
+        },
+      },
+      galleryImages: [
+        { src: "/images/lodjur-v2-hero.jpg", alt: "Lodjur på en snötäckt klippa", tall: true },
+        { src: "/images/lodjur-v2-unge.jpg", alt: "Ungt lodjur i skogen" },
+        { src: "/images/lodjur-v2-spar.jpg", alt: "Lodjursspår i snön" },
+        { src: "/images/lodjur-v2-spillning.jpg", alt: "Lodjursspillning bland barr" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Fråga lodjuret",
+        intro: "Ställ en fråga till lodjuret och lär dig mer om dess liv i skogen.",
+        presetQuestions: ["Vad äter du?", "Varför är du vaken på natten?", "Hur tar du hand om dina ungar?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Ask the Lynx",
+        intro: "Ask the lynx a question and learn more about life in the forest.",
+        presetQuestions: ["What do you eat?", "Why are you active at night?", "How do you care for your young?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Frage den Luchs",
+        intro: "Stell dem Luchs eine Frage und erfahre mehr über sein Leben im Wald.",
+        presetQuestions: ["Was frisst du?", "Warum bist du nachts aktiv?", "Wie kümmerst du dich um deine Jungen?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är ett lodjur (Lynx lynx) i Hälsinglands skogar. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta i denna post: Europas största vilda kattdjur, upp till 130 cm och cirka 25 kg, svarta örontofsar, kort svans, goda sinnen, nattaktivitet, ensamlevande och jakt på rådjur, renar och rävar. Om frågan inte handlar om lodjur eller natur, led vänligt tillbaka till skogen. Hitta aldrig på fakta och säg att du inte vet när underlaget saknar svaret.`,
+    avatarImage: "/images/lynx-face.png",
+    chatAvatarAlt: "Lodjurets ansikte",
+    relatedSpecies: [
+      { slug: "alg", name: "Älg", latin: "Alces alces", image: "/images/species-moose.png" },
+      { slug: "skogshare", name: "Skogshare", latin: "Lepus timidus", image: "/images/sp-hare.png" },
+      { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
   rodrav: {
     id: "rodrav",
     scientificName: "Vulpes vulpes",
