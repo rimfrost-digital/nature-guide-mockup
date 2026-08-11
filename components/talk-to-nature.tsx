@@ -47,22 +47,44 @@ export function TalkToNature({
   audioLabel = "Så här låter lodjuret",
 }: TalkToNatureProps) {
   const [input, setInput] = useState("")
+  const [isPlayingSound, setIsPlayingSound] = useState(false)
   const { messages, sendMessage, status } = useChat({
     transport: new DefaultChatTransport({
       api: `/api/prata-med-naturen?namn=${speciesId}`,
     }),
   })
   const scrollRef = useRef<HTMLDivElement>(null)
+  const soundRef = useRef<HTMLAudioElement | null>(null)
   const isBusy = status === "submitted" || status === "streaming"
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" })
   }, [messages, status])
 
+  useEffect(() => {
+    return () => {
+      soundRef.current?.pause()
+      soundRef.current = null
+    }
+  }, [])
+
   function ask(text: string) {
     if (!text.trim() || isBusy) return
     sendMessage({ text })
     setInput("")
+  }
+
+  function playSound() {
+    if (!audioSrc || isPlayingSound) return
+
+    if (!soundRef.current) {
+      soundRef.current = new Audio(audioSrc)
+      soundRef.current.addEventListener("ended", () => setIsPlayingSound(false))
+    }
+
+    setIsPlayingSound(true)
+    soundRef.current.currentTime = 0
+    soundRef.current.play().catch(() => setIsPlayingSound(false))
   }
 
   return (
@@ -80,17 +102,25 @@ export function TalkToNature({
           <p className="mt-2 text-sm italic text-[#B89452]">{subNote}</p>
 
           {audioSrc && (
-            <div className="mt-5 flex justify-end">
+            <div className="mt-5 flex justify-start">
               <button
                 type="button"
-                onClick={() => {
-                  const audio = new Audio(audioSrc)
-                  audio.play().catch(() => undefined)
-                }}
+                onClick={playSound}
+                disabled={isPlayingSound}
                 aria-label={audioLabel}
-                className="inline-flex items-center gap-2 rounded-full border border-[#B89452] px-4 py-2 text-sm font-medium text-[#F4F1E8] transition-colors hover:bg-[#B89452] hover:text-[#1d2521]"
+                className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:bg-[#B89452] disabled:hover:shadow-sm"
               >
-                <Play className="h-4 w-4" fill="currentColor" aria-hidden="true" />
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#1d2521]/10">
+                  {isPlayingSound ? (
+                    <span className="flex items-end gap-[2px]" aria-hidden="true">
+                      <span className="h-2 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_infinite] rounded-full bg-[#1d2521]" />
+                      <span className="h-3 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.15s_infinite] rounded-full bg-[#1d2521]" />
+                      <span className="h-1.5 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.3s_infinite] rounded-full bg-[#1d2521]" />
+                    </span>
+                  ) : (
+                    <Play className="h-3 w-3 translate-x-px" fill="currentColor" aria-hidden="true" />
+                  )}
+                </span>
                 {audioLabel}
               </button>
             </div>
