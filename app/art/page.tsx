@@ -164,16 +164,16 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-20 sm:px-8 lg:grid-cols-2">
-          <div>
-            <h2 className="text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
+        <div className="mx-auto grid max-w-6xl items-start gap-12 px-5 pb-20 pt-16 sm:px-8 sm:pt-20 lg:grid-cols-2 lg:gap-16">
+          <div className="max-w-3xl">
+            <h2 className="text-balance font-serif text-5xl font-semibold leading-[1.08] tracking-[-0.02em] text-[#2f4437] sm:text-6xl">
               {content.heroSubtitle}
             </h2>
-            <p className="mt-6 leading-relaxed text-[#1d2521]">{content.intro}</p>
+            <p className="mt-10 text-xl leading-[1.55] text-[#1d2521]">{content.intro}</p>
 
             {content.quote && (
-              <blockquote className="mt-8 border-l-4 border-[#B89452] pl-6">
-                <p className="font-serif text-lg italic leading-relaxed text-[#5A6B54]">
+              <blockquote className="mt-12 border-l-[8px] border-[#B89452] pl-8 sm:pl-10">
+                <p className="font-serif text-2xl italic leading-[1.45] text-[#5A6B54]">
                   &ldquo;{content.quote}&rdquo;
                 </p>
               </blockquote>
