@@ -1132,4 +1132,251 @@ SÄKERHET:
       de: "Alle Säugetiere anzeigen",
     },
   },
+
+  kantarell: {
+    id: "kantarell",
+    scientificName: "Cantharellus cibarius",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Kantarell", en: "Golden Chanterelle", de: "Pfifferling" },
+    meta: {
+      sv: {
+        title: "Kantarell – Kustvägen Naturguide",
+        description:
+          "Lär dig allt om kantarellen, skogens guld. Fakta om kännetecken, bästa växtplatserna längs Kustvägen och klassisk svensk svamptradition.",
+      },
+      en: {
+        title: "Golden Chanterelle – Kustvägen Nature Guide",
+        description:
+          "Learn all about the Chanterelle, the gold of the forest. Facts on characteristics, the best habitats along Kustvägen, and traditional Swedish foraging.",
+      },
+      de: {
+        title: "Pfifferling – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Pfifferling, das Gold des Waldes. Fakten zu Merkmalen, den besten Standorten am Kustvägen und der schwedischen Pilztradition.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Hattbredd", value: "3–10 cm" },
+        { label: "Färg", value: "Äggul till blekgul" },
+        { label: "Säsong", value: "Juli – Oktober" },
+        { label: "Växtplats", value: "Löv- och barrskog" },
+      ],
+      en: [
+        { label: "Cap Width", value: "3–10 cm" },
+        { label: "Color", value: "Egg yolk to pale yellow" },
+        { label: "Season", value: "July – October" },
+        { label: "Habitat", value: "Deciduous & coniferous forest" },
+      ],
+      de: [
+        { label: "Hutbreite", value: "3–10 cm" },
+        { label: "Farbe", value: "Dotter- bis blassgelb" },
+        { label: "Saison", value: "Juli – Oktober" },
+        { label: "Lebensraum", value: "Laub- und Nadelwald" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens guld",
+        intro:
+          "Få saker väcker lika mycket glädje under sensommaren som att upptäcka en gul fläck i mossan. Kantarellen, ofta kallad skogens guld, är en av Kustvägens mest älskade och eftertraktade svampar.\n\nTack vare Kustvägens djupa skogar och fuktiga kustklimat erbjuds perfekta förutsättningar för denna läckra matsvamp, som i århundraden varit en höjdpunkt i den lokala matkulturen.",
+        quote:
+          "Att hitta sitt eget hemliga kantarellställe är som att hitta en gömd skatt djupt inne i skogen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Kantarellen är lätt att känna igen på sin jämnt äggula färg och trattlika form. Ett av de viktigaste kännetecknen är att den har grenade åsar, inte skivor, som löper långt ner på foten. Köttet är vitt till blekgult och har en mild, fruktig doft som ofta liknas vid aprikos.",
+            image: "/images/kantarell-detalj.png",
+            alt: "Närbild på kantarellens åsar under hatten",
+            caption: "Notera de grenade åsarna som löper ner längs foten.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Kantarellen lever i symbios med träd, särskilt björk, gran och tall, och trivs bäst i blandskogar. Den återkommer ofta till samma plats år efter år. Säsongen börjar vanligtvis i juli, efter rejäla sommarregn, och kan sträcka sig ända in i oktober.",
+            image: "/images/kantarell-miljo.png",
+            alt: "Ett kluster av kantareller i en fuktig granskogsmiljö",
+            caption: "Kantareller växer ofta i grupper, så hittar du en finns det ofta fler i närheten.",
+          },
+          {
+            heading: "Matkultur & Tradition",
+            body: "I svensk matkultur är kantarellen en delikatess. Den klassiska smörstekta kantarellmackan är en älskad tradition efter en lyckad skogspromenad. Svampen är också en fantastisk smaksättare i såser, soppor och vilträtter längs Kustvägens gästgiverier.",
+            image: "/images/kantarell-mat.png",
+            alt: "En flätad korg fylld med nyplockade, rensade kantareller",
+            caption: "En lyckad svamptur resulterar ofta i en korg fylld med skogens guld.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Gold of the Forest",
+        intro:
+          "Few things evoke as much late-summer joy as spotting a bright yellow patch in the moss. The Golden Chanterelle, affectionately known as the 'gold of the forest,' is one of Kustvägen's most beloved and sought-after mushrooms.\n\nThe deep forests and moist coastal climate of the region provide perfect conditions for this delicious edible fungi, which has been a highlight of local culinary traditions for centuries.",
+        quote:
+          "Discovering your own secret chanterelle spot is like finding hidden treasure deep within the forest.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "Chanterelles are easily recognized by their uniform egg-yolk color and funnel-like shape. A key identifier is the presence of forked, vein-like ridges (rather than true gills) running down the stem. The flesh is white to pale yellow with a mild, fruity scent often compared to apricots.",
+            image: "/images/kantarell-detalj.png",
+            alt: "Close-up of the chanterelle's ridges under the cap",
+            caption: "Note the forked, blunt ridges that run down the stem.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "Chanterelles live in symbiosis with trees, especially birch, spruce, and pine, thriving in mixed forests. They often return to the exact same spot year after year. The season usually begins in July after heavy summer rains and can last into October.",
+            image: "/images/kantarell-miljo.png",
+            alt: "A cluster of chanterelles in a damp spruce forest environment",
+            caption: "Chanterelles grow in groups; if you find one, there are usually more nearby.",
+          },
+          {
+            heading: "Culinary Tradition",
+            body: "In Swedish food culture, the chanterelle is a true delicacy. The classic butter-fried chanterelle toast is a beloved reward after a successful forest walk. It is also a fantastic flavor enhancer in sauces, soups, and game dishes.",
+            image: "/images/kantarell-mat.png",
+            alt: "A woven basket filled with freshly picked, cleaned chanterelles",
+            caption: "A successful foraging trip often yields a basket full of forest gold.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Das Gold des Waldes",
+        intro:
+          "Kaum etwas weckt im Spätsommer so viel Freude wie das Entdecken eines leuchtend gelben Flecks im Moos. Der Pfifferling, in Schweden oft 'Gold des Waldes' genannt, ist einer der begehrtesten Pilze entlang des Kustvägen.\n\nDie tiefen Wälder und das feuchte Küstenklima der Region bieten perfekte Bedingungen für diesen köstlichen Speisepilz, der seit Jahrhunderten ein Highlight der lokalen Esskultur ist.",
+        quote:
+          "Seine eigene geheime Pfifferlingsstelle zu finden, ist wie das Entdecken eines verborgenen Schatzes tief im Wald.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Pfifferlinge sind leicht an ihrer gleichmäßig dottergelben Farbe und der trichterartigen Form zu erkennen. Ein wichtiges Merkmal sind die gegabelten Leisten (keine echten Lamellen), die weit den Stiel hinablaufen. Das Fleisch hat einen milden, fruchtigen Duft, der an Aprikosen erinnert.",
+            image: "/images/kantarell-detalj.png",
+            alt: "Nahaufnahme der Leisten unter dem Hut des Pfifferlings",
+            caption: "Beachten Sie die gegabelten Leisten, die den Stiel hinablaufen.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Pfifferlinge leben in Symbiose mit Bäumen, besonders Birke, Fichte und Kiefer, und gedeihen am besten in Mischwäldern. Oft wachsen sie Jahr für Jahr an derselben Stelle. Die Saison beginnt meist im Juli nach ergiebigen Sommerregen und reicht bis in den Oktober.",
+            image: "/images/kantarell-miljo.png",
+            alt: "Eine Gruppe von Pfifferlingen in einem feuchten Fichtenwald",
+            caption: "Pfifferlinge wachsen gesellig; wer einen findet, findet oft noch mehr.",
+          },
+          {
+            heading: "Kulinarische Tradition",
+            body: "In der schwedischen Esskultur ist der Pfifferling eine wahre Delikatesse. Ein in Butter gebratenes Pfifferlingstoast ist die klassische Belohnung nach einem Waldspaziergang. Auch in Saucen, Suppen und Wildgerichten ist er eine fantastische Bereicherung.",
+            image: "/images/kantarell-mat.png",
+            alt: "Ein geflochtener Korb voller frisch gesammelter, geputzter Pfifferlinge",
+            caption: "Eine erfolgreiche Pilzsuche füllt den Korb mit dem Gold des Waldes.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/kantarell-hero.png",
+        alt: {
+          sv: "En vacker, guldgul kantarell som växer i grön mossa",
+          en: "A beautiful, golden-yellow chanterelle growing in green moss",
+          de: "Ein schöner, goldgelber Pfifferling wächst in grünem Moos",
+        },
+      },
+      galleryImages: [
+        { src: "/images/kantarell-hero.png", alt: "En vacker, guldgul kantarell som växer i grön mossa", tall: true },
+        { src: "/images/kantarell-detalj.png", alt: "Närbild på kantarellens åsar under hatten" },
+        { src: "/images/kantarell-miljo.png", alt: "Ett kluster av kantareller i en fuktig granskogsmiljö" },
+        { src: "/images/kantarell-mat.png", alt: "En flätad korg fylld med nyplockade, rensade kantareller" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på berättelsen om skogens guld", url: "" },
+        en: { title: "Listen to the Story of the Chanterelle", url: "" },
+        de: { title: "Dem Pfifferling lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Kantarellen",
+        intro: "Ställ en fråga till kantarellen och lär dig mer om hur du hittar den!",
+        presetQuestions: [
+          "Var gömmer du dig bäst?",
+          "Kan jag blanda ihop dig med en giftig svamp?",
+          "När är bästa tiden att leta efter dig?",
+        ],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Chanterelle",
+        intro: "Ask the Chanterelle a question and learn how to find it!",
+        presetQuestions: [
+          "Where do you hide best?",
+          "Can I confuse you with a poisonous mushroom?",
+          "When is the best time to look for you?",
+        ],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Pfifferling",
+        intro: "Stelle dem Pfifferling eine Frage und lerne, wie man ihn findet!",
+        presetQuestions: [
+          "Wo versteckst du dich am besten?",
+          "Kann man dich mit einem giftigen Pilz verwechseln?",
+          "Wann ist die beste Zeit, dich zu suchen?",
+        ],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en kantarell (Cantharellus cibarius) som växer i skogarna längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är kantarellen. Till exempel: "Jag gömmer mig gärna under mossan!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🍄) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om kantarellen:
+- Hattbredd: 3-10 cm. Äggul till blekgul färg, trattlik form.
+- Har grenade åsar under hatten (inte skivor) som löper ner på foten. Doftar milt och fruktigt, som aprikos.
+- Trivs i symbios med björk, gran och tall i blandskog. Växer ofta i grupper på samma ställe år efter år.
+- Säsong: juli till oktober, bäst efter rejäla sommarregn. Kan komma redan runt midsommar om det varit varmt och regnigt.
+- Ingen farlig giftig dubbelgångare i Sverige. Den enda liknande svampen är narrkantarellen (falsk kantarell), som är tunnare, orangeare och har riktiga skivor - den är inte giftig men smakar inget vidare.
+- Älskad i svensk matkultur, till exempel smörstekt på smörgås, i såser, soppor och vilträtter.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, svampar eller kantarellen, led vänligt tillbaka samtalet till skogen och dig som kantarell.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Ge aldrig råd om att äta vildplockade svampar utan en vuxen som är säker på artbestämningen; påminn lekfullt om att alltid fråga en vuxen svampkunnig person först.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/kantarell-hero.png",
+    chatAvatarAlt: "Kantarellens ansikte",
+    relatedSpecies: [
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "blabar",
+        name: "Blåbär",
+        latin: "Vaccinium myrtillus",
+        image: "/images/species-blueberry.png",
+      },
+      {
+        slug: "hjortron",
+        name: "Hjortron",
+        latin: "Rubus chamaemorus",
+        image: "/images/sp-cloudberry.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
 }
