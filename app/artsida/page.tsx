@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ArchiveExplorer } from "@/components/archive-explorer"
 
-export default function ArkivPage() {
+export default function ArtsidaPage() {
   return (
     <main className="bg-[#F4F1E8]">
       {/* Page hero */}

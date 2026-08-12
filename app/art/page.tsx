@@ -245,7 +245,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
           <div className="mt-10 flex justify-center">
             <Link
-              href="/arkiv"
+              href="/artsida"
               className="rounded-full border border-[#F4F1E8] px-8 py-3 text-sm font-medium tracking-wide text-[#F4F1E8] transition-colors hover:bg-[#F4F1E8] hover:text-[#2f4437]"
             >
               {relatedLink}

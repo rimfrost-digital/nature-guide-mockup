@@ -15,8 +15,8 @@ const highlights = [
 
 const footerLinks = [
   { href: "/", label: "Startsida" },
-  { href: "/arkiv", label: "Arkivsida" },
-  { href: "/art", label: "Artsida" },
+  { href: "/artsida", label: "Artsida" },
+  { href: "/om-oss", label: "Om oss" },
   { href: "/quiz", label: "Quiz" },
   { href: "#karta", label: "Karta" },
 ]
@@ -25,7 +25,7 @@ export function SiteFooter() {
   const pathname = usePathname()
 
   // The species page is an immersive QR-landing experience with its own layout.
-  if (pathname.startsWith("/art")) return null
+  if (pathname === "/art") return null
 
   return (
     <>

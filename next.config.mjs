@@ -6,6 +6,15 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/arkiv',
+        destination: '/artsida',
+        permanent: true,
+      },
+    ]
+  },
 }
 
 export default nextConfig

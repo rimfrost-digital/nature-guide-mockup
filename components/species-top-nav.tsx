@@ -18,7 +18,7 @@ export function SpeciesTopNav() {
     <header className="absolute inset-x-0 top-0 z-30">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-5 sm:px-8">
         <Link
-          href="/arkiv"
+          href="/artsida"
           className="flex items-center gap-2 rounded-full bg-[#1d2521]/30 px-4 py-2 text-sm font-medium text-[#F4F1E8] backdrop-blur-md transition-colors hover:bg-[#1d2521]/50"
         >
           <ArrowLeft className="h-4 w-4" />
