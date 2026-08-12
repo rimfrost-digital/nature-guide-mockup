@@ -37,13 +37,13 @@ export function SiteNav() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-[#2f4437]/10 bg-[#F4F1E8]/90 backdrop-blur-md">
-      <nav className="mx-auto flex max-w-6xl items-center gap-8 px-6 py-4">
+      <nav className="relative mx-auto flex max-w-6xl items-center px-6 py-4">
         <Link href="/" className="flex items-center gap-2">
           <Leaf className="h-5 w-5 text-[#5A6B54]" />
           <span className="font-serif text-xl font-semibold tracking-tight text-[#2f4437]">Natur Info</span>
         </Link>
 
-        <ul className="flex items-center gap-1 sm:gap-2">
+        <ul className="absolute left-1/2 flex -translate-x-1/2 items-center gap-1 sm:gap-2">
           {links.map((link) => {
             const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href)
             return (
