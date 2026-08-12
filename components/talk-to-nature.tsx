@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react"
 import Image from "next/image"
 import { useChat } from "@ai-sdk/react"
 import { DefaultChatTransport } from "ai"
-import { Play, Send } from "lucide-react"
+import { PawPrint, Play, Send } from "lucide-react"
 
 type TalkToNatureProps = {
   title: string
@@ -101,7 +101,7 @@ export function TalkToNature({
         <div className="rounded-3xl bg-[#2f4437] p-6 sm:p-10">
           {/* Header */}
           <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#B89452]">
-            <span aria-hidden="true">🐾</span> {tagLabel}
+            <PawPrint className="h-4 w-4 text-[#F4F1E8]" aria-hidden="true" /> {tagLabel}
           </p>
           <h2 className="mt-3 font-serif text-4xl font-semibold text-[#F4F1E8] sm:text-5xl">
             {title}
