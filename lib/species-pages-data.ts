@@ -137,18 +137,91 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
         quote:
           "Att få se ett vilt lodjur i dess naturliga miljö är som att få en skymt av själva skogens själ.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Lodjuret känns lätt igen på sina karakteristiska öron­tofsar, korta svans och kraftiga polisonger runt kinderna. Pälsen varierar från gulbrun till gråbrun med mörka fläckar, och de stora tassarna fungerar som naturliga snöskor på vintern.",
+            image: "/images/lodjur-sommar.png",
+            alt: "Lodjur i sommarskog med tydliga örontofsar",
+            caption: "Örontofsarna hjälper lodjuret att höra minsta ljud i skogen.",
+          },
+          {
+            heading: "Jakt & Föda",
+            body: "Som en skicklig smygjägare förlitar sig lodjuret på tålamod snarare än uthållighet. Den smyger sig inpå sitt byte – oftast rådjur eller hare – innan den slår till med ett snabbt, kraftfullt språng.",
+            image: "/images/lynx-rock.png",
+            alt: "Lodjur som rör sig ljudlöst genom terrängen",
+            caption: "Ett enda välriktat språng räcker för att fälla bytet.",
+          },
+          {
+            heading: "Livsmiljö & Beteende",
+            body: "Lodjuret är ett ensamlevande och territoriellt djur som håller till i tät skog och bergig terräng. Den är skicklig på att klättra i träd och rör sig mest i skymning och gryning, långt från människors blickar.",
+            image: "/images/lodjur-skog.png",
+            alt: "Lodjur bland mossbeklädda stenar i skogen",
+            caption: "I skymningen rör sig lodjuret som en skugga mellan träden.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The mysterious cat of Northern Europe",
         intro:
           "The Eurasian Lynx is Northern Europe's largest cat, recognized by its characteristic ear tufts and short tail. It moves silently through the deep forests along the Coastal Road, a master of staying hidden.",
+        quote:
+          "Catching sight of a wild lynx in its natural habitat feels like glimpsing the soul of the forest itself.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The lynx is easily recognized by its distinctive ear tufts, short tail, and prominent facial ruff. Its coat ranges from yellowish-brown to gray-brown with dark spots, and its large paws act as natural snowshoes in winter.",
+            image: "/images/lodjur-sommar.png",
+            alt: "Lynx in summer forest with visible ear tufts",
+            caption: "The ear tufts help the lynx pick up even the faintest sounds.",
+          },
+          {
+            heading: "Hunting & Diet",
+            body: "A skilled stalking hunter, the lynx relies on patience rather than endurance. It creeps close to its prey – usually deer or hare – before striking with a swift, powerful pounce.",
+            image: "/images/lynx-rock.png",
+            alt: "Lynx moving silently through the terrain",
+            caption: "A single well-aimed leap is often enough to bring down the prey.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The lynx is a solitary, territorial animal that favors dense forest and rocky terrain. It climbs trees with ease and is most active at dusk and dawn, far from human eyes.",
+            image: "/images/lodjur-skog.png",
+            alt: "Lynx among moss-covered rocks in the forest",
+            caption: "At twilight, the lynx moves like a shadow between the trees.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Die geheimnisvolle Katze Nordeuropas",
         intro:
           "Der Eurasische Luchs ist Nordeuropas größte Katze, erkennbar an seinen charakteristischen Ohrpinseln und dem kurzen Schwanz. Er bewegt sich lautlos durch die tiefen Wälder entlang des Kustvägen.",
+        quote:
+          "Einen wilden Luchs in seiner natürlichen Umgebung zu sehen, ist wie ein Blick in die Seele des Waldes selbst.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Luchs ist leicht an seinen charakteristischen Ohrpinseln, dem kurzen Schwanz und den markanten Backenbart erkennbar. Sein Fell reicht von gelbbraun bis graubraun mit dunklen Flecken, und die großen Pfoten dienen im Winter als natürliche Schneeschuhe.",
+            image: "/images/lodjur-sommar.png",
+            alt: "Luchs im Sommerwald mit sichtbaren Ohrpinseln",
+            caption: "Die Ohrpinsel helfen dem Luchs, selbst leiseste Geräusche zu hören.",
+          },
+          {
+            heading: "Jagd & Nahrung",
+            body: "Als geschickter Schleichjäger verlässt sich der Luchs auf Geduld statt Ausdauer. Er schleicht sich an seine Beute – meist Reh oder Hase – heran, bevor er mit einem schnellen, kraftvollen Sprung zuschlägt.",
+            image: "/images/lynx-rock.png",
+            alt: "Luchs bewegt sich lautlos durch das Gelände",
+            caption: "Ein einziger gut gezielter Sprung reicht oft aus, um die Beute zu erlegen.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Der Luchs ist ein einzelgängerisches, territoriales Tier, das dichten Wald und felsiges Gelände bevorzugt. Er klettert mühelos auf Bäume und ist vor allem in der Dämmerung aktiv, fernab von Menschen.",
+            image: "/images/lodjur-skog.png",
+            alt: "Luchs zwischen moosbedeckten Steinen im Wald",
+            caption: "In der Dämmerung bewegt sich der Luchs wie ein Schatten zwischen den Bäumen.",
+          },
+        ],
       },
     },
     media: {
