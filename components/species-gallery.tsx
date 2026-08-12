@@ -46,7 +46,9 @@ function VideoTile({ item }: { item: GalleryItem }) {
   }
 
   return (
-    <div className="group relative overflow-hidden rounded-2xl break-inside-avoid">
+    <div
+      className={`group relative overflow-hidden rounded-2xl break-inside-avoid ${item.tall ? "aspect-[3/4]" : "aspect-square"}`}
+    >
       <video
         ref={videoRef}
         src={item.video}
@@ -56,7 +58,7 @@ function VideoTile({ item }: { item: GalleryItem }) {
         preload="metadata"
         onPause={() => setPlaying(false)}
         onEnded={() => setPlaying(false)}
-        className="h-auto w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover"
       />
       {!playing && (
         <button
