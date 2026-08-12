@@ -112,7 +112,7 @@ export default async function ArtPage({ searchParams }: Props) {
       </section>
 
       {/* Audio guide */}
-      <section className="border-t-4 border-[#B89452] bg-[#F4F1E8]">
+      <section className="bg-[#F4F1E8]">
         <div className="mx-auto max-w-6xl px-5 py-6 sm:px-8">
           <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
         </div>
