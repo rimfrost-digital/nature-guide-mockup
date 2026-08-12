@@ -1285,6 +1285,14 @@ SÄKERHET:
         { src: "/images/kantarell-miljo.png", alt: "Ett kluster av kantareller i en fuktig granskogsmiljö" },
         { src: "/images/kantarell-mat.png", alt: "En flätad korg fylld med nyplockade, rensade kantareller" },
       ],
+      detailImage: {
+        url: "/images/kantarell-narrativ.png",
+        alt: {
+          sv: "En hand lyfter varsamt upp en kantarell ur mossan",
+          en: "A hand gently lifting a chanterelle from the moss",
+          de: "Eine Hand hebt behutsam einen Pfifferling aus dem Moos",
+        },
+      },
       audio: {
         sv: { title: "Lyssna på berättelsen om skogens guld", url: "" },
         en: { title: "Listen to the Story of the Chanterelle", url: "" },
