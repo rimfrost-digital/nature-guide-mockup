@@ -458,21 +458,18 @@ SÄKERHET:
         { label: "Vikt", value: "3,5–7,0 kg (honan större)" },
         { label: "Föda", value: "Fisk, sjöfågel, as och mindre däggdjur" },
         { label: "Boplats", value: "Stora risbon i gamla tallar eller granar" },
-        { label: "Bevarandestatus", value: "Livskraftig (LC i Sverige)" },
       ],
       en: [
         { label: "Wingspan", value: "200–245 cm" },
         { label: "Weight", value: "3.5–7.0 kg (females are larger)" },
         { label: "Diet", value: "Fish, waterfowl, carrion, and small mammals" },
         { label: "Nesting", value: "Large stick nests in old pines or spruces" },
-        { label: "Conservation Status", value: "Least Concern (LC in Sweden)" },
       ],
       de: [
         { label: "Spannweite", value: "200–245 cm" },
         { label: "Gewicht", value: "3,5–7,0 kg (Weibchen sind größer)" },
         { label: "Nahrung", value: "Fische, Wasservögel, Aas und kleine Säugetiere" },
         { label: "Nistplatz", value: "Große Reisignester in alten Kiefern oder Fichten" },
-        { label: "Schutzstatus", value: "Nicht gefährdet (LC in Schweden)" },
       ],
     },
     content: {
