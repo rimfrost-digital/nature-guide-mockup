@@ -667,7 +667,13 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/havsorn-hero.png", alt: "Havsörn på en tallgren vid havet", tall: true },
+        {
+          src: "/images/havsorn-hero.png",
+          alt: "Havsörn på en tallgren vid havet",
+          tall: true,
+          video: "/video/havsorn.mp4",
+          poster: "/images/havsorn-hero.png",
+        },
         { src: "/images/havsorn-flykt.png", alt: "Havsörn i flykt med utbredda vingar" },
         { src: "/images/havsorn-bo.png", alt: "Stort havsörnsbo i toppen av en gammal tall" },
         { src: "/images/havsorn-miljo.png", alt: "Kustlandskap där havsörnen söker sin föda" },
