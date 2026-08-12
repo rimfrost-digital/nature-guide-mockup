@@ -876,7 +876,13 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/stromming-hero.png", alt: "Stim av strömming i klart vatten", tall: true },
+        {
+          src: "/images/stromming-hero.png",
+          alt: "Stim av strömming i klart vatten",
+          tall: true,
+          video: "/video/stromming.mp4",
+          poster: "/images/stromming-hero.png",
+        },
         { src: "/images/stromming-stim.png", alt: "Strömmingsstim virvlar i vattnet" },
         { src: "/images/stromming-bo.png", alt: "Tångbälte där strömmingen leker" },
         { src: "/images/stromming-miljo.png", alt: "Gammalt fiskeläge längs Kustvägen" },
@@ -891,7 +897,7 @@ SÄKERHET:
       sv: {
         title: "Prata med Strömmingen",
         intro: "Ställ en fråga till strömmingen och lär dig mer om dess liv i Östersjön!",
-        presetQuestions: ["Varför simmar ni i så stora stim?", "Vad är skillnaden på sill och strömming?", "Vad äter du?"],
+        presetQuestions: ["Varför simmar ni i s�� stora stim?", "Vad är skillnaden på sill och strömming?", "Vad äter du?"],
         fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
       },
       en: {
