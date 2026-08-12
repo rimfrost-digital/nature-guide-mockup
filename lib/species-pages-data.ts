@@ -1280,7 +1280,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/kantarell-hero.png", alt: "En vacker, guldgul kantarell som växer i grön mossa", tall: true },
+        {
+          src: "/images/kantarell-hero.png",
+          alt: "En vacker, guldgul kantarell som växer i grön mossa",
+          video: "/video/kantarell.mp4",
+          poster: "/images/kantarell-hero.png",
+        },
         { src: "/images/kantarell-detalj.png", alt: "Närbild på kantarellens åsar under hatten" },
         { src: "/images/kantarell-miljo.png", alt: "Ett kluster av kantareller i en fuktig granskogsmiljö" },
         { src: "/images/kantarell-mat.png", alt: "En flätad korg fylld med nyplockade, rensade kantareller" },
