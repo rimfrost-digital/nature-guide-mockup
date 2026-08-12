@@ -10,6 +10,14 @@ export type ContentSection = {
   body: string
 }
 
+export type DetailCard = {
+  heading: string
+  body: string
+  image: string
+  alt: string
+  caption: string
+}
+
 export type GalleryItem = {
   src: string
   alt: string
@@ -51,6 +59,7 @@ export type SpeciesPageData = {
       intro: string
       quote?: string
       sections: ContentSection[]
+      detailsGrid?: DetailCard[]
     }
   >
   media: {
@@ -455,47 +464,116 @@ SÄKERHET:
     quickFacts: {
       sv: [
         { label: "Vingspann", value: "200–245 cm" },
-        { label: "Vikt", value: "3,5–7,0 kg (honan större)" },
-        { label: "Föda", value: "Fisk, sjöfågel, as och mindre däggdjur" },
-        { label: "Boplats", value: "Stora risbon i gamla tallar eller granar" },
+        { label: "Vikt", value: "3,5–7,0 kg" },
+        { label: "Föda", value: "Fisk & sjöfågel" },
+        { label: "Boplats", value: "Gamla tallar & granar" },
       ],
       en: [
         { label: "Wingspan", value: "200–245 cm" },
-        { label: "Weight", value: "3.5–7.0 kg (females are larger)" },
-        { label: "Diet", value: "Fish, waterfowl, carrion, and small mammals" },
-        { label: "Nesting", value: "Large stick nests in old pines or spruces" },
+        { label: "Weight", value: "3.5–7.0 kg" },
+        { label: "Diet", value: "Fish & waterfowl" },
+        { label: "Nesting", value: "Old pines & spruces" },
       ],
       de: [
         { label: "Spannweite", value: "200–245 cm" },
-        { label: "Gewicht", value: "3,5–7,0 kg (Weibchen sind größer)" },
-        { label: "Nahrung", value: "Fische, Wasservögel, Aas und kleine Säugetiere" },
-        { label: "Nistplatz", value: "Große Reisignester in alten Kiefern oder Fichten" },
+        { label: "Gewicht", value: "3,5–7,0 kg" },
+        { label: "Nahrung", value: "Fische & Wasservögel" },
+        { label: "Nistplatz", value: "Alte Kiefern & Fichten" },
       ],
     },
     content: {
       sv: {
         heroSubtitle: "Skärgårdens mäktiga härskare",
         intro:
-          "Havsörnen är Nordeuropas största rovfågel, med ett vingspann på upp till 245 centimeter, breda rektangulära vingar och en kritvit stjärt. Den svävar tungt men elegant över Kustvägens skärgård och fiskrika sjöar, där den bygger enorma risbon i gamla tallar som återanvänds år efter år. Fisk och sjöfågel står på menyn – ofta slagna direkt ur vattenytan – medan as blir viktig föda under vintern. Efter årtionden av miljögifter har arten återhämtat sig starkt.",
+          "Ett möte med havsörnen är en mäktig upplevelse. Med ett vingspann på närmare två och en halv meter är den Nordeuropas största rovfågel och en oslagbar syn när den seglar över Kustvägens havsband och insjöar.\n\nEfter årtionden av hot från miljögifter har arten gjort en fantastisk återhämtning och är idag en stolt karaktärsfågel och symbol för en välmående kustmiljö.",
         quote:
-          "När havsörnen glider över skärgården är den svår att missa – en mäktig silhuett över hav och kust.",
+          "Att se havsörnen kretsa över havsbandet är en påminnelse om kuster som återfått sin fulla kraft.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Flykt",
+            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdräkt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
+            image: "/images/havsorn-flykt.png",
+            alt: "Havsörn i flykt med utbredda vingar mot en klarblå sky",
+            caption: "I luften känns havsörnen igen på sina breda, planka-liknande vingar.",
+          },
+          {
+            heading: "Livsmiljö & Häckning",
+            body: "Havsörnen trivs i orörda kust- och skärgårdsområden samt vid stora fiskrika sjöar. De bygger gigantiska risbon i gamla tallar eller granar som kan väga flera hundra kilo och återanvänds år efter år.",
+            image: "/images/havsorn-bo.png",
+            alt: "Stort havsörnsbo i toppen av en gammal tall",
+            caption: "Boet byggs ut varje år och kan till slut bli flera meter djupt.",
+          },
+          {
+            heading: "Jakt & Föda",
+            body: "Huvudfödan består av fisk och sjöfågel. Havsörnen slår ofta sitt byte direkt i vattenytan eller stjäl fångst från andra fåglar. Under vintern utgör slaktavfall och as en viktig del av dieten.",
+            image: "/images/havsorn-miljo.png",
+            alt: "Kustlandskap där havsörnen söker sin föda",
+            caption: "Kustvägens vindpinade öar erbjuder perfekta utsiktsplatser för jakt.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "Ruler of the Archipelago",
         intro:
-          "The White-tailed Eagle is Northern Europe's largest bird of prey, with a wingspan of up to 245 centimeters, broad rectangular wings, and a stark white tail. It soars heavily yet gracefully over Kustvägen's archipelago and fish-rich lakes, building massive stick nests in old pines that are reused year after year. Fish and waterfowl are its main prey, often snatched straight from the water's surface, while carrion sustains it through winter. After decades of decline from pollution, the species has made a remarkable comeback.",
+          "An encounter with the White-tailed Eagle is an awe-inspiring moment. With a wingspan reaching nearly two and a half meters, Northern Europe's largest bird of prey is an unforgettable sight soaring above Kustvägen.\n\nFollowing decades of decline due to environmental toxins, the species has made a remarkable recovery and stands today as a proud symbol of a healthy coastal ecosystem.",
         quote:
-          "When the White-tailed Eagle glides over the archipelago, it is impossible to miss – a powerful silhouette against sea and shore.",
+          "Watching the White-tailed Eagle circle above the open sea is a vivid reminder of coasts restored to their full glory.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Flight",
+            body: "Adult eagles feature broad, plank-like wings, a pale yellow-brown head, and a stark white tail. Juveniles are darker with mottled plumage. Their flight is marked by slow, heavy wingbeats alternating with effortless gliding.",
+            image: "/images/havsorn-flykt.png",
+            alt: "White-tailed eagle soaring with spread wings against a clear blue sky",
+            caption: "In the air, the eagle is recognizable by its broad, rectangular wing shape.",
+          },
+          {
+            heading: "Habitat & Nesting",
+            body: "They thrive in undisturbed coastal areas, archipelagos, and large lakes. Nests are massive structures of sticks built high in mature trees, reused and expanded year after year until weighing hundreds of kilograms.",
+            image: "/images/havsorn-bo.png",
+            alt: "Large eagle nest atop an old pine tree",
+            caption: "Nests grow larger every year and can eventually weigh several hundred kilograms.",
+          },
+          {
+            heading: "Hunting & Diet",
+            body: "Primary food sources include fish and waterfowl. The eagle snatches prey directly from the water's surface or steals catches from other birds. Carrion forms a key part of their winter diet.",
+            image: "/images/havsorn-miljo.png",
+            alt: "Coastal archipelago landscape where the eagle hunts",
+            caption: "Wind-swept islands along Kustvägen offer ideal lookouts for hunting.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Der mächtige Herrscher der Schären",
         intro:
-          "Der Seeadler ist Nordeuropas größter Greifvogel, mit einer Spannweite von bis zu 245 Zentimetern, breiten rechteckigen Flügeln und einem reinweißen Schwanz. Er gleitet schwer, aber elegant über die Schären und fischreichen Seen des Kustvägen und baut riesige Reisignester in alten Kiefern, die Jahr für Jahr wiederverwendet werden. Fische und Wasservögel stehen auf seinem Speiseplan, oft direkt aus dem Wasser geschlagen, während Aas im Winter wichtig wird. Nach jahrzehntelangem Rückgang durch Umweltgifte hat sich der Bestand beeindruckend erholt.",
+          "Eine Begegnung mit dem Seeadler ist ein unvergesslicher Augenblick. Mit einer Spannweite von fast zweieinhalb Metern ist Nordeuropas größter Greifvogel ein majestätischer Anblick über den Küsten des Kustvägen.\n\nNach Jahrzehnten der Bedrohung hat sich der Bestand heute hervorragend erholt und der Seeadler gilt wieder als stolzes Symbol einer intakten Küstennatur.",
         quote:
-          "Wenn der Seeadler über die Schären gleitet, ist er kaum zu übersehen – eine mächtige Silhouette über Meer und Küste.",
+          "Der Anblick des Seeadlers über dem Meer erinnert daran, wie kraftvoll sich unsere Küsten erholt haben.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Flug",
+            body: "Ausgewachsene Seeadler haben breite, brettartige Flügel, einen hellen gelbbraunen Kopf und einen reinweißen Schwanz. Der Flug ist geprägt von langsamen, kräftigen Flügelschlägen und langem Gleiten.",
+            image: "/images/havsorn-flykt.png",
+            alt: "Seeadler im Flug mit ausgebreiteten Flügeln vor blauem Himmel",
+            caption: "Im Flug ist der Seeadler an seinen breiten, rechteckigen Flügeln leicht zu erkennen.",
+          },
+          {
+            heading: "Lebensraum & Brut",
+            body: "Seeadler bevorzugen ungestörte Küsten- und Schärengebiete sowie große Seen. Ihre riesigen Horste bauen sie in alten Bäumen und nutzen sie über viele Jahre hinweg, bis sie hunderte Kilo wiegen.",
+            image: "/images/havsorn-bo.png",
+            alt: "Großer Seeadlerhorst in der Krone einer alten Kiefer",
+            caption: "Horste werden jährlich erweitert und können mehrere hundert Kilogramm wiegen.",
+          },
+          {
+            heading: "Jagd & Nahrung",
+            body: "Fische und Wasservögel bilden die Hauptnahrung. Der Seeadler greift seine Beute oft direkt von der Wasseroberfläche. Im Winter spielt Aas eine wichtige Rolle im Speiseplan.",
+            image: "/images/havsorn-miljo.png",
+            alt: "Schärenlandschaft an der Küste, in der der Seeadler jagt",
+            caption: "Die windgepeitschten Inseln des Kustvägen bieten ideale Aussichtspunkte für die Jagd.",
+          },
+        ],
       },
     },
     media: {

@@ -172,7 +172,11 @@ export default async function ArtPage({ searchParams }: Props) {
             <h2 className="text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
               {content.heroSubtitle}
             </h2>
-            <p className="mt-6 leading-relaxed text-[#1d2521]">{content.intro}</p>
+            {content.intro.split("\n\n").map((paragraph, i) => (
+              <p key={i} className="mt-6 leading-relaxed text-[#1d2521]">
+                {paragraph}
+              </p>
+            ))}
 
             {content.quote && (
               <blockquote className="mt-8 border-l-4 border-[#B89452] pl-6">
@@ -181,15 +185,6 @@ export default async function ArtPage({ searchParams }: Props) {
                 </p>
               </blockquote>
             )}
-
-            {content.sections.map((section) => (
-              <div key={section.heading} className="mt-8">
-                <h3 className="font-serif text-2xl font-semibold text-[#2f4437]">
-                  {section.heading}
-                </h3>
-                <p className="mt-3 leading-relaxed text-[#1d2521]">{section.body}</p>
-              </div>
-            ))}
           </div>
           {data.media.detailImage && (
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
@@ -203,6 +198,35 @@ export default async function ArtPage({ searchParams }: Props) {
           )}
         </div>
       </section>
+
+      {/* Details grid */}
+      {content.detailsGrid && content.detailsGrid.length > 0 && (
+        <section className="bg-[#F4F1E8]">
+          <div className="mx-auto max-w-6xl px-5 pb-20 sm:px-8">
+            <div className="grid gap-8 sm:grid-cols-3">
+              {content.detailsGrid.map((card) => (
+                <div key={card.heading} className="flex flex-col">
+                  <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
+                    <Image
+                      src={card.image || "/placeholder.svg"}
+                      alt={card.alt}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-5 font-serif text-2xl font-semibold text-[#2f4437]">
+                    {card.heading}
+                  </h3>
+                  <p className="mt-3 leading-relaxed text-[#1d2521]">{card.body}</p>
+                  <p className="mt-3 text-sm italic leading-relaxed text-[#5A6B54]">
+                    {card.caption}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Gallery */}
       <section className="bg-[#1d2521]">
