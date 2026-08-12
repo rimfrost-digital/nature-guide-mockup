@@ -894,7 +894,7 @@ SÄKERHET:
       sv: {
         title: "Prata med Strömmingen",
         intro: "Ställ en fråga till strömmingen och lär dig mer om dess liv i Östersjön!",
-        presetQuestions: ["Varför simmar ni i s�� stora stim?", "Vad är skillnaden på sill och strömming?", "Vad äter du?"],
+        presetQuestions: ["Varför simmar ni i så stora stim?", "Vad är skillnaden på sill och strömming?", "Vad äter du?"],
         fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
       },
       en: {
