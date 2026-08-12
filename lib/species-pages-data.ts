@@ -476,59 +476,26 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skärgårdens mäktiga härskare",
         intro:
-          "Med ett vingspann på närmare två och en halv meter är havsörnen en oslagbar syn när den seglar över Kustvägens havsband och insjöar. Efter årtionden av hot från miljögifter har arten gjort en fantastisk återhämtning och är idag en stolt karaktärsfågel för regionen.",
-        sections: [
-          {
-            heading: "Kännetecken & Flykt",
-            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdräkt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
-          },
-          {
-            heading: "Livsmiljö & Häckning",
-            body: "Havsörnen trivs i orörda kust- och skärgårdsområden samt vid stora fiskrika sjöar. De bygger gigantiska risbon som kan väga flera hundra kilo och återanvänds år efter år.",
-          },
-          {
-            heading: "Jakt & Föda",
-            body: "Huvudfödan består av fisk och sjöfågel. Havsörnen slår ofta sitt byte direkt i vattenytan eller stjäl fångst från andra fåglar. Under vintern utgör slaktavfall och as en viktig del av dieten.",
-          },
-        ],
+          "Havsörnen är Nordeuropas största rovfågel, med ett vingspann på upp till 245 centimeter, breda rektangulära vingar och en kritvit stjärt. Den svävar tungt men elegant över Kustvägens skärgård och fiskrika sjöar, där den bygger enorma risbon i gamla tallar som återanvänds år efter år. Fisk och sjöfågel står på menyn – ofta slagna direkt ur vattenytan – medan as blir viktig föda under vintern. Efter årtionden av miljögifter har arten återhämtat sig starkt.",
+        quote:
+          "När havsörnen glider över skärgården är den svår att missa – en mäktig silhuett över hav och kust.",
+        sections: [],
       },
       en: {
         heroSubtitle: "Ruler of the Archipelago",
         intro:
-          "With a wingspan reaching nearly two and a half meters, the White-tailed Eagle is an unforgettable sight soaring above Kustvägen's coasts and lakes. Following decades of decline due to environmental toxins, the species has made a remarkable recovery.",
-        sections: [
-          {
-            heading: "Characteristics & Flight",
-            body: "Adult eagles feature broad, plank-like wings, a pale yellow-brown head, and a stark white tail. Juveniles are darker with mottled plumage. Their flight is marked by slow, heavy wingbeats alternating with effortless gliding.",
-          },
-          {
-            heading: "Habitat & Nesting",
-            body: "They thrive in undisturbed coastal areas, archipelagos, and large lakes. Nests are massive structures of sticks built high in mature trees, reused and expanded year after year.",
-          },
-          {
-            heading: "Hunting & Diet",
-            body: "Primary food sources include fish and waterfowl. The eagle snatches prey directly from the water's surface or steals catches from other birds. Carrion forms a key part of their winter diet.",
-          },
-        ],
+          "The White-tailed Eagle is Northern Europe's largest bird of prey, with a wingspan of up to 245 centimeters, broad rectangular wings, and a stark white tail. It soars heavily yet gracefully over Kustvägen's archipelago and fish-rich lakes, building massive stick nests in old pines that are reused year after year. Fish and waterfowl are its main prey, often snatched straight from the water's surface, while carrion sustains it through winter. After decades of decline from pollution, the species has made a remarkable comeback.",
+        quote:
+          "When the White-tailed Eagle glides over the archipelago, it is impossible to miss – a powerful silhouette against sea and shore.",
+        sections: [],
       },
       de: {
         heroSubtitle: "Der mächtige Herrscher der Schären",
         intro:
-          "Mit einer Spannweite von fast zweieinhalb Metern ist der Seeadler ein unvergesslicher Anblick, wenn er über den Küsten und Seen des Kustvägen kreist. Nach Jahrzehnten der Bedrohung hat sich der Bestand heute prächtig erholt.",
-        sections: [
-          {
-            heading: "Merkmale & Flug",
-            body: "Ausgewachsene Seeadler haben breite, brettartige Flügel, einen hellen gelbbraunen Kopf und einen reinweißen Schwanz. Der Flug ist geprägt von langsamen, kräftigen Flügelschlägen und langem Gleiten.",
-          },
-          {
-            heading: "Lebensraum & Brut",
-            body: "Seeadler bevorzugen ungestörte Küsten- und Schärengebiete sowie große, fischreiche Seen. Ihre riesigen Horste bauen sie in alten Bäumen und nutzen sie über viele Jahre hinweg.",
-          },
-          {
-            heading: "Jagd & Nahrung",
-            body: "Fische und Wasservögel bilden die Hauptnahrung. Der Seeadler greift seine Beute oft direkt von der Wasseroberfläche. Im Winter spielt Aas eine wichtige Rolle im Speiseplan.",
-          },
-        ],
+          "Der Seeadler ist Nordeuropas größter Greifvogel, mit einer Spannweite von bis zu 245 Zentimetern, breiten rechteckigen Flügeln und einem reinweißen Schwanz. Er gleitet schwer, aber elegant über die Schären und fischreichen Seen des Kustvägen und baut riesige Reisignester in alten Kiefern, die Jahr für Jahr wiederverwendet werden. Fische und Wasservögel stehen auf seinem Speiseplan, oft direkt aus dem Wasser geschlagen, während Aas im Winter wichtig wird. Nach jahrzehntelangem Rückgang durch Umweltgifte hat sich der Bestand beeindruckend erholt.",
+        quote:
+          "Wenn der Seeadler über die Schären gleitet, ist er kaum zu übersehen – eine mächtige Silhouette über Meer und Küste.",
+        sections: [],
       },
     },
     media: {
@@ -649,59 +616,26 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är ett av Sveriges mest anpassningsbara däggdjur. Längs Kustvägen rör den sig smidigt mellan täta barrskogar, strandängar och öppna odlingslandskap på sin jakt efter föda.",
-        sections: [
-          {
-            heading: "Utseende och kännetecken",
-            body: "Rödräven känns lätt igen på sin rödbruna päls, vita strupe och bröst samt den buskiga svansen med sin karakteristiska vita svanstipp. Benens nedre delar och öronens baksidor är svarta. Färgen kan variera från ljust rödgul till mörkare brunröda nyanser.",
-          },
-          {
-            heading: "Föda och jaktteknik",
-            body: "Som opportunistisk allätare består rävens huvudsakliga föda av sorkar och möss. Den är känd för sitt 'mushopp' – där den hoppar högt i luften för att dyka rätt ner över sitt byte. Utöver smågnagare äter den bär, frukt, fågelägg, insekter och slaktavfall.",
-          },
-          {
-            heading: "Spår och tecken i naturen",
-            body: "Rävspåret liknar ett litet hundspår men är mer långsträckt. När räven travar placerar den baktassen direkt i framtassens spår och bildar en rak linje, så kallad snörlöpning. Avföringen lämnas ofta öppet på stenar eller tuvor som markering.",
-          },
-        ],
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den känns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+        quote:
+          "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
+        sections: [],
       },
       en: {
         heroSubtitle: "The nimble hunter of coast and forest",
         intro:
-          "The Red Fox is one of Sweden's most adaptable mammals. Along the Coastal Road, it moves effortlessly between dense coniferous forests, coastal meadows, and farmland.",
-        sections: [
-          {
-            heading: "Appearance and Characteristics",
-            body: "Easily recognized by its reddish-brown coat, white chest, and bushy tail with a distinct white tip. The lower legs and backs of the ears are black. Coat colors vary from pale yellowish-red to deeper reddish-brown hues.",
-          },
-          {
-            heading: "Diet and Hunting Techniques",
-            body: "An opportunistic omnivore, the fox feeds primarily on voles and mice. It is famous for its 'mouse pounce' – leaping high into the air to pin prey to the ground. It also consumes berries, eggs, insects, and carrion.",
-          },
-          {
-            heading: "Tracks and Signs",
-            body: "Fox footprints resemble small dog tracks but are more elongated. When trotting, it places its hind paws directly into the front prints, creating a straight line pattern known as 'registering'. Droppings are often placed prominently on rocks or mounds.",
-          },
-        ],
+          "The Red Fox is one of Sweden's most adaptable predators, equally at home in dense conifer forest and open coastal meadows along Kustvägen. It's easily recognized by its reddish-brown coat, white throat, and the bushy tail's white tip. An opportunistic omnivore, it hunts voles and mice with its signature pounce, while also eating berries, bird eggs, and carrion. Its tracks form a straight line in the snow, known as registering, betraying a skilled yet rarely seen hunter.",
+        quote:
+          "At dusk the fox drifts like a rust-red shadow between forest and shore – here one moment, gone the next.",
+        sections: [],
       },
       de: {
         heroSubtitle: "Der gewandte Jäger von Küste und Wald",
         intro:
-          "Der Rotfuchs gehört zu den anpassungsfähigsten Säugetieren Schwedens. Entlang des Kustvägen bewegt er sich mühelos zwischen Nadelwäldern, Küstenwiesen und Agrarflächen.",
-        sections: [
-          {
-            heading: "Aussehen und Merkmale",
-            body: "Gut erkennbar an seinem rotbraunen Fell, der weißen Brust und dem buschigen Schwanz mit weißer Spitze. Die Unterläufe und Ohrenrückseiten sind schwarz. Die Fellfärbung variiert von hellgelbrot bis dunkelbraunrot.",
-          },
-          {
-            heading: "Nahrung und Jagdverhalten",
-            body: "Als reaktionsschneller Allesfresser ernährt sich der Fuchs hauptsächlich von Mäusen und Wühlmäusen. Bekannt ist sein Mäusesprung. Zudem frisst er Beeren, Insekten, Vogeleier und Aas.",
-          },
-          {
-            heading: "Spuren und Zeichen",
-            body: "Fuchsspuren ähneln kleinen Hundespuren, sind jedoch langgestreckter. Im Trab setzt der Fuchs die Hinterpfoten genau in die Abdrücke der Vorderpfoten ('Schnüren'). Losung wird oft gut sichtbar auf Steinen abgelegt.",
-          },
-        ],
+          "Der Rotfuchs ist eines der anpassungsfähigsten Raubtiere Schwedens, ebenso zu Hause in dichtem Nadelwald wie auf offenen Küstenwiesen entlang des Kustvägen. Erkennbar ist er an seinem rotbraunen Fell, der weißen Kehle und der buschigen Schwanzspitze. Als Allesfresser jagt er Wühlmäuse und Mäuse mit seinem charakteristischen Sprung, frisst aber auch Beeren, Vogeleier und Aas. Seine Spuren bilden im Schnee eine gerade Linie – das sogenannte Schnüren – und verraten einen geschickten, selten gesehenen Jäger.",
+        quote:
+          "In der Dämmerung gleitet der Fuchs wie ein rotbrauner Schatten zwischen Wald und Küste – eben noch da, im nächsten Moment verschwunden.",
+        sections: [],
       },
     },
     media: {
