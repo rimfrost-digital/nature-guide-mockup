@@ -430,6 +430,179 @@ SÄKERHET:
     },
   },
 
+  havsorn: {
+    id: "havsorn",
+    scientificName: "Haliaeetus albicilla",
+    category: { sv: "Fåglar", en: "Birds", de: "Vögel" },
+    names: { sv: "Havsörn", en: "White-tailed Eagle", de: "Seeadler" },
+    meta: {
+      sv: {
+        title: "Havsörn – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om havsörnen längs Kustvägen. Fakta om vingspann, boplats, jakt och var du har bäst chans att få se Nordeuropas största rovfågel.",
+      },
+      en: {
+        title: "White-tailed Eagle – Kustvägen Nature Guide",
+        description:
+          "Discover the White-tailed Eagle along Kustvägen. Facts on wingspan, nesting habits, hunting, and top locations for eagle watching.",
+      },
+      de: {
+        title: "Seeadler – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Seeadler entlang des Kustvägen. Fakten zu Spannweite, Lebensraum, Jagd und Beobachtungstipps.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vingspann", value: "200–245 cm" },
+        { label: "Vikt", value: "3,5–7,0 kg (honan större)" },
+        { label: "Föda", value: "Fisk, sjöfågel, as och mindre däggdjur" },
+        { label: "Boplats", value: "Stora risbon i gamla tallar eller granar" },
+        { label: "Bevarandestatus", value: "Livskraftig (LC i Sverige)" },
+      ],
+      en: [
+        { label: "Wingspan", value: "200–245 cm" },
+        { label: "Weight", value: "3.5–7.0 kg (females are larger)" },
+        { label: "Diet", value: "Fish, waterfowl, carrion, and small mammals" },
+        { label: "Nesting", value: "Large stick nests in old pines or spruces" },
+        { label: "Conservation Status", value: "Least Concern (LC in Sweden)" },
+      ],
+      de: [
+        { label: "Spannweite", value: "200–245 cm" },
+        { label: "Gewicht", value: "3,5–7,0 kg (Weibchen sind größer)" },
+        { label: "Nahrung", value: "Fische, Wasservögel, Aas und kleine Säugetiere" },
+        { label: "Nistplatz", value: "Große Reisignester in alten Kiefern oder Fichten" },
+        { label: "Schutzstatus", value: "Nicht gefährdet (LC in Schweden)" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skärgårdens mäktiga härskare",
+        intro:
+          "Med ett vingspann på närmare två och en halv meter är havsörnen en oslagbar syn när den seglar över Kustvägens havsband och insjöar. Efter årtionden av hot från miljögifter har arten gjort en fantastisk återhämtning och är idag en stolt karaktärsfågel för regionen.",
+        sections: [
+          {
+            heading: "Kännetecken & Flykt",
+            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdräkt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
+          },
+          {
+            heading: "Livsmiljö & Häckning",
+            body: "Havsörnen trivs i orörda kust- och skärgårdsområden samt vid stora fiskrika sjöar. De bygger gigantiska risbon som kan väga flera hundra kilo och återanvänds år efter år.",
+          },
+          {
+            heading: "Jakt & Föda",
+            body: "Huvudfödan består av fisk och sjöfågel. Havsörnen slår ofta sitt byte direkt i vattenytan eller stjäl fångst från andra fåglar. Under vintern utgör slaktavfall och as en viktig del av dieten.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "Ruler of the Archipelago",
+        intro:
+          "With a wingspan reaching nearly two and a half meters, the White-tailed Eagle is an unforgettable sight soaring above Kustvägen's coasts and lakes. Following decades of decline due to environmental toxins, the species has made a remarkable recovery.",
+        sections: [
+          {
+            heading: "Characteristics & Flight",
+            body: "Adult eagles feature broad, plank-like wings, a pale yellow-brown head, and a stark white tail. Juveniles are darker with mottled plumage. Their flight is marked by slow, heavy wingbeats alternating with effortless gliding.",
+          },
+          {
+            heading: "Habitat & Nesting",
+            body: "They thrive in undisturbed coastal areas, archipelagos, and large lakes. Nests are massive structures of sticks built high in mature trees, reused and expanded year after year.",
+          },
+          {
+            heading: "Hunting & Diet",
+            body: "Primary food sources include fish and waterfowl. The eagle snatches prey directly from the water's surface or steals catches from other birds. Carrion forms a key part of their winter diet.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der mächtige Herrscher der Schären",
+        intro:
+          "Mit einer Spannweite von fast zweieinhalb Metern ist der Seeadler ein unvergesslicher Anblick, wenn er über den Küsten und Seen des Kustvägen kreist. Nach Jahrzehnten der Bedrohung hat sich der Bestand heute prächtig erholt.",
+        sections: [
+          {
+            heading: "Merkmale & Flug",
+            body: "Ausgewachsene Seeadler haben breite, brettartige Flügel, einen hellen gelbbraunen Kopf und einen reinweißen Schwanz. Der Flug ist geprägt von langsamen, kräftigen Flügelschlägen und langem Gleiten.",
+          },
+          {
+            heading: "Lebensraum & Brut",
+            body: "Seeadler bevorzugen ungestörte Küsten- und Schärengebiete sowie große, fischreiche Seen. Ihre riesigen Horste bauen sie in alten Bäumen und nutzen sie über viele Jahre hinweg.",
+          },
+          {
+            heading: "Jagd & Nahrung",
+            body: "Fische und Wasservögel bilden die Hauptnahrung. Der Seeadler greift seine Beute oft direkt von der Wasseroberfläche. Im Winter spielt Aas eine wichtige Rolle im Speiseplan.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/havsorn-hero.png",
+        alt: {
+          sv: "Havsörn sitter stolt på en tallgren med blicken riktad över havet",
+          en: "White-tailed Eagle perched proudly on a pine branch looking over the sea",
+          de: "Seeadler sitzt stolz auf einem Kiefernast mit Blick über das Meer",
+        },
+      },
+      detailImage: {
+        url: "/images/havsorn-flykt.png",
+        alt: {
+          sv: "Havsörn i flykt med utbredda vingar mot en klarblå sky",
+          en: "White-tailed eagle soaring with spread wings against a clear blue sky",
+          de: "Seeadler im Flug mit ausgebreiteten Flügeln vor blauem Himmel",
+        },
+      },
+      galleryImages: [
+        { src: "/images/havsorn-hero.png", alt: "Havsörn på en tallgren vid havet", tall: true },
+        { src: "/images/havsorn-flykt.png", alt: "Havsörn i flykt med utbredda vingar" },
+        { src: "/images/havsorn-bo.png", alt: "Stort havsörnsbo i toppen av en gammal tall" },
+        { src: "/images/havsorn-miljo.png", alt: "Kustlandskap där havsörnen söker sin föda" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på havsörnen", url: "" },
+        en: { title: "Listen to the White-tailed Eagle", url: "" },
+        de: { title: "Dem Seeadler lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Havsörnen",
+        intro: "Ställ en fråga till havsörnen och lär dig mer om dess liv längs kusten!",
+        presetQuestions: ["Hur stort är ditt bo?", "Vad äter du helst?", "Hur snabbt flyger du?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Eagle",
+        intro: "Ask the White-tailed Eagle a question to learn more about its coastal life!",
+        presetQuestions: ["How large is your nest?", "What is your favorite food?", "How fast can you fly?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Seeadler",
+        intro: "Stelle dem Seeadler eine Frage und erfahre mehr über sein Leben an der Küste!",
+        presetQuestions: ["Wie groß ist dein Nest?", "Was frisst du am liebsten?", "Wie schnell fliegst du?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en havsörn (Haliaeetus albicilla) längs Kustvägen i Hälsingland och Västernorrland. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta i denna post: Nordeuropas största rovfågel, vingspann 200–245 cm, vikt 3,5–7,0 kg (honan större), breda rektangulära vingar, ljust gulbrunt huvud och kritvit stjärt. Boet är ett gigantiskt risbo i gamla tallar eller granar som kan väga flera hundra kilo och byggs ut år efter år. Du äter fisk och sjöfågel, slår ofta bytet direkt i vattenytan och äter as på vintern. I glidflykt flyger du runt 50–60 km/h men snabbare i dykning. Om frågan inte handlar om havsörn eller natur, led vänligt tillbaka till kusten. Hitta aldrig på fakta och säg att du inte vet när underlaget saknar svaret.`,
+    avatarImage: "/images/species-eagle.png",
+    chatAvatarAlt: "Havsörnens ansikte",
+    relatedSpecies: [
+      { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/sp-osprey.png" },
+      { slug: "spillkraka", name: "Spillkråka", latin: "Dryocopus martius", image: "/images/sp-woodpecker.png" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lodjur-v2-hero.jpg" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler fåglar",
+      en: "Discover more birds",
+      de: "Weitere Vögel entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla fåglar",
+      en: "View all birds",
+      de: "Alle Vögel anzeigen",
+    },
+  },
+
   rodrav: {
     id: "rodrav",
     scientificName: "Vulpes vulpes",
