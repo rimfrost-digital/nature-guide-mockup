@@ -724,6 +724,217 @@ SÄKERHET:
     },
   },
 
+  stromming: {
+    id: "stromming",
+    scientificName: "Clupea harengus membras",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Strömming", en: "Baltic Herring", de: "Ostseehering" },
+    meta: {
+      sv: {
+        title: "Strömming – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om strömmingen längs Kustvägen. Fakta om Östersjöns silver, lekplatser, ekologisk betydelse och lokal matkultur.",
+      },
+      en: {
+        title: "Baltic Herring – Kustvägen Nature Guide",
+        description:
+          "Discover the Baltic Herring along Kustvägen. Learn about ecological importance, spawning grounds, and coastal food heritage.",
+      },
+      de: {
+        title: "Ostseehering – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Ostseehering (Strömming) am Kustvägen. Fakten zu Ökologie, Laichplätzen und historischem Heringsfang.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Längd", value: "15–25 cm" },
+        { label: "Vikt", value: "50–150 g" },
+        { label: "Föda", value: "Djurplankton & kräftdjur" },
+        { label: "Livsmiljö", value: "Östersjöns kust & öppet hav" },
+      ],
+      en: [
+        { label: "Length", value: "15–25 cm" },
+        { label: "Weight", value: "50–150 g" },
+        { label: "Diet", value: "Zooplankton & crustaceans" },
+        { label: "Habitat", value: "Baltic coast & open sea" },
+      ],
+      de: [
+        { label: "Länge", value: "15–25 cm" },
+        { label: "Gewicht", value: "50–150 g" },
+        { label: "Nahrung", value: "Zooplankton & Krebstiere" },
+        { label: "Lebensraum", value: "Ostseeküste & offenes Meer" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Östersjöns silverskatt",
+        intro:
+          "Strömmingen är Östersjöns viktigaste nyckelart och en hörnsten i Kustvägens kulturarv och mattradition. Att se ett stim glittra i solljuset under vattenytan är en fascinerande syn.\n\nSom den avgörande länken mellan plankton och större rovdjur – som torsk, säl och havsörn – bär strömmingen upp hela det marina ekosystemet i Bottenhavet.",
+        quote: "Strömmingen är inte bara skärgårdens matkultur – den är själen och motorn i hela Östersjöns ekosystem.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Stimliv",
+            body: "Strömmingen har en slank kropp med silvriga sidor, mörkblå rygg och bukfällar med en svag köl. Den lever i gigantiska stim som rör sig i rytmiska mönster. Stimmet fungerar som ett effektivt försvar där de tusentals glittrande kropparna förvillar jagande rovdjur.",
+            image: "/images/stromming-stim.png",
+            alt: "Närbild på strömmingens silvriga fjäll under vattenytan",
+            caption: "Tusentals fiskar rör sig synkroniserat i skyddande stim.",
+          },
+          {
+            heading: "Livscykel & Lek",
+            body: "Under vår och höst söker sig strömmingen in mot grundare kustområden och skärgårdens tångbälten för att leka. Honan lägger sina klibbiga ägg på växter och stenar. Larverna kläcks efter ett par veckor och livnär sig på djurplankton.",
+            image: "/images/stromming-bo.png",
+            alt: "Undervattensbild av tångbälte i skärgården där strömmingen leker",
+            caption: "Skärgårdens grunda tångvikar är avgörande barnkammare för strömmingen.",
+          },
+          {
+            heading: "Kultur & Fiske",
+            body: "Fisket efter strömming har livnärt befolkningen längs Kustvägen i århundraden. Från historiskt salteri och rökning till klassiker som stekt strömming och surströmming är fisken en djup del av regionens identitet och kulinariska historia.",
+            image: "/images/stromming-miljo.png",
+            alt: "Gammalt fiskeläge längs Kustvägen med träbryggor och strömmingsnät",
+            caption: "Kustvägens gamla fiskelägen vittnar om strömmingens historiska betydelse.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Baltic's Silver Treasure",
+        intro:
+          "The Baltic Herring is a keystone species of the Baltic Sea and a cornerstone of Kustvägen's cultural and culinary heritage. Watching a school shimmer in the sunlight beneath the waves is a mesmerizing sight.\n\nServing as the vital bridge between microscopic plankton and top predators—such as cod, seals, and eagles—the herring sustains the entire marine ecosystem.",
+        quote: "The Baltic Herring is not just coastal culinary tradition—it is the heartbeat and engine of the Baltic Sea.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Schooling",
+            body: "The Baltic Herring features a slender body with silvery sides, a dark blue back, and keel-like belly scales. They live in massive schools that move in synchronized rhythms, confusing hunting predators with thousands of glittering bodies.",
+            image: "/images/stromming-stim.png",
+            alt: "Close-up of silvery herring scales glistening underwater",
+            caption: "Thousands of fish move synchronously in protective schools.",
+          },
+          {
+            heading: "Lifecycle & Spawning",
+            body: "During spring and autumn, herring migrate to shallow coastal areas and kelp beds to spawn. Females lay adhesive eggs on vegetation and rocks. The larvae hatch after a couple of weeks, feeding on plankton.",
+            image: "/images/stromming-bo.png",
+            alt: "Underwater view of shallow coastal seaweed bed where herring spawn",
+            caption: "Shallow archipelago bays serve as crucial nurseries for young herring.",
+          },
+          {
+            heading: "Heritage & Fishing",
+            body: "Herring fishing has sustained coastal communities along Kustvägen for centuries. From historic salting and smoking to delicacies like fried herring and fermented surströmming, the fish is deeply embedded in regional culture.",
+            image: "/images/stromming-miljo.png",
+            alt: "Historic fishing village along Kustvägen with wooden docks and nets",
+            caption: "Historic fishing harbors along Kustvägen bear witness to the herring's legacy.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Silberschatz der Ostsee",
+        intro:
+          "Der Ostseehering (Strömming) ist eine Schlüsselart der Ostsee und ein zentraler Baustein der Kultur- und Essgeschichte des Kustvägen.\n\nAls entscheidendes Bindeglied zwischen Plankton und Raubtieren – wie Dorsch, Robben und Seeadler – trägt der Hering das gesamte marine Ökosystem.",
+        quote: "Der Ostseehering ist nicht nur Kulinarik der Schären – er ist der Puls und Motor der gesamten Ostsee.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Schwarmverhalten",
+            body: "Der Ostseehering hat einen schlanken Körper mit silbernen Seiten und dunklem Rücken. Sie leben in riesigen Schwärmen, deren synchrone Bewegungen Fressfeinde verwirren.",
+            image: "/images/stromming-stim.png",
+            alt: "Nahaufnahme von silbernen Heringsschuppen unter Wasser",
+            caption: "Tausende Fische bewegen sich synchron im schützenden Schwarm.",
+          },
+          {
+            heading: "Lebenszyklus & Laichen",
+            body: "Im Frühjahr und Herbst ziehen die Heringe in flache Küstenzonen und Tangwälder, um zu laichen. Die Eier haften an Pflanzen und Felsen, wo die Larven nach wenigen Wochen schlüpfen.",
+            image: "/images/stromming-bo.png",
+            alt: "Unterwasseraufnahme eines Tangwaldes in den Schären",
+            caption: "Flache Schärenbuchten sind wichtige Kinderstuben für den Hering.",
+          },
+          {
+            heading: "Kultur & Fischerei",
+            body: "Der Heringsfang ernährt die Küstenregion am Kustvägen seit Jahrhunderten. Von historischem Einsalzen bis zu Delikatessen wie Surströmming prägt der Fisch die Identität der Region.",
+            image: "/images/stromming-miljo.png",
+            alt: "Historisches Fischerdorf am Kustvägen mit Holzstegen und Netzen",
+            caption: "Historische Fischerdörfer zeugen von der Bedeutung des Herings.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/stromming-hero.png",
+        alt: {
+          sv: "Ett stim av strömming simmar i det klara, grönblå Östersjövattnet",
+          en: "A school of Baltic herring swimming in clear greenish-blue Baltic sea water",
+          de: "Ein Schwarm Ostseeheringe schwimmt im klaren grünblauen Wasser",
+        },
+      },
+      detailImage: {
+        url: "/images/stromming-stim.png",
+        alt: {
+          sv: "Närbild på strömmingens silvriga fjäll under vattenytan",
+          en: "Close-up of silvery herring scales glistening underwater",
+          de: "Nahaufnahme von silbernen Heringsschuppen unter Wasser",
+        },
+      },
+      galleryImages: [
+        { src: "/images/stromming-hero.png", alt: "Stim av strömming i klart vatten", tall: true },
+        { src: "/images/stromming-stim.png", alt: "Strömmingsstim virvlar i vattnet" },
+        { src: "/images/stromming-bo.png", alt: "Tångbälte där strömmingen leker" },
+        { src: "/images/stromming-miljo.png", alt: "Gammalt fiskeläge längs Kustvägen" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på berättelsen om strömmingen", url: "" },
+        en: { title: "Listen to the Story of the Baltic Herring", url: "" },
+        de: { title: "Dem Ostseehering lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Strömmingen",
+        intro: "Ställ en fråga till strömmingen och lär dig mer om dess liv i Östersjön!",
+        presetQuestions: ["Varför simmar ni i så stora stim?", "Vad är skillnaden på sill och strömming?", "Vad äter du?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Baltic Herring",
+        intro: "Ask the Baltic Herring a question to learn more about its life in the sea!",
+        presetQuestions: [
+          "Why do you swim in huge schools?",
+          "What is the difference between herring and Baltic herring?",
+          "What do you eat?",
+        ],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Ostseehering",
+        intro: "Stelle dem Ostseehering eine Frage und erfahre mehr über sein Leben im Meer!",
+        presetQuestions: [
+          "Warum schwimmt ihr in so großen Schwärmen?",
+          "Was ist der Unterschied zwischen Hering und Strömming?",
+          "Was frisst du am liebsten?",
+        ],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en strömming (Clupea harengus membras) längs Kustvägen i Bottenhavet. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta i denna post: 15–25 cm lång, 50–150 g, slank kropp med silvriga sidor och mörkblå rygg. Du lever i gigantiska stim som rör sig synkroniserat som skydd mot rovdjur som säl, torsk och havsörn. Under vår och höst leker du i skärgårdens tångbälten där honan lägger klibbiga ägg på växter och stenar. Du äter djurplankton och kräftdjur som du filtrerar ur vattnet. Sill och strömming är samma art, men fisken som fångas norr om Kalmarsund i den mindre salta Östersjön kallas strömming och blir ofta något mindre. Om frågan inte handlar om strömming eller havet, led vänligt tillbaka till Östersjön. Hitta aldrig på fakta och säg att du inte vet när underlaget saknar svaret.`,
+    avatarImage: "/images/sp-herring.png",
+    chatAvatarAlt: "Strömmingens ansikte",
+    relatedSpecies: [
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/species-eagle.png" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lodjur-v2-hero.jpg" },
+      { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler fiskar",
+      en: "Discover more fish",
+      de: "Weitere Fische entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla fiskar",
+      en: "View all fish",
+      de: "Alle Fische anzeigen",
+    },
+  },
+
   rodrav: {
     id: "rodrav",
     scientificName: "Vulpes vulpes",
