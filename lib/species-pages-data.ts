@@ -245,7 +245,6 @@ export const speciesPagesData: Record<string, SpeciesPageData> = {
         {
           src: "/images/lynx-rock.png",
           alt: "Lodjur som rör sig genom skogen",
-          tall: true,
           video: "/video/lodjur.mp4",
         },
         { src: "/images/lodjur-sno.png",       alt: "Lodjur vandrar genom vinterlandskap" },
@@ -670,7 +669,6 @@ SÄKERHET:
         {
           src: "/images/havsorn-hero.png",
           alt: "Havsörn på en tallgren vid havet",
-          tall: true,
           video: "/video/havsorn.mp4",
           poster: "/images/havsorn-hero.png",
         },
@@ -879,7 +877,6 @@ SÄKERHET:
         {
           src: "/images/stromming-hero.png",
           alt: "Stim av strömming i klart vatten",
-          tall: true,
           video: "/video/stromming.mp4",
           poster: "/images/stromming-hero.png",
         },

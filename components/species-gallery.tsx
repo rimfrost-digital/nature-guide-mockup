@@ -46,9 +46,7 @@ function VideoTile({ item }: { item: GalleryItem }) {
   }
 
   return (
-    <div
-      className={`group relative overflow-hidden rounded-2xl break-inside-avoid ${item.tall ? "aspect-[3/4]" : "aspect-square"}`}
-    >
+    <div className="group relative aspect-video overflow-hidden rounded-2xl break-inside-avoid">
       <video
         ref={videoRef}
         src={item.video}
