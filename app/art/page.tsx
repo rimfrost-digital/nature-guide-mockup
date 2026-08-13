@@ -112,34 +112,6 @@ export default async function ArtPage({ searchParams }: Props) {
         </div>
       </section>
 
-      {/* Audio guide */}
-      {namn !== "lodjur-v2" && (
-        <section className="bg-[#F4F1E8]">
-          <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-10">
-            <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
-          </div>
-        </section>
-      )}
-
-      {/* Talk to nature */}
-      {namn !== "lodjur-v2" && (
-        <TalkToNature
-          title={interactive.title}
-          intro={interactive.intro}
-          presetQuestions={interactive.presetQuestions}
-          avatarImage={data.avatarImage}
-          avatarAlt={data.chatAvatarAlt}
-          welcomeMessage={chatWelcome}
-          inputPlaceholder={chatPlaceholder}
-          inputAriaLabel={chatAriaLabel}
-          tagLabel={tagLabel}
-          subNote={subNote}
-          speciesId={namn}
-          audioSrc={lynxSound}
-          audioLabel="Så här låter lodjuret"
-        />
-      )}
-
       {/* Quick facts */}
       <section className="bg-[#F4F1E8]">
         <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
@@ -169,6 +141,34 @@ export default async function ArtPage({ searchParams }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Audio guide */}
+      {namn !== "lodjur-v2" && (
+        <section className="bg-[#F4F1E8]">
+          <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-10">
+            <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
+          </div>
+        </section>
+      )}
+
+      {/* Talk to nature */}
+      {namn !== "lodjur-v2" && (
+        <TalkToNature
+          title={interactive.title}
+          intro={interactive.intro}
+          presetQuestions={interactive.presetQuestions}
+          avatarImage={data.avatarImage}
+          avatarAlt={data.chatAvatarAlt}
+          welcomeMessage={chatWelcome}
+          inputPlaceholder={chatPlaceholder}
+          inputAriaLabel={chatAriaLabel}
+          tagLabel={tagLabel}
+          subNote={subNote}
+          speciesId={namn}
+          audioSrc={lynxSound}
+          audioLabel="Så här låter lodjuret"
+        />
+      )}
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
