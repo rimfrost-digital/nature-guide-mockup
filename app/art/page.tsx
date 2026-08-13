@@ -149,21 +149,23 @@ export default async function ArtPage({ searchParams }: Props) {
       </section>
 
       {/* Talk to nature */}
-      <TalkToNature
-        title={interactive.title}
-        intro={interactive.intro}
-        presetQuestions={interactive.presetQuestions}
-        avatarImage={data.avatarImage}
-        avatarAlt={data.chatAvatarAlt}
-        welcomeMessage={chatWelcome}
-        inputPlaceholder={chatPlaceholder}
-        inputAriaLabel={chatAriaLabel}
-        tagLabel={tagLabel}
+      {namn !== "lodjur-v2" && (
+        <TalkToNature
+          title={interactive.title}
+          intro={interactive.intro}
+          presetQuestions={interactive.presetQuestions}
+          avatarImage={data.avatarImage}
+          avatarAlt={data.chatAvatarAlt}
+          welcomeMessage={chatWelcome}
+          inputPlaceholder={chatPlaceholder}
+          inputAriaLabel={chatAriaLabel}
+          tagLabel={tagLabel}
           subNote={subNote}
           speciesId={namn}
           audioSrc={lynxSound}
           audioLabel="Så här låter lodjuret"
         />
+      )}
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
