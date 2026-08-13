@@ -114,7 +114,7 @@ export default async function ArtPage({ searchParams }: Props) {
       {/* Audio guide */}
       {namn !== "lodjur-v2" && (
         <section className="bg-[#F4F1E8]">
-          <div className="mx-auto max-w-6xl px-5 py-6 sm:px-8">
+          <div className="mx-auto max-w-6xl px-5 py-8 sm:px-8 sm:py-10">
             <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
           </div>
         </section>
@@ -141,7 +141,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Quick facts */}
       <section className="bg-[#F4F1E8]">
-        <div className="mx-auto max-w-6xl px-5 pb-14 pt-6 sm:px-8">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
             {quickFactsHeading}
           </h2>
@@ -171,7 +171,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
-        <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-20 sm:px-8 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-start gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2">
           <div>
             <h2 className="text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
               {content.heroSubtitle}
@@ -206,7 +206,7 @@ export default async function ArtPage({ searchParams }: Props) {
       {/* Details grid */}
       {content.detailsGrid && content.detailsGrid.length > 0 && (
         <section className="bg-[#F4F1E8]">
-          <div className="mx-auto max-w-6xl px-5 pb-20 sm:px-8">
+          <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
             <div className="grid gap-8 sm:grid-cols-3">
               {content.detailsGrid.map((card) => (
                 <div key={card.heading} className="flex flex-col">
@@ -234,7 +234,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Gallery */}
       <section className="bg-[#1d2521]">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
             {galleryHeading}
           </h2>
@@ -244,7 +244,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Related species */}
       <section className="bg-[#2f4437]">
-        <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
           <h2 className="mb-8 font-serif text-4xl font-semibold text-[#F4F1E8]">
             {relatedHeading}
           </h2>
