@@ -120,7 +120,7 @@ export default async function ArtPage({ searchParams }: Props) {
       {/* Audio guide */}
       {namn !== "lodjur-v2" && (
         <section className="bg-[#F4F1E8]">
-          <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
+          <div className="mx-auto max-w-6xl px-5 pt-8 sm:px-8 sm:pt-10">
             <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
           </div>
         </section>
