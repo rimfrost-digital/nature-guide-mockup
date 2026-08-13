@@ -43,6 +43,7 @@ export default async function ArtPage({ searchParams }: Props) {
   const galleryImages = data.media.galleryImages
   const relatedHeading = data.relatedSectionHeading[l]
   const relatedLink = data.relatedLinkLabel[l]
+  const hasDetailsGrid = Boolean(content.detailsGrid && content.detailsGrid.length > 0)
 
   // Localized UI strings
   const audioTitle = data.media.audio[l].title
@@ -141,7 +142,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Quick facts */}
       <section className="bg-[#F4F1E8]">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+        <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
           <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
             {quickFactsHeading}
           </h2>
@@ -171,7 +172,11 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
-        <div className="mx-auto grid max-w-6xl items-start gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-2">
+        <div
+          className={`mx-auto grid max-w-6xl items-start gap-10 px-5 pt-16 sm:px-8 sm:pt-20 lg:grid-cols-2 ${
+            hasDetailsGrid ? "" : "pb-16 sm:pb-20"
+          }`}
+        >
           <div>
             <h2 className="text-balance font-serif text-4xl font-semibold leading-tight text-[#2f4437] sm:text-5xl">
               {content.heroSubtitle}
@@ -204,7 +209,7 @@ export default async function ArtPage({ searchParams }: Props) {
       </section>
 
       {/* Details grid */}
-      {content.detailsGrid && content.detailsGrid.length > 0 && (
+      {hasDetailsGrid && (
         <section className="bg-[#F4F1E8]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
             <div className="grid gap-8 sm:grid-cols-3">
