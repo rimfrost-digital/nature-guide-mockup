@@ -120,36 +120,6 @@ export default async function ArtPage({ searchParams }: Props) {
         </section>
       )}
 
-      {/* Quick facts */}
-      <section className="bg-[#F4F1E8]">
-        <div className="mx-auto max-w-6xl px-5 pb-14 pt-6 sm:px-8">
-          <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
-            {quickFactsHeading}
-          </h2>
-          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
-            {quickFacts.map((fact, i) => {
-              const Icon = FACT_ICONS[i % FACT_ICONS.length]
-              return (
-                <div
-                  key={fact.label}
-                  className="flex flex-col gap-3 rounded-2xl border border-[#5A6B54]/40 bg-transparent p-5"
-                >
-                  <Icon className="h-7 w-7 text-[#5A6B54]" strokeWidth={1.5} />
-                  <div>
-                    <p className="text-xs font-medium uppercase tracking-[0.15em] text-[#5A6B54]">
-                      {fact.label}
-                    </p>
-                    <p className="mt-1 font-serif text-lg font-medium leading-snug text-[#1d2521]">
-                      {fact.value}
-                    </p>
-                  </div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Talk to nature */}
       {namn !== "lodjur-v2" && (
         <TalkToNature
@@ -200,6 +170,36 @@ export default async function ArtPage({ searchParams }: Props) {
               />
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Quick facts */}
+      <section className="bg-[#F4F1E8]">
+        <div className="mx-auto max-w-6xl px-5 pb-14 pt-6 sm:px-8">
+          <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
+            {quickFactsHeading}
+          </h2>
+          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+            {quickFacts.map((fact, i) => {
+              const Icon = FACT_ICONS[i % FACT_ICONS.length]
+              return (
+                <div
+                  key={fact.label}
+                  className="flex flex-col gap-3 rounded-2xl border border-[#5A6B54]/40 bg-transparent p-5"
+                >
+                  <Icon className="h-7 w-7 text-[#5A6B54]" strokeWidth={1.5} />
+                  <div>
+                    <p className="text-xs font-medium uppercase tracking-[0.15em] text-[#5A6B54]">
+                      {fact.label}
+                    </p>
+                    <p className="mt-1 font-serif text-lg font-medium leading-snug text-[#1d2521]">
+                      {fact.value}
+                    </p>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </div>
       </section>
 
