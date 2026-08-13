@@ -424,9 +424,9 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Hälsinglands mystiska landskapsdjur",
         intro:
-          "Lodjuret är Europas största vilda kattdjur och kan bli upp till 130 centimeter långt och väga omkring 25 kilo. Det känns lätt igen på sina spetsiga öron med svarta tofsar och sin korta svans. Lodjuret har mycket bra hörsel, luktsinne och mörkerseende och är därför ofta aktivt på natten. Det är ett köttätande rovdjur som bland annat jagar rådjur, renar och rävar. Lodjuret lever oftast ensamt och är mycket skyggt, vilket gör det ovanligt att få syn på i naturen. Honan tar hand om sina ungar och lär dem att bli skickliga jägare innan de efter ungefär ett år får klara sig själva.",
+          "Med sin kroppslängd på upp till 130 centimeter och en vikt på runt 25 kilo är lodjuret Europas största vilda kattdjur. Precis som andra kattdjur har det mycket bra lukt och hörsel, och med sitt utmärkta mörkerseende är det gärna i farten på natten.\n\nLodjuret är köttätare och en skicklig jägare som kan ta både rådjur, renar och rävar. Det lever oftast ensamt och är väldigt skyggt, men nyfikenheten kan ändå ta det på upptäcktsfärder. Honan föder sina ungar i maj–juni och lär under ungefär ett år upp dem till skickliga jägare innan de lämnas för att klara sig själva.\n\nMed lite tur kan du få en skymt av detta rovdjur, som med sina karaktäristiska tofsar på öronen är ett av skogens mest populära djur. I Sverige finns det just nu runt 1 500 lodjur.",
         quote:
-          "Att få se ett vilt lodjur i dess naturliga miljö är som att få en skymt av själva skogens själ.",
+          "Med lite tur kan du få en skymt av ett av skogens mest populära rovdjur.",
         sections: [],
       },
       en: {
