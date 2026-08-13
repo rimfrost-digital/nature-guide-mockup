@@ -1405,7 +1405,6 @@ SÄKERHET:
         { label: "Höjd", value: "15 – 35 meter" },
         { label: "Maxålder", value: "Upp till 500–600 år" },
         { label: "Kännetecken", value: "Rödbrun skorpbark, barr i par, rundad krona som äldre" },
-        { label: "Livsmiljö", value: "Hällmarker, sandhedar, kusttallskog, myrmark" },
       ],
       en: [
         { label: "Scientific Name", value: "Pinus sylvestris" },
@@ -1443,7 +1442,7 @@ SÄKERHET:
       },
     },
     media: {
-      heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der Küste" } },
+      heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der K��ste" } },
       detailImage: { url: "/images/tall-bark.png", alt: { sv: "Tallstam med rödbrun bark och barr", en: "Scots pine bark and paired needles", de: "Rinde und Nadeln einer Waldkiefer" } },
       galleryImages: [
         { src: "/images/tall-hero.png", alt: "Gammal tall med karaktäristisk rödbrun skorpbark", tall: true },
