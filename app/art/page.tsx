@@ -38,7 +38,12 @@ export default async function ArtPage({ searchParams }: Props) {
   const quickFacts = data.quickFacts[l]
   const interactive = data.interactive[l]
   const heroAlt = data.media.heroImage.alt[l]
-  const lynxSound = namn === "lodjur" || namn === "lodjur-v2" ? "/audio/what-does-the-lynx-say.mp3" : undefined
+  const CREATURE_SOUNDS: Record<string, { src: string; label: string }> = {
+    lodjur: { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
+    "lodjur-v2": { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
+    havsorn: { src: "/audio/what-does-the-havsorn-say.mp3", label: "Så här låter djuret" },
+  }
+  const creatureSound = CREATURE_SOUNDS[namn]
   const detailAlt = data.media.detailImage?.alt[l] ?? ""
   const galleryImages = data.media.galleryImages
   const relatedHeading = data.relatedSectionHeading[l]
@@ -169,8 +174,8 @@ export default async function ArtPage({ searchParams }: Props) {
           tagLabel={tagLabel}
           subNote={subNote}
           speciesId={namn}
-          audioSrc={lynxSound}
-          audioLabel="Så här låter lodjuret"
+          audioSrc={creatureSound?.src}
+          audioLabel={creatureSound?.label}
         />
       )}
 
