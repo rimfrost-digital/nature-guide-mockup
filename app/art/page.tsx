@@ -42,6 +42,7 @@ export default async function ArtPage({ searchParams }: Props) {
     lodjur: { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
     "lodjur-v2": { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
     havsorn: { src: "/audio/what-does-the-havsorn-say.mp3", label: "Så här låter djuret" },
+    tall: { src: "/audio/tall_vind.mp3", label: "Så här låter tallen" },
   }
   const creatureSound = CREATURE_SOUNDS[namn]
   const detailAlt = data.media.detailImage?.alt[l] ?? ""
@@ -218,7 +219,7 @@ export default async function ArtPage({ searchParams }: Props) {
         <section className="bg-[#F4F1E8]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
             <div className="grid gap-8 sm:grid-cols-3">
-              {content.detailsGrid.map((card) => (
+              {content.detailsGrid?.map((card) => (
                 <div key={card.heading} className="flex flex-col">
                   <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                     <Image

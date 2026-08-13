@@ -1389,4 +1389,89 @@ SÄKERHET:
       de: "Alle Pilze & Pflanzen anzeigen",
     },
   },
-}
+  tall: {
+    id: "tall",
+    scientificName: "Pinus sylvestris",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Tall", en: "Scots Pine", de: "Waldkiefer" },
+    meta: {
+      sv: { title: "Tall – Kustens vindpinade överlevare", description: "Lär känna tallen, kustens vindpinade överlevare." },
+      en: { title: "Scots Pine – The Windswept Survivor of the Coast", description: "Discover the resilient Scots pine along the Swedish coast." },
+      de: { title: "Waldkiefer – Der windgepeitschte Überlebende der Küste", description: "Entdecken Sie die widerstandsfähige Waldkiefer an der Küste." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vetenskapligt namn", value: "Pinus sylvestris" },
+        { label: "Höjd", value: "15 – 35 meter" },
+        { label: "Maxålder", value: "Upp till 500–600 år" },
+        { label: "Kännetecken", value: "Rödbrun skorpbark, barr i par, rundad krona som äldre" },
+        { label: "Livsmiljö", value: "Hällmarker, sandhedar, kusttallskog, myrmark" },
+      ],
+      en: [
+        { label: "Scientific Name", value: "Pinus sylvestris" },
+        { label: "Height", value: "15 – 35 meters" },
+        { label: "Max Age", value: "Up to 500–600 years" },
+        { label: "Features", value: "Reddish-brown plated bark, needles in pairs, rounded crown" },
+        { label: "Habitat", value: "Rocky ground, pine barrens, coastal woods, peat bogs" },
+      ],
+      de: [
+        { label: "Wissenschaftlicher Name", value: "Pinus sylvestris" },
+        { label: "Höhe", value: "15 – 35 Meter" },
+        { label: "Höchstalter", value: "Bis zu 500–600 Jahre" },
+        { label: "Merkmale", value: "Rotbraune Schuppenborke, Nadeln in Paaren" },
+        { label: "Lebensraum", value: "Felsböden, Sandheiden, Küstenwälder, Moore" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Kustens vindpinade överlevare",
+        intro: "Tallen är ett av Sveriges mest karaktäristiska och anpassningsbara barrträd. Som ung växer den konformat, men med åldern bildar den en plattare, paraplyliknande krona. Barken nedtill på äldre träd formas till grov, pansarliknande skorpbark ('sköldbark') som skyddar mot brand, medan den övre stammen har en lysande kopparröd färg. Barrarna sitter två och två och sitter kvar i 3 till 8 år beroende på klimat.\n\nLängs Kustvägen möter du tallen i dess mest dramatiska former. På karga klippor och hällmarker tvingas den klamra sig fast med ett djupgående pålrotsystem eller genom att söka sig ner i bergsskrevor. Vindarna formar träden till låga, vridna 'martallar'. Tallen tål extrem torka och saltstänk bättre än granen och spelar en avgörande roll för att binda sand och jord vid kusten.\n\nTallen är en nyckelart i nordiska ekosystem. Gamla tallar och stående död tallved (torrakor) ger boplats och föda åt hundratals arter av svampar, lavar, insekter och fåglar.",
+        quote: "Tallen har stått emot kustens stormar i århundraden.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The Windswept Survivor of the Coast",
+        intro: "The Scots pine is one of Sweden's most iconic and adaptable conifers. Young trees grow in a conical shape, while mature trees form a flatter, umbrella-like canopy.\n\nAlong Kustvägen, pines endure harsh coastal conditions. Strong winds carve them into gnarled trees that tolerate drought and salt spray better than spruce.\n\nScots pine is a keystone species, providing habitat for hundreds of insects, fungi and birds.",
+        quote: "The Scots pine has weathered coastal storms for centuries.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der windgepeitschte Überlebende der Küste",
+        intro: "Die Waldkiefer ist ein charakteristischer und anpassungsfähiger Nadelbaum Schwedens. Junge Bäume wachsen kegelförmig, ältere entwickeln eine flachere, schirmartige Krone.\n\nAn der Kustvägen trotzt die Kiefer rauen Winden, Trockenheit und Salzgischt.\n\nAls Schlüsselart bietet sie Lebensraum für Hunderte von Insekten-, Pilz- und Vogelarten.",
+        quote: "Die Waldkiefer trotzt seit Jahrhunderten den Stürmen der Küste.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der Küste" } },
+      detailImage: { url: "/images/tall-bark.png", alt: { sv: "Tallstam med rödbrun bark och barr", en: "Scots pine bark and paired needles", de: "Rinde und Nadeln einer Waldkiefer" } },
+      galleryImages: [
+        { src: "/images/tall-hero.png", alt: "Gammal tall med karaktäristisk rödbrun skorpbark", tall: true },
+        { src: "/images/tall-bark.png", alt: "Närbild på tallbarr i par" },
+        { src: "/images/tall-kotte.png", alt: "Närbild på grön och brun tallkotte" },
+        { src: "/images/tall-hallmark.png", alt: "Vriden tall på kustklippa" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Guide zuhören", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Tallen", intro: "Jag har stått emot kustens stormar i århundraden. Fråga mig om hur jag överlever torka, hur gammal jag kan bli eller vilka djur som bor i min krona!", presetQuestions: ["Hur kan du växa direkt på nakna berget?", "Hur gamla kan martallar bli?", "Vad är skillnaden på tall och gran?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Scots Pine", intro: "I have weathered coastal storms for centuries. Ask me about how I survive drought, how old I can get, or who lives in my branches!", presetQuestions: ["How do you grow on bare rock?", "How old can coastal pines get?", "What is the difference between pine and spruce?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an die Waldkiefer", intro: "Ich trotze seit Jahrhunderten den Stürmen der Küste. Frage mich, wie ich auf kargem Fels überlebe oder wer in meiner Krone wohnt!", presetQuestions: ["Wie kannst du auf barem Fels wachsen?", "Wie alt können Küstenkiefern werden?", "Was ist der Unterschied zwischen Kiefer und Fichte?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en tall (Pinus sylvestris) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tallens sida.",
+    avatarImage: "/images/tall-hero.png",
+    chatAvatarAlt: "En tall vid kusten",
+    relatedSpecies: [
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/havsorn-hero.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/stromming-hero.png" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lodjur-v2-hero.jpg" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  }
+
