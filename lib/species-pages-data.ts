@@ -1296,7 +1296,7 @@ SÄKERHET:
         },
       },
       audio: {
-        sv: { title: "Lyssna på berättelsen om skogens guld", url: "" },
+        sv: { title: "Lyssna på guiden", url: "" },
         en: { title: "Listen to the Story of the Chanterelle", url: "" },
         de: { title: "Dem Pfifferling lauschen", url: "" },
       },
