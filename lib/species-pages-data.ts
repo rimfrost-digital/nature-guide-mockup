@@ -1445,8 +1445,8 @@ SÄKERHET:
       heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der K��ste" } },
       detailImage: { url: "/images/tall-bark.png", alt: { sv: "Tallstam med rödbrun bark och barr", en: "Scots pine bark and paired needles", de: "Rinde und Nadeln einer Waldkiefer" } },
       galleryImages: [
-        { src: "/images/tall-hero.png", alt: "Gammal tall med karaktäristisk rödbrun skorpbark", tall: true },
         { src: "/images/tall-video-poster.png", alt: "Tallskog längs Kustvägen", video: "/video/tall-kustvagen.mp4", tall: true },
+        { src: "/images/tall-hero.png", alt: "Gammal tall med karaktäristisk rödbrun skorpbark", tall: true },
         { src: "/images/tall-bark.png", alt: "Närbild på tallbarr i par" },
         { src: "/images/tall-kotte.png", alt: "Närbild på grön och brun tallkotte" },
         { src: "/images/tall-hallmark.png", alt: "Vriden tall på kustklippa" },
