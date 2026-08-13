@@ -128,11 +128,7 @@ export default async function ArtPage({ searchParams }: Props) {
 
       {/* Quick facts */}
       <section className="bg-[#F4F1E8]">
-        <div
-          className={`mx-auto max-w-6xl px-5 sm:px-8 ${
-            namn !== "lodjur-v2" ? "pt-8 sm:pt-10" : "pt-16 sm:pt-20"
-          }`}
-        >
+        <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
           <h2 className="mb-6 font-serif text-3xl font-semibold text-[#2f4437]">
             {quickFactsHeading}
           </h2>

@@ -97,7 +97,7 @@ export function TalkToNature({
 
   return (
     <section className="bg-[#F4F1E8]">
-      <div className="mx-auto max-w-6xl px-5 pb-14 sm:px-8">
+      <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
         <div className="rounded-3xl bg-[#2f4437] p-6 sm:p-10">
           {/* Header */}
           <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#B89452]">
