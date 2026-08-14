@@ -1473,5 +1473,102 @@ SÄKERHET:
     relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
     relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
   },
+  lin: {
+    id: "lin",
+    scientificName: "Linum usitatissimum",
+    category: { sv: "Växter", en: "Plants", de: "Pflanzen" },
+    names: { sv: "Lin", en: "Flax", de: "Gemeiner Lein (Flachs)" },
+    meta: {
+      sv: { title: "Lin – Kustbygdens himmelsblå guld", description: "Lär känna linet, kustbygdens himmelsblå guld." },
+      en: { title: "Flax – The sky-blue gold of the coast", description: "Discover flax, the sky-blue gold of the coast." },
+      de: { title: "Lein – Das himmelblaue Gold der Küste", description: "Entdecken Sie den Lein, das himmelblaue Gold der Küste." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vetenskapligt namn", value: "Linum usitatissimum" },
+        { label: "Höjd", value: "30 – 80 cm" },
+        { label: "Blomningstid", value: "Juli – Augusti" },
+        { label: "Kännetecken", value: "Himmelsblå blommor som bara blommar en dag, slanka stjälkar" },
+        { label: "Kulturhistoria", value: "Viktig spånadsväxt för linne och linolja i regionen" },
+      ],
+      en: [
+        { label: "Scientific Name", value: "Linum usitatissimum" },
+        { label: "Height", value: "30 – 80 cm" },
+        { label: "Blooming Season", value: "July – August" },
+        { label: "Features", value: "Sky-blue flowers that last one day, slender stems" },
+        { label: "Cultural History", value: "Historical crop for linen and linseed oil" },
+      ],
+      de: [
+        { label: "Wissenschaftlicher Name", value: "Linum usitatissimum" },
+        { label: "Höhe", value: "30 – 80 cm" },
+        { label: "Blütezeit", value: "Juli – August" },
+        { label: "Merkmale", value: "Himmelblaue eintägige Blüten, schlanke Stängel" },
+        { label: "Kulturgeschichte", value: "Historische Nutzpflanze für Leinen und Leinöl" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Kustbygdens himmelsblå guld",
+        intro: "Linet är en av våra vackraste och mest mytomspunna kulturväxter. Det växer med en slank, upprätt stjälk och smala, grågröna blad. Under högsommaren slår de skira, himmelsblå blommorna ut. Det magiska med linblomman är att varje enskild blomma ofta bara lever under en enda dag – den slår ut på morgonen och fäller sina kronblad redan framåt eftermiddagen. Trots detta blommar ett linfält intensivt under flera veckor eftersom nya knoppar ständigt spricker ut.\n\nLängs denna del av kusten, och särskilt inåt landet i Hälsingland, har linet formats av och format människorna i århundraden. Historiskt var linodlingarna regionens ekonomiska ryggrad, och kunskapen om att odla, röta, bråka, skäkta och spinna linet har gått i arv i generationer.\n\nSpånadslinet odlas för sina starka fibrer som blir till linnetyg, medan oljelinet odlas för fröna som pressas till linolja. Blommande linfält uppskattas också av bin och humlor under varma sommarmorgnar.",
+        quote: "Det himmelsblå linet har satt färg på kustbygdens historia.",
+        sections: [
+          { heading: "Beskrivning & Kännetecken", body: "Linet växer med slanka stjälkar och smala, grågröna blad. Varje skir blå blomma lever ofta bara en enda dag, men nya knoppar gör att hela fältet blommar i veckor." },
+          { heading: "Kulturlandskapet vid Kusten", body: "Längs kusten och inåt landet i Hälsingland har linodlingen format människorna i århundraden. Kunskapen om att odla, röta, bråka, skäkta och spinna linet har gått i arv i generationer." },
+          { heading: "Användning & Ekologi", body: "Spånadslinets starka fibrer blir till linnetyg och oljelinets frön pressas till linolja. Blommande linfält uppskattas av pollinerande bin och humlor." },
+        ],
+      },
+      en: {
+        heroSubtitle: "The sky-blue gold of the coast",
+        intro: "Flax is one of our most beautiful and historically significant cultivated plants. Its delicate sky-blue flowers often live for only one day, yet new buds keep the fields blooming for weeks.\n\nAlong the coast and inland in Hälsingland, flax shaped people and landscapes for centuries. The knowledge of growing, retting, breaking and spinning flax was passed down through generations.\n\nFiber flax becomes linen while oilseed flax produces linseed oil, and blooming fields attract bees and bumblebees.",
+        quote: "The sky-blue flax has coloured the history of the coastal countryside.",
+        sections: [
+          { heading: "Description & Characteristics", body: "Flax grows with slender stems and narrow grey-green leaves. Each delicate blue flower often lasts one day, while new buds keep the field blooming for weeks." },
+          { heading: "The Coastal Cultural Landscape", body: "Flax cultivation shaped coastal communities for centuries, with knowledge passed down through generations." },
+          { heading: "Usage & Ecology", body: "Fiber flax becomes linen, oilseed flax produces linseed oil, and blooming fields attract pollinators." },
+        ],
+      },
+      de: {
+        heroSubtitle: "Das himmelblaue Gold der Küste",
+        intro: "Der Lein ist eine unserer schönsten und geschichtsträchtigsten Kulturpflanzen. Seine zarten himmelblauen Blüten leben oft nur einen Tag, doch neue Knospen lassen die Felder wochenlang blühen.\n\nAn der Küste und im Hinterland prägte der Flachsanbau jahrhundertelang das Leben. Das Wissen über Anbau, Rösten, Brechen und Spinnen wurde weitergegeben.\n\nFaserlein wird zu Leinen, Öllein liefert Leinöl, und blühende Felder ziehen Bienen und Hummeln an.",
+        quote: "Der himmelblaue Lein hat die Geschichte der Küste geprägt.",
+        sections: [
+          { heading: "Beschreibung & Merkmale", body: "Der Lein wächst mit schlanken Stängeln und schmalen graugrünen Blättern. Jede zarte blaue Blüte lebt oft nur einen Tag." },
+          { heading: "Kulturlandschaft der Küste", body: "Der Flachsanbau prägte die Küstengemeinden über Jahrhunderte, und das Wissen wurde weitergegeben." },
+          { heading: "Nutzung & Ökologie", body: "Faserlein wird zu Leinen, Öllein liefert Leinöl, und blühende Felder ziehen Bestäuber an." },
+        ],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der Küste" } },
+      detailImage: { url: "/images/lin-blomma.png", alt: { sv: "Närbild på blå linblomma", en: "Close-up of a blue flax flower", de: "Nahaufnahme einer Flachsblüte" } },
+      galleryImages: [
+        { src: "/images/lin-hero.png", alt: "Blommande linfält", tall: true },
+        { src: "/images/lin-blomma.png", alt: "Närbild på blå linblomma" },
+        { src: "/images/lin-kapsel.png", alt: "Linfrökapslar på stjälk" },
+        { src: "/images/lin-landskap.png", alt: "Kulturlandskap med odling" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/lin_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/lin_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/lin_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Linet", intro: "Jag har klätt människor och skyddat hus i hundratals år. Fråga mig om hur jag blir till tyg, varför mina blommor lever så kort tid eller min roll i historien!", presetQuestions: ["Varför blommar du bara en dag?", "Hur förvandlas du från växt till tyg?", "Vad använder man linolja till?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Flax", intro: "I have clothed people and protected buildings for centuries. Ask me how I become fabric or why my flowers are so short-lived!", presetQuestions: ["Why do your flowers only last a day?", "How do you become fabric?", "What is linseed oil used for?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Lein", intro: "Ich kleide Menschen und schütze Häuser seit Jahrhunderten. Frage mich, wie ich zu Stoff werde!", presetQuestions: ["Warum blühst du nur einen Tag?", "Wie wird aus dir Stoff?", "Wofür wird Leinöl verwendet?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är ett lin (Linum usitatissimum) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från linets sida.",
+    avatarImage: "/images/lin-hero.png",
+    chatAvatarAlt: "Ett blommande linfält",
+    relatedSpecies: [
+      { slug: "tall", name: "Tall", latin: "Pinus sylvestris", image: "/images/tall-hero.png" },
+      { slug: "kantarell", name: "Kantarell", latin: "Cantharellus cibarius", image: "/images/kantarell-hero.png" },
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/havsorn-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
   }
+
 
