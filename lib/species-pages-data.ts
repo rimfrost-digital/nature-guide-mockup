@@ -1541,6 +1541,7 @@ SÄKERHET:
       heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der Küste" } },
       detailImage: { url: "/images/lin-blomma.png", alt: { sv: "Närbild på blå linblomma", en: "Close-up of a blue flax flower", de: "Nahaufnahme einer Flachsblüte" } },
       galleryImages: [
+        { src: "/images/lin-hero.png", alt: "Video från närområdet", video: "/video/lin-naromradet.mp4", tall: true },
         { src: "/images/lin-hero.png", alt: "Blommande linfält", tall: true },
         { src: "/images/lin-blomma.png", alt: "Närbild på blå linblomma" },
         { src: "/images/lin-kapsel.png", alt: "Linfrökapslar på stjälk" },
