@@ -1488,7 +1488,6 @@ SÄKERHET:
         { label: "Vetenskapligt namn", value: "Linum usitatissimum" },
         { label: "Höjd", value: "30 – 80 cm" },
         { label: "Blomningstid", value: "Juli – Augusti" },
-        { label: "Kännetecken", value: "Himmelsblå blommor som bara blommar en dag, slanka stjälkar" },
         { label: "Kulturhistoria", value: "Viktig spånadsväxt för linne och linolja i regionen" },
       ],
       en: [
