@@ -43,6 +43,7 @@ export default async function ArtPage({ searchParams }: Props) {
     "lodjur-v2": { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
     havsorn: { src: "/audio/what-does-the-havsorn-say.mp3", label: "Så här låter djuret" },
     alg: { src: "/audio/alg_ljud.mp3", label: "Så här låter älgen" },
+    grasal: { src: "/audio/grasal_ljud.mp3", label: "Så här låter gråsälen" },
   }
   const creatureSound = CREATURE_SOUNDS[namn]
   const detailAlt = data.media.detailImage?.alt[l] ?? ""

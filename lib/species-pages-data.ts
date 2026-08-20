@@ -668,6 +668,248 @@ SÄKERHET:
     },
   },
 
+  grasal: {
+    id: "grasal",
+    scientificName: "Halichoerus grypus",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Gråsäl", en: "Grey Seal", de: "Kegelrobbe" },
+    meta: {
+      sv: {
+        title: "Gråsäl – Kustvägen Naturguide",
+        description:
+          "Lär känna gråsälen längs Kustvägen. Fakta om Östersjöns största säl, dess dykförmåga, kutar och liv i skärgården.",
+      },
+      en: {
+        title: "Grey Seal – Kustvägen Nature Guide",
+        description:
+          "Discover the grey seal along the Coastal Road. Facts about diving, pups, and life in the Baltic archipelago.",
+      },
+      de: {
+        title: "Kegelrobbe – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie die Kegelrobbe entlang des Kustvägen. Fakten zu Tauchen, Jungtieren und dem Leben im Schärenmeer.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vetenskapligt namn", value: "Halichoerus grypus" },
+        { label: "Vikt", value: "150–300 kg" },
+        { label: "Längd", value: "1,6–2,5 meter" },
+        { label: "Föda", value: "Strömming, torsk och annan fisk" },
+        { label: "Kännetecken", value: "Konformat huvud, mörka/ljusa fläckar i pälsen" },
+      ],
+      en: [
+        { label: "Scientific Name", value: "Halichoerus grypus" },
+        { label: "Weight", value: "150–300 kg" },
+        { label: "Length", value: "1.6–2.5 meters" },
+        { label: "Diet", value: "Herring, cod, and other fish" },
+        { label: "Features", value: "Cone-shaped head, dark/light spots on fur" },
+      ],
+      de: [
+        { label: "Wissenschaftlicher Name", value: "Halichoerus grypus" },
+        { label: "Gewicht", value: "150–300 kg" },
+        { label: "Länge", value: "1,6–2,5 Meter" },
+        { label: "Nahrung", value: "Hering, Dorsch und andere Fische" },
+        { label: "Merkmale", value: "Kegelförmiger Kopf, dunkle/helle Flecken im Fell" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Kustens smidiga jägare",
+        intro:
+          "Gråsälen är Östersjöns största sälart och ett fascinerande inslag i skärgårdsnaturen. Den känns lättast igen på sitt raka, hundliknande och konformade huvud, särskilt hos hanarna. Pälsens färg varierar; hanarna är ofta mörkare med ljusa fläckar, medan honorna är ljusare med mörka fläckar. De är otroligt skickliga simmare och anpassade för ett liv i havet.\n\nLängs Kustvägens yttre havsband kan man ibland se gråsälar vila på solvarma klippor och skär, ofta i små flockar. Deras huvudsakliga föda består av fisk, framförallt strömming och torsk. I vattnet är de smidiga och snabba jägare som kan dyka djupt och hålla andan i upp till tjugo minuter när de söker mat.",
+        quote: "Att se en gråsäl vila på en solvarm klippa är en av skärgårdens finaste syner.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Gråsälen känns lättast igen på sitt raka, hundliknande och konformade huvud, särskilt hos hanarna. Pälsens färg varierar; hanarna är ofta mörkare med ljusa fläckar, medan honorna är ljusare med mörka fläckar.",
+            image: "/images/sp-seal.png",
+            alt: "Gråsäl som vilar på en solig havsklippa",
+            caption: "Gråsälen vilar ofta i små flockar på solvarma skär.",
+          },
+          {
+            heading: "Livsmiljö & Föda",
+            body: "I vattnet är gråsälen en smidig och snabb jägare. Den kan dyka djupt och hålla andan i upp till tjugo minuter när den jagar strömming och torsk längs Kustvägens skärgård.",
+            image: "/images/grasal-simmar.png",
+            alt: "Gråsäl som simmar i klart vatten",
+            caption: "Gråsälen kan dyka djupt och stanna under ytan länge.",
+          },
+          {
+            heading: "Förökning & Ekologi",
+            body: "Gråsälen föder sin unge, kuten, i slutet av vintern eller tidigt på våren. Kuten föds med en tjock, vit ullpäls som värmer den innan den har byggt upp sitt eget skyddande späcklager. Gråsälen är en viktig toppredator i Östersjöns ekosystem.",
+            image: "/images/grasal-unge.png",
+            alt: "Vit sälkut vid vattnet",
+            caption: "Kuten föds med en tjock, vit päls som skyddar mot kylan.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The agile hunter of the coast",
+        intro:
+          "The grey seal is the largest seal species in the Baltic Sea. It is easily recognized by its straight, dog-like, cone-shaped head, especially prominent in males. Fur coloration varies; males are typically darker with light spots, while females are lighter with dark spots. They are exceptionally skilled swimmers, built perfectly for a life at sea.\n\nAlong the outer coastal band of Kustvägen, grey seals can sometimes be seen resting on sun-warmed rocks and skerries, often in small colonies. Their primary diet consists of fish, mainly herring and cod. In the water, they are agile hunters capable of diving deeply and holding their breath for up to twenty minutes.",
+        quote: "Watching a grey seal rest on a sun-warmed rock is one of the archipelago's finest sights.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The grey seal is easily recognized by its straight, dog-like, cone-shaped head, especially prominent in males. Fur coloration varies; males are typically darker with light spots, while females are lighter with dark spots.",
+            image: "/images/sp-seal.png",
+            alt: "Grey seal resting on a sunny ocean rock",
+            caption: "Grey seals often rest in small colonies on sun-warmed skerries.",
+          },
+          {
+            heading: "Habitat & Diet",
+            body: "In the water, grey seals are agile and fast hunters. They can dive deeply and hold their breath for up to twenty minutes while hunting herring and cod along the Kustvägen archipelago.",
+            image: "/images/grasal-simmar.png",
+            alt: "Grey seal swimming in clear water",
+            caption: "Grey seals can dive deep and stay submerged for long periods.",
+          },
+          {
+            heading: "Reproduction & Ecology",
+            body: "The grey seal gives birth to its pup in late winter or early spring. Pups are born with a thick, white woolly coat that keeps them warm before they develop their own protective layer of blubber. As a top predator, they play a crucial role in the Baltic ecosystem.",
+            image: "/images/grasal-unge.png",
+            alt: "White seal pup by the water",
+            caption: "Pups are born with a thick white coat that protects them from the cold.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der wendige Jäger der Küste",
+        intro:
+          "Die Kegelrobbe ist die größte Robbenart der Ostsee. Am einfachsten ist sie an ihrem geraden, hundeähnlichen, kegelförmigen Kopf zu erkennen, der besonders bei den Männchen ausgeprägt ist. Die Fellfarbe variiert: Männchen sind oft dunkler mit hellen Flecken, Weibchen heller mit dunklen Flecken. Sie sind extrem gute Schwimmer.\n\nAm äußeren Küstenstreifen der Kustvägen kann man manchmal Kegelrobben beobachten, die sich in kleinen Gruppen auf sonnenbeschienenen Felsen ausruhen. Ihre Hauptnahrung besteht aus Fisch, vor allem Hering und Dorsch. Im Wasser sind sie agile und schnelle Jäger, die bis zu zwanzig Minuten die Luft anhalten können.",
+        quote: "Eine Kegelrobbe auf einem sonnenwarmen Felsen zu sehen, ist eines der schönsten Erlebnisse im Schärenmeer.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Die Kegelrobbe ist an ihrem geraden, hundeähnlichen, kegelförmigen Kopf zu erkennen, der besonders bei den Männchen ausgeprägt ist. Männchen sind oft dunkler mit hellen Flecken, Weibchen heller mit dunklen Flecken.",
+            image: "/images/sp-seal.png",
+            alt: "Kegelrobbe ruht auf einem sonnigen Felsen im Meer",
+            caption: "Kegelrobben ruhen oft in kleinen Gruppen auf sonnenwarmen Schären.",
+          },
+          {
+            heading: "Lebensraum & Nahrung",
+            body: "Im Wasser sind Kegelrobben agile und schnelle Jäger. Sie können tief tauchen und bis zu zwanzig Minuten die Luft anhalten, während sie im Schärenmeer der Kustvägen nach Hering und Dorsch jagen.",
+            image: "/images/grasal-simmar.png",
+            alt: "Kegelrobbe schwimmt im klaren Wasser",
+            caption: "Kegelrobben können tief tauchen und lange unter Wasser bleiben.",
+          },
+          {
+            heading: "Fortpflanzung & Ökologie",
+            body: "Die Kegelrobbe bringt ihr Junges im Spätwinter oder Vorfrühling zur Welt. Die Welpen werden mit einem dicken, weißen Wollfell geboren, das sie wärmt, bis sie eine eigene schützende Fettschicht aufgebaut haben. Sie sind ein wichtiges Spitzenraubtier im Ökosystem der Ostsee.",
+            image: "/images/grasal-unge.png",
+            alt: "Weißes Robbenbaby am Wasser",
+            caption: "Die Welpen werden mit einem dicken weißen Fell geboren, das vor Kälte schützt.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/sp-seal.png",
+        alt: {
+          sv: "Gråsäl som vilar på en solig havsklippa",
+          en: "Grey seal resting on a sunny ocean rock",
+          de: "Kegelrobbe ruht auf einem sonnigen Felsen im Meer",
+        },
+      },
+      detailImage: {
+        url: "/images/grasal-simmar.png",
+        alt: {
+          sv: "Gråsäl som simmar i klart vatten",
+          en: "Grey seal swimming in clear water",
+          de: "Kegelrobbe schwimmt im klaren Wasser",
+        },
+      },
+      galleryImages: [
+        { src: "/images/sp-seal.png", alt: "En gråsäl vilar på en klippa i yttre skärgården" },
+        { src: "/images/grasal-simmar.png", alt: "Gråsäl som simmar i solbelyst vatten" },
+        { src: "/images/grasal-unge.png", alt: "Vit sälkut vid vattnet" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Guide zuhören", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Gråsälen",
+        intro:
+          "Jag är Östersjöns största säl och spenderar halva mitt liv i vattnet och resten på varma klippor. Fråga mig om hur länge jag kan hålla andan, vad mina vita ungar kallas eller vad jag äter!",
+        presetQuestions: [
+          "Hur länge kan du hålla andan?",
+          "Varför är dina ungar vita?",
+          "Är du snabb i vattnet?",
+        ],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Ask a question to the Grey Seal",
+        intro:
+          "I am the largest seal in the Baltic Sea, spending half my life in the water and the rest on warm rocks. Ask me how long I can hold my breath, why my pups are white, or what I like to eat!",
+        presetQuestions: [
+          "How long can you hold your breath?",
+          "Why are your babies white?",
+          "Are you fast in the water?",
+        ],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Stelle eine Frage an die Kegelrobbe",
+        intro:
+          "Ich bin die größte Robbe der Ostsee und verbringe mein halbes Leben im Wasser. Frage mich, wie lange ich die Luft anhalten kann, warum meine Babys weiß sind oder was ich esse!",
+        presetQuestions: [
+          "Wie lange kannst du die Luft anhalten?",
+          "Warum sind deine Babys weiß?",
+          "Bist du schnell im Wasser?",
+        ],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en gråsäl (Halichoerus grypus) som lever i Östersjön och simmar längs Kustvägens skärgård i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är gråsälen. Till exempel: "Jag kan hålla andan i tjugo minuter när jag jagar fisk!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🦭) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om gråsälen:
+- Vikt: 150-300 kg. Östersjöns största sälart.
+- Mat: strömming, torsk och annan fisk. Jagar smidigt i vattnet.
+- Kropp: rakt, hundliknande konformat huvud. Hanar är mörkare med ljusa fläckar, honor ljusare med mörka fläckar.
+- Kan dyka djupt och hålla andan i upp till tjugo minuter.
+- Vilar ofta på solvarma klippor och skär, i små flockar.
+- Ungen kallas kut och föds med en tjock, vit ullpäls i slutet av vintern eller tidigt på våren.
+- Är en viktig toppredator i Östersjöns ekosystem och fridlyst.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller gråsälen, led vänligt tillbaka samtalet till havet och dig som säl.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/sp-seal.png",
+    chatAvatarAlt: "Gråsälens ansikte",
+    relatedSpecies: [
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+      { slug: "alg", name: "Älg", latin: "Alces alces", image: "/images/alg-hero.png" },
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/species-eagle.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
   "lodjur-v2": {
     id: "lodjur-v2",
     scientificName: "Lynx lynx",
@@ -1749,7 +1991,7 @@ SÄKERHET:
       en: { title: "Ask a question about the Scots Pine", intro: "I have weathered coastal storms for centuries. Ask me about how I survive drought, how old I can get, or who lives in my branches!", presetQuestions: ["How do you grow on bare rock?", "How old can coastal pines get?", "What is the difference between pine and spruce?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an die Waldkiefer", intro: "Ich trotze seit Jahrhunderten den Stürmen der Küste. Frage mich, wie ich auf kargem Fels überlebe oder wer in meiner Krone wohnt!", presetQuestions: ["Wie kannst du auf barem Fels wachsen?", "Wie alt können Küstenkiefern werden?", "Was ist der Unterschied zwischen Kiefer und Fichte?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
-    chatSystemPrompt: "Du är en tall (Pinus sylvestris) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tallens sida.",
+    chatSystemPrompt: "Du är en tall (Pinus sylvestris) längs Kustvägen. Svara p�� enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tallens sida.",
     avatarImage: "/images/tall-hero.png",
     chatAvatarAlt: "En tall vid kusten",
     relatedSpecies: [
