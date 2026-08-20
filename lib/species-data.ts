@@ -48,7 +48,7 @@ export const species: Species[] = [
     latin: "Alces alces",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/species-moose.png",
+    image: "/images/alg-hero.png",
   },
   {
     slug: "grasal",
