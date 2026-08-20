@@ -381,6 +381,293 @@ SÄKERHET:
     },
   },
 
+  alg: {
+    id: "alg",
+    scientificName: "Alces alces",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Älg", en: "Moose / Elk", de: "Elch" },
+    meta: {
+      sv: {
+        title: "Älg – Kustvägen Naturguide",
+        description:
+          "Lär känna älgen längs Kustvägen. Fakta om Nordens största hjortdjur, dess horn, spår och liv i skogen.",
+      },
+      en: {
+        title: "Moose / Elk – Kustvägen Nature Guide",
+        description:
+          "Discover the moose along the Coastal Road. Facts about antlers, tracks, and the life of Northern Europe's largest deer species.",
+      },
+      de: {
+        title: "Elch – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie den Elch entlang des Kustvägen. Fakten zu Geweih, Spuren und dem Leben Nordeuropas größter Hirschart.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vetenskapligt namn", value: "Alces alces" },
+        { label: "Vikt", value: "200–550 kg" },
+        { label: "Mankhöjd", value: "1,5–2,1 meter" },
+        { label: "Föda", value: "Kvist, bark, löv och vattenväxter" },
+        { label: "Kännetecken", value: "Stor storlek, långa ben, mule och horn hos tjuren" },
+      ],
+      en: [
+        { label: "Scientific Name", value: "Alces alces" },
+        { label: "Weight", value: "200–550 kg" },
+        { label: "Height", value: "1.5–2.1 meters" },
+        { label: "Diet", value: "Twigs, bark, leaves, aquatic plants" },
+        { label: "Features", value: "Massive size, long legs, bulbous snout, antlers on males" },
+      ],
+      de: [
+        { label: "Wissenschaftlicher Name", value: "Alces alces" },
+        { label: "Gewicht", value: "200–550 kg" },
+        { label: "Schulterhöhe", value: "1,5–2,1 Meter" },
+        { label: "Nahrung", value: "Zweige, Rinde, Blätter, Wasserpflanzen" },
+        { label: "Merkmale", value: "Enorme Größe, lange Beine, markante Schnauze, Geweih bei Bullen" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens konung",
+        intro:
+          "Älgen är det största nu levande hjortdjuret och en av de mest ikoniska symbolerna för den nordiska skogen. Den är lätt att känna igen på sin enorma storlek, de långa gråvita benen, den karakteristiska överläppen (mulen) och hakskägget. Tjuren bär ofta en imponerande hornkrona, antingen skovelhorn eller stånghorn, som den fäller varje vinter och bygger upp på nytt under våren och sommaren.\n\nLängs Kustvägens skogar, myrar och sjöar trivs älgen utmärkt. Under sommaren föredrar den löv, örter och vattenväxter, och ses ofta vada i grunda sjöar för att svalka sig och beta. Under vintern övergår dieten nästan uteslutande till kvistar av tall, sälg, asp och björk.",
+        quote:
+          "Att möta en älg i det vilda är alltid en magisk upplevelse – skogens konung i sin egen rätt.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Älgen känns lätt igen på sin enorma storlek, de långa gråvita benen och den karakteristiska överläppen. Tjuren bär en imponerande hornkrona som fälls varje vinter och byggs upp på nytt under våren och sommaren.",
+            image: "/images/species-moose.png",
+            alt: "Älgtjur som betar i kvällsljus",
+            caption: "Hornen fälls varje vinter och växer ut på nytt inför hösten.",
+          },
+          {
+            heading: "Livsmiljö & Föda",
+            body: "Deras långa ben är perfekt anpassade för att kliva över högt blåbärsris, djup snö och sankmarker. Under sommaren vadar älgen ofta i sjöar för att beta näringsrika vattenväxter.",
+            image: "/images/alg-kalv.png",
+            alt: "Älgkalv bland blåbärsris i skogen",
+            caption: "Älgkon föder vanligtvis en eller två kalvar i maj eller juni.",
+          },
+          {
+            heading: "Spår & Ekologi",
+            body: "Trots sin storlek rör sig älgen förvånansvärt tyst i skogen. Älgen spelar en viktig roll i skogens ekosystem och fungerar som en viktig födokälla för stora rovdjur som varg och björn.",
+            image: "/images/sp-moosetracks.png",
+            alt: "Älgspår i nysnö",
+            caption: "Älgens spår är stora och djupt nedtryckta i marken.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "King of the Forest",
+        intro:
+          "The moose, known as elk in Europe, is the largest living deer species and an iconic symbol of the Nordic forest. It is easily recognized by its massive size, long grayish-white legs, bulbous snout, and a bell of skin under its throat. The bull carries an impressive set of antlers that are shed every winter and regrown during the spring and summer.\n\nAlong the forests, bogs, and lakes of Kustvägen, the moose thrives. During summer, it prefers leaves, herbs, and aquatic plants, often seen wading in shallow lakes to feed and cool off. In winter, its diet shifts almost entirely to twigs and bark from pine, willow, and birch.",
+        quote:
+          "Meeting a moose in the wild is always a magical experience – the true king of the forest.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The moose is easily recognized by its massive size, long grayish-white legs, and bulbous snout. The bull carries an impressive set of antlers that is shed every winter and regrown during spring and summer.",
+            image: "/images/species-moose.png",
+            alt: "Bull moose grazing in evening light",
+            caption: "Antlers are shed every winter and regrow again by autumn.",
+          },
+          {
+            heading: "Habitat & Diet",
+            body: "Their long legs are perfectly adapted for stepping over dense brush, deep snow, and marshlands. During summer, moose are often seen wading in lakes to graze on nutrient-rich aquatic plants.",
+            image: "/images/alg-kalv.png",
+            alt: "Moose calf among blueberry shrubs in the forest",
+            caption: "Cows typically give birth to one or two calves in May or June.",
+          },
+          {
+            heading: "Tracks & Ecology",
+            body: "Despite their huge size, moose move surprisingly quietly through the woods. As a keystone species, they are an important food source for large predators like wolves and brown bears.",
+            image: "/images/sp-moosetracks.png",
+            alt: "Moose tracks in fresh snow",
+            caption: "Moose tracks are large and press deeply into the soil.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "König des Waldes",
+        intro:
+          "Der Elch ist die größte heute lebende Hirschart und ein ikonisches Symbol der nordischen Wälder. Er ist leicht an seiner enormen Größe, den langen, grauweißen Beinen, der charakteristischen überhängenden Oberlippe und dem Kehlsack zu erkennen. Der Bulle trägt oft ein beeindruckendes Schaufel- oder Stangengeweih, das er jeden Winter abwirft und im Frühjahr und Sommer neu bildet.\n\nIn den Wäldern, Mooren und Seen entlang der Kustvägen fühlt sich der Elch besonders wohl. Im Sommer frisst er bevorzugt Laub, Kräuter und Wasserpflanzen. Im Winter besteht seine Nahrung fast ausschließlich aus Zweigen und Rinde von Kiefern, Weiden und Birken.",
+        quote:
+          "Einem wilden Elch zu begegnen, ist immer ein magisches Erlebnis – der wahre König des Waldes.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Der Elch ist leicht an seiner enormen Größe, den langen, grauweißen Beinen und der markanten Schnauze zu erkennen. Der Bulle trägt ein beeindruckendes Geweih, das jeden Winter abgeworfen und im Frühjahr und Sommer neu gebildet wird.",
+            image: "/images/species-moose.png",
+            alt: "Elchbulle grast im Abendlicht",
+            caption: "Das Geweih wird jeden Winter abgeworfen und wächst bis zum Herbst neu.",
+          },
+          {
+            heading: "Lebensraum & Nahrung",
+            body: "Seine langen Beine sind perfekt an tiefen Schnee und unwegsames Gelände angepasst. Im Sommer ist der Elch oft beim Waten in Seen zu beobachten, wo er nahrhafte Wasserpflanzen frisst.",
+            image: "/images/alg-kalv.png",
+            alt: "Elchkalb zwischen Heidelbeersträuchern im Wald",
+            caption: "Die Elchkuh bringt meist im Mai oder Juni ein bis zwei Kälber zur Welt.",
+          },
+          {
+            heading: "Spuren & Ökologie",
+            body: "Trotz seiner enormen Größe bewegt sich der Elch erstaunlich leise durch den Wald. Als Schlüsselart ist er eine wichtige Nahrungsquelle für große Raubtiere wie Wölfe und Bären.",
+            image: "/images/sp-moosetracks.png",
+            alt: "Elchspuren im frischen Schnee",
+            caption: "Die Spuren des Elchs sind groß und tief in den Boden gedrückt.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/hero-forest-moose.png",
+        alt: {
+          sv: "Älg som står i en dimmig morgonskog",
+          en: "Moose standing in a foggy morning forest",
+          de: "Ein Elch steht in einem nebligen Morgenwald",
+        },
+      },
+      detailImage: {
+        url: "/images/alg-hero.png",
+        alt: {
+          sv: "Älgtjur i solbelyst skogsmark",
+          en: "Bull moose in sunlit woodland",
+          de: "Elchbulle in sonnendurchflutetem Waldgebiet",
+        },
+      },
+      galleryImages: [
+        { src: "/images/alg-hero.png", alt: "En ståtlig älgtjur i svensk barrskog" },
+        { src: "/images/species-moose.png", alt: "Älg som betar i kvällsljus" },
+        { src: "/images/alg-kalv.png", alt: "Älgkalv i gröngräs" },
+        { src: "/images/sp-moosetracks.png", alt: "Älgspår i leran" },
+        { src: "/images/alg-spillning.png", alt: "Älgspillning i skogen" },
+        { src: "/images/hero-forest-moose.png", alt: "Älg i dimmig morgonskog" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Guide zuhören", url: "" },
+      },
+    },
+    tracksSigns: {
+      heading: {
+        sv: "Spår & spillning",
+        en: "Tracks & signs",
+        de: "Spuren & Zeichen",
+      },
+      items: [
+        {
+          image: "/images/sp-moosetracks.png",
+          alt: "Älgspår i nysnö",
+          label: { sv: "Spår", en: "Tracks", de: "Spuren" },
+          description: {
+            sv: "Älgens klövavtryck är stora, ofta 12–17 cm långa, och tydligt kluvna i två delar. I mjuk mark eller snö syns även avtryck av de bakre klöveggarna högre upp på foten.",
+            en: "Moose hoof prints are large, often 12–17 cm long, and clearly split into two parts. In soft ground or snow, the dew claws higher on the foot may also leave a mark.",
+            de: "Die Hufabdrücke des Elchs sind groß, oft 12–17 cm lang, und deutlich zweigeteilt. In weichem Boden oder Schnee sind manchmal auch die höher sitzenden Afterklauen zu erkennen.",
+          },
+        },
+        {
+          image: "/images/alg-spillning.png",
+          alt: "Älgspillning i skogen",
+          label: { sv: "Spillning", en: "Droppings", de: "Kot" },
+          description: {
+            sv: "Älgens spillning består av ovala, mörkbruna klumpar, ofta i högar av 20–30 stycken. På sommaren är den mjukare och kladdigare på grund av dieten med löv och örter.",
+            en: "Moose droppings consist of oval, dark brown pellets, often in piles of 20–30. In summer they are softer and stickier due to a diet of leaves and herbs.",
+            de: "Der Kot des Elchs besteht aus ovalen, dunkelbraunen Klumpen, oft in Haufen von 20–30 Stück. Im Sommer ist er weicher und klebriger durch die Ernährung mit Blättern und Kräutern.",
+          },
+        },
+      ],
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Älgen",
+        intro:
+          "Jag är skogens största djur och strövar tyst genom Kustvägens skogar. Fråga mig om mina mäktiga horn, hur jag kan äta under vatten eller vad jag gör på vintern!",
+        presetQuestions: [
+          "Varför fäller du dina horn varje år?",
+          "Hur mycket äter du på en dag?",
+          "Vad gör du för att överleva vintern?",
+        ],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Ask a question to the Elk",
+        intro:
+          "I am the largest animal in the forest, wandering quietly through the woods. Ask me about my mighty antlers, how I eat underwater, or what I do in winter!",
+        presetQuestions: [
+          "Why do you shed your antlers every year?",
+          "How much do you eat in a day?",
+          "How do you survive the deep snow?",
+        ],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Stelle eine Frage an den Elch",
+        intro:
+          "Ich bin das größte Tier im Wald und streife lautlos durch das Dickicht. Frage mich nach meinem riesigen Geweih, wie ich unter Wasser fresse oder was ich im Winter mache!",
+        presetQuestions: [
+          "Warum wirfst du dein Geweih jedes Jahr ab?",
+          "Wie viel frisst du an einem Tag?",
+          "Wie überlebst du im tiefen Schnee?",
+        ],
+        fallback:
+          "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en älg (Alces alces) som lever i skogarna, myrarna och sjöarna längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i träden!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🦌) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om älgen:
+- Vikt: 200-550 kg. Nordens största hjortdjur.
+- Mat: kvistar, bark, löv, örter och vattenväxter. Vadar gärna ut i sjöar för att äta växter under ytan.
+- Kropp: långa gråvita ben, stor mule, hakskägg. Tjuren har stora horn som fälls varje vinter och växer ut igen på våren.
+- Rör sig förvånansvärt tyst i skogen trots sin storlek.
+- Lever i skog, myrar och vid sjöar. På vintern äter den mest kvistar från tall, sälg, asp och björk.
+- Älgspår är stora och kluvna i två delar.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller älgen, led vänligt tillbaka samtalet till skogen och dig som älg.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/species-moose.png",
+    chatAvatarAlt: "Älgens ansikte",
+    relatedSpecies: [
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+      {
+        slug: "skogshare",
+        name: "Skogshare",
+        latin: "Lepus timidus",
+        image: "/images/sp-hare.png",
+      },
+      {
+        slug: "gravling",
+        name: "Grävling",
+        latin: "Meles meles",
+        image: "/images/sp-badger.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
   "lodjur-v2": {
     id: "lodjur-v2",
     scientificName: "Lynx lynx",
