@@ -820,9 +820,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö", video: "[AI VIDEO PLACEHOLDER]", poster: "/images/brunbjorn-hero.png" },
-        { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda" },
-        { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
+      { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
+      { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda" },
+      { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
+      { src: "brunbjorn-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1043,9 +1044,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö", video: "[AI VIDEO PLACEHOLDER]", poster: "/images/varg-hero.png" },
-        { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
-        { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet" },
+      { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö" },
+      { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
+      { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet" },
+      { src: "varg-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1265,9 +1267,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap", video: "[AI VIDEO PLACEHOLDER]", poster: "/images/jarv-hero.png" },
-        { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
-        { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet" },
+      { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap" },
+      { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
+      { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet" },
+      { src: "jarv-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1487,9 +1490,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/gravling-hero.png", alt: "Grävling (Meles meles) i skogsbrynet", video: "[AI VIDEO PLACEHOLDER]", poster: "/images/gravling-hero.png" },
-        { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten" },
-        { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
+      { src: "/images/gravling-hero.png", alt: "Grävling (Meles meles) i skogsbrynet" },
+      { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten" },
+      { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
+      { src: "gravling-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1710,9 +1714,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet", video: "[AI VIDEO PLACEHOLDER]", poster: "/images/radjur-hero.png" },
-        { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
-        { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
+      { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
+      { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
+      { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
+      { src: "radjur-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
