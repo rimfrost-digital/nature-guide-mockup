@@ -622,7 +622,7 @@ SÄKERHET:
 VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
-- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i träden!"
+- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i tr��den!"
 - Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
 - Använd högst en enkel emoji ibland (som 🦌) om det passar, men inte i varje svar.
 - Förklara svåra ord på ett enkelt sätt.
@@ -655,6 +655,1119 @@ SÄKERHET:
         latin: "Meles meles",
         image: "/images/sp-badger.png",
       },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
+  brunbjorn: {
+    id: "brunbjorn",
+    scientificName: "Ursus arctos",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Brunbjörn", en: "Brown Bear", de: "Braunbär" },
+    meta: {
+      sv: {
+        title: "Brunbjörn – Kustvägen Naturguide",
+        description:
+          "Lär känna brunbjörnen längs Kustvägen. Fakta om Sveriges största rovdjur, dess vinteride, föda och liv i skogen.",
+      },
+      en: {
+        title: "Brown Bear – Kustvägen Nature Guide",
+        description:
+          "Discover the brown bear along the Coastal Road. Facts about hibernation, diet, and the life of Sweden's largest predator.",
+      },
+      de: {
+        title: "Braunbär – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie den Braunbären entlang des Kustvägen. Fakten zu Winterschlaf, Nahrung und dem Leben Schwedens größtem Raubtier.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "Upp till 350 kg" },
+        { label: "Föda", value: "Allätare, upp till 30 kg bär/dag" },
+        { label: "Födsel", value: "1–4 ungar i idet" },
+        { label: "Population", value: "Ca 2 900 i Sverige" },
+      ],
+      en: [
+        { label: "Weight", value: "Up to 350 kg" },
+        { label: "Diet", value: "Omnivore, up to 30 kg berries/day" },
+        { label: "Birth", value: "1–4 cubs in the den" },
+        { label: "Population", value: "About 2,900 in Sweden" },
+      ],
+      de: [
+        { label: "Gewicht", value: "Bis zu 350 kg" },
+        { label: "Nahrung", value: "Allesfresser, bis zu 30 kg Beeren/Tag" },
+        { label: "Geburt", value: "1–4 Jungtiere im Winterlager" },
+        { label: "Population", value: "Ca. 2.900 in Schweden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens tysta jätte",
+        intro:
+          "Björnen är ett kraftfullt och intelligent djur och en fullvuxen hane kan väga upp till 350 kg. Björnen trivs bäst i stora skogar. Den är allätare, men den föredrar småkryp, rötter, växter och bär. Favoriten under sensommaren är blåbär och hela 30 kg bär kan den få i sig under en dag.\n\nUnder vinterhalvåret går björnen i ide och den sover, ända tills att vårsolen tittar fram. Under tiden i idet föder honan 1-4 ungar per kull. I Sverige finns det runt 2 900 björnar, men mörkertalet kan vara stort, eftersom de är svårräknade. Det beror på att de sover, när det är spårsnö. Björnen är fridlyst och skyddsjakt sker under hösten, då runt 600 björnar fälls. Björnen är snabb i både vatten och på land. Den kan klättra i träd och det sägs, att den är bra på att vissla.",
+        quote: "Att höra en kvist knäcka i tystnaden och ana att björnen är nära är en av skogens starkaste känslor.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Björnen är kraftig och intelligent, och en fullvuxen hane kan väga upp till 350 kg. Den känns igen på sin tunga kropp, kraftiga tassar och sitt mörkbruna, ibland gulbruna, täta vinterpäls.",
+            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            alt: "Brunbjörn (Ursus arctos) i skogsmiljö",
+            caption: "En fullvuxen hane kan väga så mycket som 350 kg.",
+          },
+          {
+            heading: "Föda & Beteende",
+            body: "Björnen är allätare men föredrar småkryp, rötter, växter och bär. Under sensommaren är blåbär favoriten, och den kan få i sig hela 30 kg bär under en enda dag.",
+            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            alt: "Brunbjörn (Ursus arctos) som söker föda",
+            caption: "Upp till 30 kg blåbär kan ätas på en dag under sensommaren.",
+          },
+          {
+            heading: "Vinteride & Ekologi",
+            body: "Under vinterhalvåret går björnen i ide och sover tills vårsolen tittar fram. Honan föder 1-4 ungar per kull medan hon sover. Björnen är fridlyst, men skyddsjakt sker under hösten.",
+            image: "/images/placeholders/ursus_arctos_1.jpg",
+            alt: "Björnide (Ursus arctos) i vinterskog",
+            caption: "I idet föder honan sina ungar mitt i vinterdvalan.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The forest's silent giant",
+        intro:
+          "The bear is a powerful and intelligent animal, and a fully grown male can weigh up to 350 kg. Bears thrive best in large forests. They are omnivores, but prefer insects, roots, plants, and berries. Their favorite in late summer is blueberries, and they can eat as much as 30 kg of berries in a single day.\n\nDuring the winter months, the bear hibernates in its den and sleeps until the spring sun appears. During this time, the female gives birth to 1-4 cubs per litter. There are around 2,900 bears in Sweden, though the true number may be higher since they are difficult to count – largely because they are asleep during tracking snow season. The bear is a protected species, and licensed hunting takes place each autumn, when around 600 bears are culled. The bear is fast both in water and on land, can climb trees, and is even said to be a good whistler.",
+        quote: "Hearing a twig snap in the silence and sensing the bear is near is one of the forest's most powerful feelings.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The bear is powerful and intelligent, and a fully grown male can weigh up to 350 kg. It is recognized by its heavy body, powerful paws, and thick dark brown, sometimes yellowish-brown, winter coat.",
+            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            alt: "Brown bear (Ursus arctos) in forest habitat",
+            caption: "A fully grown male can weigh as much as 350 kg.",
+          },
+          {
+            heading: "Diet & Behavior",
+            body: "The bear is an omnivore but prefers insects, roots, plants, and berries. In late summer, blueberries are the favorite, and it can eat up to 30 kg of berries in a single day.",
+            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            alt: "Brown bear (Ursus arctos) foraging for food",
+            caption: "Up to 30 kg of blueberries can be eaten in one day in late summer.",
+          },
+          {
+            heading: "Hibernation & Ecology",
+            body: "During the winter months, the bear hibernates in its den and sleeps until the spring sun appears. The female gives birth to 1-4 cubs during this time. The bear is protected, though licensed hunting occurs in autumn.",
+            image: "/images/placeholders/ursus_arctos_1.jpg",
+            alt: "Brown bear (Ursus arctos) den in winter forest",
+            caption: "In the den, the female gives birth in the middle of winter dormancy.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der stille Riese des Waldes",
+        intro:
+          "Der Bär ist ein kraftvolles und intelligentes Tier, und ein ausgewachsenes Männchen kann bis zu 350 kg wiegen. Bären fühlen sich in großen Wäldern am wohlsten. Sie sind Allesfresser, bevorzugen aber Kleintiere, Wurzeln, Pflanzen und Beeren. Im Spätsommer sind Blaubeeren ihr Favorit, und sie können an einem Tag bis zu 30 kg Beeren fressen.\n\nWährend der Winterhälfte hält der Bär Winterschlaf in seinem Lager, bis die Frühlingssonne erscheint. In dieser Zeit bringt das Weibchen 1-4 Jungtiere pro Wurf zur Welt. In Schweden gibt es etwa 2.900 Bären, doch die Dunkelziffer könnte höher sein, da sie schwer zu zählen sind – sie schlafen meist, wenn Spurschnee liegt. Der Bär steht unter Naturschutz, und im Herbst findet eine Schutzjagd statt, bei der etwa 600 Bären erlegt werden. Der Bär ist sowohl im Wasser als auch auf dem Land schnell, kann auf Bäume klettern, und man sagt, er sei gut im Pfeifen.",
+        quote: "Einen Ast im Unterholz knacken zu hören und zu ahnen, dass der Bär in der Nähe ist, ist eines der stärksten Gefühle im Wald.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Der Bär ist kraftvoll und intelligent, und ein ausgewachsenes Männchen kann bis zu 350 kg wiegen. Erkennbar ist er an seinem schweren Körper, kräftigen Pfoten und dichtem, dunkelbraunem bis gelbbraunem Winterfell.",
+            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            alt: "Braunbär (Ursus arctos) im Waldgebiet",
+            caption: "Ein ausgewachsenes Männchen kann bis zu 350 kg wiegen.",
+          },
+          {
+            heading: "Nahrung & Verhalten",
+            body: "Der Bär ist Allesfresser, bevorzugt aber Kleintiere, Wurzeln, Pflanzen und Beeren. Im Spätsommer sind Blaubeeren sein Favorit, und er kann an einem Tag bis zu 30 kg Beeren fressen.",
+            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            alt: "Braunbär (Ursus arctos) auf Nahrungssuche",
+            caption: "Bis zu 30 kg Blaubeeren können an einem Tag im Spätsommer gefressen werden.",
+          },
+          {
+            heading: "Winterschlaf & Ökologie",
+            body: "Während der Winterhälfte hält der Bär Winterschlaf, bis die Frühlingssonne erscheint. Das Weibchen bringt in dieser Zeit 1-4 Jungtiere zur Welt. Der Bär steht unter Naturschutz, im Herbst findet jedoch eine Schutzjagd statt.",
+            image: "/images/placeholders/ursus_arctos_1.jpg",
+            alt: "Braunbärlager (Ursus arctos) im Winterwald",
+            caption: "Im Lager bringt das Weibchen mitten im Winterschlaf ihre Jungtiere zur Welt.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/placeholders/ursus_arctos_hero.jpg",
+        alt: {
+          sv: "Brunbjörn (Ursus arctos) i skogsmiljö längs Kustvägen",
+          en: "Brown bear (Ursus arctos) in forest habitat along the Coastal Road",
+          de: "Braunbär (Ursus arctos) im Waldgebiet entlang des Kustvägen",
+        },
+      },
+      detailImage: {
+        url: "/images/placeholders/ursus_arctos_detail.jpg",
+        alt: {
+          sv: "Närbild på brunbjörn (Ursus arctos)",
+          en: "Close-up of brown bear (Ursus arctos)",
+          de: "Nahaufnahme eines Braunbären (Ursus arctos)",
+        },
+      },
+      galleryImages: [
+        { src: "/images/placeholders/ursus_arctos_hero.jpg", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
+        { src: "/images/placeholders/ursus_arctos_detail.jpg", alt: "Brunbjörn (Ursus arctos) söker föda" },
+        { src: "/images/placeholders/ursus_arctos_1.jpg", alt: "Björnide (Ursus arctos) i vinterskog" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Björnen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Ask a question to the Bear",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Stelle eine Frage an den Bären",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en brunbjörn (Ursus arctos) som lever i de stora skogarna längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är björnen. Till exempel: "Jag kan äta 30 kilo blåbär på en enda dag!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐻) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om brunbjörnen:
+- Vikt: en fullvuxen hane kan väga upp till 350 kg.
+- Mat: allätare, äter helst småkryp, rötter, växter och bär. Kan äta 30 kg blåbär på en dag.
+- Går i ide under vintern och sover tills våren kommer.
+- Honan föder 1-4 ungar i idet under vintern.
+- Det finns ungefär 2 900 björnar i Sverige. Björnen är fridlyst, men skyddsjakt sker på hösten.
+- Är snabb i både vatten och på land, klättrar bra i träd och sägs kunna vissla.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller björnen, led vänligt tillbaka samtalet till skogen och dig som björn.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/placeholders/ursus_arctos_hero.jpg",
+    chatAvatarAlt: "Brunbjörnens ansikte",
+    relatedSpecies: [
+      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/placeholders/canis_lupus_hero.jpg" },
+      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/placeholders/gulo_gulo_hero.jpg" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
+  varg: {
+    id: "varg",
+    scientificName: "Canis lupus",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Varg", en: "Wolf", de: "Wolf" },
+    meta: {
+      sv: {
+        title: "Varg – Kustvägen Naturguide",
+        description:
+          "Lär känna vargen längs Kustvägen. Fakta om Sveriges skickliga flockjägare, dess ylande och liv i vildmarken.",
+      },
+      en: {
+        title: "Wolf – Kustvägen Nature Guide",
+        description:
+          "Discover the wolf along the Coastal Road. Facts about Sweden's skilled pack hunter, its howl, and life in the wilderness.",
+      },
+      de: {
+        title: "Wolf – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie den Wolf entlang des Kustvägen. Fakten zum geschickten Rudeljäger Schwedens, seinem Heulen und dem Leben in der Wildnis.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Egenskap", value: "Skicklig jägare, lever i flock" },
+        { label: "Föda", value: "Köttätare" },
+        { label: "Födsel", value: "2–8 valpar i april–maj" },
+        { label: "Population", value: "Ca 400 i Sverige" },
+      ],
+      en: [
+        { label: "Trait", value: "Skilled hunter, lives in packs" },
+        { label: "Diet", value: "Carnivore" },
+        { label: "Birth", value: "2–8 pups in April–May" },
+        { label: "Population", value: "About 400 in Sweden" },
+      ],
+      de: [
+        { label: "Merkmal", value: "Geschickter Jäger, lebt im Rudel" },
+        { label: "Nahrung", value: "Fleischfresser" },
+        { label: "Geburt", value: "2–8 Welpen im April–Mai" },
+        { label: "Population", value: "Ca. 400 in Schweden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Vildmarkens mytomspunna jägare",
+        intro:
+          "Vargen är en av Sveriges största rovdjur och dess utmärkta luktsinne, syn och hörsel gör den till en skicklig jägare. Vargen är ett nyfiket men skyggt djur som trivs bäst i vildmarken. Den lever gärna i flock och den kan vandra långa sträckor på kort tid. Honan föder 2-8 valpar under april-maj.\n\nVargen har alltid varit mytomspunnen och återfinns i många sagor och sägner. Det finns fortfarande en rädsla för vargen och vad den kan orsaka i sin jakt på föda. Denna rädsla har skapat en förföljelse, som har lett till att vargstammen har utarmats och i dagsläget finns det runt 400 vargar i Sverige. Vargen är stamfader till hunden och den kommunicerar precis som hunden genom att skälla, morra, gny och yla.",
+        quote: "Ett avlägset ylande i natten är vildmarkens eget rop – en påminnelse om att vargen fortfarande finns där ute.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Vargen är ett av Sveriges största rovdjur med ett utmärkt luktsinne, syn och hörsel. Den är nyfiken men skygg och trivs bäst långt från människor i vildmarken.",
+            image: "/images/placeholders/canis_lupus_hero.jpg",
+            alt: "Varg (Canis lupus) i vildmarksmiljö",
+            caption: "Vargens sinnen gör den till en av skogens skickligaste jägare.",
+          },
+          {
+            heading: "Flockliv & Jakt",
+            body: "Vargen lever gärna i flock och kan vandra långa sträckor på kort tid. Den kommunicerar genom att skälla, morra, gny och yla, precis som sin ättling hunden.",
+            image: "/images/placeholders/canis_lupus_detail.jpg",
+            alt: "Vargflock (Canis lupus) i skogen",
+            caption: "Ylandet hjälper flocken att hålla kontakt över långa avstånd.",
+          },
+          {
+            heading: "Fortplantning & Ekologi",
+            body: "Honan föder 2-8 valpar under april-maj. Trots sin mytomspunna status har vargen historiskt jagats hårt, och idag finns endast runt 400 vargar kvar i Sverige.",
+            image: "/images/placeholders/canis_lupus_1.jpg",
+            alt: "Vargvalpar (Canis lupus) i boet",
+            caption: "En vargkull kan bestå av så många som åtta valpar.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The wilderness's legendary hunter",
+        intro:
+          "The wolf is one of Sweden's largest predators, and its excellent sense of smell, sight, and hearing make it a skilled hunter. The wolf is a curious but shy animal that thrives best in the wilderness. It prefers living in packs and can travel long distances in a short time. The female gives birth to 2-8 pups during April-May.\n\nThe wolf has always been shrouded in myth and appears in countless tales and legends. There is still a fear of the wolf and what it might do while hunting for food. This fear has led to persecution that has depleted the wolf population, and today there are around 400 wolves in Sweden. The wolf is the ancestor of the dog and communicates just like a dog – by barking, growling, whimpering, and howling.",
+        quote: "A distant howl in the night is the wilderness's own call – a reminder that the wolf is still out there.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The wolf is one of Sweden's largest predators, with an excellent sense of smell, sight, and hearing. It is curious but shy, and thrives best far from people in the wilderness.",
+            image: "/images/placeholders/canis_lupus_hero.jpg",
+            alt: "Wolf (Canis lupus) in wilderness habitat",
+            caption: "The wolf's senses make it one of the forest's most skilled hunters.",
+          },
+          {
+            heading: "Pack Life & Hunting",
+            body: "The wolf prefers living in packs and can travel long distances in a short time. It communicates by barking, growling, whimpering, and howling, just like its descendant the dog.",
+            image: "/images/placeholders/canis_lupus_detail.jpg",
+            alt: "Wolf pack (Canis lupus) in the forest",
+            caption: "Howling helps the pack stay in contact over long distances.",
+          },
+          {
+            heading: "Reproduction & Ecology",
+            body: "The female gives birth to 2-8 pups during April-May. Despite its legendary status, the wolf has historically been heavily hunted, and today only around 400 wolves remain in Sweden.",
+            image: "/images/placeholders/canis_lupus_1.jpg",
+            alt: "Wolf pups (Canis lupus) at the den",
+            caption: "A wolf litter can consist of as many as eight pups.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der sagenumwobene Jäger der Wildnis",
+        intro:
+          "Der Wolf ist eines der größten Raubtiere Schwedens, und sein ausgezeichneter Geruchs-, Seh- und Hörsinn machen ihn zu einem geschickten Jäger. Der Wolf ist ein neugieriges, aber scheues Tier, das sich in der Wildnis am wohlsten fühlt. Er lebt gerne im Rudel und kann in kurzer Zeit weite Strecken zurücklegen. Das Weibchen bringt im April-Mai 2-8 Welpen zur Welt.\n\nDer Wolf war schon immer von Mythen umrankt und taucht in vielen Märchen und Sagen auf. Noch heute gibt es Angst vor dem Wolf und dem, was er bei seiner Jagd nach Nahrung anrichten könnte. Diese Angst hat zu Verfolgung geführt, die den Wolfsbestand stark geschwächt hat – heute gibt es rund 400 Wölfe in Schweden. Der Wolf ist der Vorfahre des Hundes und kommuniziert genau wie dieser durch Bellen, Knurren, Winseln und Heulen.",
+        quote: "Ein fernes Heulen in der Nacht ist der eigene Ruf der Wildnis – eine Erinnerung daran, dass der Wolf noch immer dort draußen ist.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Der Wolf ist eines der größten Raubtiere Schwedens, mit ausgezeichnetem Geruchs-, Seh- und Hörsinn. Er ist neugierig, aber scheu und fühlt sich fernab von Menschen in der Wildnis am wohlsten.",
+            image: "/images/placeholders/canis_lupus_hero.jpg",
+            alt: "Wolf (Canis lupus) in Wildnisumgebung",
+            caption: "Die Sinne des Wolfs machen ihn zu einem der geschicktesten Jäger des Waldes.",
+          },
+          {
+            heading: "Rudelleben & Jagd",
+            body: "Der Wolf lebt gerne im Rudel und kann in kurzer Zeit weite Strecken zurücklegen. Er kommuniziert durch Bellen, Knurren, Winseln und Heulen, genau wie sein Nachkomme, der Hund.",
+            image: "/images/placeholders/canis_lupus_detail.jpg",
+            alt: "Wolfsrudel (Canis lupus) im Wald",
+            caption: "Das Heulen hilft dem Rudel, über weite Entfernungen Kontakt zu halten.",
+          },
+          {
+            heading: "Fortpflanzung & Ökologie",
+            body: "Das Weibchen bringt im April-Mai 2-8 Welpen zur Welt. Trotz seines sagenumwobenen Status wurde der Wolf historisch stark bejagt, und heute gibt es nur noch rund 400 Wölfe in Schweden.",
+            image: "/images/placeholders/canis_lupus_1.jpg",
+            alt: "Wolfswelpen (Canis lupus) am Bau",
+            caption: "Ein Wolfswurf kann aus bis zu acht Welpen bestehen.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/placeholders/canis_lupus_hero.jpg",
+        alt: {
+          sv: "Varg (Canis lupus) i vildmarksmiljö längs Kustvägen",
+          en: "Wolf (Canis lupus) in wilderness habitat along the Coastal Road",
+          de: "Wolf (Canis lupus) in Wildnisumgebung entlang des Kustvägen",
+        },
+      },
+      detailImage: {
+        url: "/images/placeholders/canis_lupus_detail.jpg",
+        alt: {
+          sv: "Närbild på varg (Canis lupus)",
+          en: "Close-up of wolf (Canis lupus)",
+          de: "Nahaufnahme eines Wolfs (Canis lupus)",
+        },
+      },
+      galleryImages: [
+        { src: "/images/placeholders/canis_lupus_hero.jpg", alt: "Varg (Canis lupus) i vildmarksmiljö" },
+        { src: "/images/placeholders/canis_lupus_detail.jpg", alt: "Vargflock (Canis lupus) i skogen" },
+        { src: "/images/placeholders/canis_lupus_1.jpg", alt: "Vargvalpar (Canis lupus) i boet" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Vargen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Ask a question to the Wolf",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Stelle eine Frage an den Wolf",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en varg (Canis lupus) som lever i vildmarken längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är vargen. Till exempel: "Jag kan yla så att mina vänner hör mig långt bort!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐺) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om vargen:
+- Ett av Sveriges största rovdjur med utmärkt luktsinne, syn och hörsel.
+- Köttätare som lever gärna i flock och kan vandra långa sträckor på kort tid.
+- Honan föder 2-8 valpar under april-maj.
+- Kommunicerar genom att skälla, morra, gny och yla, precis som hundar (vargen är hundens stamfader).
+- Det finns runt 400 vargar i Sverige. Vargen är skygg och nyfiken, men undviker helst människor.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller vargen, led vänligt tillbaka samtalet till vildmarken och dig som varg.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/placeholders/canis_lupus_hero.jpg",
+    chatAvatarAlt: "Vargens ansikte",
+    relatedSpecies: [
+      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/placeholders/gulo_gulo_hero.jpg" },
+      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/placeholders/ursus_arctos_hero.jpg" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
+  jarv: {
+    id: "jarv",
+    scientificName: "Gulo gulo",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Järv", en: "Wolverine", de: "Vielfraß" },
+    meta: {
+      sv: {
+        title: "Järv – Kustvägen Naturguide",
+        description:
+          "Lär känna järven längs Kustvägen. Fakta om Nordens skygga asätare, dess snöskotassar och liv långt från människor.",
+      },
+      en: {
+        title: "Wolverine – Kustvägen Nature Guide",
+        description:
+          "Discover the wolverine along the Coastal Road. Facts about Scandinavia's shy scavenger, its snowshoe paws, and life far from people.",
+      },
+      de: {
+        title: "Vielfraß – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie den Vielfraß entlang des Kustvägen. Fakten zum scheuen Aasfresser des Nordens, seinen Schneeschuhpfoten und seinem zurückgezogenen Leben.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Föda", value: "Asätare, samlar matförråd" },
+        { label: "Egenskap", value: "Stora tassar fungerar som snöskor" },
+        { label: "Födsel", value: "1–4 ungar under feb–mars" },
+        { label: "Status", value: "Sårbar art, ca 600 i Sverige" },
+      ],
+      en: [
+        { label: "Diet", value: "Scavenger, stores food caches" },
+        { label: "Trait", value: "Large paws act as snowshoes" },
+        { label: "Birth", value: "1–4 kits in Feb–March" },
+        { label: "Status", value: "Vulnerable species, about 600 in Sweden" },
+      ],
+      de: [
+        { label: "Nahrung", value: "Aasfresser, sammelt Vorräte" },
+        { label: "Merkmal", value: "Große Pfoten wirken wie Schneeschuhe" },
+        { label: "Geburt", value: "1–4 Jungtiere im Feb–März" },
+        { label: "Status", value: "Gefährdete Art, ca. 600 in Schweden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Nordens hyena",
+        intro:
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte för att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+        quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Järven är liten men snabb, med stora, platta tassar som fungerar som snöskor på vintern. Den lever skyggt och ensamt, långt från människor.",
+            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            alt: "Järv (Gulo gulo) i vinterlandskap",
+            caption: "De stora tassarna gör att järven lätt tar sig fram i djup snö.",
+          },
+          {
+            heading: "Föda & Beteende",
+            body: "Kallad \u201dNordens hyena\u201d, livnär sig järven ofta på kvarlämnade rester från andra rovdjurs byten, som den samlar i matförråd runt om i skogen.",
+            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            alt: "Järv (Gulo gulo) som letar föda",
+            caption: "Järven drar sig inte för att stjäla andras mat.",
+          },
+          {
+            heading: "Fortplantning & Skydd",
+            body: "Honan föder 1-4 ungar under februari-mars, ofta i en snöhög eller klippskreva. Järven fridlystes 1969 och klassas idag som sårbar med runt 600 individer i Sverige.",
+            image: "/images/placeholders/gulo_gulo_1.jpg",
+            alt: "Järvunge (Gulo gulo) i boet",
+            caption: "Efter en tids hård jakt är järven idag en skyddad och sårbar art.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The hyena of the North",
+        intro:
+          "The wolverine is a shy predator that prefers to live alone, far from people. It is a rather poor hunter that often survives on leftovers from another animal's kill. This is why the wolverine is called \u201cthe hyena of the North,\u201d and it has no problem stealing other animals' food, which it then hoards in various caches around the forest.\n\nThe wolverine is small but fast, and with its large, flat paws that act like snowshoes, it moves easily across the snow. The female gives birth to 1-4 kits during February-March, often building her den in a snowdrift or a rock crevice. Intense hunting of the wolverine took place during the 1800s and 1900s, as part of an extermination campaign against predators, combined with a demand for its fur. The species was protected in 1969 and is today classified as vulnerable, with around 600 wolverines remaining in Sweden.",
+        quote: "The wolverine moves alone across the vast snowfields – a patient survivor far beyond the trails.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The wolverine is small but fast, with large, flat paws that act like snowshoes in winter. It lives shyly and alone, far from people.",
+            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            alt: "Wolverine (Gulo gulo) in winter landscape",
+            caption: "Its large paws let the wolverine move easily through deep snow.",
+          },
+          {
+            heading: "Diet & Behavior",
+            body: "Called \u201cthe hyena of the North,\u201d the wolverine often survives on leftovers from other predators' kills, which it hoards in caches around the forest.",
+            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            alt: "Wolverine (Gulo gulo) foraging for food",
+            caption: "The wolverine has no problem stealing other animals' food.",
+          },
+          {
+            heading: "Reproduction & Protection",
+            body: "The female gives birth to 1-4 kits during February-March, often in a snowdrift or rock crevice. The wolverine was protected in 1969 and is today classified as vulnerable, with around 600 individuals in Sweden.",
+            image: "/images/placeholders/gulo_gulo_1.jpg",
+            alt: "Wolverine kit (Gulo gulo) at the den",
+            caption: "After a period of intense hunting, the wolverine is now a protected and vulnerable species.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Die Hyäne des Nordens",
+        intro:
+          "Der Vielfraß ist ein scheues Raubtier, das lieber allein lebt, weit weg von Menschen. Er ist ein eher mittelmäßiger Jäger, der sich oft von den Resten der Beute anderer Tiere ernährt. Deshalb wird der Vielfraß auch \u201eHyäne des Nordens\u201c genannt, und er schreckt nicht davor zurück, anderen Nahrung zu stehlen, die er dann in verschiedenen Vorratslagern im Wald sammelt.\n\nDer Vielfraß ist klein, aber schnell, und mit seinen großen, flachen Pfoten, die wie Schneeschuhe wirken, bewegt er sich leicht über den Schnee. Das Weibchen bringt im Februar-März 1-4 Jungtiere zur Welt und baut dabei gerne ihr Lager in einer Schneewehe oder Felsspalte. Im 19. und 20. Jahrhundert wurde intensiv Jagd auf den Vielfraß gemacht, als Teil einer Ausrottungskampagne gegen Raubtiere und wegen seines Fells. Die Art wurde 1969 unter Schutz gestellt und gilt heute als gefährdet, mit etwa 600 Tieren in Schweden.",
+        quote: "Der Vielfraß bewegt sich allein durch die weiten Schneefelder – ein geduldiger Überlebenskünstler weit jenseits der Pfade.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Der Vielfraß ist klein, aber schnell, mit großen, flachen Pfoten, die im Winter wie Schneeschuhe wirken. Er lebt scheu und allein, weit weg von Menschen.",
+            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            alt: "Vielfraß (Gulo gulo) in Winterlandschaft",
+            caption: "Die großen Pfoten ermöglichen dem Vielfraß, sich leicht durch tiefen Schnee zu bewegen.",
+          },
+          {
+            heading: "Nahrung & Verhalten",
+            body: "Als \u201eHyäne des Nordens\u201c bezeichnet, ernährt sich der Vielfraß oft von Resten anderer Raubtiere, die er in Vorratslagern im Wald sammelt.",
+            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            alt: "Vielfraß (Gulo gulo) auf Nahrungssuche",
+            caption: "Der Vielfraß schreckt nicht davor zurück, Nahrung von anderen zu stehlen.",
+          },
+          {
+            heading: "Fortpflanzung & Schutz",
+            body: "Das Weibchen bringt im Februar-März 1-4 Jungtiere zur Welt, oft in einer Schneewehe oder Felsspalte. Der Vielfraß wurde 1969 unter Schutz gestellt und gilt heute als gefährdet, mit etwa 600 Tieren in Schweden.",
+            image: "/images/placeholders/gulo_gulo_1.jpg",
+            alt: "Vielfraßjunges (Gulo gulo) am Lager",
+            caption: "Nach intensiver Jagd ist der Vielfraß heute eine geschützte und gefährdete Art.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/placeholders/gulo_gulo_hero.jpg",
+        alt: {
+          sv: "Järv (Gulo gulo) i vinterlandskap längs Kustvägen",
+          en: "Wolverine (Gulo gulo) in winter landscape along the Coastal Road",
+          de: "Vielfraß (Gulo gulo) in Winterlandschaft entlang des Kustvägen",
+        },
+      },
+      detailImage: {
+        url: "/images/placeholders/gulo_gulo_detail.jpg",
+        alt: {
+          sv: "Närbild på järv (Gulo gulo)",
+          en: "Close-up of wolverine (Gulo gulo)",
+          de: "Nahaufnahme eines Vielfraßes (Gulo gulo)",
+        },
+      },
+      galleryImages: [
+        { src: "/images/placeholders/gulo_gulo_hero.jpg", alt: "Järv (Gulo gulo) i vinterlandskap" },
+        { src: "/images/placeholders/gulo_gulo_detail.jpg", alt: "Järv (Gulo gulo) letar föda" },
+        { src: "/images/placeholders/gulo_gulo_1.jpg", alt: "Järvunge (Gulo gulo) i boet" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Järven",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Ask a question to the Wolverine",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Stelle eine Frage an den Vielfraß",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en järv (Gulo gulo) som lever skyggt och ensam i vildmarken längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är järven. Till exempel: "Mina tassar är som snöskor, så jag springer lätt på djup snö!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐾) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om järven:
+- Kallas "Nordens hyena" - livnär sig ofta på rester från andra djurs byten, som den samlar i matförråd.
+- Liten men snabb. Stora, platta tassar fungerar som snöskor i djup snö.
+- Lever skyggt och ensamt, långt från människor.
+- Honan föder 1-4 ungar under februari-mars, ofta i en snöhög eller klippskreva.
+- Var nästan utrotad förr men fridlystes 1969. Idag finns runt 600 järvar i Sverige, och arten klassas som sårbar.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller järven, led vänligt tillbaka samtalet till skogen och dig som järv.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/placeholders/gulo_gulo_hero.jpg",
+    chatAvatarAlt: "Järvens ansikte",
+    relatedSpecies: [
+      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/placeholders/canis_lupus_hero.jpg" },
+      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/placeholders/ursus_arctos_hero.jpg" },
+      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/placeholders/meles_meles_hero.jpg" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
+  gravling: {
+    id: "gravling",
+    scientificName: "Meles meles",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Grävling", en: "European Badger", de: "Europäischer Dachs" },
+    meta: {
+      sv: {
+        title: "Grävling – Kustvägen Naturguide",
+        description:
+          "Lär känna grävlingen längs Kustvägen. Fakta om det underjordiska grytet, vintersömnen och livet i skog och trädgård.",
+      },
+      en: {
+        title: "European Badger – Kustvägen Nature Guide",
+        description:
+          "Discover the European badger along the Coastal Road. Facts about its underground den, winter dormancy, and life in forests and gardens.",
+      },
+      de: {
+        title: "Europäischer Dachs – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie den Europäischen Dachs entlang des Kustvägen. Fakten zum unterirdischen Bau, der Winterruhe und dem Leben in Wald und Garten.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Bo", value: "Gryt med upp till 40 ingångar" },
+        { label: "Föda", value: "Allätare" },
+        { label: "Vintersömn", value: "Från sen höst till mars" },
+        { label: "Födsel", value: "2–3 ungar under jan–mars" },
+      ],
+      en: [
+        { label: "Den", value: "Burrow with up to 40 entrances" },
+        { label: "Diet", value: "Omnivore" },
+        { label: "Winter Dormancy", value: "Late autumn to March" },
+        { label: "Birth", value: "2–3 cubs Jan–March" },
+      ],
+      de: [
+        { label: "Bau", value: "Höhle mit bis zu 40 Eingängen" },
+        { label: "Nahrung", value: "Allesfresser" },
+        { label: "Winterruhe", value: "Von Spätherbst bis März" },
+        { label: "Geburt", value: "2–3 Jungtiere im Jan–März" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens och trädgårdens grävare",
+        intro:
+          "Grävlingen trivs i både skogar, parker och trädgårdar och finns i så gott som hela Sverige. Den är allätare, men ingen bra jägare, då synen är dålig. Det hindrar den dock inte från att hitta mat och med sitt orädda sätt ställer den till bekymmer, när den tar för sig av odlingar och planteringar på åkrar och i trädgårdar. I Sverige finns det runt 300 000 grävlingar.\n\nGrävlingen bor i underjordiska gryt som ständigt byggs ut med nya hålor, gångar och våningar. Ett gryt kan ha 40 ingångar som bebos av flera familjer och generationer under många år. Grävlingen är mest aktiv vid skymningen och på natten, då den letar föda och naturligtvis gräver. Grävlingen går i vintersömn från sen höst till mars och honan föder 2-3 ungar under januari-mars.",
+        quote: "Djupt under skogens rötter döljer sig ett helt samhälle av gångar – grävlingens tysta rike.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Grävlingen känns igen på sin svartvita ansiktsmask och kraftiga kropp. Synen är dålig, men den kompenserar med ett utmärkt luktsinne när den letar föda.",
+            image: "/images/placeholders/meles_meles_hero.jpg",
+            alt: "Grävling (Meles meles) i skogsbrynet",
+            caption: "Den karaktäristiska ansiktsmasken gör grävlingen lätt att känna igen.",
+          },
+          {
+            heading: "Föda & Beteende",
+            body: "Som allätare tar grävlingen för sig av det som finns tillgängligt, ibland till bekymmer för trädgårdsägare. Den är mest aktiv i skymningen och på natten.",
+            image: "/images/placeholders/meles_meles_detail.jpg",
+            alt: "Grävling (Meles meles) som letar föda på natten",
+            caption: "Nattens mörker är grävlingens bästa vän på jakt efter mat.",
+          },
+          {
+            heading: "Gryt & Vintersömn",
+            body: "Grytet kan ha upp till 40 ingångar och bebos av flera familjer i generationer. Från sen höst till mars går grävlingen i vintersömn, och honan föder 2-3 ungar under denna tid.",
+            image: "/images/placeholders/meles_meles_1.jpg",
+            alt: "Ingång till grävlingens gryt (Meles meles)",
+            caption: "Ett gryt kan användas av grävlingsfamiljer i många generationer.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The digger of forest and garden",
+        intro:
+          "The badger thrives in forests, parks, and gardens, and can be found in almost all of Sweden. It is an omnivore, but not a great hunter, since its eyesight is poor. This doesn't stop it from finding food, however, and with its fearless nature it can cause trouble by helping itself to crops and plantings in fields and gardens. There are around 300,000 badgers in Sweden.\n\nBadgers live in underground burrows, known as setts, which are continuously expanded with new chambers, tunnels, and levels. A single sett can have up to 40 entrances, inhabited by several families across many generations. The badger is most active at dusk and during the night, when it searches for food and, naturally, digs. It enters winter dormancy from late autumn until March, and the female gives birth to 2-3 cubs during January-March.",
+        quote: "Deep beneath the forest's roots hides an entire community of tunnels – the badger's quiet kingdom.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The badger is recognized by its black-and-white facial mask and stocky body. Its eyesight is poor, but it compensates with an excellent sense of smell when foraging.",
+            image: "/images/placeholders/meles_meles_hero.jpg",
+            alt: "European badger (Meles meles) at the forest edge",
+            caption: "The distinctive facial mask makes the badger easy to recognize.",
+          },
+          {
+            heading: "Diet & Behavior",
+            body: "As an omnivore, the badger helps itself to whatever is available, sometimes causing trouble for garden owners. It is most active at dusk and during the night.",
+            image: "/images/placeholders/meles_meles_detail.jpg",
+            alt: "European badger (Meles meles) foraging at night",
+            caption: "The darkness of night is the badger's best friend when searching for food.",
+          },
+          {
+            heading: "Den & Winter Dormancy",
+            body: "The sett can have up to 40 entrances and be inhabited by several families across generations. From late autumn until March, the badger enters winter dormancy, and the female gives birth to 2-3 cubs during this time.",
+            image: "/images/placeholders/meles_meles_1.jpg",
+            alt: "Entrance to a badger sett (Meles meles)",
+            caption: "A sett can be used by badger families for many generations.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Gräber von Wald und Garten",
+        intro:
+          "Der Dachs fühlt sich in Wäldern, Parks und Gärten wohl und ist fast in ganz Schweden verbreitet. Er ist ein Allesfresser, aber kein guter Jäger, da sein Sehvermögen schlecht ist. Das hindert ihn jedoch nicht daran, Nahrung zu finden, und mit seiner furchtlosen Art sorgt er für Ärger, wenn er sich an Feldern und Gärten bedient. In Schweden gibt es etwa 300.000 Dachse.\n\nDachse leben in unterirdischen Bauten, die ständig mit neuen Höhlen, Gängen und Ebenen erweitert werden. Ein Bau kann bis zu 40 Eingänge haben und wird von mehreren Familien und Generationen über viele Jahre bewohnt. Der Dachs ist vor allem in der Dämmerung und nachts aktiv, wenn er nach Nahrung sucht und natürlich gräbt. Er hält von Spätherbst bis März Winterruhe, und das Weibchen bringt im Januar-März 2-3 Jungtiere zur Welt.",
+        quote: "Tief unter den Wurzeln des Waldes verbirgt sich ein ganzes Tunnelsystem – das stille Reich des Dachses.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Der Dachs ist an seiner schwarz-weißen Gesichtsmaske und seinem kräftigen Körper erkennbar. Sein Sehvermögen ist schlecht, dies gleicht er jedoch mit einem ausgezeichneten Geruchssinn aus.",
+            image: "/images/placeholders/meles_meles_hero.jpg",
+            alt: "Europäischer Dachs (Meles meles) am Waldrand",
+            caption: "Die markante Gesichtsmaske macht den Dachs leicht erkennbar.",
+          },
+          {
+            heading: "Nahrung & Verhalten",
+            body: "Als Allesfresser bedient sich der Dachs an allem Verfügbaren, was manchmal Ärger für Gartenbesitzer bedeutet. Er ist vor allem in der Dämmerung und nachts aktiv.",
+            image: "/images/placeholders/meles_meles_detail.jpg",
+            alt: "Europäischer Dachs (Meles meles) auf nächtlicher Nahrungssuche",
+            caption: "Die nächtliche Dunkelheit ist der beste Freund des Dachses bei der Nahrungssuche.",
+          },
+          {
+            heading: "Bau & Winterruhe",
+            body: "Der Bau kann bis zu 40 Eingänge haben und wird von mehreren Familien über Generationen bewohnt. Von Spätherbst bis März hält der Dachs Winterruhe, und das Weibchen bringt in dieser Zeit 2-3 Jungtiere zur Welt.",
+            image: "/images/placeholders/meles_meles_1.jpg",
+            alt: "Eingang zu einem Dachsbau (Meles meles)",
+            caption: "Ein Bau kann über viele Generationen von Dachsfamilien genutzt werden.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/placeholders/meles_meles_hero.jpg",
+        alt: {
+          sv: "Grävling (Meles meles) i skogsbrynet längs Kustvägen",
+          en: "European badger (Meles meles) at the forest edge along the Coastal Road",
+          de: "Europäischer Dachs (Meles meles) am Waldrand entlang des Kustvägen",
+        },
+      },
+      detailImage: {
+        url: "/images/placeholders/meles_meles_detail.jpg",
+        alt: {
+          sv: "Närbild på grävling (Meles meles)",
+          en: "Close-up of European badger (Meles meles)",
+          de: "Nahaufnahme eines Europäischen Dachses (Meles meles)",
+        },
+      },
+      galleryImages: [
+        { src: "/images/placeholders/meles_meles_hero.jpg", alt: "Grävling (Meles meles) i skogsbrynet" },
+        { src: "/images/placeholders/meles_meles_detail.jpg", alt: "Grävling (Meles meles) letar föda på natten" },
+        { src: "/images/placeholders/meles_meles_1.jpg", alt: "Ingång till grävlingens gryt (Meles meles)" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Grävlingen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Ask a question to the Badger",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Stelle eine Frage an den Dachs",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en grävling (Meles meles) som lever i skogar, parker och trädgårdar längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är grävlingen. Till exempel: "Mitt gryt kan ha 40 ingångar - det är som ett helt hus under jorden!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🦡) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om grävlingen:
+- Allätare, men synen är dålig - hittar mat mest med luktsinnet.
+- Bor i underjordiska gryt med upp till 40 ingångar, som delas av flera familjer i generationer.
+- Mest aktiv i skymningen och på natten.
+- Går i vintersömn från sen höst till mars.
+- Honan föder 2-3 ungar under januari-mars.
+- Det finns runt 300 000 grävlingar i Sverige.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller grävlingen, led vänligt tillbaka samtalet till skogen och dig som grävling.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/placeholders/meles_meles_hero.jpg",
+    chatAvatarAlt: "Grävlingens ansikte",
+    relatedSpecies: [
+      { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+      { slug: "radjur", name: "Rådjur", latin: "Capreolus capreolus", image: "/images/placeholders/capreolus_capreolus_hero.jpg" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler däggdjur",
+      en: "Discover more mammals",
+      de: "Weitere Säugetiere entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla däggdjur",
+      en: "View all mammals",
+      de: "Alle Säugetiere anzeigen",
+    },
+  },
+
+  radjur: {
+    id: "radjur",
+    scientificName: "Capreolus capreolus",
+    category: { sv: "Däggdjur", en: "Mammals", de: "Säugetiere" },
+    names: { sv: "Rådjur", en: "European Roe Deer", de: "Europäisches Reh" },
+    meta: {
+      sv: {
+        title: "Rådjur – Kustvägen Naturguide",
+        description:
+          "Lär känna rådjuret längs Kustvägen. Fakta om Sveriges minsta hjortdjur, dess kid och liv nära människan.",
+      },
+      en: {
+        title: "European Roe Deer – Kustvägen Nature Guide",
+        description:
+          "Discover the roe deer along the Coastal Road. Facts about Sweden's smallest deer species, its fawns, and life close to people.",
+      },
+      de: {
+        title: "Europäisches Reh – Kustvägen Naturführer",
+        description:
+          "Entdecken Sie das Reh entlang des Kustvägen. Fakten zu Schwedens kleinster Hirschart, seinen Kitzen und dem Leben in Nähe zum Menschen.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Storlek", value: "Sveriges minsta hjortdjur" },
+        { label: "Föda", value: "Finsmakare (växter)" },
+        { label: "Födsel", value: "1–3 kid under maj–juni" },
+        { label: "Jakt", value: "Ca 200 000 fälls årligen" },
+      ],
+      en: [
+        { label: "Size", value: "Sweden's smallest deer species" },
+        { label: "Diet", value: "Selective feeder (plants)" },
+        { label: "Birth", value: "1–3 fawns in May–June" },
+        { label: "Hunting", value: "About 200,000 culled annually" },
+      ],
+      de: [
+        { label: "Größe", value: "Schwedens kleinste Hirschart" },
+        { label: "Nahrung", value: "Anspruchsvoller Pflanzenfresser" },
+        { label: "Geburt", value: "1–3 Kitze im Mai–Juni" },
+        { label: "Jagd", value: "Ca. 200.000 werden jährlich erlegt" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Trädgårdens skygga besökare",
+        intro:
+          "Rådjuret, som är vårt minsta och vanligaste hjortdjur, kommer ofta fram vid gryning och skymning för att leta efter mat. Då det lever och rör sig där mat finns, kan vi ha det utanför köksfönstret vid äppelträdet eller ätandes på våra blommor i rabatten. Det är en riktig finsmakare som gärna låter sig bjudas på både knäckebröd och morötter. Det har ett bra luktsinne och om man vill behålla sina tulpaner, bör man använda avskräckande dofter.\n\nVarje år fälls det runt 200 000 rådjur i Sverige under jakt. Tillsammans med vildsvin och älg är det en av de mest jagade arterna och även ett byte för både vargar, lodjur och rävar. Rådjuren föder 1-3 ungar under maj-juni och ungarna kallas kid.",
+        quote: "En skymt av ett rådjur i gryningsljuset vid trädgårdskanten är en påminnelse om hur nära vildmarken egentligen finns.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beskrivning & Kännetecken",
+            body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och trädgårdar.",
+            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            alt: "Rådjur (Capreolus capreolus) vid skogsbrynet",
+            caption: "Rådjuret är lätt att känna igen på sin lilla, smidiga kropp.",
+          },
+          {
+            heading: "Föda & Beteende",
+            body: "Som en riktig finsmakare äter rådjuret gärna örter, knoppar och till och med trädgårdsväxter. Det har ett utmärkt luktsinne som hjälper det att hitta mat.",
+            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            alt: "Rådjur (Capreolus capreolus) som betar på en äng",
+            caption: "Rådjuret äter gärna det som växer nära bostäder och trädgårdar.",
+          },
+          {
+            heading: "Fortplantning & Jakt",
+            body: "Honan föder 1-3 kid under maj-juni. Rådjuret är en av de mest jagade arterna i Sverige, med runt 200 000 fällda djur per år, och ett viktigt byte för rovdjur som varg och lodjur.",
+            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            alt: "Rådjurskid (Capreolus capreolus) i gräset",
+            caption: "De unga kiden gömmer sig ofta stilla i högt gräs för att undvika upptäckt.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The garden's shy visitor",
+        intro:
+          "The roe deer, our smallest and most common deer species, often emerges at dawn and dusk to search for food. Since it lives and moves wherever food is available, we might find it right outside the kitchen window by the apple tree, or nibbling the flowers in our garden beds. It is a true connoisseur, happy to be treated to both crispbread and carrots. It has a good sense of smell, so if you want to keep your tulips safe, using deterrent scents is recommended.\n\nEvery year around 200,000 roe deer are culled through hunting in Sweden. Along with wild boar and moose, it is one of the most hunted species, and it is also prey for wolves, lynx, and foxes. Roe deer give birth to 1-3 young during May-June, and the young are called fawns.",
+        quote: "A glimpse of a roe deer in the dawn light at the garden's edge is a reminder of just how close the wilderness really is.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Description & Characteristics",
+            body: "The roe deer is Sweden's smallest deer species, with a slender body and large, dark eyes. It is often seen at dawn and dusk near forest edges and gardens.",
+            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            alt: "European roe deer (Capreolus capreolus) at the forest edge",
+            caption: "The roe deer is easily recognized by its small, slender body.",
+          },
+          {
+            heading: "Diet & Behavior",
+            body: "As a true connoisseur, the roe deer happily eats herbs, buds, and even garden plants. It has an excellent sense of smell that helps it find food.",
+            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            alt: "European roe deer (Capreolus capreolus) grazing in a meadow",
+            caption: "The roe deer readily eats whatever grows near homes and gardens.",
+          },
+          {
+            heading: "Reproduction & Hunting",
+            body: "The female gives birth to 1-3 fawns during May-June. The roe deer is one of the most hunted species in Sweden, with around 200,000 culled per year, and it is also an important prey species for wolves and lynx.",
+            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            alt: "Roe deer fawn (Capreolus capreolus) in the grass",
+            caption: "Young fawns often lie still and hidden in tall grass to avoid detection.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der scheue Besucher des Gartens",
+        intro:
+          "Das Reh, unsere kleinste und häufigste Hirschart, kommt oft in der Dämmerung zum Vorschein, um nach Nahrung zu suchen. Da es sich dort aufhält, wo Futter zu finden ist, kann es direkt vor dem Küchenfenster beim Apfelbaum stehen oder an unseren Blumenbeeten fressen. Es ist ein echter Feinschmecker, der sich gerne sowohl Knäckebrot als auch Karotten schmecken lässt. Es hat einen guten Geruchssinn, und wer seine Tulpen schützen möchte, sollte auf abschreckende Düfte setzen.\n\nJedes Jahr werden in Schweden rund 200.000 Rehe durch Jagd erlegt. Zusammen mit Wildschwein und Elch gehört es zu den meistgejagten Arten und ist zudem Beute für Wölfe, Luchse und Füchse. Rehe bringen im Mai-Juni 1-3 Junge zur Welt, die Kitze genannt werden.",
+        quote: "Ein flüchtiger Blick auf ein Reh im Morgenlicht am Gartenrand erinnert daran, wie nah die Wildnis eigentlich ist.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Beschreibung & Merkmale",
+            body: "Das Reh ist Schwedens kleinste Hirschart, mit einem schlanken Körper und großen, dunklen Augen. Es ist oft in der Dämmerung in der Nähe von Waldrändern und Gärten zu sehen.",
+            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            alt: "Europäisches Reh (Capreolus capreolus) am Waldrand",
+            caption: "Das Reh ist leicht an seinem kleinen, schlanken Körper zu erkennen.",
+          },
+          {
+            heading: "Nahrung & Verhalten",
+            body: "Als echter Feinschmecker frisst das Reh gerne Kräuter, Knospen und sogar Gartenpflanzen. Es hat einen ausgezeichneten Geruchssinn, der ihm bei der Nahrungssuche hilft.",
+            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            alt: "Europäisches Reh (Capreolus capreolus) auf einer Wiese",
+            caption: "Das Reh frisst gerne, was in der Nähe von Häusern und Gärten wächst.",
+          },
+          {
+            heading: "Fortpflanzung & Jagd",
+            body: "Das Weibchen bringt im Mai-Juni 1-3 Kitze zur Welt. Das Reh ist eine der meistgejagten Arten Schwedens, mit rund 200.000 erlegten Tieren pro Jahr, und ist zudem eine wichtige Beute für Wölfe und Luchse.",
+            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            alt: "Rehkitz (Capreolus capreolus) im Gras",
+            caption: "Junge Kitze liegen oft still versteckt im hohen Gras, um Entdeckung zu vermeiden.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/placeholders/capreolus_capreolus_hero.jpg",
+        alt: {
+          sv: "Rådjur (Capreolus capreolus) vid skogsbrynet längs Kustvägen",
+          en: "European roe deer (Capreolus capreolus) at the forest edge along the Coastal Road",
+          de: "Europäisches Reh (Capreolus capreolus) am Waldrand entlang des Kustvägen",
+        },
+      },
+      detailImage: {
+        url: "/images/placeholders/capreolus_capreolus_detail.jpg",
+        alt: {
+          sv: "Närbild på rådjur (Capreolus capreolus)",
+          en: "Close-up of European roe deer (Capreolus capreolus)",
+          de: "Nahaufnahme eines Europäischen Rehs (Capreolus capreolus)",
+        },
+      },
+      galleryImages: [
+        { src: "/images/placeholders/capreolus_capreolus_hero.jpg", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
+        { src: "/images/placeholders/capreolus_capreolus_detail.jpg", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
+        { src: "/images/placeholders/capreolus_capreolus_1.jpg", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hören Sie den Guide", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Ställ en fråga till Rådjuret",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Ask a question to the Roe Deer",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Stelle eine Frage an das Reh",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är ett rådjur (Capreolus capreolus) som lever nära skog, åkrar och trädgårdar längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är rådjuret. Till exempel: "Jag är Sveriges minsta hjortdjur, men jag älskar att äta godis från trädgårdar!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🦌) om det passar, men inte i varje svar.
+- Förklara svåra ord på ett enkelt sätt.
+
+INNEHÅLL - håll dig till fakta om rådjuret:
+- Sveriges minsta och vanligaste hjortdjur.
+- Kommer fram vid gryning och skymning för att leta mat - gärna nära trädgårdar och åkrar.
+- Finsmakare som äter växter, knoppar och till och med trädgårdsblommor.
+- Har ett bra luktsinne.
+- Honan föder 1-3 ungar, som kallas kid, under maj-juni.
+- Är byte för varg, lodjur och räv, och jagas även av människor - runt 200 000 fälls varje år i Sverige.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller rådjuret, led vänligt tillbaka samtalet till skogen och dig som rådjur.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/placeholders/capreolus_capreolus_hero.jpg",
+    chatAvatarAlt: "Rådjurets ansikte",
+    relatedSpecies: [
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
+      { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
+      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/placeholders/meles_meles_hero.jpg" },
     ],
     relatedSectionHeading: {
       sv: "Upptäck fler däggdjur",
