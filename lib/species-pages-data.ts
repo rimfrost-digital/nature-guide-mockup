@@ -820,10 +820,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
+      { src: "brunbjorn-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
       { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda" },
       { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
-      { src: "brunbjorn-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1044,10 +1044,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
+      { src: "varg-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö" },
       { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
       { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet" },
-      { src: "varg-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1267,10 +1267,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
+      { src: "jarv-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap" },
       { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
       { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet" },
-      { src: "jarv-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1490,10 +1490,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
+      { src: "gravling-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/gravling-hero.png", alt: "Grävling (Meles meles) i skogsbrynet" },
       { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten" },
       { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
-      { src: "gravling-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1714,10 +1714,10 @@ SÄKERHET:
         },
       },
       galleryImages: [
+      { src: "radjur-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
       { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
       { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
-      { src: "radjur-video-placeholder", alt: "Video kommer snart", videoPlaceholder: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -2430,7 +2430,7 @@ SÄKERHET:
             body: "Under vår och höst söker sig strömmingen in mot grundare kustområden och skärgårdens tångbälten för att leka. Honan lägger sina klibbiga ägg på växter och stenar. Larverna kläcks efter ett par veckor och livnär sig på djurplankton.",
             image: "/images/stromming-bo.png",
             alt: "Undervattensbild av tångbälte i skärgården där strömmingen leker",
-            caption: "Skärgårdens grunda tångvikar är avgörande barnkammare för strömmingen.",
+            caption: "Skärgårdens grunda tångvikar är avg��rande barnkammare för strömmingen.",
           },
           {
             heading: "Kultur & Fiske",

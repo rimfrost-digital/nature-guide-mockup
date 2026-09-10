@@ -39,11 +39,11 @@ export function SpeciesGallery({ items }: { items: GalleryItem[] }) {
 
 function VideoPlaceholderTile() {
   return (
-    <div className="flex aspect-square flex-col items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-[#B89452]/50 bg-[#1d2521]/5 break-inside-avoid">
+    <div className="flex aspect-square flex-col items-center justify-center gap-3 rounded-2xl border-2 border-dashed border-[#B89452]/50 bg-white break-inside-avoid">
       <span className="flex h-14 w-14 items-center justify-center rounded-full bg-[#B89452]/20 text-[#B89452]">
         <Play className="ml-1 h-6 w-6" fill="currentColor" strokeWidth={0} />
       </span>
-      <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#B89452]">Video kommer snart</span>
+      <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#1d2521]">Här går video</span>
     </div>
   )
 }
