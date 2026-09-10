@@ -822,7 +822,7 @@ SÄKERHET:
       galleryImages: [
       { src: "brunbjorn-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
-      { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda" },
+      { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda", tall: true },
       { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
       ],
       audio: {
@@ -1047,7 +1047,7 @@ SÄKERHET:
       { src: "varg-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö" },
       { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
-      { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet" },
+      { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet", tall: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1270,7 +1270,7 @@ SÄKERHET:
       { src: "jarv-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap" },
       { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
-      { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet" },
+      { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet", tall: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1492,7 +1492,7 @@ SÄKERHET:
       galleryImages: [
       { src: "gravling-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/gravling-hero.png", alt: "Grävling (Meles meles) i skogsbrynet" },
-      { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten" },
+      { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten", tall: true },
       { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
       ],
       audio: {
@@ -1717,7 +1717,7 @@ SÄKERHET:
       { src: "radjur-video-placeholder", alt: "Här går video", videoPlaceholder: true },
       { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
       { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
-      { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
+      { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset", tall: true },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -3185,7 +3185,7 @@ SÄKERHET:
       },
     },
     media: {
-      heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der Küste" } },
+      heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der K��ste" } },
       detailImage: { url: "/images/lin-blomma.png", alt: { sv: "Närbild på blå linblomma", en: "Close-up of a blue flax flower", de: "Nahaufnahme einer Flachsblüte" } },
       galleryImages: [
         { src: "/images/lin-hero.png", alt: "Video från närområdet", video: "/video/lin-naromradet.mp4", tall: true },

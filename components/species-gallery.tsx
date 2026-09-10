@@ -22,13 +22,18 @@ export function SpeciesGallery({ items }: { items: GalleryItem[] }) {
         ) : item.video ? (
           <VideoTile key={item.src} item={item} />
         ) : (
-          <div key={item.src} className="overflow-hidden rounded-2xl break-inside-avoid">
+          <div
+            key={item.src}
+            className={`overflow-hidden rounded-2xl break-inside-avoid ${item.tall ? "aspect-[3/4]" : ""}`}
+          >
             <Image
               src={item.src || "/placeholder.svg"}
               alt={item.alt}
               width={600}
               height={item.tall ? 800 : 600}
-              className="h-auto w-full object-cover transition-transform duration-500 hover:scale-105"
+              className={`w-full transition-transform duration-500 hover:scale-105 ${
+                item.tall ? "h-full object-cover" : "h-auto object-cover"
+              }`}
             />
           </div>
         ),
