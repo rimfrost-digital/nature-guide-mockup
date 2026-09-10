@@ -64,7 +64,7 @@ export const species: Species[] = [
     latin: "Ursus arctos",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/placeholders/ursus_arctos_hero.jpg",
+    image: "/images/brunbjorn-hero.png",
   },
   {
     slug: "varg",
@@ -72,7 +72,7 @@ export const species: Species[] = [
     latin: "Canis lupus",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/placeholders/canis_lupus_hero.jpg",
+    image: "/images/varg-hero.png",
   },
   {
     slug: "jarv",
@@ -80,7 +80,7 @@ export const species: Species[] = [
     latin: "Gulo gulo",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/placeholders/gulo_gulo_hero.jpg",
+    image: "/images/jarv-hero.png",
   },
   {
     slug: "gravling",
@@ -88,7 +88,7 @@ export const species: Species[] = [
     latin: "Meles meles",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/placeholders/meles_meles_hero.jpg",
+    image: "/images/gravling-hero.png",
   },
   {
     slug: "radjur",
@@ -96,7 +96,7 @@ export const species: Species[] = [
     latin: "Capreolus capreolus",
     badge: "Däggdjur",
     category: "daggdjur",
-    image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+    image: "/images/radjur-hero.png",
   },
   {
     slug: "havsorn",

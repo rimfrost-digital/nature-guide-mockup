@@ -721,21 +721,21 @@ SÄKERHET:
           {
             heading: "Beskrivning & Kännetecken",
             body: "Björnen är kraftig och intelligent, och en fullvuxen hane kan väga upp till 350 kg. Den känns igen på sin tunga kropp, kraftiga tassar och sitt mörkbruna, ibland gulbruna, täta vinterpäls.",
-            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            image: "/images/brunbjorn-hero.png",
             alt: "Brunbjörn (Ursus arctos) i skogsmiljö",
             caption: "En fullvuxen hane kan väga så mycket som 350 kg.",
           },
           {
             heading: "Föda & Beteende",
             body: "Björnen är allätare men föredrar småkryp, rötter, växter och bär. Under sensommaren är blåbär favoriten, och den kan få i sig hela 30 kg bär under en enda dag.",
-            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            image: "/images/brunbjorn-detalj.png",
             alt: "Brunbjörn (Ursus arctos) som söker föda",
             caption: "Upp till 30 kg blåbär kan ätas på en dag under sensommaren.",
           },
           {
             heading: "Vinteride & Ekologi",
             body: "Under vinterhalvåret går björnen i ide och sover tills vårsolen tittar fram. Honan föder 1-4 ungar per kull medan hon sover. Björnen är fridlyst, men skyddsjakt sker under hösten.",
-            image: "/images/placeholders/ursus_arctos_1.jpg",
+            image: "/images/brunbjorn-ide.png",
             alt: "Björnide (Ursus arctos) i vinterskog",
             caption: "I idet föder honan sina ungar mitt i vinterdvalan.",
           },
@@ -751,21 +751,21 @@ SÄKERHET:
           {
             heading: "Description & Characteristics",
             body: "The bear is powerful and intelligent, and a fully grown male can weigh up to 350 kg. It is recognized by its heavy body, powerful paws, and thick dark brown, sometimes yellowish-brown, winter coat.",
-            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            image: "/images/brunbjorn-hero.png",
             alt: "Brown bear (Ursus arctos) in forest habitat",
             caption: "A fully grown male can weigh as much as 350 kg.",
           },
           {
             heading: "Diet & Behavior",
             body: "The bear is an omnivore but prefers insects, roots, plants, and berries. In late summer, blueberries are the favorite, and it can eat up to 30 kg of berries in a single day.",
-            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            image: "/images/brunbjorn-detalj.png",
             alt: "Brown bear (Ursus arctos) foraging for food",
             caption: "Up to 30 kg of blueberries can be eaten in one day in late summer.",
           },
           {
             heading: "Hibernation & Ecology",
             body: "During the winter months, the bear hibernates in its den and sleeps until the spring sun appears. The female gives birth to 1-4 cubs during this time. The bear is protected, though licensed hunting occurs in autumn.",
-            image: "/images/placeholders/ursus_arctos_1.jpg",
+            image: "/images/brunbjorn-ide.png",
             alt: "Brown bear (Ursus arctos) den in winter forest",
             caption: "In the den, the female gives birth in the middle of winter dormancy.",
           },
@@ -781,21 +781,21 @@ SÄKERHET:
           {
             heading: "Beschreibung & Merkmale",
             body: "Der Bär ist kraftvoll und intelligent, und ein ausgewachsenes Männchen kann bis zu 350 kg wiegen. Erkennbar ist er an seinem schweren Körper, kräftigen Pfoten und dichtem, dunkelbraunem bis gelbbraunem Winterfell.",
-            image: "/images/placeholders/ursus_arctos_hero.jpg",
+            image: "/images/brunbjorn-hero.png",
             alt: "Braunbär (Ursus arctos) im Waldgebiet",
             caption: "Ein ausgewachsenes Männchen kann bis zu 350 kg wiegen.",
           },
           {
             heading: "Nahrung & Verhalten",
             body: "Der Bär ist Allesfresser, bevorzugt aber Kleintiere, Wurzeln, Pflanzen und Beeren. Im Spätsommer sind Blaubeeren sein Favorit, und er kann an einem Tag bis zu 30 kg Beeren fressen.",
-            image: "/images/placeholders/ursus_arctos_detail.jpg",
+            image: "/images/brunbjorn-detalj.png",
             alt: "Braunbär (Ursus arctos) auf Nahrungssuche",
             caption: "Bis zu 30 kg Blaubeeren können an einem Tag im Spätsommer gefressen werden.",
           },
           {
             heading: "Winterschlaf & Ökologie",
             body: "Während der Winterhälfte hält der Bär Winterschlaf, bis die Frühlingssonne erscheint. Das Weibchen bringt in dieser Zeit 1-4 Jungtiere zur Welt. Der Bär steht unter Naturschutz, im Herbst findet jedoch eine Schutzjagd statt.",
-            image: "/images/placeholders/ursus_arctos_1.jpg",
+            image: "/images/brunbjorn-ide.png",
             alt: "Braunbärlager (Ursus arctos) im Winterwald",
             caption: "Im Lager bringt das Weibchen mitten im Winterschlaf ihre Jungtiere zur Welt.",
           },
@@ -804,7 +804,7 @@ SÄKERHET:
     },
     media: {
       heroImage: {
-        url: "/images/placeholders/ursus_arctos_hero.jpg",
+        url: "/images/brunbjorn-hero.png",
         alt: {
           sv: "Brunbjörn (Ursus arctos) i skogsmiljö längs Kustvägen",
           en: "Brown bear (Ursus arctos) in forest habitat along the Coastal Road",
@@ -812,7 +812,7 @@ SÄKERHET:
         },
       },
       detailImage: {
-        url: "/images/placeholders/ursus_arctos_detail.jpg",
+        url: "/images/brunbjorn-detalj.png",
         alt: {
           sv: "Närbild på brunbjörn (Ursus arctos)",
           en: "Close-up of brown bear (Ursus arctos)",
@@ -820,9 +820,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/placeholders/ursus_arctos_hero.jpg", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
-        { src: "/images/placeholders/ursus_arctos_detail.jpg", alt: "Brunbjörn (Ursus arctos) söker föda" },
-        { src: "/images/placeholders/ursus_arctos_1.jpg", alt: "Björnide (Ursus arctos) i vinterskog" },
+        { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
+        { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda" },
+        { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -872,11 +872,11 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, djur eller björnen, led vänligt tillbaka samtalet till skogen och dig som björn.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
-    avatarImage: "/images/placeholders/ursus_arctos_hero.jpg",
+    avatarImage: "/images/brunbjorn-hero.png",
     chatAvatarAlt: "Brunbjörnens ansikte",
     relatedSpecies: [
-      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/placeholders/canis_lupus_hero.jpg" },
-      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/placeholders/gulo_gulo_hero.jpg" },
+      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/varg-hero.png" },
+      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/jarv-hero.png" },
       { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
     ],
     relatedSectionHeading: {
@@ -944,21 +944,21 @@ SÄKERHET:
           {
             heading: "Beskrivning & Kännetecken",
             body: "Vargen är ett av Sveriges största rovdjur med ett utmärkt luktsinne, syn och hörsel. Den är nyfiken men skygg och trivs bäst långt från människor i vildmarken.",
-            image: "/images/placeholders/canis_lupus_hero.jpg",
+            image: "/images/varg-hero.png",
             alt: "Varg (Canis lupus) i vildmarksmiljö",
             caption: "Vargens sinnen gör den till en av skogens skickligaste jägare.",
           },
           {
             heading: "Flockliv & Jakt",
             body: "Vargen lever gärna i flock och kan vandra långa sträckor på kort tid. Den kommunicerar genom att skälla, morra, gny och yla, precis som sin ättling hunden.",
-            image: "/images/placeholders/canis_lupus_detail.jpg",
+            image: "/images/varg-flock.png",
             alt: "Vargflock (Canis lupus) i skogen",
             caption: "Ylandet hjälper flocken att hålla kontakt över långa avstånd.",
           },
           {
             heading: "Fortplantning & Ekologi",
             body: "Honan föder 2-8 valpar under april-maj. Trots sin mytomspunna status har vargen historiskt jagats hårt, och idag finns endast runt 400 vargar kvar i Sverige.",
-            image: "/images/placeholders/canis_lupus_1.jpg",
+            image: "/images/varg-valpar.png",
             alt: "Vargvalpar (Canis lupus) i boet",
             caption: "En vargkull kan bestå av så många som åtta valpar.",
           },
@@ -974,21 +974,21 @@ SÄKERHET:
           {
             heading: "Description & Characteristics",
             body: "The wolf is one of Sweden's largest predators, with an excellent sense of smell, sight, and hearing. It is curious but shy, and thrives best far from people in the wilderness.",
-            image: "/images/placeholders/canis_lupus_hero.jpg",
+            image: "/images/varg-hero.png",
             alt: "Wolf (Canis lupus) in wilderness habitat",
             caption: "The wolf's senses make it one of the forest's most skilled hunters.",
           },
           {
             heading: "Pack Life & Hunting",
             body: "The wolf prefers living in packs and can travel long distances in a short time. It communicates by barking, growling, whimpering, and howling, just like its descendant the dog.",
-            image: "/images/placeholders/canis_lupus_detail.jpg",
+            image: "/images/varg-flock.png",
             alt: "Wolf pack (Canis lupus) in the forest",
             caption: "Howling helps the pack stay in contact over long distances.",
           },
           {
             heading: "Reproduction & Ecology",
             body: "The female gives birth to 2-8 pups during April-May. Despite its legendary status, the wolf has historically been heavily hunted, and today only around 400 wolves remain in Sweden.",
-            image: "/images/placeholders/canis_lupus_1.jpg",
+            image: "/images/varg-valpar.png",
             alt: "Wolf pups (Canis lupus) at the den",
             caption: "A wolf litter can consist of as many as eight pups.",
           },
@@ -1004,21 +1004,21 @@ SÄKERHET:
           {
             heading: "Beschreibung & Merkmale",
             body: "Der Wolf ist eines der größten Raubtiere Schwedens, mit ausgezeichnetem Geruchs-, Seh- und Hörsinn. Er ist neugierig, aber scheu und fühlt sich fernab von Menschen in der Wildnis am wohlsten.",
-            image: "/images/placeholders/canis_lupus_hero.jpg",
+            image: "/images/varg-hero.png",
             alt: "Wolf (Canis lupus) in Wildnisumgebung",
             caption: "Die Sinne des Wolfs machen ihn zu einem der geschicktesten Jäger des Waldes.",
           },
           {
             heading: "Rudelleben & Jagd",
             body: "Der Wolf lebt gerne im Rudel und kann in kurzer Zeit weite Strecken zurücklegen. Er kommuniziert durch Bellen, Knurren, Winseln und Heulen, genau wie sein Nachkomme, der Hund.",
-            image: "/images/placeholders/canis_lupus_detail.jpg",
+            image: "/images/varg-flock.png",
             alt: "Wolfsrudel (Canis lupus) im Wald",
             caption: "Das Heulen hilft dem Rudel, über weite Entfernungen Kontakt zu halten.",
           },
           {
             heading: "Fortpflanzung & Ökologie",
             body: "Das Weibchen bringt im April-Mai 2-8 Welpen zur Welt. Trotz seines sagenumwobenen Status wurde der Wolf historisch stark bejagt, und heute gibt es nur noch rund 400 Wölfe in Schweden.",
-            image: "/images/placeholders/canis_lupus_1.jpg",
+            image: "/images/varg-valpar.png",
             alt: "Wolfswelpen (Canis lupus) am Bau",
             caption: "Ein Wolfswurf kann aus bis zu acht Welpen bestehen.",
           },
@@ -1027,7 +1027,7 @@ SÄKERHET:
     },
     media: {
       heroImage: {
-        url: "/images/placeholders/canis_lupus_hero.jpg",
+        url: "/images/varg-hero.png",
         alt: {
           sv: "Varg (Canis lupus) i vildmarksmiljö längs Kustvägen",
           en: "Wolf (Canis lupus) in wilderness habitat along the Coastal Road",
@@ -1035,7 +1035,7 @@ SÄKERHET:
         },
       },
       detailImage: {
-        url: "/images/placeholders/canis_lupus_detail.jpg",
+        url: "/images/varg-flock.png",
         alt: {
           sv: "Närbild på varg (Canis lupus)",
           en: "Close-up of wolf (Canis lupus)",
@@ -1043,9 +1043,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/placeholders/canis_lupus_hero.jpg", alt: "Varg (Canis lupus) i vildmarksmiljö" },
-        { src: "/images/placeholders/canis_lupus_detail.jpg", alt: "Vargflock (Canis lupus) i skogen" },
-        { src: "/images/placeholders/canis_lupus_1.jpg", alt: "Vargvalpar (Canis lupus) i boet" },
+        { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö" },
+        { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
+        { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1094,11 +1094,11 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, djur eller vargen, led vänligt tillbaka samtalet till vildmarken och dig som varg.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
-    avatarImage: "/images/placeholders/canis_lupus_hero.jpg",
+    avatarImage: "/images/varg-hero.png",
     chatAvatarAlt: "Vargens ansikte",
     relatedSpecies: [
-      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/placeholders/gulo_gulo_hero.jpg" },
-      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/placeholders/ursus_arctos_hero.jpg" },
+      { slug: "jarv", name: "Järv", latin: "Gulo gulo", image: "/images/jarv-hero.png" },
+      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/brunbjorn-hero.png" },
       { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
     ],
     relatedSectionHeading: {
@@ -1166,21 +1166,21 @@ SÄKERHET:
           {
             heading: "Beskrivning & Kännetecken",
             body: "Järven är liten men snabb, med stora, platta tassar som fungerar som snöskor på vintern. Den lever skyggt och ensamt, långt från människor.",
-            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            image: "/images/jarv-hero.png",
             alt: "Järv (Gulo gulo) i vinterlandskap",
             caption: "De stora tassarna gör att järven lätt tar sig fram i djup snö.",
           },
           {
             heading: "Föda & Beteende",
             body: "Kallad \u201dNordens hyena\u201d, livnär sig järven ofta på kvarlämnade rester från andra rovdjurs byten, som den samlar i matförråd runt om i skogen.",
-            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            image: "/images/jarv-detalj.png",
             alt: "Järv (Gulo gulo) som letar föda",
             caption: "Järven drar sig inte för att stjäla andras mat.",
           },
           {
             heading: "Fortplantning & Skydd",
             body: "Honan föder 1-4 ungar under februari-mars, ofta i en snöhög eller klippskreva. Järven fridlystes 1969 och klassas idag som sårbar med runt 600 individer i Sverige.",
-            image: "/images/placeholders/gulo_gulo_1.jpg",
+            image: "/images/jarv-unge.png",
             alt: "Järvunge (Gulo gulo) i boet",
             caption: "Efter en tids hård jakt är järven idag en skyddad och sårbar art.",
           },
@@ -1196,21 +1196,21 @@ SÄKERHET:
           {
             heading: "Description & Characteristics",
             body: "The wolverine is small but fast, with large, flat paws that act like snowshoes in winter. It lives shyly and alone, far from people.",
-            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            image: "/images/jarv-hero.png",
             alt: "Wolverine (Gulo gulo) in winter landscape",
             caption: "Its large paws let the wolverine move easily through deep snow.",
           },
           {
             heading: "Diet & Behavior",
             body: "Called \u201cthe hyena of the North,\u201d the wolverine often survives on leftovers from other predators' kills, which it hoards in caches around the forest.",
-            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            image: "/images/jarv-detalj.png",
             alt: "Wolverine (Gulo gulo) foraging for food",
             caption: "The wolverine has no problem stealing other animals' food.",
           },
           {
             heading: "Reproduction & Protection",
             body: "The female gives birth to 1-4 kits during February-March, often in a snowdrift or rock crevice. The wolverine was protected in 1969 and is today classified as vulnerable, with around 600 individuals in Sweden.",
-            image: "/images/placeholders/gulo_gulo_1.jpg",
+            image: "/images/jarv-unge.png",
             alt: "Wolverine kit (Gulo gulo) at the den",
             caption: "After a period of intense hunting, the wolverine is now a protected and vulnerable species.",
           },
@@ -1226,21 +1226,21 @@ SÄKERHET:
           {
             heading: "Beschreibung & Merkmale",
             body: "Der Vielfraß ist klein, aber schnell, mit großen, flachen Pfoten, die im Winter wie Schneeschuhe wirken. Er lebt scheu und allein, weit weg von Menschen.",
-            image: "/images/placeholders/gulo_gulo_hero.jpg",
+            image: "/images/jarv-hero.png",
             alt: "Vielfraß (Gulo gulo) in Winterlandschaft",
             caption: "Die großen Pfoten ermöglichen dem Vielfraß, sich leicht durch tiefen Schnee zu bewegen.",
           },
           {
             heading: "Nahrung & Verhalten",
             body: "Als \u201eHyäne des Nordens\u201c bezeichnet, ernährt sich der Vielfraß oft von Resten anderer Raubtiere, die er in Vorratslagern im Wald sammelt.",
-            image: "/images/placeholders/gulo_gulo_detail.jpg",
+            image: "/images/jarv-detalj.png",
             alt: "Vielfraß (Gulo gulo) auf Nahrungssuche",
             caption: "Der Vielfraß schreckt nicht davor zurück, Nahrung von anderen zu stehlen.",
           },
           {
             heading: "Fortpflanzung & Schutz",
             body: "Das Weibchen bringt im Februar-März 1-4 Jungtiere zur Welt, oft in einer Schneewehe oder Felsspalte. Der Vielfraß wurde 1969 unter Schutz gestellt und gilt heute als gefährdet, mit etwa 600 Tieren in Schweden.",
-            image: "/images/placeholders/gulo_gulo_1.jpg",
+            image: "/images/jarv-unge.png",
             alt: "Vielfraßjunges (Gulo gulo) am Lager",
             caption: "Nach intensiver Jagd ist der Vielfraß heute eine geschützte und gefährdete Art.",
           },
@@ -1249,7 +1249,7 @@ SÄKERHET:
     },
     media: {
       heroImage: {
-        url: "/images/placeholders/gulo_gulo_hero.jpg",
+        url: "/images/jarv-hero.png",
         alt: {
           sv: "Järv (Gulo gulo) i vinterlandskap längs Kustvägen",
           en: "Wolverine (Gulo gulo) in winter landscape along the Coastal Road",
@@ -1257,7 +1257,7 @@ SÄKERHET:
         },
       },
       detailImage: {
-        url: "/images/placeholders/gulo_gulo_detail.jpg",
+        url: "/images/jarv-detalj.png",
         alt: {
           sv: "Närbild på järv (Gulo gulo)",
           en: "Close-up of wolverine (Gulo gulo)",
@@ -1265,9 +1265,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/placeholders/gulo_gulo_hero.jpg", alt: "Järv (Gulo gulo) i vinterlandskap" },
-        { src: "/images/placeholders/gulo_gulo_detail.jpg", alt: "Järv (Gulo gulo) letar föda" },
-        { src: "/images/placeholders/gulo_gulo_1.jpg", alt: "Järvunge (Gulo gulo) i boet" },
+        { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap" },
+        { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
+        { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1316,12 +1316,12 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, djur eller järven, led vänligt tillbaka samtalet till skogen och dig som järv.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
-    avatarImage: "/images/placeholders/gulo_gulo_hero.jpg",
+    avatarImage: "/images/jarv-hero.png",
     chatAvatarAlt: "Järvens ansikte",
     relatedSpecies: [
-      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/placeholders/canis_lupus_hero.jpg" },
-      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/placeholders/ursus_arctos_hero.jpg" },
-      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/placeholders/meles_meles_hero.jpg" },
+      { slug: "varg", name: "Varg", latin: "Canis lupus", image: "/images/varg-hero.png" },
+      { slug: "brunbjorn", name: "Brunbjörn", latin: "Ursus arctos", image: "/images/brunbjorn-hero.png" },
+      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/gravling-hero.png" },
     ],
     relatedSectionHeading: {
       sv: "Upptäck fler däggdjur",
@@ -1388,21 +1388,21 @@ SÄKERHET:
           {
             heading: "Beskrivning & Kännetecken",
             body: "Grävlingen känns igen på sin svartvita ansiktsmask och kraftiga kropp. Synen är dålig, men den kompenserar med ett utmärkt luktsinne när den letar föda.",
-            image: "/images/placeholders/meles_meles_hero.jpg",
+            image: "/images/gravling-hero.png",
             alt: "Grävling (Meles meles) i skogsbrynet",
             caption: "Den karaktäristiska ansiktsmasken gör grävlingen lätt att känna igen.",
           },
           {
             heading: "Föda & Beteende",
             body: "Som allätare tar grävlingen för sig av det som finns tillgängligt, ibland till bekymmer för trädgårdsägare. Den är mest aktiv i skymningen och på natten.",
-            image: "/images/placeholders/meles_meles_detail.jpg",
+            image: "/images/gravling-natt.png",
             alt: "Grävling (Meles meles) som letar föda på natten",
             caption: "Nattens mörker är grävlingens bästa vän på jakt efter mat.",
           },
           {
             heading: "Gryt & Vintersömn",
             body: "Grytet kan ha upp till 40 ingångar och bebos av flera familjer i generationer. Från sen höst till mars går grävlingen i vintersömn, och honan föder 2-3 ungar under denna tid.",
-            image: "/images/placeholders/meles_meles_1.jpg",
+            image: "/images/gravling-gryt.png",
             alt: "Ingång till grävlingens gryt (Meles meles)",
             caption: "Ett gryt kan användas av grävlingsfamiljer i många generationer.",
           },
@@ -1418,21 +1418,21 @@ SÄKERHET:
           {
             heading: "Description & Characteristics",
             body: "The badger is recognized by its black-and-white facial mask and stocky body. Its eyesight is poor, but it compensates with an excellent sense of smell when foraging.",
-            image: "/images/placeholders/meles_meles_hero.jpg",
+            image: "/images/gravling-hero.png",
             alt: "European badger (Meles meles) at the forest edge",
             caption: "The distinctive facial mask makes the badger easy to recognize.",
           },
           {
             heading: "Diet & Behavior",
             body: "As an omnivore, the badger helps itself to whatever is available, sometimes causing trouble for garden owners. It is most active at dusk and during the night.",
-            image: "/images/placeholders/meles_meles_detail.jpg",
+            image: "/images/gravling-natt.png",
             alt: "European badger (Meles meles) foraging at night",
             caption: "The darkness of night is the badger's best friend when searching for food.",
           },
           {
             heading: "Den & Winter Dormancy",
             body: "The sett can have up to 40 entrances and be inhabited by several families across generations. From late autumn until March, the badger enters winter dormancy, and the female gives birth to 2-3 cubs during this time.",
-            image: "/images/placeholders/meles_meles_1.jpg",
+            image: "/images/gravling-gryt.png",
             alt: "Entrance to a badger sett (Meles meles)",
             caption: "A sett can be used by badger families for many generations.",
           },
@@ -1448,21 +1448,21 @@ SÄKERHET:
           {
             heading: "Beschreibung & Merkmale",
             body: "Der Dachs ist an seiner schwarz-weißen Gesichtsmaske und seinem kräftigen Körper erkennbar. Sein Sehvermögen ist schlecht, dies gleicht er jedoch mit einem ausgezeichneten Geruchssinn aus.",
-            image: "/images/placeholders/meles_meles_hero.jpg",
+            image: "/images/gravling-hero.png",
             alt: "Europäischer Dachs (Meles meles) am Waldrand",
             caption: "Die markante Gesichtsmaske macht den Dachs leicht erkennbar.",
           },
           {
             heading: "Nahrung & Verhalten",
             body: "Als Allesfresser bedient sich der Dachs an allem Verfügbaren, was manchmal Ärger für Gartenbesitzer bedeutet. Er ist vor allem in der Dämmerung und nachts aktiv.",
-            image: "/images/placeholders/meles_meles_detail.jpg",
+            image: "/images/gravling-natt.png",
             alt: "Europäischer Dachs (Meles meles) auf nächtlicher Nahrungssuche",
             caption: "Die nächtliche Dunkelheit ist der beste Freund des Dachses bei der Nahrungssuche.",
           },
           {
             heading: "Bau & Winterruhe",
             body: "Der Bau kann bis zu 40 Eingänge haben und wird von mehreren Familien über Generationen bewohnt. Von Spätherbst bis März hält der Dachs Winterruhe, und das Weibchen bringt in dieser Zeit 2-3 Jungtiere zur Welt.",
-            image: "/images/placeholders/meles_meles_1.jpg",
+            image: "/images/gravling-gryt.png",
             alt: "Eingang zu einem Dachsbau (Meles meles)",
             caption: "Ein Bau kann über viele Generationen von Dachsfamilien genutzt werden.",
           },
@@ -1471,7 +1471,7 @@ SÄKERHET:
     },
     media: {
       heroImage: {
-        url: "/images/placeholders/meles_meles_hero.jpg",
+        url: "/images/gravling-hero.png",
         alt: {
           sv: "Grävling (Meles meles) i skogsbrynet längs Kustvägen",
           en: "European badger (Meles meles) at the forest edge along the Coastal Road",
@@ -1479,7 +1479,7 @@ SÄKERHET:
         },
       },
       detailImage: {
-        url: "/images/placeholders/meles_meles_detail.jpg",
+        url: "/images/gravling-natt.png",
         alt: {
           sv: "Närbild på grävling (Meles meles)",
           en: "Close-up of European badger (Meles meles)",
@@ -1487,9 +1487,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/placeholders/meles_meles_hero.jpg", alt: "Grävling (Meles meles) i skogsbrynet" },
-        { src: "/images/placeholders/meles_meles_detail.jpg", alt: "Grävling (Meles meles) letar föda på natten" },
-        { src: "/images/placeholders/meles_meles_1.jpg", alt: "Ingång till grävlingens gryt (Meles meles)" },
+        { src: "/images/gravling-hero.png", alt: "Grävling (Meles meles) i skogsbrynet" },
+        { src: "/images/gravling-natt.png", alt: "Grävling (Meles meles) letar föda på natten" },
+        { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1539,12 +1539,12 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, djur eller grävlingen, led vänligt tillbaka samtalet till skogen och dig som grävling.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
-    avatarImage: "/images/placeholders/meles_meles_hero.jpg",
+    avatarImage: "/images/gravling-hero.png",
     chatAvatarAlt: "Grävlingens ansikte",
     relatedSpecies: [
       { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
       { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
-      { slug: "radjur", name: "Rådjur", latin: "Capreolus capreolus", image: "/images/placeholders/capreolus_capreolus_hero.jpg" },
+      { slug: "radjur", name: "Rådjur", latin: "Capreolus capreolus", image: "/images/radjur-hero.png" },
     ],
     relatedSectionHeading: {
       sv: "Upptäck fler däggdjur",
@@ -1611,21 +1611,21 @@ SÄKERHET:
           {
             heading: "Beskrivning & Kännetecken",
             body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och trädgårdar.",
-            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            image: "/images/radjur-hero.png",
             alt: "Rådjur (Capreolus capreolus) vid skogsbrynet",
             caption: "Rådjuret är lätt att känna igen på sin lilla, smidiga kropp.",
           },
           {
             heading: "Föda & Beteende",
             body: "Som en riktig finsmakare äter rådjuret gärna örter, knoppar och till och med trädgårdsväxter. Det har ett utmärkt luktsinne som hjälper det att hitta mat.",
-            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            image: "/images/radjur-betar.png",
             alt: "Rådjur (Capreolus capreolus) som betar på en äng",
             caption: "Rådjuret äter gärna det som växer nära bostäder och trädgårdar.",
           },
           {
             heading: "Fortplantning & Jakt",
             body: "Honan föder 1-3 kid under maj-juni. Rådjuret är en av de mest jagade arterna i Sverige, med runt 200 000 fällda djur per år, och ett viktigt byte för rovdjur som varg och lodjur.",
-            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            image: "/images/radjur-kid.png",
             alt: "Rådjurskid (Capreolus capreolus) i gräset",
             caption: "De unga kiden gömmer sig ofta stilla i högt gräs för att undvika upptäckt.",
           },
@@ -1641,21 +1641,21 @@ SÄKERHET:
           {
             heading: "Description & Characteristics",
             body: "The roe deer is Sweden's smallest deer species, with a slender body and large, dark eyes. It is often seen at dawn and dusk near forest edges and gardens.",
-            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            image: "/images/radjur-hero.png",
             alt: "European roe deer (Capreolus capreolus) at the forest edge",
             caption: "The roe deer is easily recognized by its small, slender body.",
           },
           {
             heading: "Diet & Behavior",
             body: "As a true connoisseur, the roe deer happily eats herbs, buds, and even garden plants. It has an excellent sense of smell that helps it find food.",
-            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            image: "/images/radjur-betar.png",
             alt: "European roe deer (Capreolus capreolus) grazing in a meadow",
             caption: "The roe deer readily eats whatever grows near homes and gardens.",
           },
           {
             heading: "Reproduction & Hunting",
             body: "The female gives birth to 1-3 fawns during May-June. The roe deer is one of the most hunted species in Sweden, with around 200,000 culled per year, and it is also an important prey species for wolves and lynx.",
-            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            image: "/images/radjur-kid.png",
             alt: "Roe deer fawn (Capreolus capreolus) in the grass",
             caption: "Young fawns often lie still and hidden in tall grass to avoid detection.",
           },
@@ -1671,21 +1671,21 @@ SÄKERHET:
           {
             heading: "Beschreibung & Merkmale",
             body: "Das Reh ist Schwedens kleinste Hirschart, mit einem schlanken Körper und großen, dunklen Augen. Es ist oft in der Dämmerung in der Nähe von Waldrändern und Gärten zu sehen.",
-            image: "/images/placeholders/capreolus_capreolus_hero.jpg",
+            image: "/images/radjur-hero.png",
             alt: "Europäisches Reh (Capreolus capreolus) am Waldrand",
             caption: "Das Reh ist leicht an seinem kleinen, schlanken Körper zu erkennen.",
           },
           {
             heading: "Nahrung & Verhalten",
             body: "Als echter Feinschmecker frisst das Reh gerne Kräuter, Knospen und sogar Gartenpflanzen. Es hat einen ausgezeichneten Geruchssinn, der ihm bei der Nahrungssuche hilft.",
-            image: "/images/placeholders/capreolus_capreolus_detail.jpg",
+            image: "/images/radjur-betar.png",
             alt: "Europäisches Reh (Capreolus capreolus) auf einer Wiese",
             caption: "Das Reh frisst gerne, was in der Nähe von Häusern und Gärten wächst.",
           },
           {
             heading: "Fortpflanzung & Jagd",
             body: "Das Weibchen bringt im Mai-Juni 1-3 Kitze zur Welt. Das Reh ist eine der meistgejagten Arten Schwedens, mit rund 200.000 erlegten Tieren pro Jahr, und ist zudem eine wichtige Beute für Wölfe und Luchse.",
-            image: "/images/placeholders/capreolus_capreolus_1.jpg",
+            image: "/images/radjur-kid.png",
             alt: "Rehkitz (Capreolus capreolus) im Gras",
             caption: "Junge Kitze liegen oft still versteckt im hohen Gras, um Entdeckung zu vermeiden.",
           },
@@ -1694,7 +1694,7 @@ SÄKERHET:
     },
     media: {
       heroImage: {
-        url: "/images/placeholders/capreolus_capreolus_hero.jpg",
+        url: "/images/radjur-hero.png",
         alt: {
           sv: "Rådjur (Capreolus capreolus) vid skogsbrynet längs Kustvägen",
           en: "European roe deer (Capreolus capreolus) at the forest edge along the Coastal Road",
@@ -1702,7 +1702,7 @@ SÄKERHET:
         },
       },
       detailImage: {
-        url: "/images/placeholders/capreolus_capreolus_detail.jpg",
+        url: "/images/radjur-betar.png",
         alt: {
           sv: "Närbild på rådjur (Capreolus capreolus)",
           en: "Close-up of European roe deer (Capreolus capreolus)",
@@ -1710,9 +1710,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/placeholders/capreolus_capreolus_hero.jpg", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
-        { src: "/images/placeholders/capreolus_capreolus_detail.jpg", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
-        { src: "/images/placeholders/capreolus_capreolus_1.jpg", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
+        { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
+        { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
+        { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -1762,12 +1762,12 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, djur eller rådjuret, led vänligt tillbaka samtalet till skogen och dig som rådjur.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
-    avatarImage: "/images/placeholders/capreolus_capreolus_hero.jpg",
+    avatarImage: "/images/radjur-hero.png",
     chatAvatarAlt: "Rådjurets ansikte",
     relatedSpecies: [
       { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lynx-hero.png" },
       { slug: "rodrav", name: "Rödräv", latin: "Vulpes vulpes", image: "/images/rodrav-hero.png" },
-      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/placeholders/meles_meles_hero.jpg" },
+      { slug: "gravling", name: "Grävling", latin: "Meles meles", image: "/images/gravling-hero.png" },
     ],
     relatedSectionHeading: {
       sv: "Upptäck fler däggdjur",
