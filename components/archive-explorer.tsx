@@ -144,7 +144,7 @@ function SpeciesCard({
 
 function InfoBanner() {
   return (
-    <div className="mb-8 flex items-center gap-5 rounded-xl bg-[#B89452] p-6 md:p-8">
+    <div className="my-8 flex items-center gap-5 rounded-xl bg-[#B89452] p-6 md:p-8">
       <div className="flex size-16 shrink-0 items-center justify-center rounded-lg bg-white md:size-20">
         <QrCode className="size-10 text-black md:size-12" aria-hidden="true" />
       </div>
