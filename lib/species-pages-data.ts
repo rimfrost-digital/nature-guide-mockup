@@ -2992,7 +2992,7 @@ VIKTIGT - du pratar med BARN:
 
 INNEHÅLL - håll dig till fakta om kantarellen:
 - Hattbredd: 3-10 cm. Äggul till blekgul färg, trattlik form.
-- Har grenade åsar under hatten (inte skivor) som löper ner på foten. Doftar milt och fruktigt, som aprikos.
+- Har grenade åsar under hatten (inte skivor) som löper ner p�� foten. Doftar milt och fruktigt, som aprikos.
 - Trivs i symbios med björk, gran och tall i blandskog. Växer ofta i grupper på samma ställe år efter år.
 - Säsong: juli till oktober, bäst efter rejäla sommarregn. Kan komma redan runt midsommar om det varit varmt och regnigt.
 - Ingen farlig giftig dubbelgångare i Sverige. Den enda liknande svampen är narrkantarellen (falsk kantarell), som är tunnare, orangeare och har riktiga skivor - den är inte giftig men smakar inget vidare.
@@ -3212,6 +3212,906 @@ SÄKERHET:
       { slug: "tall", name: "Tall", latin: "Pinus sylvestris", image: "/images/tall-hero.png" },
       { slug: "kantarell", name: "Kantarell", latin: "Cantharellus cibarius", image: "/images/kantarell-hero.png" },
       { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/havsorn-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  bofink: {
+    id: "bofink",
+    scientificName: "Fringilla coelebs",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Bofink", en: "Common Chaffinch", de: "Buchfink" },
+    meta: {
+      sv: { title: "Bofink – Kustvägen Naturguide", description: "Lär känna bofinken längs Kustvägen. Fakta om en av Sveriges vanligaste och mest sångstarka småfåglar." },
+      en: { title: "Common Chaffinch – Kustvägen Nature Guide", description: "Discover the Common Chaffinch along the Coastal Road, one of Sweden's most common and vocal songbirds." },
+      de: { title: "Buchfink – Kustvägen Naturführer", description: "Entdecken Sie den Buchfinken entlang des Kustvägen, einen der häufigsten und gesangsfreudigsten Singvögel Schwedens." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "18–29 g" },
+        { label: "Föda", value: "Frön och insekter" },
+        { label: "Läte", value: "Klingande drill som avslutas med en smäll" },
+        { label: "Livsmiljö", value: "Skog, park och trädgård" },
+      ],
+      en: [
+        { label: "Weight", value: "18–29 g" },
+        { label: "Diet", value: "Seeds and insects" },
+        { label: "Call", value: "Ringing trill ending in a flourish" },
+        { label: "Habitat", value: "Forest, parks and gardens" },
+      ],
+      de: [
+        { label: "Gewicht", value: "18–29 g" },
+        { label: "Nahrung", value: "Samen und Insekten" },
+        { label: "Ruf", value: "Klingender Triller mit Schlussfloskel" },
+        { label: "Lebensraum", value: "Wald, Parks und Gärten" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens flitigaste sångare",
+        intro: "Bofinken är en av våra allra vanligaste fåglar och känns igen på hanens rosa bröst och blågrå huvud. Dess klingande sång hörs från trädtopparna redan i tidig vår, och paret bygger ett av skogens mest välkamouflerade bon, klätt med lav och mossa så att det smälter in i grenen.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The forest's busiest singer",
+        intro: "The Chaffinch is one of our most common birds, recognised by the male's pink breast and blue-grey head. Its ringing song echoes from treetops from early spring, and the pair builds one of the forest's best-camouflaged nests, lined with lichen and moss to blend into the branch.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der fleißigste Sänger des Waldes",
+        intro: "Der Buchfink ist einer unserer häufigsten Vögel, erkennbar am rosa Bruststück und blaugrauen Kopf des Männchens. Sein klingender Gesang ertönt schon im Frühfrühling von den Baumwipfeln, und das Paar baut eines der bestgetarnten Nester des Waldes, ausgekleidet mit Flechten und Moos.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/bofink-hero.png", alt: { sv: "Bofink på en björkgren", en: "Chaffinch on a birch branch", de: "Buchfink auf einem Birkenzweig" } },
+      galleryImages: [
+        { src: "/images/faglar/bofink-hero.png", alt: "Bofink (Fringilla coelebs) på gren" },
+        { src: "/images/faglar/bofink-detalj.png", alt: "Bofink söker föda på marken", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/bofink_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/bofink_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/bofink_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Bofinken", intro: "Jag sjunger från trädtopparna varje vår. Fråga mig om min sång, mitt bo eller min föda!", presetQuestions: ["Varför sjunger du så mycket?", "Hur bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Chaffinch", intro: "I sing from the treetops every spring. Ask me about my song, my nest, or my food!", presetQuestions: ["Why do you sing so much?", "How do you build your nest?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Buchfinken", intro: "Ich singe jeden Frühling von den Baumwipfeln. Frage mich nach meinem Gesang, meinem Nest oder meiner Nahrung!", presetQuestions: ["Warum singst du so viel?", "Wie baust du dein Nest?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en bofink (Fringilla coelebs) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från bofinkens sida.",
+    avatarImage: "/images/faglar/bofink-hero.png",
+    chatAvatarAlt: "En bofink på en gren",
+    relatedSpecies: [
+      { slug: "koltrast", name: "Koltrast", latin: "Turdus merula", image: "/images/faglar/koltrast-hero.png" },
+      { slug: "domherre", name: "Domherre", latin: "Pyrrhula pyrrhula", image: "/images/faglar/domherre-hero.png" },
+      { slug: "notskrika", name: "Nötskrika", latin: "Garrulus glandarius", image: "/images/faglar/notskrika-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  gratrut: {
+    id: "gratrut",
+    scientificName: "Larus argentatus",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Gråtrut", en: "European Herring Gull", de: "Silbermöwe" },
+    meta: {
+      sv: { title: "Gråtrut – Kustvägen Naturguide", description: "Lär känna gråtruten längs Kustvägen. Fakta om kustens mest kända och högljudda fågel." },
+      en: { title: "European Herring Gull – Kustvägen Nature Guide", description: "Discover the Herring Gull along the Coastal Road, the coast's most recognisable and vocal bird." },
+      de: { title: "Silbermöwe – Kustvägen Naturführer", description: "Entdecken Sie die Silbermöwe entlang des Kustvägen, den bekanntesten und lautesten Vogel der Küste." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "750–1250 g" },
+        { label: "Föda", value: "Fisk, kräftdjur, avfall" },
+        { label: "Läte", value: "Högljutt skrattande skri" },
+        { label: "Livsmiljö", value: "Kustklippor, hamnar och skärgård" },
+      ],
+      en: [
+        { label: "Weight", value: "750–1250 g" },
+        { label: "Diet", value: "Fish, crustaceans, scraps" },
+        { label: "Call", value: "Loud laughing cry" },
+        { label: "Habitat", value: "Coastal cliffs, harbours and archipelago" },
+      ],
+      de: [
+        { label: "Gewicht", value: "750–1250 g" },
+        { label: "Nahrung", value: "Fisch, Krebstiere, Abfälle" },
+        { label: "Ruf", value: "Lautes, lachendes Kreischen" },
+        { label: "Lebensraum", value: "Küstenfelsen, Häfen und Schärengarten" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skärgårdens skrikande vaktare",
+        intro: "Gråtruten är kustens mest bekanta fågel, känd för sitt kraftfulla skri och sina gula ben. Den häckar i kolonier på klippöar längs Kustvägen och är en skicklig opportunist som lika gärna plockar musslor ur vattnet som stjäl matrester i hamnen. Ungfåglarna har ett brunspräckligt fjäderdräkt som tar flera år att bli helt vit och grå.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The archipelago's shrieking guardian",
+        intro: "The Herring Gull is the coast's most familiar bird, known for its powerful cry and yellow legs. It nests in colonies on rocky islets along the Coastal Road and is a skilled opportunist, just as happy prising mussels from the water as stealing scraps in the harbour. Juveniles have brown, mottled plumage that takes several years to turn fully white and grey.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der schreiende Wächter des Schärengartens",
+        intro: "Die Silbermöwe ist der bekannteste Vogel der Küste, bekannt für ihren kräftigen Schrei und ihre gelben Beine. Sie brütet in Kolonien auf Felseninseln entlang des Kustvägen und ist eine geschickte Opportunistin. Jungvögel haben ein braun geschecktes Gefieder, das erst nach mehreren Jahren vollständig weiß und grau wird.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/gratrut-hero.png", alt: { sv: "Gråtrut på klippa vid havet", en: "Herring gull on a coastal cliff", de: "Silbermöwe auf einem Küstenfelsen" } },
+      galleryImages: [
+        { src: "/images/faglar/gratrut-hero.png", alt: "Gråtrut (Larus argentatus) på klippa" },
+        { src: "/images/faglar/gratrut-detalj.png", alt: "Gråtrutens bo med ägg på klipphäll", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/gratrut_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/gratrut_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/gratrut_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Gråtruten", intro: "Jag vaktar skärgården med skarpa ögon och ett kraftfullt skri. Fråga mig om mitt bo, min föda eller mitt läte!", presetQuestions: ["Varför skriker du så mycket?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Herring Gull", intro: "I guard the archipelago with sharp eyes and a powerful cry. Ask me about my nest, my food, or my call!", presetQuestions: ["Why do you cry so much?", "Where do you build your nest?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an die Silbermöwe", intro: "Ich bewache den Schärengarten mit scharfen Augen und einem kräftigen Schrei. Frage mich nach meinem Nest, meiner Nahrung oder meinem Ruf!", presetQuestions: ["Warum schreist du so viel?", "Wo baust du dein Nest?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en gråtrut (Larus argentatus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från gråtrutens sida.",
+    avatarImage: "/images/faglar/gratrut-hero.png",
+    chatAvatarAlt: "En gråtrut på en klippa",
+    relatedSpecies: [
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/species-eagle.png" },
+      { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/sp-osprey.png" },
+      { slug: "grahager", name: "Gråhäger", latin: "Ardea cinerea", image: "/images/faglar/grahager-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  tjader: {
+    id: "tjader",
+    scientificName: "Tetrao urogallus",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Tjäder", en: "Western Capercaillie", de: "Auerhahn" },
+    meta: {
+      sv: { title: "Tjäder – Kustvägen Naturguide", description: "Lär känna tjädern längs Kustvägen. Fakta om Europas största hönsfågel och dess spektakulära vårspel." },
+      en: { title: "Western Capercaillie – Kustvägen Nature Guide", description: "Discover the Capercaillie along the Coastal Road, Europe's largest grouse and its spectacular spring display." },
+      de: { title: "Auerhahn – Kustvägen Naturführer", description: "Entdecken Sie den Auerhahn entlang des Kustvägen, Europas größtes Waldhuhn mit seinem spektakulären Frühlingsbalzspiel." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "Hane upp till 5 kg" },
+        { label: "Föda", value: "Barr, bär och skott" },
+        { label: "Läte", value: "Klickande och poppande spelläte" },
+        { label: "Livsmiljö", value: "Gammal barrskog" },
+      ],
+      en: [
+        { label: "Weight", value: "Male up to 5 kg" },
+        { label: "Diet", value: "Conifer needles, berries and shoots" },
+        { label: "Call", value: "Clicking and popping display song" },
+        { label: "Habitat", value: "Old-growth coniferous forest" },
+      ],
+      de: [
+        { label: "Gewicht", value: "Hahn bis zu 5 kg" },
+        { label: "Nahrung", value: "Nadeln, Beeren und Triebe" },
+        { label: "Ruf", value: "Klickender und knallender Balzgesang" },
+        { label: "Lebensraum", value: "Alter Nadelwald" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens tunga vårspelare",
+        intro: "Tjädern är Europas största hönsfågel och hanen är en imponerande syn med sin glänsande svart-gröna bröstfjäll och röda ögonbrynshud. Varje vår samlas hanarna på traditionella spelplatser i skogen där de klickar, poppar och sprider sin stjärt för att imponera på honorna. Utanför spelet är tjädern skygg och tillbringar mesta tiden gömd i gammal tät barrskog.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The forest's heavyweight spring performer",
+        intro: "The Capercaillie is Europe's largest grouse, and the male is an impressive sight with glossy black-green breast feathers and red eyebrow wattle. Every spring the males gather at traditional display grounds in the forest, clicking, popping and fanning their tails to impress the females. Outside the display season, the Capercaillie is shy and spends most of its time hidden in old dense conifer forest.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der schwergewichtige Balzkünstler des Waldes",
+        intro: "Der Auerhahn ist Europas größtes Waldhuhn, und das Männchen ist mit seinem glänzend schwarz-grünen Brustgefieder und der roten Augenbrauenhaut ein beeindruckender Anblick. Jedes Frühjahr versammeln sich die Hähne an traditionellen Balzplätzen im Wald. Außerhalb der Balzzeit ist der Auerhahn scheu und verbringt die meiste Zeit versteckt im alten, dichten Nadelwald.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/tjader-hero.png", alt: { sv: "Tjäderhane i barrskog", en: "Capercaillie male in coniferous forest", de: "Auerhahn im Nadelwald" } },
+      galleryImages: [
+        { src: "/images/faglar/tjader-hero.png", alt: "Tjäder (Tetrao urogallus) i skogen" },
+        { src: "/images/faglar/tjader-detalj.png", alt: "Tjäderhane spelar i skogsgläntan", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/tjader_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/tjader_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/tjader_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Tjädern", intro: "Jag spelar och klickar i skogen varje vår. Fråga mig om mitt spel, min föda eller var jag bor!", presetQuestions: ["Vad är ett tjäderspel?", "Vad äter du?", "Var i skogen bor du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Capercaillie", intro: "I display and click in the forest every spring. Ask me about my display, my food, or where I live!", presetQuestions: ["What is a capercaillie display?", "What do you eat?", "Where in the forest do you live?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tjäderns sida.",
+    avatarImage: "/images/faglar/tjader-hero.png",
+    chatAvatarAlt: "En tjäderhane i skogen",
+    relatedSpecies: [
+      { slug: "orre", name: "Orre", latin: "Lyrurus tetrix", image: "/images/faglar/orre-hero.png" },
+      { slug: "lappuggla", name: "Lappuggla", latin: "Strix nebulosa", image: "/images/faglar/lappuggla-hero.png" },
+      { slug: "graspett", name: "Gråspett", latin: "Picus canus", image: "/images/faglar/graspett-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  graspett: {
+    id: "graspett",
+    scientificName: "Picus canus",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Gråspett", en: "Grey-headed Woodpecker", de: "Grauspecht" },
+    meta: {
+      sv: { title: "Gråspett – Kustvägen Naturguide", description: "Lär känna gråspetten längs Kustvägen. Fakta om den ovanliga hackspetten med det gråa huvudet." },
+      en: { title: "Grey-headed Woodpecker – Kustvägen Nature Guide", description: "Discover the Grey-headed Woodpecker along the Coastal Road, an uncommon woodpecker with a grey head." },
+      de: { title: "Grauspecht – Kustvägen Naturführer", description: "Entdecken Sie den Grauspecht entlang des Kustvägen, einen seltenen Specht mit grauem Kopf." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "110–170 g" },
+        { label: "Föda", value: "Myror och insekter i barken" },
+        { label: "Läte", value: "Nedåtgående, klagande drill" },
+        { label: "Livsmiljö", value: "Lövskog och skogsbryn" },
+      ],
+      en: [
+        { label: "Weight", value: "110–170 g" },
+        { label: "Diet", value: "Ants and insects in bark" },
+        { label: "Call", value: "Descending, plaintive trill" },
+        { label: "Habitat", value: "Deciduous forest and woodland edges" },
+      ],
+      de: [
+        { label: "Gewicht", value: "110–170 g" },
+        { label: "Nahrung", value: "Ameisen und Insekten in der Rinde" },
+        { label: "Ruf", value: "Absteigender, klagender Triller" },
+        { label: "Lebensraum", value: "Laubwald und Waldränder" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Den tysta hackspetten med grått huvud",
+        intro: "Gråspetten är en av våra mest sällsynta hackspettar och skiljer sig från sina släktingar genom sitt gråa huvud och den mer diskreta trumningen. Den letar föda genom att lugnt klättra utmed stammar och grenar på jakt efter myror, snarare än att hamra hårt som gröngölingen. Boet gröps ur i gamla lövträd, ofta samma hål år efter år om det inte förstörs.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The quiet woodpecker with a grey head",
+        intro: "The Grey-headed Woodpecker is one of our rarest woodpeckers, distinguished from its relatives by its grey head and quieter drumming. It forages by calmly climbing along trunks and branches hunting for ants, rather than hammering hard like the Green Woodpecker. The nest is carved into old deciduous trees, often the same hole used year after year if it survives.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der stille Specht mit dem grauen Kopf",
+        intro: "Der Grauspecht ist einer unserer seltensten Spechte und unterscheidet sich von seinen Verwandten durch seinen grauen Kopf und das leisere Trommeln. Er sucht Nahrung, indem er ruhig an Stämmen und Ästen entlangklettert und nach Ameisen jagt. Das Nest wird in alte Laubbäume gehauen, oft dasselbe Loch Jahr für Jahr.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/graspett-hero.png", alt: { sv: "Gråspett på trädstam", en: "Grey-headed woodpecker on a tree trunk", de: "Grauspecht am Baumstamm" } },
+      galleryImages: [
+        { src: "/images/faglar/graspett-hero.png", alt: "Gråspett (Picus canus) på trädstam" },
+        { src: "/images/faglar/graspett-detalj.png", alt: "Gråspett vid sitt boträd", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/graspett_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/graspett_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/graspett_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Gråspetten", intro: "Jag klättrar tyst längs trädstammar och letar myror. Fråga mig om mitt bo, min föda eller mitt läte!", presetQuestions: ["Varför trummar du så tyst?", "Vad äter du?", "Var bygger du ditt bo?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Grey-headed Woodpecker", intro: "I climb quietly along tree trunks hunting for ants. Ask me about my nest, my food, or my call!", presetQuestions: ["Why do you drum so quietly?", "What do you eat?", "Where do you build your nest?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Grauspecht", intro: "Ich klettere leise an Baumstämmen entlang und suche nach Ameisen. Frage mich nach meinem Nest, meiner Nahrung oder meinem Ruf!", presetQuestions: ["Warum trommelst du so leise?", "Was isst du?", "Wo baust du dein Nest?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en gråspett (Picus canus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från gråspettens sida.",
+    avatarImage: "/images/faglar/graspett-hero.png",
+    chatAvatarAlt: "En gråspett på en trädstam",
+    relatedSpecies: [
+      { slug: "spillkraka", name: "Spillkråka", latin: "Dryocopus martius", image: "/images/sp-woodpecker.png" },
+      { slug: "notskrika", name: "Nötskrika", latin: "Garrulus glandarius", image: "/images/faglar/notskrika-hero.png" },
+      { slug: "koltrast", name: "Koltrast", latin: "Turdus merula", image: "/images/faglar/koltrast-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  orre: {
+    id: "orre",
+    scientificName: "Lyrurus tetrix",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Orre", en: "Black Grouse", de: "Birkhuhn" },
+    meta: {
+      sv: { title: "Orre – Kustvägen Naturguide", description: "Lär känna orren längs Kustvägen. Fakta om hönsfågeln med den lyrformade stjärten och det dramatiska vårspelet." },
+      en: { title: "Black Grouse – Kustvägen Nature Guide", description: "Discover the Black Grouse along the Coastal Road, the grouse with a lyre-shaped tail and a dramatic spring display." },
+      de: { title: "Birkhuhn – Kustvägen Naturführer", description: "Entdecken Sie das Birkhuhn entlang des Kustvägen, das Waldhuhn mit dem leierförmigen Schwanz und dramatischer Frühlingsbalz." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "Hane ca 1,1–1,3 kg" },
+        { label: "Föda", value: "Knoppar, bär och insekter" },
+        { label: "Läte", value: "Bubblande spelläte på lekplatsen" },
+        { label: "Livsmiljö", value: "Myrmarker, hyggen och skogsbryn" },
+      ],
+      en: [
+        { label: "Weight", value: "Male approx. 1.1–1.3 kg" },
+        { label: "Diet", value: "Buds, berries and insects" },
+        { label: "Call", value: "Bubbling display call at the lek" },
+        { label: "Habitat", value: "Bogs, clear-cuts and forest edges" },
+      ],
+      de: [
+        { label: "Gewicht", value: "Hahn ca. 1,1–1,3 kg" },
+        { label: "Nahrung", value: "Knospen, Beeren und Insekten" },
+        { label: "Ruf", value: "Blubbernder Balzruf am Balzplatz" },
+        { label: "Lebensraum", value: "Moore, Kahlschläge und Waldränder" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Myrmarkens svartglänsande dansare",
+        intro: "Orrhanen är en spektakulär syn med sin glänsande blåsvarta fjäderdräkt, röda ögonbrynshud och lyrformade stjärt. Varje vår samlas hanarna i gryningen på öppna lekplatser, myrmarker och hyggen, där de bubblar och hoppar för att locka honor. Honan är brunspräcklig och sköter ensam om ungarna, väl gömd i markens vegetation.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The bog's glossy black dancer",
+        intro: "The male Black Grouse is a spectacular sight with glossy blue-black plumage, red eyebrow wattle and a lyre-shaped tail. Every spring the males gather at dawn on open display grounds, bogs and clear-cuts, bubbling and jumping to attract females. The female is mottled brown and raises the chicks alone, well hidden in ground vegetation.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der glänzend schwarze Tänzer des Moores",
+        intro: "Der Birkhahn ist mit seinem glänzend blauschwarzen Gefieder, der roten Augenbrauenhaut und dem leierförmigen Schwanz ein spektakulärer Anblick. Jedes Frühjahr versammeln sich die Hähne bei Morgendämmerung auf offenen Balzplätzen. Das Weibchen ist braun gescheckt und zieht die Küken allein auf, gut versteckt in der Bodenvegetation.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/orre-hero.png", alt: { sv: "Orrhane på myr", en: "Black grouse male on a bog", de: "Birkhahn auf einem Moor" } },
+      galleryImages: [
+        { src: "/images/faglar/orre-hero.png", alt: "Orre (Lyrurus tetrix) på myrmark" },
+        { src: "/images/faglar/orre-detalj.png", alt: "Orrhöna med kycklingar", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/orre_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/orre_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/orre_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Orren", intro: "Jag dansar och bubblar på myren varje vår. Fråga mig om mitt spel, min föda eller mina ungar!", presetQuestions: ["Vad gör du på lekplatsen?", "Vad äter du?", "Var gömmer du dina ungar?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Black Grouse", intro: "I dance and bubble on the bog every spring. Ask me about my display, my food, or my chicks!", presetQuestions: ["What do you do at the display ground?", "What do you eat?", "Where do you hide your chicks?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an das Birkhuhn", intro: "Ich tanze und blubbere jeden Frühling auf dem Moor. Frage mich nach meiner Balz, meiner Nahrung oder meinen Küken!", presetQuestions: ["Was machst du am Balzplatz?", "Was isst du?", "Wo versteckst du deine Küken?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en orre (Lyrurus tetrix) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från orrens sida.",
+    avatarImage: "/images/faglar/orre-hero.png",
+    chatAvatarAlt: "En orrhane på myren",
+    relatedSpecies: [
+      { slug: "tjader", name: "Tjäder", latin: "Tetrao urogallus", image: "/images/faglar/tjader-hero.png" },
+      { slug: "lappuggla", name: "Lappuggla", latin: "Strix nebulosa", image: "/images/faglar/lappuggla-hero.png" },
+      { slug: "nattskarra", name: "Nattskärra", latin: "Caprimulgus europaeus", image: "/images/faglar/nattskarra-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  lappuggla: {
+    id: "lappuggla",
+    scientificName: "Strix nebulosa",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Lappuggla", en: "Great Grey Owl", de: "Bartkauz" },
+    meta: {
+      sv: { title: "Lappuggla – Kustvägen Naturguide", description: "Lär känna lappugglan längs Kustvägen. Fakta om en av världens största ugglor och dess ljudlösa jakt." },
+      en: { title: "Great Grey Owl – Kustvägen Nature Guide", description: "Discover the Great Grey Owl along the Coastal Road, one of the world's largest owls and its silent hunt." },
+      de: { title: "Bartkauz – Kustvägen Naturführer", description: "Entdecken Sie den Bartkauz entlang des Kustvägen, eine der größten Eulen der Welt und ihre lautlose Jagd." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vingspann", value: "Upp till 152 cm" },
+        { label: "Föda", value: "Sork och smågnagare" },
+        { label: "Läte", value: "Djupt, dovt hoande" },
+        { label: "Livsmiljö", value: "Gles taiga och myrmarker" },
+      ],
+      en: [
+        { label: "Wingspan", value: "Up to 152 cm" },
+        { label: "Diet", value: "Voles and small rodents" },
+        { label: "Call", value: "Deep, muffled hooting" },
+        { label: "Habitat", value: "Sparse taiga and bogs" },
+      ],
+      de: [
+        { label: "Flügelspanne", value: "Bis zu 152 cm" },
+        { label: "Nahrung", value: "Wühlmäuse und kleine Nager" },
+        { label: "Ruf", value: "Tiefes, dumpfes Heulen" },
+        { label: "Lebensraum", value: "Lichte Taiga und Moore" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Taigans tysta jätte",
+        intro: "Lappugglan är en av världens största ugglor till kroppsstorlek, men väger förhållandevis lite tack vare sin täta fjäderdräkt. Den ansiktsdisk med koncentriska ringar hjälper den att fånga in det minsta ljud från en sork under snötäcket, och den kan dyka rakt genom ett tjockt lager snö för att fånga sitt byte. Sedd på håll ser den nästan ut som en gammal trädstubbe med gula ögon.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The taiga's silent giant",
+        intro: "The Great Grey Owl is one of the world's largest owls by body size, though it weighs relatively little thanks to its dense plumage. Its facial disc, with concentric rings, helps it pinpoint the faintest sound of a vole beneath the snow, and it can plunge straight through a thick layer of snow to catch its prey. Seen from a distance it can look almost like an old tree stump with yellow eyes.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der stille Riese der Taiga",
+        intro: "Der Bartkauz ist eine der größten Eulen der Welt nach Körpergröße, wiegt aber dank seines dichten Gefieders relativ wenig. Sein Gesichtsschleier mit konzentrischen Ringen hilft ihm, das leiseste Geräusch einer Wühlmaus unter der Schneedecke zu orten. Aus der Ferne betrachtet sieht er fast wie ein alter Baumstumpf mit gelben Augen aus.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/lappuggla-hero.png", alt: { sv: "Lappuggla på en grangren", en: "Great grey owl on a spruce branch", de: "Bartkauz auf einem Fichtenzweig" } },
+      galleryImages: [
+        { src: "/images/faglar/lappuggla-hero.png", alt: "Lappuggla (Strix nebulosa) i skogen" },
+        { src: "/images/faglar/lappuggla-detalj.png", alt: "Lappuggla i flykt över snötäckt mark", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/lappuggla_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/lappuggla_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/lappuggla_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Lappugglan", intro: "Jag jagar ljudlöst över snön och hör en sork på långt håll. Fråga mig om min jakt, mitt läte eller mina ögon!", presetQuestions: ["Hur jagar du under snön?", "Varför är du så tyst i flykten?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Great Grey Owl", intro: "I hunt silently over the snow and can hear a vole from far away. Ask me about my hunting, my call, or my eyes!", presetQuestions: ["How do you hunt under the snow?", "Why are you so quiet in flight?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Bartkauz", intro: "Ich jage lautlos über den Schnee und höre eine Wühlmaus aus weiter Ferne. Frage mich nach meiner Jagd, meinem Ruf oder meinen Augen!", presetQuestions: ["Wie jagst du unter dem Schnee?", "Warum bist du im Flug so leise?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en lappuggla (Strix nebulosa) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från lappugglans sida.",
+    avatarImage: "/images/faglar/lappuggla-hero.png",
+    chatAvatarAlt: "En lappuggla på en grangren",
+    relatedSpecies: [
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/species-eagle.png" },
+      { slug: "tjader", name: "Tjäder", latin: "Tetrao urogallus", image: "/images/faglar/tjader-hero.png" },
+      { slug: "orre", name: "Orre", latin: "Lyrurus tetrix", image: "/images/faglar/orre-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  grahager: {
+    id: "grahager",
+    scientificName: "Ardea cinerea",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Gråhäger", en: "Grey Heron", de: "Graureiher" },
+    meta: {
+      sv: { title: "Gråhäger – Kustvägen Naturguide", description: "Lär känna gråhägern längs Kustvägen. Fakta om den tåliga fiskaren vid strandkanten." },
+      en: { title: "Grey Heron – Kustvägen Nature Guide", description: "Discover the Grey Heron along the Coastal Road, the patient fisher at the water's edge." },
+      de: { title: "Graureiher – Kustvägen Naturführer", description: "Entdecken Sie den Graureiher entlang des Kustvägen, den geduldigen Fischer am Ufer." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Höjd", value: "90–98 cm" },
+        { label: "Föda", value: "Fisk, grodor och smådjur" },
+        { label: "Läte", value: "Hest, kraxande skri" },
+        { label: "Livsmiljö", value: "Sjöar, vattendrag och kust" },
+      ],
+      en: [
+        { label: "Height", value: "90–98 cm" },
+        { label: "Diet", value: "Fish, frogs and small animals" },
+        { label: "Call", value: "Hoarse, croaking cry" },
+        { label: "Habitat", value: "Lakes, streams and coastline" },
+      ],
+      de: [
+        { label: "Höhe", value: "90–98 cm" },
+        { label: "Nahrung", value: "Fisch, Frösche und Kleintiere" },
+        { label: "Ruf", value: "Heiseres, krächzendes Schreien" },
+        { label: "Lebensraum", value: "Seen, Bäche und Küste" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Strandens tåliga väktare",
+        intro: "Gråhägern är en mästare i stillhet. Den kan stå orörlig i vattnet i minuter, ibland över en timme, innan den blixtsnabbt hugger till med sin långa näbb och fångar en fisk eller groda. Den häckar i kolonier högt upp i träd, ofta tillsammans med flera andra par, och byggnaderna av bon kan användas år efter år tills grenarna böjs under vikten.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The shore's patient guardian",
+        intro: "The Grey Heron is a master of stillness. It can stand motionless in the water for minutes, sometimes over an hour, before striking lightning-fast with its long beak to catch a fish or frog. It nests in colonies high in trees, often together with several other pairs, and the nest structures can be used year after year until the branches bend under the weight.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der geduldige Wächter des Ufers",
+        intro: "Der Graureiher ist ein Meister der Stille. Er kann minutenlang, manchmal über eine Stunde, bewegungslos im Wasser stehen, bevor er blitzschnell mit seinem langen Schnabel zuschlägt. Er brütet in Kolonien hoch in Bäumen, oft zusammen mit mehreren anderen Paaren.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/grahager-hero.png", alt: { sv: "Gråhäger som fiskar vid strandkant", en: "Grey heron fishing at the water's edge", de: "Graureiher beim Fischen am Ufer" } },
+      galleryImages: [
+        { src: "/images/faglar/grahager-hero.png", alt: "Gråhäger (Ardea cinerea) vid vattnet" },
+        { src: "/images/faglar/grahager-detalj.png", alt: "Gråhägerkoloni högt i träd", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/grahager_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/grahager_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/grahager_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Gråhägern", intro: "Jag står stilla i vattnet och väntar tåligt på min fångst. Fråga mig om min jakt, mitt bo eller min föda!", presetQuestions: ["Hur länge kan du stå stilla?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Grey Heron", intro: "I stand still in the water and wait patiently for my catch. Ask me about my hunting, my nest, or my food!", presetQuestions: ["How long can you stand still?", "Where do you build your nest?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Graureiher", intro: "Ich stehe still im Wasser und warte geduldig auf meinen Fang. Frage mich nach meiner Jagd, meinem Nest oder meiner Nahrung!", presetQuestions: ["Wie lange kannst du still stehen?", "Wo baust du dein Nest?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en gråhäger (Ardea cinerea) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från gråhägerns sida.",
+    avatarImage: "/images/faglar/grahager-hero.png",
+    chatAvatarAlt: "En gråhäger vid vattnet",
+    relatedSpecies: [
+      { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/sp-osprey.png" },
+      { slug: "gratrut", name: "Gråtrut", latin: "Larus argentatus", image: "/images/faglar/gratrut-hero.png" },
+      { slug: "smalom", name: "Smålom", latin: "Gavia stellata", image: "/images/faglar/smalom-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  nattskarra: {
+    id: "nattskarra",
+    scientificName: "Caprimulgus europaeus",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Nattskärra", en: "European Nightjar", de: "Ziegenmelker" },
+    meta: {
+      sv: { title: "Nattskärra – Kustvägen Naturguide", description: "Lär känna nattskärran längs Kustvägen. Fakta om skymningens kryptiska insektsjägare." },
+      en: { title: "European Nightjar – Kustvägen Nature Guide", description: "Discover the Nightjar along the Coastal Road, twilight's cryptic insect hunter." },
+      de: { title: "Ziegenmelker – Kustvägen Naturführer", description: "Entdecken Sie den Ziegenmelker entlang des Kustvägen, den kryptischen Insektenjäger der Dämmerung." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "65–100 g" },
+        { label: "Föda", value: "Nattflygande insekter" },
+        { label: "Läte", value: "Långt, spinnande snurrljud" },
+        { label: "Livsmiljö", value: "Torra hyggen och tallhedar" },
+      ],
+      en: [
+        { label: "Weight", value: "65–100 g" },
+        { label: "Diet", value: "Night-flying insects" },
+        { label: "Call", value: "Long, whirring purr" },
+        { label: "Habitat", value: "Dry clear-cuts and pine heaths" },
+      ],
+      de: [
+        { label: "Gewicht", value: "65–100 g" },
+        { label: "Nahrung", value: "Nachtaktive Fluginsekten" },
+        { label: "Ruf", value: "Langes, schnurrendes Rattern" },
+        { label: "Lebensraum", value: "Trockene Kahlschläge und Kiefernheiden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skymningens osynliga jägare",
+        intro: "Nattskärran är nästan omöjlig att upptäcka på dagen, då den ligger orörlig på marken med sin brunspräckliga, barkliknande fjäderdräkt. I skymningen vaknar den till liv och jagar nattflygande insekter med sin breda gap på tysta, vingelfjärilslika vingar. Hanens spinnande, snurrande läte kan höras på långt håll under sommarnätterna.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "Twilight's invisible hunter",
+        intro: "The Nightjar is almost impossible to spot during the day, resting motionless on the ground with its mottled brown, bark-like plumage. At dusk it comes alive, hunting night-flying insects with its wide gape on silent, moth-like wings. The male's purring, whirring call can be heard far and wide on summer nights.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der unsichtbare Jäger der Dämmerung",
+        intro: "Der Ziegenmelker ist am Tag fast unmöglich zu entdecken, da er mit seinem braun gescheckten, rindenähnlichen Gefieder bewegungslos auf dem Boden ruht. In der Dämmerung erwacht er zum Leben und jagt nachtaktive Insekten mit seinem breiten Schnabel auf lautlosen, mottenähnlichen Flügeln.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/nattskarra-hero.png", alt: { sv: "Nattskärra på marken i skymning", en: "Nightjar resting on the ground at dusk", de: "Ziegenmelker auf dem Boden in der Dämmerung" } },
+      galleryImages: [
+        { src: "/images/faglar/nattskarra-hero.png", alt: "Nattskärra (Caprimulgus europaeus) på marken" },
+        { src: "/images/faglar/nattskarra-detalj.png", alt: "Nattskärra i flykt över skymningshimmel", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/nattskarra_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/nattskarra_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/nattskarra_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Nattskärran", intro: "Jag vilar dold på marken hela dagen och jagar i skymningen. Fråga mig om min kamouflage, min jakt eller mitt läte!", presetQuestions: ["Hur gömmer du dig på dagen?", "Vad jagar du på natten?", "Varför spinner du så konstigt?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Nightjar", intro: "I rest hidden on the ground all day and hunt at dusk. Ask me about my camouflage, my hunting, or my call!", presetQuestions: ["How do you hide during the day?", "What do you hunt at night?", "Why do you make that whirring sound?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Ziegenmelker", intro: "Ich ruhe tagsüber versteckt auf dem Boden und jage in der Dämmerung. Frage mich nach meiner Tarnung, meiner Jagd oder meinem Ruf!", presetQuestions: ["Wie versteckst du dich am Tag?", "Was jagst du in der Nacht?", "Warum machst du dieses schnurrende Geräusch?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en nattskärra (Caprimulgus europaeus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från nattskärrans sida.",
+    avatarImage: "/images/faglar/nattskarra-hero.png",
+    chatAvatarAlt: "En nattskärra på marken",
+    relatedSpecies: [
+      { slug: "orre", name: "Orre", latin: "Lyrurus tetrix", image: "/images/faglar/orre-hero.png" },
+      { slug: "lappuggla", name: "Lappuggla", latin: "Strix nebulosa", image: "/images/faglar/lappuggla-hero.png" },
+      { slug: "tjader", name: "Tjäder", latin: "Tetrao urogallus", image: "/images/faglar/tjader-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  koltrast: {
+    id: "koltrast",
+    scientificName: "Turdus merula",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Koltrast", en: "Common Blackbird", de: "Amsel" },
+    meta: {
+      sv: { title: "Koltrast – Kustvägen Naturguide", description: "Lär känna koltrasten längs Kustvägen. Fakta om en av Sveriges mest älskade sångfåglar." },
+      en: { title: "Common Blackbird – Kustvägen Nature Guide", description: "Discover the Blackbird along the Coastal Road, one of Sweden's most beloved songbirds." },
+      de: { title: "Amsel – Kustvägen Naturführer", description: "Entdecken Sie die Amsel entlang des Kustvägen, einen der beliebtesten Singvögel Schwedens." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "80–125 g" },
+        { label: "Föda", value: "Mask, insekter och bär" },
+        { label: "Läte", value: "Melodisk, flöjtande sång" },
+        { label: "Livsmiljö", value: "Trädgårdar, parker och skogsbryn" },
+      ],
+      en: [
+        { label: "Weight", value: "80–125 g" },
+        { label: "Diet", value: "Worms, insects and berries" },
+        { label: "Call", value: "Melodic, flute-like song" },
+        { label: "Habitat", value: "Gardens, parks and woodland edges" },
+      ],
+      de: [
+        { label: "Gewicht", value: "80–125 g" },
+        { label: "Nahrung", value: "Würmer, Insekten und Beeren" },
+        { label: "Ruf", value: "Melodischer, flötenartiger Gesang" },
+        { label: "Lebensraum", value: "Gärten, Parks und Waldränder" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Kvällens flöjtande sångare",
+        intro: "Koltrasten är en av de mest karaktäristiska sångarna i svenska trädgårdar och skogsbryn. Hanen är helsvart med en gul näbb och sjunger sin rika, flöjtande sång från höga utkikspunkter i skymningen. Honan är brun och mer diskret, men lika skicklig på att hitta maskar och insekter i gräsmattans jord.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The evening's flute-voiced singer",
+        intro: "The Blackbird is one of the most characteristic singers in Swedish gardens and woodland edges. The male is entirely black with a yellow beak and sings its rich, flute-like song from high vantage points at dusk. The female is brown and more discreet, but just as skilled at finding worms and insects in the lawn soil.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der flötende Sänger des Abends",
+        intro: "Die Amsel ist einer der charakteristischsten Sänger in schwedischen Gärten und Waldrändern. Das Männchen ist vollständig schwarz mit gelbem Schnabel und singt seinen reichen, flötenartigen Gesang von hohen Aussichtspunkten in der Dämmerung. Das Weibchen ist braun und unauffälliger.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/koltrast-hero.png", alt: { sv: "Koltrast på gren", en: "Blackbird on a branch", de: "Amsel auf einem Zweig" } },
+      galleryImages: [
+        { src: "/images/faglar/koltrast-hero.png", alt: "Koltrast (Turdus merula) på gren" },
+        { src: "/images/faglar/koltrast-detalj.png", alt: "Koltrast sjunger vid gryning", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/koltrast_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/koltrast_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/koltrast_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Koltrasten", intro: "Jag sjunger min flöjtande sång i skymningen. Fråga mig om min sång, min föda eller var jag bor!", presetQuestions: ["Varför sjunger du i skymningen?", "Vad äter du?", "Var bygger du ditt bo?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Blackbird", intro: "I sing my flute-like song at dusk. Ask me about my song, my food, or where I live!", presetQuestions: ["Why do you sing at dusk?", "What do you eat?", "Where do you build your nest?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an die Amsel", intro: "Ich singe meinen flötenartigen Gesang in der Dämmerung. Frage mich nach meinem Gesang, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Warum singst du in der Dämmerung?", "Was isst du?", "Wo baust du dein Nest?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en koltrast (Turdus merula) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från koltrastens sida.",
+    avatarImage: "/images/faglar/koltrast-hero.png",
+    chatAvatarAlt: "En koltrast på en gren",
+    relatedSpecies: [
+      { slug: "bofink", name: "Bofink", latin: "Fringilla coelebs", image: "/images/faglar/bofink-hero.png" },
+      { slug: "domherre", name: "Domherre", latin: "Pyrrhula pyrrhula", image: "/images/faglar/domherre-hero.png" },
+      { slug: "notskrika", name: "Nötskrika", latin: "Garrulus glandarius", image: "/images/faglar/notskrika-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  domherre: {
+    id: "domherre",
+    scientificName: "Pyrrhula pyrrhula",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Domherre", en: "Eurasian Bullfinch", de: "Gimpel" },
+    meta: {
+      sv: { title: "Domherre – Kustvägen Naturguide", description: "Lär känna domherren längs Kustvägen. Fakta om vinterns rödbröstade juvel bland granarna." },
+      en: { title: "Eurasian Bullfinch – Kustvägen Nature Guide", description: "Discover the Bullfinch along the Coastal Road, winter's red-breasted jewel among the spruces." },
+      de: { title: "Gimpel – Kustvägen Naturführer", description: "Entdecken Sie den Gimpel entlang des Kustvägen, das rotbrüstige Winterjuwel zwischen den Fichten." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "21–27 g" },
+        { label: "Föda", value: "Knoppar, frön och bär" },
+        { label: "Läte", value: "Mjuk, pipande vissling" },
+        { label: "Livsmiljö", value: "Barrskog och trädgårdar vintertid" },
+      ],
+      en: [
+        { label: "Weight", value: "21–27 g" },
+        { label: "Diet", value: "Buds, seeds and berries" },
+        { label: "Call", value: "Soft, piping whistle" },
+        { label: "Habitat", value: "Coniferous forest and gardens in winter" },
+      ],
+      de: [
+        { label: "Gewicht", value: "21–27 g" },
+        { label: "Nahrung", value: "Knospen, Samen und Beeren" },
+        { label: "Ruf", value: "Weicher, pfeifender Ton" },
+        { label: "Lebensraum", value: "Nadelwald und Gärten im Winter" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Vinterns rosenröda juvel",
+        intro: "Domherrehanen lyser upp den snötäckta granskogen med sitt rosenröda bröst och svarta huvudmössa. Paret håller ofta ihop hela året och kommunicerar med sina mjuka, melankoliska visslingar när de rör sig genom skogen. Vintertid söker de sig gärna till trädgårdar där de plockar knoppar och frön från fruktträd och rönnbär.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "Winter's rose-red jewel",
+        intro: "The male Bullfinch lights up the snow-covered spruce forest with its rose-red breast and black cap. The pair often stays together year-round and communicates with soft, melancholic whistles as they move through the forest. In winter they often visit gardens, picking buds and seeds from fruit trees and rowan berries.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Das rosenrote Juwel des Winters",
+        intro: "Der Gimpelhahn erhellt den schneebedeckten Fichtenwald mit seiner rosenroten Brust und schwarzen Kopfkappe. Das Paar bleibt oft das ganze Jahr zusammen und kommuniziert mit weichen, melancholischen Pfeiftönen. Im Winter besuchen sie gerne Gärten und picken Knospen und Samen von Obstbäumen.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/domherre-hero.png", alt: { sv: "Domherre på snöig grangren", en: "Bullfinch on a snowy spruce branch", de: "Gimpel auf einem verschneiten Fichtenzweig" } },
+      galleryImages: [
+        { src: "/images/faglar/domherre-hero.png", alt: "Domherre (Pyrrhula pyrrhula) på gren" },
+        { src: "/images/faglar/domherre-detalj.png", alt: "Domherrepar äter bär", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/domherre_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/domherre_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/domherre_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Domherren", intro: "Jag lyser rosenröd i den snöiga granskogen. Fråga mig om min föda, min vissling eller min partner!", presetQuestions: ["Varför är du så röd?", "Vad äter du på vintern?", "Håller du ihop med samma partner?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Bullfinch", intro: "I shine rose-red in the snowy spruce forest. Ask me about my food, my whistle, or my partner!", presetQuestions: ["Why are you so red?", "What do you eat in winter?", "Do you stay with the same partner?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Gimpel", intro: "Ich leuchte rosenrot im verschneiten Fichtenwald. Frage mich nach meiner Nahrung, meinem Pfeifton oder meinem Partner!", presetQuestions: ["Warum bist du so rot?", "Was isst du im Winter?", "Bleibst du mit demselben Partner zusammen?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en domherre (Pyrrhula pyrrhula) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från domherrens sida.",
+    avatarImage: "/images/faglar/domherre-hero.png",
+    chatAvatarAlt: "En domherre på en grangren",
+    relatedSpecies: [
+      { slug: "koltrast", name: "Koltrast", latin: "Turdus merula", image: "/images/faglar/koltrast-hero.png" },
+      { slug: "bofink", name: "Bofink", latin: "Fringilla coelebs", image: "/images/faglar/bofink-hero.png" },
+      { slug: "notskrika", name: "Nötskrika", latin: "Garrulus glandarius", image: "/images/faglar/notskrika-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  notskrika: {
+    id: "notskrika",
+    scientificName: "Garrulus glandarius",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Nötskrika", en: "Eurasian Jay", de: "Eichelhäher" },
+    meta: {
+      sv: { title: "Nötskrika – Kustvägen Naturguide", description: "Lär känna nötskrikan längs Kustvägen. Fakta om skogens färgstarka och minnesgoda kråkfågel." },
+      en: { title: "Eurasian Jay – Kustvägen Nature Guide", description: "Discover the Jay along the Coastal Road, the forest's colourful and remarkably memory-sharp corvid." },
+      de: { title: "Eichelhäher – Kustvägen Naturführer", description: "Entdecken Sie den Eichelhäher entlang des Kustvägen, den farbenprächtigen und erinnerungsstarken Rabenvogel des Waldes." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "140–190 g" },
+        { label: "Föda", value: "Ekollon, nötter och insekter" },
+        { label: "Läte", value: "Skarpt, skrikande läte" },
+        { label: "Livsmiljö", value: "Lövskog och blandskog" },
+      ],
+      en: [
+        { label: "Weight", value: "140–190 g" },
+        { label: "Diet", value: "Acorns, nuts and insects" },
+        { label: "Call", value: "Sharp, screeching call" },
+        { label: "Habitat", value: "Deciduous and mixed forest" },
+      ],
+      de: [
+        { label: "Gewicht", value: "140–190 g" },
+        { label: "Nahrung", value: "Eicheln, Nüsse und Insekten" },
+        { label: "Ruf", value: "Scharfer, kreischender Ruf" },
+        { label: "Lebensraum", value: "Laub- und Mischwald" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens ekollonplanterare",
+        intro: "Nötskrikan är lätt att känna igen på den rosa-bruna kroppen och de blåsvartrandiga vingfjädrarna. Den är en av skogens klokaste fåglar och kan gömma tusentals ekollon under en höst, ett för varje besök, och minns platserna med imponerande precision. Många av dessa glömda gömställen gror senare och blir till nya ekar, vilket gör nötskrikan till en viktig skogsplanterare.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The forest's acorn planter",
+        intro: "The Jay is easy to recognise by its pinkish-brown body and blue-black barred wing feathers. It is one of the forest's smartest birds and can hide thousands of acorns in a single autumn, one per visit, remembering the locations with impressive precision. Many of these forgotten caches later sprout into new oak trees, making the Jay an important forest planter.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der Eichenpflanzer des Waldes",
+        intro: "Der Eichelhäher ist leicht an seinem rosa-braunen Körper und den blauschwarz gestreiften Flügelfedern zu erkennen. Er ist einer der klügsten Vögel des Waldes und kann in einem Herbst Tausende von Eicheln verstecken, eine pro Besuch, und sich die Standorte mit beeindruckender Präzision merken.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/notskrika-hero.png", alt: { sv: "Nötskrika på ekgren", en: "Jay on an oak branch", de: "Eichelhäher auf einem Eichenzweig" } },
+      galleryImages: [
+        { src: "/images/faglar/notskrika-hero.png", alt: "Nötskrika (Garrulus glandarius) på gren" },
+        { src: "/images/faglar/notskrika-detalj.png", alt: "Nötskrika gömmer ekollon i marken", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/notskrika_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/notskrika_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/notskrika_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Nötskrikan", intro: "Jag gömmer tusentals ekollon och minns var de alla ligger. Fråga mig om mitt minne, min föda eller mitt läte!", presetQuestions: ["Hur minns du var du gömt maten?", "Vad äter du?", "Varför skriker du så mycket?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Jay", intro: "I hide thousands of acorns and remember where they all are. Ask me about my memory, my food, or my call!", presetQuestions: ["How do you remember where you hid your food?", "What do you eat?", "Why do you screech so much?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Eichelhäher", intro: "Ich verstecke Tausende von Eicheln und erinnere mich, wo sie alle liegen. Frage mich nach meinem Gedächtnis, meiner Nahrung oder meinem Ruf!", presetQuestions: ["Wie erinnerst du dich, wo du dein Futter versteckt hast?", "Was isst du?", "Warum kreischst du so viel?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en nötskrika (Garrulus glandarius) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från nötskrikans sida.",
+    avatarImage: "/images/faglar/notskrika-hero.png",
+    chatAvatarAlt: "En nötskrika på en gren",
+    relatedSpecies: [
+      { slug: "spillkraka", name: "Spillkråka", latin: "Dryocopus martius", image: "/images/sp-woodpecker.png" },
+      { slug: "koltrast", name: "Koltrast", latin: "Turdus merula", image: "/images/faglar/koltrast-hero.png" },
+      { slug: "domherre", name: "Domherre", latin: "Pyrrhula pyrrhula", image: "/images/faglar/domherre-hero.png" },
+    ],
+    relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
+    relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
+  },
+  smalom: {
+    id: "smalom",
+    scientificName: "Gavia stellata",
+    category: { sv: "Fågel", en: "Birds", de: "Vögel" },
+    names: { sv: "Smålom", en: "Red-throated Loon", de: "Sterntaucher" },
+    meta: {
+      sv: { title: "Smålom – Kustvägen Naturguide", description: "Lär känna smålommen längs Kustvägen. Fakta om den strömlinjeformade dykaren på skogstjärnarna." },
+      en: { title: "Red-throated Loon – Kustvägen Nature Guide", description: "Discover the Red-throated Loon along the Coastal Road, the streamlined diver of the forest tarns." },
+      de: { title: "Sterntaucher – Kustvägen Naturführer", description: "Entdecken Sie den Sterntaucher entlang des Kustvägen, den stromlinienförmigen Taucher der Waldtümpel." },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Vikt", value: "1–2,3 kg" },
+        { label: "Föda", value: "Fisk, fångad genom dykning" },
+        { label: "Läte", value: "Klagande, ihåligt tjut" },
+        { label: "Livsmiljö", value: "Skogstjärnar och kustvatten" },
+      ],
+      en: [
+        { label: "Weight", value: "1–2.3 kg" },
+        { label: "Diet", value: "Fish, caught by diving" },
+        { label: "Call", value: "Wailing, hollow howl" },
+        { label: "Habitat", value: "Forest tarns and coastal waters" },
+      ],
+      de: [
+        { label: "Gewicht", value: "1–2,3 kg" },
+        { label: "Nahrung", value: "Fisch, durch Tauchen gefangen" },
+        { label: "Ruf", value: "Klagender, hohler Heulton" },
+        { label: "Lebensraum", value: "Waldtümpel und Küstengewässer" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogstjärnens ensamma dykare",
+        intro: "Smålommen häckar ofta på små, avskilda skogstjärnar men flyger varje dag till havet för att fiska, eftersom dess kropp är för tungt byggd för att lätt ta sig upp från en liten vattenyta. Dess klagande, ihåliga läte över tjärnen på sommarkvällen är en av de mest karaktäristiska ljuden i den nordiska vildmarken. Ungarna kan simma och dyka redan efter några timmar.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The forest tarn's lone diver",
+        intro: "The Red-throated Loon often nests on small, secluded forest tarns but flies to the sea every day to fish, since its body is too heavily built to easily take off from a small water surface. Its wailing, hollow call over the tarn on a summer evening is one of the most characteristic sounds of the Nordic wilderness. Chicks can swim and dive within just a few hours.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der einsame Taucher des Waldtümpels",
+        intro: "Der Sterntaucher brütet oft an kleinen, abgelegenen Waldtümpeln, fliegt aber täglich zum Meer, um zu fischen, da sein Körper zu schwer gebaut ist, um leicht von einer kleinen Wasserfläche abzuheben. Sein klagender, hohler Ruf über dem Tümpel an einem Sommerabend ist einer der charakteristischsten Klänge der nordischen Wildnis.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: { url: "/images/faglar/smalom-hero.png", alt: { sv: "Smålom simmar på skogstjärn", en: "Red-throated loon swimming on a forest tarn", de: "Sterntaucher schwimmt auf einem Waldtümpel" } },
+      galleryImages: [
+        { src: "/images/faglar/smalom-hero.png", alt: "Smålom (Gavia stellata) på tjärn" },
+        { src: "/images/faglar/smalom-detalj.png", alt: "Smålomsunge simmar bredvid föräldern", tall: true },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "/audio/smalom_guide_sv.mp3" },
+        en: { title: "Listen to the guide", url: "/audio/smalom_guide_en.mp3" },
+        de: { title: "Dem Guide zuhören", url: "/audio/smalom_guide_de.mp3" },
+      },
+    },
+    interactive: {
+      sv: { title: "Ställ en fråga om Smålommen", intro: "Jag häckar vid en liten tjärn men flyger till havet för att fiska. Fråga mig om min dykning, mitt läte eller mina ungar!", presetQuestions: ["Varför flyger du till havet varje dag?", "Hur djupt kan du dyka?", "När kan dina ungar simma?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Ask a question about the Red-throated Loon", intro: "I nest by a small tarn but fly to the sea to fish. Ask me about my diving, my call, or my chicks!", presetQuestions: ["Why do you fly to the sea every day?", "How deep can you dive?", "When can your chicks swim?"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Stelle eine Frage an den Sterntaucher", intro: "Ich brüte an einem kleinen Tümpel, fliege aber zum Meer, um zu fischen. Frage mich nach meinem Tauchen, meinem Ruf oder meinen Küken!", presetQuestions: ["Warum fliegst du jeden Tag zum Meer?", "Wie tief kannst du tauchen?", "Wann können deine Küken schwimmen?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "Du är en smålom (Gavia stellata) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från smålommens sida.",
+    avatarImage: "/images/faglar/smalom-hero.png",
+    chatAvatarAlt: "En smålom på en tjärn",
+    relatedSpecies: [
+      { slug: "grahager", name: "Gråhäger", latin: "Ardea cinerea", image: "/images/faglar/grahager-hero.png" },
+      { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/sp-osprey.png" },
+      { slug: "gratrut", name: "Gråtrut", latin: "Larus argentatus", image: "/images/faglar/gratrut-hero.png" },
     ],
     relatedSectionHeading: { sv: "Andra arter i området", en: "Other species in the area", de: "Andere Arten in der Umgebung" },
     relatedLinkLabel: { sv: "Läs mer", en: "Read more", de: "Mehr erfahren" },
