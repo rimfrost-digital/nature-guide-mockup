@@ -82,14 +82,14 @@ export function ArchiveExplorer() {
           </p>
         ) : (
           <>
+            {/* Informational banner */}
+            <InfoBanner />
+
             <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
               {filtered.map((s) => (
                 <SpeciesCard key={s.slug} species={s} />
               ))}
             </div>
-
-            {/* Informational banner */}
-            <InfoBanner />
           </>
         )}
 
