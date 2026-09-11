@@ -2583,6 +2583,551 @@ SÄKERHET:
     },
   },
 
+  gadda: {
+    id: "gadda",
+    scientificName: "Esox lucius",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Gädda", en: "Northern Pike", de: "Hecht" },
+    meta: {
+      sv: {
+        title: "Gädda – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om gäddan längs Kustvägen. Fakta om Nordens största sötvattensrovfisk, dess jaktteknik och lekvanor.",
+      },
+      en: {
+        title: "Northern Pike – Kustvägen Nature Guide",
+        description:
+          "Discover the Northern Pike along Kustvägen. Learn about one of the north's largest freshwater predators, its hunting technique and spawning habits.",
+      },
+      de: {
+        title: "Hecht – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Hecht am Kustvägen. Fakten zum größten Süßwasserraubfisch des Nordens, seiner Jagdtechnik und dem Laichverhalten.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Storlek", value: "Upp till 1,5 meter och 20 kg" },
+        { label: "Diet", value: "Ensamlevande rovfisk (fisk, groddjur och fågel)" },
+        { label: "Lek", value: "Våren i grunda vattendrag" },
+        { label: "Ålder", value: "Kan bli över 10 år gammal" },
+      ],
+      en: [
+        { label: "Size", value: "Up to 1.5 meters and 20 kg" },
+        { label: "Diet", value: "Solitary predator (fish, amphibians and birds)" },
+        { label: "Spawning", value: "Spring in shallow waterways" },
+        { label: "Age", value: "Can live over 10 years" },
+      ],
+      de: [
+        { label: "Größe", value: "Bis zu 1,5 Meter und 20 kg" },
+        { label: "Nahrung", value: "Einzelgängerischer Räuber (Fisch, Amphibien, Vögel)" },
+        { label: "Laichzeit", value: "Frühling in flachen Gewässern" },
+        { label: "Alter", value: "Kann über 10 Jahre alt werden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Vattnets tysta rovdjur",
+        intro:
+          "Gäddan är en av våra största sötvattensrovfiskar och en skicklig jägare med sin strömlinjeformade kropp. Den förekommer i både havet, sjöar och rinnande vatten längs Kustvägen.\n\nMed sitt kamouflagemönster och blixtsnabba anfall från vassruggar och undervattensvegetation är gäddan en mästare på överraskningstaktik.",
+        quote: "Stilla som en skugga bland vasstråna – tills gäddan slår till.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The water's silent predator",
+        intro:
+          "The Northern Pike is one of our largest freshwater predators, a skilled hunter with a streamlined body. It's found in the sea, lakes, and flowing waters along Kustvägen.\n\nWith its camouflage pattern and lightning-fast strikes from reed beds and underwater vegetation, the pike is a master of ambush tactics.",
+        quote: "Still as a shadow among the reeds – until the pike strikes.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der stille Räuber des Wassers",
+        intro:
+          "Der Hecht ist einer unserer größten Süßwasserraubfische, ein geschickter Jäger mit stromlinienförmigem Körper. Er kommt im Meer, in Seen und in fließenden Gewässern entlang des Kustvägen vor.\n\nMit seinem Tarnmuster und blitzschnellen Angriffen aus Schilfgürteln und Unterwasserpflanzen ist der Hecht ein Meister der Überraschungstaktik.",
+        quote: "Still wie ein Schatten im Schilf – bis der Hecht zuschlägt.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/Gadda_Huvudbild_01.png",
+        alt: {
+          sv: "En gädda simmar bland vattenväxter i en skogssjö",
+          en: "A pike swimming among aquatic plants in a forest lake",
+          de: "Ein Hecht schwimmt zwischen Wasserpflanzen in einem Waldsee",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/gadda-detalj.png",
+        alt: {
+          sv: "Närbild på gäddans käkar och tandbeklädda gap",
+          en: "Close-up of the pike's jaws and tooth-lined mouth",
+          de: "Nahaufnahme der Hechtkiefer mit Zähnen",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/Gadda_Huvudbild_01.png", alt: "Gädda som simmar bland vattenväxter" },
+        { src: "/images/fiskar/gadda-detalj.png", alt: "Närbild på gäddans käkar" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Pike", url: "" },
+        de: { title: "Dem Hecht lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Prata med Gäddan", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Talk to the Pike", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Sprich mit dem Hecht", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    avatarImage: "/images/fiskar/Gadda_Huvudbild_01.png",
+    chatAvatarAlt: "Gäddans ansikte",
+    relatedSpecies: [
+      { slug: "abborre", name: "Abborre", latin: "Perca fluviatilis", image: "/images/fiskar/Abborre_Huvudbild_01.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
+      { slug: "lax", name: "Lax", latin: "Salmo salar", image: "/images/sp-salmon.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
+  abborre: {
+    id: "abborre",
+    scientificName: "Perca fluviatilis",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Abborre", en: "European Perch", de: "Flussbarsch" },
+    meta: {
+      sv: {
+        title: "Abborre – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om abborren längs Kustvägen. Fakta om en av Sveriges mest populära mat- och sportfiskar och dess stimliv.",
+      },
+      en: {
+        title: "European Perch – Kustvägen Nature Guide",
+        description:
+          "Discover the European Perch along Kustvägen. Learn about one of Sweden's most popular food and sport fish and its schooling life.",
+      },
+      de: {
+        title: "Flussbarsch – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Flussbarsch am Kustvägen. Fakten zu einem der beliebtesten Speise- und Sportfische Schwedens.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Storlek", value: "Vanligtvis 20–40 cm (enstaka över 50 cm / 3 kg)" },
+        { label: "Beteende", value: "Lever i stim, bildar ibland \"tusenbröder\"" },
+        { label: "Lektid", value: "April–juni (lägger upp till 20 000 ägg)" },
+        { label: "Diet", value: "Små kräftdjur och småfisk" },
+      ],
+      en: [
+        { label: "Size", value: "Typically 20–40 cm (occasionally over 50 cm / 3 kg)" },
+        { label: "Behavior", value: "Lives in schools, sometimes forms stunted dwarf shoals" },
+        { label: "Spawning", value: "April–June (lays up to 20,000 eggs)" },
+        { label: "Diet", value: "Small crustaceans and small fish" },
+      ],
+      de: [
+        { label: "Größe", value: "Meist 20–40 cm (vereinzelt über 50 cm / 3 kg)" },
+        { label: "Verhalten", value: "Lebt in Schwärmen, bildet manchmal Zwergformen" },
+        { label: "Laichzeit", value: "April–Juni (bis zu 20.000 Eier)" },
+        { label: "Nahrung", value: "Kleine Krebstiere und kleine Fische" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Vassens randiga stimfisk",
+        intro:
+          "Abborren är en av Sveriges mest populära mat- och sportfiskar och känns lätt igen på sina mörka tvärband och de rödorange fenorna. Vid hög konkurrens om maten kan den bilda stim av dvärgformer som kallas tusenbröder.\n\nDen trivs i det mesta av Kustvägens vatten, från grunda vikar till djupare insjöar, och jagar ofta i samordnade grupper.",
+        quote: "Ett glittrande stim i vassen – abborrens signatur längs hela kusten.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The reed's striped schooling fish",
+        intro:
+          "The European Perch is one of Sweden's most popular food and sport fish, easily recognized by its dark vertical bands and reddish-orange fins. Under high food competition it can form stunted dwarf shoals.\n\nIt thrives in most of Kustvägen's waters, from shallow bays to deeper lakes, and often hunts in coordinated groups.",
+        quote: "A glittering shoal in the reeds – the perch's signature along the whole coast.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der gestreifte Schwarmfisch des Schilfs",
+        intro:
+          "Der Flussbarsch ist einer der beliebtesten Speise- und Sportfische Schwedens, leicht erkennbar an seinen dunklen Querstreifen und rotorangen Flossen. Bei starker Nahrungskonkurrenz kann er Zwergformen bilden.\n\nEr fühlt sich in den meisten Gewässern des Kustvägen wohl, von flachen Buchten bis zu tieferen Seen, und jagt oft in koordinierten Gruppen.",
+        quote: "Ein glitzernder Schwarm im Schilf – das Markenzeichen des Barsches entlang der Küste.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/Abborre_Huvudbild_01.png",
+        alt: {
+          sv: "Ett stim av abborre simmar i klart vatten bland stenar",
+          en: "A school of perch swimming in clear water among rocks",
+          de: "Ein Barschschwarm schwimmt im klaren Wasser zwischen Steinen",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/abborre-detalj.png",
+        alt: {
+          sv: "Närbild på abborrens taggiga ryggfena och tvärband",
+          en: "Close-up of the perch's spiny dorsal fin and vertical bands",
+          de: "Nahaufnahme der stacheligen Rückenflosse und Querstreifen des Barsches",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/Abborre_Huvudbild_01.png", alt: "Stim av abborre i klart vatten" },
+        { src: "/images/fiskar/abborre-detalj.png", alt: "Närbild på abborrens ryggfena" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Perch", url: "" },
+        de: { title: "Dem Flussbarsch lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Prata med Abborren", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Talk to the Perch", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Sprich mit dem Flussbarsch", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    avatarImage: "/images/fiskar/Abborre_Huvudbild_01.png",
+    chatAvatarAlt: "Abborrens ansikte",
+    relatedSpecies: [
+      { slug: "gadda", name: "Gädda", latin: "Esox lucius", image: "/images/fiskar/Gadda_Huvudbild_01.png" },
+      { slug: "sik", name: "Sik", latin: "Coregonus lavaretus", image: "/images/fiskar/Sik_Huvudbild_01.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
+  oring: {
+    id: "oring",
+    scientificName: "Salmo trutta",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Öring", en: "Brown Trout", de: "Bachforelle" },
+    meta: {
+      sv: {
+        title: "Öring – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om öringen längs Kustvägen. Fakta om havsöring, insjööring och bäcköring samt deras vandring och lekvanor.",
+      },
+      en: {
+        title: "Brown Trout – Kustvägen Nature Guide",
+        description:
+          "Discover the Brown Trout along Kustvägen. Learn about sea trout, lake trout and brook trout, their migration and spawning habits.",
+      },
+      de: {
+        title: "Bachforelle – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über die Forelle am Kustvägen. Fakten zu Meerforelle, Seeforelle und Bachforelle sowie ihrer Wanderung und Laichzeit.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Typer", value: "Havsöring, insjööring och bäcköring" },
+        { label: "Lektid", value: "Hösten i rinnande vattendrag" },
+        { label: "Storlek", value: "Havsöring (upp till 15 kg), Bäcköring (20–30 cm)" },
+        { label: "Familj", value: "Laxfiskar" },
+      ],
+      en: [
+        { label: "Types", value: "Sea trout, lake trout and brook trout" },
+        { label: "Spawning", value: "Autumn in flowing waterways" },
+        { label: "Size", value: "Sea trout (up to 15 kg), brook trout (20–30 cm)" },
+        { label: "Family", value: "Salmonidae" },
+      ],
+      de: [
+        { label: "Typen", value: "Meerforelle, Seeforelle und Bachforelle" },
+        { label: "Laichzeit", value: "Herbst in fließenden Gewässern" },
+        { label: "Größe", value: "Meerforelle (bis 15 kg), Bachforelle (20–30 cm)" },
+        { label: "Familie", value: "Salmoniden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Den formstarka vandraren",
+        intro:
+          "Öringen anpassar sig starkt efter sin miljö vilket avspeglas i storleken. Som unga vandrar de ut i sjöar eller hav för att växa sig stora innan de återvänder till födelseplatsen för att leka.\n\nLängs Kustvägen möter man både den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen i skogens klara bäckar.",
+        quote: "Från bäckens stilla vatten till havets vidder – öringen bär alltid hem till lekplatsen i minnet.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The shape-shifting wanderer",
+        intro:
+          "The Brown Trout adapts strongly to its environment, which is reflected in its size. As juveniles, they migrate to lakes or the sea to grow large before returning to their birthplace to spawn.\n\nAlong Kustvägen, you can find both the powerful sea trout in coastal waters and the more modest brook trout in the forest's clear streams.",
+        quote: "From the stream's still water to the vastness of the sea – the trout always carries home in its memory.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der wandelbare Wanderer",
+        intro:
+          "Die Forelle passt sich stark an ihre Umgebung an, was sich in ihrer Größe widerspiegelt. Als Jungfische wandern sie in Seen oder ins Meer, um groß zu werden, bevor sie zum Laichen an ihren Geburtsort zurückkehren.\n\nAm Kustvägen trifft man sowohl die kräftige Meerforelle in den Küstengewässern als auch die bescheidenere Bachforelle in den klaren Waldbächen.",
+        quote: "Vom stillen Bach bis zur Weite des Meeres – die Forelle trägt die Heimat immer im Gedächtnis.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/Oring_Huvudbild_01.png",
+        alt: {
+          sv: "En öring simmar i ett klart strömmande vattendrag",
+          en: "A trout swimming in a clear rushing stream",
+          de: "Eine Forelle schwimmt in einem klaren, fließenden Bach",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/oring-detalj.png",
+        alt: {
+          sv: "Närbild på öringens fläckiga sida",
+          en: "Close-up of the trout's spotted flank",
+          de: "Nahaufnahme der gefleckten Flanke der Forelle",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/Oring_Huvudbild_01.png", alt: "Öring i strömmande vatten" },
+        { src: "/images/fiskar/oring-detalj.png", alt: "Närbild på öringens fläckar" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Trout", url: "" },
+        de: { title: "Der Forelle lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Prata med Öringen", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Talk to the Trout", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Sprich mit der Forelle", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    avatarImage: "/images/fiskar/Oring_Huvudbild_01.png",
+    chatAvatarAlt: "Öringens ansikte",
+    relatedSpecies: [
+      { slug: "lax", name: "Lax", latin: "Salmo salar", image: "/images/sp-salmon.png" },
+      { slug: "sik", name: "Sik", latin: "Coregonus lavaretus", image: "/images/fiskar/Sik_Huvudbild_01.png" },
+      { slug: "gadda", name: "Gädda", latin: "Esox lucius", image: "/images/fiskar/Gadda_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
+  sik: {
+    id: "sik",
+    scientificName: "Coregonus lavaretus",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Sik", en: "European Whitefish", de: "Große Maräne" },
+    meta: {
+      sv: {
+        title: "Sik – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om siken längs Kustvägen. Fakta om Sveriges mest utbredda fiskart och dess betydelse som norrländsk matfisk.",
+      },
+      en: {
+        title: "European Whitefish – Kustvägen Nature Guide",
+        description:
+          "Discover the European Whitefish along Kustvägen. Learn about Sweden's most widespread fish species and its role as a treasured northern food fish.",
+      },
+      de: {
+        title: "Große Maräne – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über die Maräne (Sik) am Kustvägen. Fakten zur am weitesten verbreiteten Fischart Schwedens und ihrer Bedeutung als Speisefisch.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Status", value: "Sveriges mest utbredda fiskart" },
+        { label: "Storlek", value: "Vanligtvis 1–2 kg (kan nå 7 kg)" },
+        { label: "Föda", value: "Insekter, småplankton och småfisk" },
+        { label: "Användning", value: "Klassisk och uppskattad norrländsk matfisk" },
+      ],
+      en: [
+        { label: "Status", value: "Sweden's most widespread fish species" },
+        { label: "Size", value: "Typically 1–2 kg (can reach 7 kg)" },
+        { label: "Diet", value: "Insects, small plankton and small fish" },
+        { label: "Use", value: "A classic and prized northern Swedish food fish" },
+      ],
+      de: [
+        { label: "Status", value: "Am weitesten verbreitete Fischart Schwedens" },
+        { label: "Größe", value: "Meist 1–2 kg (kann bis zu 7 kg erreichen)" },
+        { label: "Nahrung", value: "Insekten, kleines Plankton und kleine Fische" },
+        { label: "Verwendung", value: "Klassischer, geschätzter Speisefisch Nordschwedens" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Norrlands älskade laxfisk",
+        intro:
+          "Siken tillhör laxfiskarna och producerar omkring 25 000 ägg per kilo kroppsvikt. Den leker under hösten i både rinnande och stilla vatten längs Kustvägen.\n\nMed sin silvriga, spolformade kropp och lilla mun trivs siken i kalla, syrerika vatten och är en omtyckt matfisk med djupa rötter i den lokala kulturen.",
+        quote: "Siken glimmar silverblank i det kalla vattnet – en skatt från Norrlands älvar och kust.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The beloved whitefish of the north",
+        intro:
+          "The European Whitefish belongs to the salmon family and produces around 25,000 eggs per kilogram of body weight. It spawns in autumn in both flowing and still waters along Kustvägen.\n\nWith its silvery, spindle-shaped body and small mouth, the whitefish thrives in cold, oxygen-rich waters and is a beloved food fish with deep roots in local culture.",
+        quote: "The whitefish shimmers silver in the cold water – a treasure from the northern rivers and coast.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Die geliebte Maräne des Nordens",
+        intro:
+          "Die Maräne (Sik) gehört zu den Salmoniden und produziert etwa 25.000 Eier pro Kilogramm Körpergewicht. Sie laicht im Herbst sowohl in fließenden als auch in stillen Gewässern entlang des Kustvägen.\n\nMit ihrem silbrigen, spindelförmigen Körper und kleinen Maul fühlt sich die Maräne in kaltem, sauerstoffreichem Wasser wohl und ist ein beliebter Speisefisch mit tiefen Wurzeln in der lokalen Kultur.",
+        quote: "Die Maräne glänzt silbern im kalten Wasser – ein Schatz aus den nordischen Flüssen und der Küste.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/Sik_Huvudbild_01.png",
+        alt: {
+          sv: "En sik simmar i klart, kallt sjövatten",
+          en: "A whitefish swimming in clear, cold lake water",
+          de: "Eine Maräne schwimmt in klarem, kaltem Seewasser",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/sik-detalj.png",
+        alt: {
+          sv: "Närbild på sikens silvriga fjäll och lilla mun",
+          en: "Close-up of the whitefish's silvery scales and small mouth",
+          de: "Nahaufnahme der silbrigen Schuppen und des kleinen Mauls der Maräne",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/Sik_Huvudbild_01.png", alt: "Sik i klart sjövatten" },
+        { src: "/images/fiskar/sik-detalj.png", alt: "Närbild på sikens fjäll" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Whitefish", url: "" },
+        de: { title: "Der Maräne lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Prata med Siken", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Talk to the Whitefish", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Sprich mit der Maräne", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    avatarImage: "/images/fiskar/Sik_Huvudbild_01.png",
+    chatAvatarAlt: "Sikens ansikte",
+    relatedSpecies: [
+      { slug: "oring", name: "Öring", latin: "Salmo trutta", image: "/images/fiskar/Oring_Huvudbild_01.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
+      { slug: "abborre", name: "Abborre", latin: "Perca fluviatilis", image: "/images/fiskar/Abborre_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
+  al: {
+    id: "al",
+    scientificName: "Anguilla anguilla",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Ål", en: "European Eel", de: "Europäischer Aal" },
+    meta: {
+      sv: {
+        title: "Ål – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om ålen längs Kustvägen. Fakta om den sägenomspunna vandringsfisken, dess livscykel och akuta hotstatus.",
+      },
+      en: {
+        title: "European Eel – Kustvägen Nature Guide",
+        description:
+          "Discover the European Eel along Kustvägen. Learn about this legendary migratory fish, its life cycle and critically endangered status.",
+      },
+      de: {
+        title: "Europäischer Aal – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Aal am Kustvägen. Fakten zu diesem sagenumwobenen Wanderfisch, seinem Lebenszyklus und seinem gefährdeten Status.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Typ", value: "Sägenomspunnen vandringsfisk" },
+        { label: "Habitat", value: "Sjöar, vattendrag och hav" },
+        { label: "Status", value: "Akut hotad och fridlyst" },
+        { label: "Vandring", value: "Leker i Sargassohavet" },
+      ],
+      en: [
+        { label: "Type", value: "Legendary migratory fish" },
+        { label: "Habitat", value: "Lakes, waterways and the sea" },
+        { label: "Status", value: "Critically endangered and protected" },
+        { label: "Migration", value: "Spawns in the Sargasso Sea" },
+      ],
+      de: [
+        { label: "Typ", value: "Sagenumwobener Wanderfisch" },
+        { label: "Lebensraum", value: "Seen, Gewässer und Meer" },
+        { label: "Status", value: "Akut gefährdet und geschützt" },
+        { label: "Wanderung", value: "Laicht in der Sargassosee" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Havets mest gåtfulla vandrare",
+        intro:
+          "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram längs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
+        quote: "En resa på tusentals mil, född av en enda gåtfull längtan tillbaka till havet därute.",
+        sections: [],
+      },
+      en: {
+        heroSubtitle: "The sea's most enigmatic wanderer",
+        intro:
+          "The European Eel has one of the animal kingdom's most fascinating life cycles, traveling thousands of miles across the Atlantic to spawn in the Sargasso Sea.\n\nWith its long, slender, snake-like body, the eel moves along the bottom of Kustvägen's waters at night, often hidden among rocks and vegetation. Today the species is critically endangered, and every individual living along the coast is part of a fragile global population.",
+        quote: "A journey of thousands of miles, born from one enigmatic longing to return to the sea beyond.",
+        sections: [],
+      },
+      de: {
+        heroSubtitle: "Der rätselhafteste Wanderer des Meeres",
+        intro:
+          "Der Europäische Aal hat einen der faszinierendsten Lebenszyklen des Tierreichs und reist tausende Kilometer über den Atlantik, um in der Sargassosee zu laichen.\n\nMit seinem langen, schlangenähnlichen Körper bewegt sich der Aal nachts am Grund der Gewässer entlang des Kustvägen, oft verborgen zwischen Steinen und Pflanzen. Heute ist die Art akut gefährdet, und jedes Individuum an der Küste ist Teil einer fragilen globalen Population.",
+        quote: "Eine Reise über tausende Kilometer, geboren aus einer einzigen rätselhaften Sehnsucht nach dem fernen Meer.",
+        sections: [],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/Al_Huvudbild_01.png",
+        alt: {
+          sv: "En ål slingrar sig fram längs en lerig sjöbotten",
+          en: "An eel winding its way along a muddy lake bottom",
+          de: "Ein Aal schlängelt sich über einen schlammigen Seegrund",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/al-detalj.png",
+        alt: {
+          sv: "Närbild på ålens mörka, slemmiga hud",
+          en: "Close-up of the eel's dark, slick skin",
+          de: "Nahaufnahme der dunklen, glatten Haut des Aals",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/Al_Huvudbild_01.png", alt: "Ål på lerig sjöbotten" },
+        { src: "/images/fiskar/al-detalj.png", alt: "Närbild på ålens hud" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Eel", url: "" },
+        de: { title: "Dem Aal lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: { title: "Prata med Ålen", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      en: { title: "Talk to the Eel", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
+      de: { title: "Sprich mit dem Aal", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+    },
+    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    avatarImage: "/images/fiskar/Al_Huvudbild_01.png",
+    chatAvatarAlt: "Ålens ansikte",
+    relatedSpecies: [
+      { slug: "sik", name: "Sik", latin: "Coregonus lavaretus", image: "/images/fiskar/Sik_Huvudbild_01.png" },
+      { slug: "gadda", name: "Gädda", latin: "Esox lucius", image: "/images/fiskar/Gadda_Huvudbild_01.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
   rodrav: {
     id: "rodrav",
     scientificName: "Vulpes vulpes",
