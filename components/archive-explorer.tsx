@@ -25,10 +25,6 @@ export function ArchiveExplorer() {
     })
   }, [query, active])
 
-  // Insert the informational banner after the first 8 cards (after row 2 on desktop).
-  const firstChunk = filtered.slice(0, 8)
-  const rest = filtered.slice(8)
-
   return (
     <div className="bg-[#F4F1E8]">
       {/* Sticky search & filter bar */}
@@ -87,21 +83,13 @@ export function ArchiveExplorer() {
         ) : (
           <>
             <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
-              {firstChunk.map((s) => (
+              {filtered.map((s) => (
                 <SpeciesCard key={s.slug} species={s} />
               ))}
             </div>
 
             {/* Informational banner */}
             <InfoBanner />
-
-            {rest.length > 0 && (
-              <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
-                {rest.map((s) => (
-                  <SpeciesCard key={s.slug} species={s} />
-                ))}
-              </div>
-            )}
           </>
         )}
 
