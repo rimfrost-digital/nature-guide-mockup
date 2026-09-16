@@ -5420,6 +5420,1011 @@ SÄKERHET:
       de: "Alle Pilze & Pflanzen anzeigen",
     },
   },
+  ronn: {
+    id: "ronn",
+    scientificName: "Sorbus aucuparia",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Rönn", en: "Rowan", de: "Eberesche" },
+    meta: {
+      sv: {
+        title: "Rönn – Kustvägen Naturguide",
+        description:
+          "Fakta om rönnen längs Kustvägen – det stormfasta lövträdet vars röda bärklasar är viktig vinterföda för fåglar.",
+      },
+      en: {
+        title: "Rowan – Kustvägen Nature Guide",
+        description:
+          "Facts about the rowan along Kustvägen – the storm-hardy deciduous tree whose red berry clusters are vital winter food for birds.",
+      },
+      de: {
+        title: "Eberesche – Kustvägen Naturführer",
+        description:
+          "Fakten über die Eberesche am Kustvägen – der sturmfeste Laubbaum, dessen rote Beerendolden lebenswichtige Winternahrung für Vögel sind.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ekologi", value: "Bären är mycket viktig vinterföda för fåglar" },
+        { label: "Egenskap", value: "Stormfast tack vare djupt rotsystem" },
+        { label: "Blomning", value: "Kraftiga vita blomklasar i maj–juli" },
+        { label: "Användning", value: "Hårt virke, används ofta till slöjd" },
+      ],
+      en: [
+        { label: "Ecology", value: "The berries are very important winter food for birds" },
+        { label: "Trait", value: "Storm-hardy thanks to a deep root system" },
+        { label: "Flowering", value: "Dense white flower clusters in May–July" },
+        { label: "Use", value: "Hard timber, often used for handicraft" },
+      ],
+      de: [
+        { label: "Ökologie", value: "Die Beeren sind sehr wichtige Winternahrung für Vögel" },
+        { label: "Eigenschaft", value: "Sturmfest dank tiefem Wurzelsystem" },
+        { label: "Blüte", value: "Kräftige weiße Blütendolden im Mai–Juli" },
+        { label: "Verwendung", value: "Hartes Holz, oft für Handwerk verwendet" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens röda vinterskafferi",
+        intro:
+          "Rönnen är ett segt och stormfast lövträd vars röda bärklasar lyser upp skogen om hösten. Bären lockar stora mängder sidensvansar och trastar, medan älgar gärna betar av bark och kvistar.\n\nLängs Kustvägen klarar rönnen både blåst och karg mark tack vare sitt djupa rotsystem.",
+        quote: "Mina röda bär håller fåglarna mätta när vintern biter som värst.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Rönnen känns lätt igen på sina parflikiga blad och de stora, kraftiga klasarna av vita blommor i maj–juli. Om hösten förvandlas blommorna till lysande orangeröda bär. Virket är hårt och segt.",
+            image: "/images/trad/ronn-detalj.png",
+            alt: "Närbild på rönnens röda bärklasar",
+            caption: "De röda bärklasarna är rönnens tydligaste kännetecken.",
+          },
+          {
+            heading: "Växtplats & Beteende",
+            body: "Rönnen är stormfast tack vare ett djupt rotsystem och trivs på både klippor, skogsbryn och öppen mark längs kusten. Den är ett härdigt pionjärträd som gärna växer där andra träd har svårt att klara sig.",
+            image: "/images/trad/ronn-miljo.png",
+            alt: "Rönnar längs ett kustnära skogsbryn",
+            caption: "Rönnen klarar blåst och karg mark bättre än många andra lövträd.",
+          },
+          {
+            heading: "Ekologi & Föda",
+            body: "Bären är en mycket viktig vinterföda för fåglar – särskilt sidensvansar och trastar kalasar på dem i stora flockar. Älgar och rådjur betar gärna bark och kvistar, och de vita blommorna ger nektar åt insekter på våren.",
+            image: "/images/trad/Ronn_Huvudbild_01.png",
+            alt: "Rönn full med röda bär i höstljus",
+            caption: "Fåglar tömmer bärklasarna långt in på vintern.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Forest's Red Winter Pantry",
+        intro:
+          "The rowan is a tough, storm-hardy deciduous tree whose red berry clusters light up the forest in autumn. The berries attract large numbers of waxwings and thrushes, while moose readily browse the bark and twigs.\n\nAlong Kustvägen, the rowan handles both wind and barren ground thanks to its deep root system.",
+        quote: "My red berries keep the birds fed when winter bites hardest.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The rowan is easily recognized by its pinnate leaves and the large, dense clusters of white flowers in May–July. In autumn the flowers turn into glowing orange-red berries. The timber is hard and tough.",
+            image: "/images/trad/ronn-detalj.png",
+            alt: "Close-up of the rowan's red berry clusters",
+            caption: "The red berry clusters are the rowan's clearest hallmark.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The rowan is storm-hardy thanks to a deep root system and thrives on cliffs, forest edges and open ground along the coast. It is a hardy pioneer tree that readily grows where other trees struggle.",
+            image: "/images/trad/ronn-miljo.png",
+            alt: "Rowans along a coastal forest edge",
+            caption: "The rowan handles wind and barren ground better than many other deciduous trees.",
+          },
+          {
+            heading: "Ecology & Food",
+            body: "The berries are a very important winter food for birds – waxwings and thrushes in particular feast on them in large flocks. Moose and roe deer browse the bark and twigs, and the white flowers provide nectar for insects in spring.",
+            image: "/images/trad/Ronn_Huvudbild_01.png",
+            alt: "A rowan full of red berries in autumn light",
+            caption: "Birds empty the berry clusters far into the winter.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Die rote Winterspeisekammer des Waldes",
+        intro:
+          "Die Eberesche ist ein zäher, sturmfester Laubbaum, dessen rote Beerendolden im Herbst den Wald erleuchten. Die Beeren locken große Mengen an Seidenschwänzen und Drosseln an, während Elche gern Rinde und Zweige abäsen.\n\nEntlang des Kustvägen trotzt die Eberesche dank ihres tiefen Wurzelsystems Wind und kargem Boden.",
+        quote: "Meine roten Beeren halten die Vögel satt, wenn der Winter am härtesten zubeißt.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Eberesche ist leicht an ihren gefiederten Blättern und den großen, dichten weißen Blütendolden im Mai–Juli zu erkennen. Im Herbst verwandeln sich die Blüten in leuchtend orangerote Beeren. Das Holz ist hart und zäh.",
+            image: "/images/trad/ronn-detalj.png",
+            alt: "Nahaufnahme der roten Beerendolden der Eberesche",
+            caption: "Die roten Beerendolden sind das deutlichste Merkmal der Eberesche.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Eberesche ist dank eines tiefen Wurzelsystems sturmfest und gedeiht auf Felsen, an Waldrändern und auf offenem Boden entlang der Küste. Sie ist ein robuster Pionierbaum, der gern dort wächst, wo andere Bäume Mühe haben.",
+            image: "/images/trad/ronn-miljo.png",
+            alt: "Ebereschen an einem küstennahen Waldrand",
+            caption: "Die Eberesche verträgt Wind und kargen Boden besser als viele andere Laubbäume.",
+          },
+          {
+            heading: "Ökologie & Nahrung",
+            body: "Die Beeren sind eine sehr wichtige Winternahrung für Vögel – besonders Seidenschwänze und Drosseln fressen sie in großen Schwärmen. Elche und Rehe äsen Rinde und Zweige, und die weißen Blüten liefern im Frühling Nektar für Insekten.",
+            image: "/images/trad/Ronn_Huvudbild_01.png",
+            alt: "Eine Eberesche voller roter Beeren im Herbstlicht",
+            caption: "Vögel leeren die Beerendolden bis weit in den Winter hinein.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/trad/Ronn_Huvudbild_01.png",
+        alt: {
+          sv: "Rönn med röda bärklasar i en kustnära glänta",
+          en: "Rowan with red berry clusters in a coastal clearing",
+          de: "Eberesche mit roten Beerendolden auf einer küstennahen Lichtung",
+        },
+      },
+      galleryImages: [
+        { src: "/images/trad/Ronn_Huvudbild_01.png", alt: "Rönn med röda bärklasar i en kustnära glänta" },
+        { src: "/images/trad/ronn-detalj.png", alt: "Närbild på rönnens röda bärklasar" },
+        { src: "/images/trad/ronn-miljo.png", alt: "Rönnar längs ett kustnära skogsbryn" },
+      ],
+      detailImage: {
+        url: "/images/trad/ronn-miljo.png",
+        alt: {
+          sv: "Rönnar längs en klippig kustskog",
+          en: "Rowans along a rocky coastal wood",
+          de: "Ebereschen entlang eines felsigen Küstenwaldes",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Rönnen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Rowan",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Eberesche",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/trad/Ronn_Huvudbild_01.png",
+    chatAvatarAlt: "Rönnens ansikte",
+    relatedSpecies: [
+      { slug: "tall", name: "Tall", latin: "Pinus sylvestris", image: "/images/tall-hero.png" },
+      { slug: "bjork", name: "Björk", latin: "Betula pendula", image: "/images/trad/Bjork_Huvudbild_01.png" },
+      { slug: "asp", name: "Asp", latin: "Populus tremula", image: "/images/trad/Asp_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler av skogens träd",
+      en: "Discover more forest trees",
+      de: "Weitere Bäume des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla träd",
+      en: "View all trees",
+      de: "Alle Bäume anzeigen",
+    },
+  },
+  salg: {
+    id: "salg",
+    scientificName: "Salix caprea",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Sälg", en: "Goat Willow", de: "Salweide" },
+    meta: {
+      sv: {
+        title: "Sälg – Kustvägen Naturguide",
+        description:
+          "Fakta om sälgen längs Kustvägen – nyckelträdet vars tidiga videkissar är livsviktig första matkälla för pollinatörer.",
+      },
+      en: {
+        title: "Goat Willow – Kustvägen Nature Guide",
+        description:
+          "Facts about the goat willow along Kustvägen – the keystone tree whose early catkins are a vital first food source for pollinators.",
+      },
+      de: {
+        title: "Salweide – Kustvägen Naturführer",
+        description:
+          "Fakten über die Salweide am Kustvägen – der Schlüsselbaum, dessen frühe Kätzchen eine lebenswichtige erste Nahrungsquelle für Bestäuber sind.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Typ", value: "Tvåbyggare (skilda han- och honträd)" },
+        { label: "Blomning", value: "Mycket tidigt på våren (\"videkissar\")" },
+        { label: "Ekologi", value: "Livsviktig första matkälla för pollinatörer" },
+        { label: "Medicinsk historia", value: "Barken innehåller smärtstillande salicin" },
+      ],
+      en: [
+        { label: "Type", value: "Dioecious (separate male and female trees)" },
+        { label: "Flowering", value: "Very early in spring (\"pussy willows\")" },
+        { label: "Ecology", value: "Vital first food source for pollinators" },
+        { label: "Medical history", value: "The bark contains pain-relieving salicin" },
+      ],
+      de: [
+        { label: "Typ", value: "Zweihäusig (getrennte männliche und weibliche Bäume)" },
+        { label: "Blüte", value: "Sehr früh im Frühling (\"Weidenkätzchen\")" },
+        { label: "Ökologie", value: "Lebenswichtige erste Nahrungsquelle für Bestäuber" },
+        { label: "Medizingeschichte", value: "Die Rinde enthält das schmerzstillende Salicin" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Vårens första skafferi för humlor och bin",
+        intro:
+          "Sälgen är en oerhört viktig nyckelart i skogen. Dess tidiga blomning på bar kvist ger livsviktig nektar och pollen till yrvakna humlor och bin direkt efter vintern.\n\nLängs Kustvägen hittar du sälgen i fuktiga svackor och längs bäckar, där de silvriga videkissarna lyser i vårsolen.",
+        quote: "När jag blommar först av alla vaknar humlorna till liv igen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Sälgen är en tvåbyggare med skilda han- och honträd. På våren, ofta innan löven spricker ut, täcks kvistarna av mjuka silvergrå videkissar. Hanträdens kissar blir så småningom gula av pollen.",
+            image: "/images/trad/salg-detalj.png",
+            alt: "Närbild på sälgens gula videkissar",
+            caption: "Videkissarna blommar tidigt, ofta på helt bar kvist.",
+          },
+          {
+            heading: "Växtplats & Beteende",
+            body: "Sälgen trivs i fuktig mark, i skogsbryn och längs vattendrag och stränder. Den växer snabbt och är ett av de första träden som slår ut på våren, vilket gör den lätt att upptäcka bland ännu kala grannar.",
+            image: "/images/trad/salg-miljo.png",
+            alt: "Blommande sälg vid en vårbäck",
+            caption: "Fuktiga svackor och bäckkanter är typiska växtplatser.",
+          },
+          {
+            heading: "Ekologi & Historia",
+            body: "Sälgen är en livsviktig första matkälla för pollinatörer – humlor och bin är helt beroende av dess tidiga pollen och nektar. Barken innehåller salicin, ett smärtstillande ämne som historiskt använts som naturligt läkemedel.",
+            image: "/images/trad/Salg_Huvudbild_01.png",
+            alt: "Sälg i full blom i vårljus",
+            caption: "En enda blommande sälg kan mätta hundratals insekter.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "Spring's First Pantry for Bumblebees and Bees",
+        intro:
+          "The goat willow is an immensely important keystone species in the forest. Its early flowering on bare twigs provides vital nectar and pollen to drowsy bumblebees and bees right after winter.\n\nAlong Kustvägen you'll find the goat willow in damp hollows and along streams, where the silvery catkins glow in the spring sun.",
+        quote: "When I bloom before all others, the bumblebees stir back to life.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The goat willow is dioecious, with separate male and female trees. In spring, often before the leaves open, the twigs are covered in soft silver-grey catkins. The male catkins eventually turn yellow with pollen.",
+            image: "/images/trad/salg-detalj.png",
+            alt: "Close-up of the goat willow's yellow catkins",
+            caption: "The catkins flower early, often on completely bare twigs.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The goat willow thrives in damp ground, in forest edges and along watercourses and shores. It grows quickly and is one of the first trees to break bud in spring, making it easy to spot among still-bare neighbors.",
+            image: "/images/trad/salg-miljo.png",
+            alt: "Flowering goat willow by a spring stream",
+            caption: "Damp hollows and streamsides are typical growing spots.",
+          },
+          {
+            heading: "Ecology & History",
+            body: "The goat willow is a vital first food source for pollinators – bumblebees and bees depend entirely on its early pollen and nectar. The bark contains salicin, a pain-relieving substance historically used as a natural medicine.",
+            image: "/images/trad/Salg_Huvudbild_01.png",
+            alt: "Goat willow in full bloom in spring light",
+            caption: "A single flowering goat willow can feed hundreds of insects.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Die erste Frühlingsspeisekammer für Hummeln und Bienen",
+        intro:
+          "Die Salweide ist eine ungemein wichtige Schlüsselart im Wald. Ihre frühe Blüte an kahlen Zweigen liefert verschlafenen Hummeln und Bienen direkt nach dem Winter lebenswichtigen Nektar und Pollen.\n\nEntlang des Kustvägen findest du die Salweide in feuchten Senken und an Bächen, wo die silbrigen Kätzchen in der Frühlingssonne leuchten.",
+        quote: "Wenn ich als Erste blühe, erwachen die Hummeln wieder zum Leben.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Salweide ist zweihäusig, mit getrennten männlichen und weiblichen Bäumen. Im Frühling, oft bevor die Blätter austreiben, sind die Zweige mit weichen silbergrauen Kätzchen bedeckt. Die männlichen Kätzchen werden schließlich gelb vor Pollen.",
+            image: "/images/trad/salg-detalj.png",
+            alt: "Nahaufnahme der gelben Kätzchen der Salweide",
+            caption: "Die Kätzchen blühen früh, oft an völlig kahlen Zweigen.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Salweide gedeiht auf feuchtem Boden, an Waldrändern und entlang von Gewässern und Ufern. Sie wächst schnell und ist einer der ersten Bäume, die im Frühling austreiben, was sie zwischen noch kahlen Nachbarn leicht erkennbar macht.",
+            image: "/images/trad/salg-miljo.png",
+            alt: "Blühende Salweide an einem Frühlingsbach",
+            caption: "Feuchte Senken und Bachufer sind typische Standorte.",
+          },
+          {
+            heading: "Ökologie & Geschichte",
+            body: "Die Salweide ist eine lebenswichtige erste Nahrungsquelle für Bestäuber – Hummeln und Bienen sind ganz auf ihren frühen Pollen und Nektar angewiesen. Die Rinde enthält Salicin, einen schmerzstillenden Stoff, der historisch als natürliches Heilmittel genutzt wurde.",
+            image: "/images/trad/Salg_Huvudbild_01.png",
+            alt: "Salweide in voller Blüte im Frühlingslicht",
+            caption: "Eine einzige blühende Salweide kann Hunderte Insekten ernähren.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/trad/Salg_Huvudbild_01.png",
+        alt: {
+          sv: "Sälg med silvriga videkissar i tidigt vårljus",
+          en: "Goat willow with silvery catkins in early spring light",
+          de: "Salweide mit silbrigen Kätzchen im frühen Frühlingslicht",
+        },
+      },
+      galleryImages: [
+        { src: "/images/trad/Salg_Huvudbild_01.png", alt: "Sälg med silvriga videkissar i tidigt vårljus" },
+        { src: "/images/trad/salg-detalj.png", alt: "Närbild på sälgens gula videkissar" },
+        { src: "/images/trad/salg-miljo.png", alt: "Blommande sälg vid en vårbäck" },
+      ],
+      detailImage: {
+        url: "/images/trad/salg-miljo.png",
+        alt: {
+          sv: "Blommande sälgar längs en vårbäck",
+          en: "Flowering goat willows along a spring stream",
+          de: "Blühende Salweiden an einem Frühlingsbach",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Sälgen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Goat Willow",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Salweide",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/trad/Salg_Huvudbild_01.png",
+    chatAvatarAlt: "Sälgens ansikte",
+    relatedSpecies: [
+      { slug: "ronn", name: "Rönn", latin: "Sorbus aucuparia", image: "/images/trad/Ronn_Huvudbild_01.png" },
+      { slug: "graal", name: "Gråal", latin: "Alnus incana", image: "/images/trad/Graal_Huvudbild_01.png" },
+      { slug: "bjork", name: "Björk", latin: "Betula pendula", image: "/images/trad/Bjork_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler av skogens träd",
+      en: "Discover more forest trees",
+      de: "Weitere Bäume des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla träd",
+      en: "View all trees",
+      de: "Alle Bäume anzeigen",
+    },
+  },
+  graal: {
+    id: "graal",
+    scientificName: "Alnus incana",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Gråal", en: "Grey Alder", de: "Grauerle" },
+    meta: {
+      sv: {
+        title: "Gråal – Kustvägen Naturguide",
+        description:
+          "Fakta om gråalen längs Kustvägen – det snabbväxande trädet som fixerar kväve och förbättrar jordmånen längs vattendrag.",
+      },
+      en: {
+        title: "Grey Alder – Kustvägen Nature Guide",
+        description:
+          "Facts about the grey alder along Kustvägen – the fast-growing tree that fixes nitrogen and improves the soil along watercourses.",
+      },
+      de: {
+        title: "Grauerle – Kustvägen Naturführer",
+        description:
+          "Fakten über die Grauerle am Kustvägen – der schnell wachsende Baum, der Stickstoff bindet und den Boden entlang von Gewässern verbessert.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ålder/Höjd", value: "Kan bli upp till 200 år och 20 meter hög" },
+        { label: "Ekologi", value: "Fixerar kväve från luften via rotknölar" },
+        { label: "Jordmån", value: "Trivs bra på magra och fuktiga marker" },
+        { label: "Typ", value: "Sambyggare med hängen" },
+      ],
+      en: [
+        { label: "Age/Height", value: "Can reach up to 200 years and 20 meters tall" },
+        { label: "Ecology", value: "Fixes nitrogen from the air via root nodules" },
+        { label: "Soil", value: "Thrives on poor and moist ground" },
+        { label: "Type", value: "Monoecious with catkins" },
+      ],
+      de: [
+        { label: "Alter/Höhe", value: "Kann bis zu 200 Jahre alt und 20 Meter hoch werden" },
+        { label: "Ökologie", value: "Bindet Stickstoff aus der Luft über Wurzelknöllchen" },
+        { label: "Boden", value: "Gedeiht auf magerem und feuchtem Boden" },
+        { label: "Typ", value: "Einhäusig mit Kätzchen" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Trädet som göder sin egen mark",
+        intro:
+          "Gråalen växer snabbt och förbättrar jordmånen där den står genom att leva i symbios med kvävefixerande bakterier i rötterna. Den är ett vanligt inslag längs vattendrag i norra Sverige.\n\nLängs Kustvägen kantar gråalen bäckar och stränder, där dess rötter binder jorden och håller strandbrinkarna på plats.",
+        quote: "Jag samlar kväve ur luften och gör marken bördig åt alla andra.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Gråalen har slät grå bark och matt gröna, dubbelsågade blad. Den är en sambyggare med både han- och honhängen på samma träd; honhängena mognar till små, kottelika kapslar som sitter kvar länge på grenarna.",
+            image: "/images/trad/graal-detalj.png",
+            alt: "Närbild på gråalens hängen och blad",
+            caption: "De små kottelika honhängena sitter kvar långt in på vintern.",
+          },
+          {
+            heading: "Växtplats & Beteende",
+            body: "Gråalen trivs på magra och fuktiga marker och är vanlig längs vattendrag, i strandkanter och på nyligen blottad mark. Den växer snabbt och kan bli upp till 200 år gammal och 20 meter hög.",
+            image: "/images/trad/graal-miljo.png",
+            alt: "Gråalar längs en älvstrand",
+            caption: "Längs bäckar och älvstränder binder gråalens rötter jorden.",
+          },
+          {
+            heading: "Ekologi & Nytta",
+            body: "Gråalen fixerar kväve från luften via knölar på rötterna, i symbios med bakterier. På så vis göder den marken och gör det lättare för andra växter att etablera sig – en verklig pionjär och jordförbättrare i landskapet.",
+            image: "/images/trad/Graal_Huvudbild_01.png",
+            alt: "Gråal vid ett vattendrag",
+            caption: "Rotknölarna gör gråalen till en naturlig jordförbättrare.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Tree That Fertilizes Its Own Ground",
+        intro:
+          "The grey alder grows quickly and improves the soil where it stands by living in symbiosis with nitrogen-fixing bacteria in its roots. It is a common feature along watercourses in northern Sweden.\n\nAlong Kustvägen the grey alder lines streams and shores, where its roots bind the soil and hold the banks in place.",
+        quote: "I gather nitrogen from the air and make the ground fertile for everyone else.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The grey alder has smooth grey bark and matte green, doubly-serrated leaves. It is monoecious, with both male and female catkins on the same tree; the female catkins ripen into small, cone-like capsules that stay on the branches for a long time.",
+            image: "/images/trad/graal-detalj.png",
+            alt: "Close-up of the grey alder's catkins and leaves",
+            caption: "The small cone-like female catkins remain far into the winter.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The grey alder thrives on poor and moist ground and is common along watercourses, on shorelines and on recently exposed soil. It grows quickly and can reach up to 200 years old and 20 meters tall.",
+            image: "/images/trad/graal-miljo.png",
+            alt: "Grey alders along a riverbank",
+            caption: "Along streams and riverbanks the grey alder's roots bind the soil.",
+          },
+          {
+            heading: "Ecology & Benefit",
+            body: "The grey alder fixes nitrogen from the air via nodules on its roots, in symbiosis with bacteria. In this way it fertilizes the ground and makes it easier for other plants to establish – a true pioneer and soil improver in the landscape.",
+            image: "/images/trad/Graal_Huvudbild_01.png",
+            alt: "Grey alder by a watercourse",
+            caption: "The root nodules make the grey alder a natural soil improver.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Baum, der seinen eigenen Boden düngt",
+        intro:
+          "Die Grauerle wächst schnell und verbessert den Boden, auf dem sie steht, indem sie in Symbiose mit stickstoffbindenden Bakterien in ihren Wurzeln lebt. Sie ist ein häufiger Anblick entlang von Gewässern im Norden Schwedens.\n\nEntlang des Kustvägen säumt die Grauerle Bäche und Ufer, wo ihre Wurzeln den Boden binden und die Uferböschungen festhalten.",
+        quote: "Ich sammle Stickstoff aus der Luft und mache den Boden fruchtbar für alle anderen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Grauerle hat glatte graue Rinde und matt grüne, doppelt gesägte Blätter. Sie ist einhäusig, mit männlichen und weiblichen Kätzchen am selben Baum; die weiblichen Kätzchen reifen zu kleinen, zapfenartigen Kapseln, die lange an den Zweigen bleiben.",
+            image: "/images/trad/graal-detalj.png",
+            alt: "Nahaufnahme der Kätzchen und Blätter der Grauerle",
+            caption: "Die kleinen zapfenartigen weiblichen Kätzchen bleiben bis weit in den Winter.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Grauerle gedeiht auf magerem und feuchtem Boden und ist häufig entlang von Gewässern, an Ufern und auf kürzlich freigelegtem Boden. Sie wächst schnell und kann bis zu 200 Jahre alt und 20 Meter hoch werden.",
+            image: "/images/trad/graal-miljo.png",
+            alt: "Grauerlen an einem Flussufer",
+            caption: "An Bächen und Flussufern binden die Wurzeln der Grauerle den Boden.",
+          },
+          {
+            heading: "Ökologie & Nutzen",
+            body: "Die Grauerle bindet Stickstoff aus der Luft über Knöllchen an ihren Wurzeln, in Symbiose mit Bakterien. So düngt sie den Boden und erleichtert es anderen Pflanzen, sich anzusiedeln – ein echter Pionier und Bodenverbesserer in der Landschaft.",
+            image: "/images/trad/Graal_Huvudbild_01.png",
+            alt: "Grauerle an einem Gewässer",
+            caption: "Die Wurzelknöllchen machen die Grauerle zu einem natürlichen Bodenverbesserer.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/trad/Graal_Huvudbild_01.png",
+        alt: {
+          sv: "Gråal vid en älvstrand i norra Sverige",
+          en: "Grey alder by a riverbank in northern Sweden",
+          de: "Grauerle an einem Flussufer im Norden Schwedens",
+        },
+      },
+      galleryImages: [
+        { src: "/images/trad/Graal_Huvudbild_01.png", alt: "Gråal vid en älvstrand i norra Sverige" },
+        { src: "/images/trad/graal-detalj.png", alt: "Närbild på gråalens hängen och blad" },
+        { src: "/images/trad/graal-miljo.png", alt: "Gråalar längs en älvstrand" },
+      ],
+      detailImage: {
+        url: "/images/trad/graal-miljo.png",
+        alt: {
+          sv: "En rad gråalar längs ett vattendrag",
+          en: "A row of grey alders along a watercourse",
+          de: "Eine Reihe Grauerlen entlang eines Gewässers",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Gråalen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Grey Alder",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Grauerle",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/trad/Graal_Huvudbild_01.png",
+    chatAvatarAlt: "Gråalens ansikte",
+    relatedSpecies: [
+      { slug: "salg", name: "Sälg", latin: "Salix caprea", image: "/images/trad/Salg_Huvudbild_01.png" },
+      { slug: "bjork", name: "Björk", latin: "Betula pendula", image: "/images/trad/Bjork_Huvudbild_01.png" },
+      { slug: "asp", name: "Asp", latin: "Populus tremula", image: "/images/trad/Asp_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler av skogens träd",
+      en: "Discover more forest trees",
+      de: "Weitere Bäume des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla träd",
+      en: "View all trees",
+      de: "Alle Bäume anzeigen",
+    },
+  },
+  bjork: {
+    id: "bjork",
+    scientificName: "Betula pendula",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Björk", en: "Birch", de: "Birke" },
+    meta: {
+      sv: {
+        title: "Björk – Kustvägen Naturguide",
+        description:
+          "Fakta om björken längs Kustvägen – Sveriges vanligaste lövträd med vit näver och ljus, prasslande krona.",
+      },
+      en: {
+        title: "Birch – Kustvägen Nature Guide",
+        description:
+          "Facts about the birch along Kustvägen – Sweden's most common deciduous tree with white bark and a light, rustling crown.",
+      },
+      de: {
+        title: "Birke – Kustvägen Naturführer",
+        description:
+          "Fakten über die Birke am Kustvägen – Schwedens häufigster Laubbaum mit weißer Rinde und lichter, raschelnder Krone.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Typer", value: "Vårtbjörk och glasbjörk" },
+        { label: "Kännetecken", value: "Vit näver som skyddar mot kyla" },
+        { label: "Föda", value: "Knopparna är viktig vintermat för orre" },
+        { label: "Användning", value: "Ved, slöjd och framställning av björksav" },
+      ],
+      en: [
+        { label: "Types", value: "Silver birch and downy birch" },
+        { label: "Identification", value: "White bark that protects against cold" },
+        { label: "Food", value: "The buds are important winter food for black grouse" },
+        { label: "Use", value: "Firewood, handicraft and tapping birch sap" },
+      ],
+      de: [
+        { label: "Arten", value: "Hänge-Birke und Moor-Birke" },
+        { label: "Kennzeichen", value: "Weiße Rinde, die vor Kälte schützt" },
+        { label: "Nahrung", value: "Die Knospen sind wichtige Winternahrung für das Birkhuhn" },
+        { label: "Verwendung", value: "Brennholz, Handwerk und Gewinnung von Birkensaft" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Sveriges ljusa vardagsträd",
+        intro:
+          "Björken är Sveriges vanligaste lövträd. Dess ljusa krona och vita stam präglar landskapet, och den tunna nävern har historiskt använts till allt från takläggning till korgflätning.\n\nLängs Kustvägen lyser björkarnas vita stammar mellan barrträden och ger ett ljust, prasslande inslag i skogen.",
+        quote: "Min vita näver skyddar mig mot kylan och lyser upp hela skogen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Björken känns igen på sin karaktäristiska vita näver med mörka strimmor. Det finns två vanliga arter – vårtbjörk och glasbjörk. Bladen är små, trekantiga och sågtandade, och kronan hänger ofta lätt och luftigt.",
+            image: "/images/trad/bjork-detalj.png",
+            alt: "Närbild på björkens vita näver",
+            caption: "Den vita nävern skyddar stammen mot kyla och skador.",
+          },
+          {
+            heading: "Växtplats & Beteende",
+            body: "Björken är ett anspråkslöst pionjärträd som snabbt koloniserar öppna ytor, hyggen och bränd mark. Den trivs i det mesta av det svenska landskapet, från kustnära skogsbryn till fjällnära marker.",
+            image: "/images/trad/bjork-miljo.png",
+            alt: "Ljus björkdunge med gröna löv",
+            caption: "Björken är ofta först på plats när ny mark blottas.",
+          },
+          {
+            heading: "Ekologi & Användning",
+            body: "Björkens knoppar är en viktig vintermat för orre och andra hönsfåglar. För människan har björken gett ved, slöjdvirke och björksav, och nävern har använts till allt från tak till korgar och skor genom historien.",
+            image: "/images/trad/Bjork_Huvudbild_01.png",
+            alt: "Björk med vit stam i sommarljus",
+            caption: "Från knoppar till näver – björken är nyttig för både djur och människa.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "Sweden's Bright Everyday Tree",
+        intro:
+          "The birch is Sweden's most common deciduous tree. Its bright crown and white trunk shape the landscape, and the thin bark has historically been used for everything from roofing to basket weaving.\n\nAlong Kustvägen the birches' white trunks shine between the conifers, adding a light, rustling element to the forest.",
+        quote: "My white bark shields me from the cold and lights up the whole forest.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The birch is recognized by its characteristic white bark with dark streaks. There are two common species – silver birch and downy birch. The leaves are small, triangular and serrated, and the crown often hangs light and airy.",
+            image: "/images/trad/bjork-detalj.png",
+            alt: "Close-up of the birch's white bark",
+            caption: "The white bark protects the trunk against cold and damage.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The birch is an undemanding pioneer tree that quickly colonizes open areas, clear-cuts and burnt ground. It thrives across most of the Swedish landscape, from coastal forest edges to sub-alpine terrain.",
+            image: "/images/trad/bjork-miljo.png",
+            alt: "Bright birch grove with green leaves",
+            caption: "The birch is often first to arrive when new ground is exposed.",
+          },
+          {
+            heading: "Ecology & Use",
+            body: "The birch's buds are an important winter food for black grouse and other gamebirds. For humans the birch has provided firewood, craft timber and birch sap, and the bark has been used for everything from roofs to baskets and shoes throughout history.",
+            image: "/images/trad/Bjork_Huvudbild_01.png",
+            alt: "Birch with white trunk in summer light",
+            caption: "From buds to bark – the birch is useful to both animals and people.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Schwedens heller Alltagsbaum",
+        intro:
+          "Die Birke ist Schwedens häufigster Laubbaum. Ihre helle Krone und der weiße Stamm prägen die Landschaft, und die dünne Rinde wurde historisch für alles von der Dachdeckung bis zum Korbflechten verwendet.\n\nEntlang des Kustvägen leuchten die weißen Stämme der Birken zwischen den Nadelbäumen und bringen ein helles, raschelndes Element in den Wald.",
+        quote: "Meine weiße Rinde schützt mich vor der Kälte und erhellt den ganzen Wald.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Birke ist an ihrer charakteristischen weißen Rinde mit dunklen Streifen zu erkennen. Es gibt zwei häufige Arten – Hänge-Birke und Moor-Birke. Die Blätter sind klein, dreieckig und gesägt, und die Krone hängt oft leicht und luftig.",
+            image: "/images/trad/bjork-detalj.png",
+            alt: "Nahaufnahme der weißen Rinde der Birke",
+            caption: "Die weiße Rinde schützt den Stamm vor Kälte und Schäden.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Birke ist ein anspruchsloser Pionierbaum, der offene Flächen, Kahlschläge und verbrannten Boden schnell besiedelt. Sie gedeiht in weiten Teilen der schwedischen Landschaft, von küstennahen Waldrändern bis zu subalpinem Gelände.",
+            image: "/images/trad/bjork-miljo.png",
+            alt: "Heller Birkenhain mit grünen Blättern",
+            caption: "Die Birke ist oft die Erste, wenn neuer Boden freigelegt wird.",
+          },
+          {
+            heading: "Ökologie & Verwendung",
+            body: "Die Knospen der Birke sind eine wichtige Winternahrung für Birkhühner und andere Rauhfußhühner. Dem Menschen hat die Birke Brennholz, Handwerksholz und Birkensaft geliefert, und die Rinde wurde durch die Geschichte für alles von Dächern bis zu Körben und Schuhen genutzt.",
+            image: "/images/trad/Bjork_Huvudbild_01.png",
+            alt: "Birke mit weißem Stamm im Sommerlicht",
+            caption: "Von Knospen bis Rinde – die Birke ist nützlich für Tiere und Menschen.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/trad/Bjork_Huvudbild_01.png",
+        alt: {
+          sv: "Björk med vit stam och gröna löv i sommarljus",
+          en: "Birch with white trunk and green leaves in summer light",
+          de: "Birke mit weißem Stamm und grünen Blättern im Sommerlicht",
+        },
+      },
+      galleryImages: [
+        { src: "/images/trad/Bjork_Huvudbild_01.png", alt: "Björk med vit stam och gröna löv i sommarljus" },
+        { src: "/images/trad/bjork-detalj.png", alt: "Närbild på björkens vita näver" },
+        { src: "/images/trad/bjork-miljo.png", alt: "Ljus björkdunge med gröna löv" },
+      ],
+      detailImage: {
+        url: "/images/trad/bjork-miljo.png",
+        alt: {
+          sv: "En ljus björkdunge i sommarljus",
+          en: "A bright birch grove in summer light",
+          de: "Ein heller Birkenhain im Sommerlicht",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Björken",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Birch",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Birke",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/trad/Bjork_Huvudbild_01.png",
+    chatAvatarAlt: "Björkens ansikte",
+    relatedSpecies: [
+      { slug: "ronn", name: "Rönn", latin: "Sorbus aucuparia", image: "/images/trad/Ronn_Huvudbild_01.png" },
+      { slug: "asp", name: "Asp", latin: "Populus tremula", image: "/images/trad/Asp_Huvudbild_01.png" },
+      { slug: "tall", name: "Tall", latin: "Pinus sylvestris", image: "/images/tall-hero.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler av skogens träd",
+      en: "Discover more forest trees",
+      de: "Weitere Bäume des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla träd",
+      en: "View all trees",
+      de: "Alle Bäume anzeigen",
+    },
+  },
+  asp: {
+    id: "asp",
+    scientificName: "Populus tremula",
+    category: { sv: "Träd", en: "Trees", de: "Bäume" },
+    names: { sv: "Asp", en: "Aspen", de: "Espe" },
+    meta: {
+      sv: {
+        title: "Asp – Kustvägen Naturguide",
+        description:
+          "Fakta om aspen längs Kustvägen – trädet med ständigt darrande blad och ett viktigt boträd för hackspettar.",
+      },
+      en: {
+        title: "Aspen – Kustvägen Nature Guide",
+        description:
+          "Facts about the aspen along Kustvägen – the tree with constantly trembling leaves and an important nesting tree for woodpeckers.",
+      },
+      de: {
+        title: "Espe – Kustvägen Naturführer",
+        description:
+          "Fakten über die Espe am Kustvägen – der Baum mit ständig zitternden Blättern und ein wichtiger Nistbaum für Spechte.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Egenskap", value: "Bladen darrar vid minsta vindpust" },
+        { label: "Förökning", value: "Sprider sig aggressivt via rotskott" },
+        { label: "Ekologi", value: "Viktigt boträd för hackspettar" },
+        { label: "Föda", value: "Favoritföda för bäver" },
+      ],
+      en: [
+        { label: "Trait", value: "The leaves tremble at the slightest breeze" },
+        { label: "Propagation", value: "Spreads aggressively via root suckers" },
+        { label: "Ecology", value: "Important nesting tree for woodpeckers" },
+        { label: "Food", value: "A favorite food for beavers" },
+      ],
+      de: [
+        { label: "Eigenschaft", value: "Die Blätter zittern beim kleinsten Windhauch" },
+        { label: "Vermehrung", value: "Breitet sich aggressiv über Wurzelausläufer aus" },
+        { label: "Ökologie", value: "Wichtiger Nistbaum für Spechte" },
+        { label: "Nahrung", value: "Eine Lieblingsnahrung der Biber" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Trädet med de darrande bladen",
+        intro:
+          "Aspen är känd för sina ständigt \"skakande\" blad, vilket beror på det långa, tillplattade bladskaftet. Äldre aspar drabbas ofta av röta och blir utmärkta boplatser för fåglar och insekter.\n\nLängs Kustvägen prasslar asparnas löv i minsta vindpust och lyser gyllengula om hösten.",
+        quote: "Mina blad darrar vid minsta vindpust – lyssna, så hör du mig prassla.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Aspens runda blad sitter på långa, tillplattade skaft, vilket får dem att darra och prassla vid minsta vindpust. Stammen är slät och grågrön hos unga träd, och om hösten färgas löven lysande gyllengula.",
+            image: "/images/trad/asp-detalj.png",
+            alt: "Närbild på aspens runda, darrande blad",
+            caption: "Det platta bladskaftet får löven att darra i minsta bris.",
+          },
+          {
+            heading: "Växtplats & Beteende",
+            body: "Aspen sprider sig aggressivt via rotskott och kan bilda hela dungar av genetiskt identiska träd. Den växer snabbt på öppen mark, i skogsbryn och på hyggen, ofta tillsammans med björk.",
+            image: "/images/trad/asp-miljo.png",
+            alt: "Aspdunge med gyllengula höstlöv",
+            caption: "Via rotskott kan en enda asp ge upphov till en hel dunge.",
+          },
+          {
+            heading: "Ekologi & Föda",
+            body: "Aspen är ett av skogens viktigaste träd för biologisk mångfald. Äldre, murkna aspar är utmärkta boträd för hackspettar, och den mjuka barken och kvistarna är favoritföda för bäver, älg och hare.",
+            image: "/images/trad/Asp_Huvudbild_01.png",
+            alt: "Asp med gyllengula löv i höstljus",
+            caption: "Gamla aspar med hål och röta myllrar av liv.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Tree with the Trembling Leaves",
+        intro:
+          "The aspen is known for its constantly \"shaking\" leaves, caused by the long, flattened leaf stalk. Older aspens are often affected by rot and become excellent nesting sites for birds and insects.\n\nAlong Kustvägen the aspens' leaves rustle at the slightest breeze and glow golden-yellow in autumn.",
+        quote: "My leaves tremble at the slightest breeze – listen, and you'll hear me rustle.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The aspen's round leaves sit on long, flattened stalks, which makes them tremble and rustle at the slightest breeze. The trunk is smooth and grey-green in young trees, and in autumn the leaves turn a brilliant golden-yellow.",
+            image: "/images/trad/asp-detalj.png",
+            alt: "Close-up of the aspen's round, trembling leaves",
+            caption: "The flat leaf stalk makes the leaves tremble in the faintest breeze.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The aspen spreads aggressively via root suckers and can form whole groves of genetically identical trees. It grows quickly on open ground, in forest edges and on clear-cuts, often alongside birch.",
+            image: "/images/trad/asp-miljo.png",
+            alt: "Aspen grove with golden-yellow autumn leaves",
+            caption: "Through root suckers a single aspen can give rise to an entire grove.",
+          },
+          {
+            heading: "Ecology & Food",
+            body: "The aspen is one of the forest's most important trees for biodiversity. Older, decaying aspens are excellent nesting trees for woodpeckers, and the soft bark and twigs are a favorite food for beavers, moose and hares.",
+            image: "/images/trad/Asp_Huvudbild_01.png",
+            alt: "Aspen with golden-yellow leaves in autumn light",
+            caption: "Old aspens with holes and rot teem with life.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Baum mit den zitternden Blättern",
+        intro:
+          "Die Espe ist für ihre ständig \"zitternden\" Blätter bekannt, was am langen, abgeflachten Blattstiel liegt. Ältere Espen werden oft von Fäulnis befallen und zu ausgezeichneten Nistplätzen für Vögel und Insekten.\n\nEntlang des Kustvägen rascheln die Blätter der Espen beim kleinsten Windhauch und leuchten im Herbst goldgelb.",
+        quote: "Meine Blätter zittern beim kleinsten Windhauch – hör hin, dann hörst du mich rascheln.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die runden Blätter der Espe sitzen an langen, abgeflachten Stielen, wodurch sie beim kleinsten Windhauch zittern und rascheln. Der Stamm ist bei jungen Bäumen glatt und graugrün, und im Herbst färben sich die Blätter leuchtend goldgelb.",
+            image: "/images/trad/asp-detalj.png",
+            alt: "Nahaufnahme der runden, zitternden Blätter der Espe",
+            caption: "Der flache Blattstiel lässt die Blätter beim leisesten Lufthauch zittern.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Espe breitet sich aggressiv über Wurzelausläufer aus und kann ganze Haine aus genetisch identischen Bäumen bilden. Sie wächst schnell auf offenem Boden, an Waldrändern und auf Kahlschlägen, oft zusammen mit Birken.",
+            image: "/images/trad/asp-miljo.png",
+            alt: "Espenhain mit goldgelbem Herbstlaub",
+            caption: "Über Wurzelausläufer kann eine einzige Espe einen ganzen Hain hervorbringen.",
+          },
+          {
+            heading: "Ökologie & Nahrung",
+            body: "Die Espe ist einer der wichtigsten Bäume des Waldes für die Artenvielfalt. Ältere, morsche Espen sind ausgezeichnete Nistbäume für Spechte, und die weiche Rinde und die Zweige sind eine Lieblingsnahrung für Biber, Elche und Hasen.",
+            image: "/images/trad/Asp_Huvudbild_01.png",
+            alt: "Espe mit goldgelben Blättern im Herbstlicht",
+            caption: "Alte Espen mit Löchern und Fäulnis wimmeln von Leben.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/trad/Asp_Huvudbild_01.png",
+        alt: {
+          sv: "Asp med gyllengula, darrande löv i höstljus",
+          en: "Aspen with golden-yellow, trembling leaves in autumn light",
+          de: "Espe mit goldgelben, zitternden Blättern im Herbstlicht",
+        },
+      },
+      galleryImages: [
+        { src: "/images/trad/Asp_Huvudbild_01.png", alt: "Asp med gyllengula, darrande löv i höstljus" },
+        { src: "/images/trad/asp-detalj.png", alt: "Närbild på aspens runda, darrande blad" },
+        { src: "/images/trad/asp-miljo.png", alt: "Aspdunge med gyllengula höstlöv" },
+      ],
+      detailImage: {
+        url: "/images/trad/asp-miljo.png",
+        alt: {
+          sv: "En aspdunge i gyllene höstfärger",
+          en: "An aspen grove in golden autumn colors",
+          de: "Ein Espenhain in goldenen Herbstfarben",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Aspen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Aspen",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Espe",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/trad/Asp_Huvudbild_01.png",
+    chatAvatarAlt: "Aspens ansikte",
+    relatedSpecies: [
+      { slug: "bjork", name: "Björk", latin: "Betula pendula", image: "/images/trad/Bjork_Huvudbild_01.png" },
+      { slug: "ronn", name: "Rönn", latin: "Sorbus aucuparia", image: "/images/trad/Ronn_Huvudbild_01.png" },
+      { slug: "graal", name: "Gråal", latin: "Alnus incana", image: "/images/trad/Graal_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler av skogens träd",
+      en: "Discover more forest trees",
+      de: "Weitere Bäume des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla träd",
+      en: "View all trees",
+      de: "Alle Bäume anzeigen",
+    },
+  },
   tall: {
     id: "tall",
     scientificName: "Pinus sylvestris",

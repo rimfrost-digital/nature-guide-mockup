@@ -20,6 +20,7 @@ type TalkToNatureProps = {
   speciesId: string
   audioSrc?: string
   audioLabel?: string
+  soundDisabled?: boolean
 }
 
 function getText(message: { parts?: Array<{ type: string; text?: string }> }) {
@@ -45,6 +46,7 @@ export function TalkToNature({
   speciesId,
   audioSrc,
   audioLabel = "Så här låter lodjuret",
+  soundDisabled = false,
 }: TalkToNatureProps) {
   const [input, setInput] = useState("")
   const [isPlayingSound, setIsPlayingSound] = useState(false)
@@ -109,29 +111,47 @@ export function TalkToNature({
           <p className="mt-3 max-w-2xl leading-relaxed text-[#F4F1E8]/80">{intro}</p>
           <p className="mt-2 text-sm italic text-[#B89452]">{subNote}</p>
 
-          {audioSrc && (
+          {soundDisabled ? (
             <div className="mt-5 flex justify-start">
               <button
                 type="button"
-                onClick={toggleSound}
-                aria-label={isPlayingSound ? `Pausa: ${audioLabel}` : audioLabel}
-                aria-pressed={isPlayingSound}
-                className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md"
+                disabled
+                aria-disabled="true"
+                aria-label={audioLabel}
+                title={audioLabel}
+                className="inline-flex cursor-not-allowed items-center gap-2.5 rounded-full bg-[#B89452]/40 py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521]/60 shadow-sm"
               >
-                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#F4F1E8]">
-                  {isPlayingSound ? (
-                    <span className="flex items-end gap-[2px]" aria-hidden="true">
-                      <span className="h-2 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_infinite] rounded-full bg-[#1d2521]" />
-                      <span className="h-3 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.15s_infinite] rounded-full bg-[#1d2521]" />
-                      <span className="h-1.5 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.3s_infinite] rounded-full bg-[#1d2521]" />
-                    </span>
-                  ) : (
-                    <Play className="h-3 w-3 translate-x-px" fill="currentColor" aria-hidden="true" />
-                  )}
+                <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#F4F1E8]/60">
+                  <Play className="h-3 w-3 translate-x-px" fill="currentColor" aria-hidden="true" />
                 </span>
-                {isPlayingSound ? "Pausa" : audioLabel}
+                {audioLabel}
               </button>
             </div>
+          ) : (
+            audioSrc && (
+              <div className="mt-5 flex justify-start">
+                <button
+                  type="button"
+                  onClick={toggleSound}
+                  aria-label={isPlayingSound ? `Pausa: ${audioLabel}` : audioLabel}
+                  aria-pressed={isPlayingSound}
+                  className="inline-flex items-center gap-2.5 rounded-full bg-[#B89452] py-2 pl-2 pr-4 text-sm font-medium text-[#1d2521] shadow-sm transition-all hover:bg-[#c9a666] hover:shadow-md"
+                >
+                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[#F4F1E8]">
+                    {isPlayingSound ? (
+                      <span className="flex items-end gap-[2px]" aria-hidden="true">
+                        <span className="h-2 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_infinite] rounded-full bg-[#1d2521]" />
+                        <span className="h-3 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.15s_infinite] rounded-full bg-[#1d2521]" />
+                        <span className="h-1.5 w-[2.5px] animate-[sound-bar_0.9s_ease-in-out_0.3s_infinite] rounded-full bg-[#1d2521]" />
+                      </span>
+                    ) : (
+                      <Play className="h-3 w-3 translate-x-px" fill="currentColor" aria-hidden="true" />
+                    )}
+                  </span>
+                  {isPlayingSound ? "Pausa" : audioLabel}
+                </button>
+              </div>
+            )
           )}
 
           {/* Chat window */}
