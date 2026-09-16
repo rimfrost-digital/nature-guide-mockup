@@ -2632,6 +2632,29 @@ SÄKERHET:
           "Gäddan är en av våra största sötvattensrovfiskar och en skicklig jägare med sin strömlinjeformade kropp. Den förekommer i både havet, sjöar och rinnande vatten längs Kustvägen.\n\nMed sitt kamouflagemönster och blixtsnabba anfall från vassruggar och undervattensvegetation är gäddan en mästare på överraskningstaktik.",
         quote: "Stilla som en skugga bland vasstråna – tills gäddan slår till.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Gäddan har en långsträckt, strömlinjeformad kropp och ett brett, ankliknande gap fyllt av vassa tänder. Det gröngula, marmorerade mönstret gör den nästan osynlig bland vass och vattenväxter.",
+            image: "/images/fiskar/Gadda_Huvudbild_01.png",
+            alt: "Gädda som simmar bland vattenväxter",
+            caption: "Kamouflaget gör gäddan nästan osynlig bland vasstråna.",
+          },
+          {
+            heading: "Jakt & Föda",
+            body: "Gäddan är en hänsynslös bakhållsjägare. Den ligger orörlig och väntar innan den med ett blixtsnabbt utfall slukar fisk, groddjur och ibland även fågel. De bakåtriktade tänderna gör att bytet inte kan slingra sig loss.",
+            image: "/images/fiskar/gadda-detalj.png",
+            alt: "Närbild på gäddans tandbeklädda käkar",
+            caption: "De bakåtvända tänderna ger bytet ingen chans att komma loss.",
+          },
+          {
+            heading: "Livsmiljö & Lek",
+            body: "Gäddan trivs i grunda, vegetationsrika vikar i både sött och bräckt vatten. På våren vandrar den in på översvämmade strandängar och grunda vikar för att leka, där äggen fäster på fjolårets vass.",
+            image: "/images/fiskar/gadda-miljo.png",
+            alt: "Vassrik vik där gäddan jagar och leker",
+            caption: "Grunda, vassrika vikar är både jaktmark och barnkammare.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The water's silent predator",
@@ -2639,6 +2662,29 @@ SÄKERHET:
           "The Northern Pike is one of our largest freshwater predators, a skilled hunter with a streamlined body. It's found in the sea, lakes, and flowing waters along Kustvägen.\n\nWith its camouflage pattern and lightning-fast strikes from reed beds and underwater vegetation, the pike is a master of ambush tactics.",
         quote: "Still as a shadow among the reeds – until the pike strikes.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The pike has an elongated, streamlined body and a broad, duck-like snout full of sharp teeth. Its greenish, marbled pattern makes it nearly invisible among reeds and aquatic plants.",
+            image: "/images/fiskar/Gadda_Huvudbild_01.png",
+            alt: "Pike swimming among aquatic plants",
+            caption: "Its camouflage makes the pike almost invisible among the reeds.",
+          },
+          {
+            heading: "Hunting & Diet",
+            body: "The pike is a ruthless ambush predator. It lies motionless before striking with a lightning-fast lunge to engulf fish, amphibians and sometimes even birds. Its backward-facing teeth mean prey cannot wriggle free.",
+            image: "/images/fiskar/gadda-detalj.png",
+            alt: "Close-up of the pike's tooth-lined jaws",
+            caption: "Its backward-facing teeth give prey no chance to escape.",
+          },
+          {
+            heading: "Habitat & Spawning",
+            body: "The pike thrives in shallow, vegetation-rich bays in both fresh and brackish water. In spring it moves into flooded meadows and shallow inlets to spawn, where the eggs attach to last year's reeds.",
+            image: "/images/fiskar/gadda-miljo.png",
+            alt: "Reedy bay where the pike hunts and spawns",
+            caption: "Shallow, reedy bays are both hunting ground and nursery.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Der stille Räuber des Wassers",
@@ -2646,6 +2692,29 @@ SÄKERHET:
           "Der Hecht ist einer unserer größten Süßwasserraubfische, ein geschickter Jäger mit stromlinienförmigem Körper. Er kommt im Meer, in Seen und in fließenden Gewässern entlang des Kustvägen vor.\n\nMit seinem Tarnmuster und blitzschnellen Angriffen aus Schilfgürteln und Unterwasserpflanzen ist der Hecht ein Meister der Überraschungstaktik.",
         quote: "Still wie ein Schatten im Schilf – bis der Hecht zuschlägt.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Hecht hat einen langgestreckten, stromlinienförmigen Körper und eine breite, entenschnabelartige Schnauze voller scharfer Zähne. Sein grünliches, marmoriertes Muster macht ihn zwischen Schilf und Wasserpflanzen fast unsichtbar.",
+            image: "/images/fiskar/Gadda_Huvudbild_01.png",
+            alt: "Hecht schwimmt zwischen Wasserpflanzen",
+            caption: "Seine Tarnung macht den Hecht im Schilf fast unsichtbar.",
+          },
+          {
+            heading: "Jagd & Nahrung",
+            body: "Der Hecht ist ein gnadenloser Lauerjäger. Er liegt regungslos, bevor er mit einem blitzschnellen Vorstoß Fische, Amphibien und manchmal sogar Vögel verschlingt. Seine nach hinten gerichteten Zähne lassen die Beute nicht entkommen.",
+            image: "/images/fiskar/gadda-detalj.png",
+            alt: "Nahaufnahme der bezahnten Kiefer des Hechts",
+            caption: "Seine nach hinten gerichteten Zähne lassen der Beute keine Chance.",
+          },
+          {
+            heading: "Lebensraum & Laichzeit",
+            body: "Der Hecht lebt in flachen, pflanzenreichen Buchten in Süß- und Brackwasser. Im Frühjahr zieht er zum Laichen in überflutete Wiesen und flache Buchten, wo die Eier am vorjährigen Schilf haften.",
+            image: "/images/fiskar/gadda-miljo.png",
+            alt: "Schilfreiche Bucht, in der der Hecht jagt und laicht",
+            caption: "Flache, schilfreiche Buchten sind Jagdrevier und Kinderstube zugleich.",
+          },
+        ],
       },
     },
     media: {
@@ -2668,6 +2737,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/fiskar/Gadda_Huvudbild_01.png", alt: "Gädda som simmar bland vattenväxter" },
         { src: "/images/fiskar/gadda-detalj.png", alt: "Närbild på gäddans käkar" },
+        { src: "/images/fiskar/gadda-miljo.png", alt: "Vassrik vik där gäddan jagar" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -2676,11 +2746,45 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Prata med Gäddan", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
-      en: { title: "Talk to the Pike", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Sprich mit dem Hecht", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      sv: {
+        title: "Prata med Gäddan",
+        intro: "Undrar du hur det är att vara vattnets tystaste jägare? Ställ en fråga till mig och lär dig mer om mitt liv bland vassen längs Kustvägen.",
+        presetQuestions: ["Hur stor kan du bli?", "Hur jagar du?", "Var lägger du din rom?", "Har du verkligen så många tänder?", "Var gömmer du dig?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Pike",
+        intro: "Curious what it's like to be the water's silent hunter? Ask me a question and learn more about my life among the reeds along Kustvägen.",
+        presetQuestions: ["How big can you get?", "How do you hunt?", "Where do you lay your eggs?", "Do you really have that many teeth?", "Where do you hide?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Hecht",
+        intro: "Neugierig, wie es ist, der lautloseste Jäger des Wassers zu sein? Stell mir eine Frage und erfahre mehr über mein Leben im Schilf am Kustvägen.",
+        presetQuestions: ["Wie groß kannst du werden?", "Wie jagst du?", "Wo legst du deine Eier ab?", "Hast du wirklich so viele Zähne?", "Wo versteckst du dich?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
     },
-    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    chatSystemPrompt: `Du är en gädda (Esox lucius) som lever i vikar, sjöar och vattendrag längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är gäddan. Till exempel: "Jag ligger alldeles stilla i vassen och väntar på mitt byte!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om gäddan:
+- Storlek: kan bli upp till 1,5 meter lång och väga 20 kg. En av Nordens största sötvattensrovfiskar.
+- Mat: rovfisk som äter annan fisk, groddjur och ibland små fåglar. Jagar från bakhåll.
+- Kropp: lång och strömlinjeformad, grön-gul marmorering som kamouflage, brett gap med många vassa, bakåtriktade tänder.
+- Lever ensam i grunda, vegetationsrika vikar i både sött och bräckt vatten.
+- Leker på våren i grunda, översvämmade vikar där rommen fäster på vass.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller gäddan, led vänligt tillbaka samtalet till vattnet och dig som gädda.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
     avatarImage: "/images/fiskar/Gadda_Huvudbild_01.png",
     chatAvatarAlt: "Gäddans ansikte",
     relatedSpecies: [
@@ -2741,6 +2845,29 @@ SÄKERHET:
           "Abborren är en av Sveriges mest populära mat- och sportfiskar och känns lätt igen på sina mörka tvärband och de rödorange fenorna. Vid hög konkurrens om maten kan den bilda stim av dvärgformer som kallas tusenbröder.\n\nDen trivs i det mesta av Kustvägens vatten, från grunda vikar till djupare insjöar, och jagar ofta i samordnade grupper.",
         quote: "Ett glittrande stim i vassen – abborrens signatur längs hela kusten.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Abborren känns lätt igen på sina 5–9 mörka tvärband och de rödorange bröst- och bukfenorna. Den främre ryggfenan är taggig och har en svart fläck längst bak – en tydlig varningssignal till rovdjur.",
+            image: "/images/fiskar/Abborre_Huvudbild_01.png",
+            alt: "Stim av abborre med tydliga tvärband",
+            caption: "De mörka banden bryter upp konturen och gömmer abborren i vassen.",
+          },
+          {
+            heading: "Stimliv & Jakt",
+            body: "Abborren lever i stim och jagar ofta i samordnade grupper mot småfisk och kräftdjur. Vid hård konkurrens om maten kan den bilda tätpackade stim av dvärgformer som kallas tusenbröder.",
+            image: "/images/fiskar/abborre-detalj.png",
+            alt: "Närbild på abborrens taggiga ryggfena",
+            caption: "Den taggiga ryggfenan reses som försvar mot angripare.",
+          },
+          {
+            heading: "Livsmiljö & Lek",
+            body: "Abborren trivs i det mesta av Kustvägens vatten, från grunda vikar till djupare insjöar. Under våren lägger honan upp till 20 000 ägg i långa, geléartade band som slingrar sig kring vass och grenar.",
+            image: "/images/fiskar/abborre-miljo.png",
+            alt: "Stenig sjöbotten där abborren samlas i stim",
+            caption: "Steniga bottnar och vass ger både skydd och jaktmark.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The reed's striped schooling fish",
@@ -2748,6 +2875,29 @@ SÄKERHET:
           "The European Perch is one of Sweden's most popular food and sport fish, easily recognized by its dark vertical bands and reddish-orange fins. Under high food competition it can form stunted dwarf shoals.\n\nIt thrives in most of Kustvägen's waters, from shallow bays to deeper lakes, and often hunts in coordinated groups.",
         quote: "A glittering shoal in the reeds – the perch's signature along the whole coast.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The perch is easily recognized by its 5–9 dark vertical bands and reddish-orange pectoral and pelvic fins. The front dorsal fin is spiny with a black spot at the rear – a clear warning to predators.",
+            image: "/images/fiskar/Abborre_Huvudbild_01.png",
+            alt: "School of perch with distinct vertical bands",
+            caption: "The dark bands break up its outline and hide the perch in the reeds.",
+          },
+          {
+            heading: "Schooling & Hunting",
+            body: "The perch lives in schools and often hunts small fish and crustaceans in coordinated groups. Under heavy food competition it can form tightly packed shoals of stunted dwarf fish.",
+            image: "/images/fiskar/abborre-detalj.png",
+            alt: "Close-up of the perch's spiny dorsal fin",
+            caption: "The spiny dorsal fin is raised as a defense against attackers.",
+          },
+          {
+            heading: "Habitat & Spawning",
+            body: "The perch thrives in most of Kustvägen's waters, from shallow bays to deeper lakes. In spring the female lays up to 20,000 eggs in long, jelly-like ribbons that wind around reeds and branches.",
+            image: "/images/fiskar/abborre-miljo.png",
+            alt: "Rocky lake bottom where perch gather in schools",
+            caption: "Rocky bottoms and reeds provide both shelter and hunting ground.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Der gestreifte Schwarmfisch des Schilfs",
@@ -2755,6 +2905,29 @@ SÄKERHET:
           "Der Flussbarsch ist einer der beliebtesten Speise- und Sportfische Schwedens, leicht erkennbar an seinen dunklen Querstreifen und rotorangen Flossen. Bei starker Nahrungskonkurrenz kann er Zwergformen bilden.\n\nEr fühlt sich in den meisten Gewässern des Kustvägen wohl, von flachen Buchten bis zu tieferen Seen, und jagt oft in koordinierten Gruppen.",
         quote: "Ein glitzernder Schwarm im Schilf – das Markenzeichen des Barsches entlang der Küste.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Flussbarsch ist leicht an seinen 5–9 dunklen Querstreifen und den rotorangen Brust- und Bauchflossen erkennbar. Die vordere Rückenflosse ist stachelig und trägt hinten einen schwarzen Fleck – ein deutliches Warnsignal an Räuber.",
+            image: "/images/fiskar/Abborre_Huvudbild_01.png",
+            alt: "Barschschwarm mit deutlichen Querstreifen",
+            caption: "Die dunklen Streifen lösen die Kontur auf und verbergen den Barsch im Schilf.",
+          },
+          {
+            heading: "Schwarmleben & Jagd",
+            body: "Der Flussbarsch lebt in Schwärmen und jagt oft in koordinierten Gruppen kleine Fische und Krebstiere. Bei starker Nahrungskonkurrenz kann er dicht gedrängte Schwärme von Zwergformen bilden.",
+            image: "/images/fiskar/abborre-detalj.png",
+            alt: "Nahaufnahme der stacheligen Rückenflosse des Barsches",
+            caption: "Die stachelige Rückenflosse wird zur Abwehr aufgestellt.",
+          },
+          {
+            heading: "Lebensraum & Laichzeit",
+            body: "Der Flussbarsch fühlt sich in den meisten Gewässern des Kustvägen wohl, von flachen Buchten bis zu tieferen Seen. Im Frühjahr legt das Weibchen bis zu 20.000 Eier in langen, gallertartigen Bändern ab, die sich um Schilf und Zweige winden.",
+            image: "/images/fiskar/abborre-miljo.png",
+            alt: "Steiniger Seegrund, an dem sich Barsche im Schwarm sammeln",
+            caption: "Steinige Böden und Schilf bieten Schutz und Jagdrevier zugleich.",
+          },
+        ],
       },
     },
     media: {
@@ -2777,6 +2950,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/fiskar/Abborre_Huvudbild_01.png", alt: "Stim av abborre i klart vatten" },
         { src: "/images/fiskar/abborre-detalj.png", alt: "Närbild på abborrens ryggfena" },
+        { src: "/images/fiskar/abborre-miljo.png", alt: "Stenig sjöbotten där abborren samlas" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -2785,11 +2959,46 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Prata med Abborren", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
-      en: { title: "Talk to the Perch", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Sprich mit dem Flussbarsch", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      sv: {
+        title: "Prata med Abborren",
+        intro: "Vill du veta hur det är att leva i ett stort stim? Ställ en fråga till mig och lär dig mer om mitt liv i vassen längs Kustvägen.",
+        presetQuestions: ["Varför är du randig?", "Lever du ensam eller i stim?", "Vad äter du?", "Hur stor kan du bli?", "Vad är en tusenbror?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Perch",
+        intro: "Want to know what it's like to live in a big school? Ask me a question and learn more about my life in the reeds along Kustvägen.",
+        presetQuestions: ["Why are you striped?", "Do you live alone or in a school?", "What do you eat?", "How big can you get?", "What is a dwarf shoal?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Flussbarsch",
+        intro: "Möchtest du wissen, wie es ist, in einem großen Schwarm zu leben? Stell mir eine Frage und erfahre mehr über mein Leben im Schilf am Kustvägen.",
+        presetQuestions: ["Warum bist du gestreift?", "Lebst du allein oder im Schwarm?", "Was frisst du?", "Wie groß kannst du werden?", "Was ist eine Zwergform?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
     },
-    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    chatSystemPrompt: `Du är en abborre (Perca fluviatilis) som lever i vikar och sjöar längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är abborren. Till exempel: "Jag simmar i ett stort stim tillsammans med mina kompisar!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om abborren:
+- Storlek: vanligtvis 20-40 cm, men enstaka kan bli över 50 cm och väga 3 kg.
+- Utseende: 5-9 mörka tvärband på kroppen, rödorange fenor och en taggig främre ryggfena med en svart fläck.
+- Lever i stim och jagar ofta tillsammans. Vid matbrist bildas dvärgstim som kallas tusenbröder.
+- Mat: små kräftdjur och småfisk.
+- Leker på våren (april-juni) och lägger upp till 20 000 ägg i långa geléband kring vass.
+- En av Sveriges mest populära mat- och sportfiskar.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller abborren, led vänligt tillbaka samtalet till vattnet och dig som abborre.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
     avatarImage: "/images/fiskar/Abborre_Huvudbild_01.png",
     chatAvatarAlt: "Abborrens ansikte",
     relatedSpecies: [
@@ -2850,6 +3059,29 @@ SÄKERHET:
           "Öringen anpassar sig starkt efter sin miljö vilket avspeglas i storleken. Som unga vandrar de ut i sjöar eller hav för att växa sig stora innan de återvänder till födelseplatsen för att leka.\n\nLängs Kustvägen möter man både den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen i skogens klara bäckar.",
         quote: "Från bäckens stilla vatten till havets vidder – öringen bär alltid hem till lekplatsen i minnet.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Öringen har en kraftig, muskulös kropp täckt av svarta och röda prickar med ljusa ringar. Färgen varierar starkt med miljön – blank och silvrig som havsöring, mörkare och mer färgstark som bäcköring i skogens vatten.",
+            image: "/images/fiskar/Oring_Huvudbild_01.png",
+            alt: "Öring i strömmande vatten med tydliga prickar",
+            caption: "Prickmönstret är lika unikt som ett fingeravtryck för varje öring.",
+          },
+          {
+            heading: "Vandring & Lek",
+            body: "Som ung vandrar öringen ut till sjö eller hav för att växa sig stor. På hösten återvänder den till samma vattendrag där den själv kläcktes för att leka, och gräver ner rommen i grusbottnen.",
+            image: "/images/fiskar/oring-detalj.png",
+            alt: "Närbild på öringens fläckiga sida",
+            caption: "Öringen hittar tillbaka till sin egen födelseplats för att leka.",
+          },
+          {
+            heading: "Livsmiljö & Beteende",
+            body: "Öringen kräver rent, syrerikt och svalt vatten. Längs Kustvägen möter man den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen som står stilla i strömmen och väntar på insekter.",
+            image: "/images/fiskar/oring-miljo.png",
+            alt: "Klar skogsbäck som är öringens livsmiljö",
+            caption: "Klara, strömmande bäckar är öringens hem och barnkammare.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The shape-shifting wanderer",
@@ -2857,6 +3089,29 @@ SÄKERHET:
           "The Brown Trout adapts strongly to its environment, which is reflected in its size. As juveniles, they migrate to lakes or the sea to grow large before returning to their birthplace to spawn.\n\nAlong Kustvägen, you can find both the powerful sea trout in coastal waters and the more modest brook trout in the forest's clear streams.",
         quote: "From the stream's still water to the vastness of the sea – the trout always carries home in its memory.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The trout has a sturdy, muscular body covered in black and red spots with pale rings. Its color varies greatly with its environment – bright and silvery as a sea trout, darker and more colorful as a brook trout in forest waters.",
+            image: "/images/fiskar/Oring_Huvudbild_01.png",
+            alt: "Trout in rushing water with distinct spots",
+            caption: "The spot pattern is as unique as a fingerprint for each trout.",
+          },
+          {
+            heading: "Migration & Spawning",
+            body: "As a juvenile, the trout migrates to a lake or the sea to grow large. In autumn it returns to the very stream where it hatched to spawn, burying its eggs in the gravel bed.",
+            image: "/images/fiskar/oring-detalj.png",
+            alt: "Close-up of the trout's spotted flank",
+            caption: "The trout finds its way back to its own birthplace to spawn.",
+          },
+          {
+            heading: "Habitat & Behavior",
+            body: "The trout needs clean, oxygen-rich, cool water. Along Kustvägen you can meet the powerful sea trout in coastal waters and the more modest brook trout, holding still in the current waiting for insects.",
+            image: "/images/fiskar/oring-miljo.png",
+            alt: "Clear forest stream that is the trout's habitat",
+            caption: "Clear, flowing streams are the trout's home and nursery.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Der wandelbare Wanderer",
@@ -2864,6 +3119,29 @@ SÄKERHET:
           "Die Forelle passt sich stark an ihre Umgebung an, was sich in ihrer Größe widerspiegelt. Als Jungfische wandern sie in Seen oder ins Meer, um groß zu werden, bevor sie zum Laichen an ihren Geburtsort zurückkehren.\n\nAm Kustvägen trifft man sowohl die kräftige Meerforelle in den Küstengewässern als auch die bescheidenere Bachforelle in den klaren Waldbächen.",
         quote: "Vom stillen Bach bis zur Weite des Meeres – die Forelle trägt die Heimat immer im Gedächtnis.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Forelle hat einen kräftigen, muskulösen Körper mit schwarzen und roten Punkten mit hellen Ringen. Ihre Farbe variiert stark mit der Umgebung – hell und silbrig als Meerforelle, dunkler und farbenprächtiger als Bachforelle in Waldgewässern.",
+            image: "/images/fiskar/Oring_Huvudbild_01.png",
+            alt: "Forelle im strömenden Wasser mit deutlichen Punkten",
+            caption: "Das Punktmuster ist für jede Forelle so einzigartig wie ein Fingerabdruck.",
+          },
+          {
+            heading: "Wanderung & Laichzeit",
+            body: "Als Jungfisch wandert die Forelle in einen See oder ins Meer, um groß zu werden. Im Herbst kehrt sie zum Laichen genau in den Bach zurück, in dem sie geschlüpft ist, und vergräbt ihre Eier im Kiesbett.",
+            image: "/images/fiskar/oring-detalj.png",
+            alt: "Nahaufnahme der gefleckten Flanke der Forelle",
+            caption: "Die Forelle findet zum Laichen an ihren eigenen Geburtsort zurück.",
+          },
+          {
+            heading: "Lebensraum & Verhalten",
+            body: "Die Forelle braucht sauberes, sauerstoffreiches und kühles Wasser. Am Kustvägen trifft man die kräftige Meerforelle in den Küstengewässern und die bescheidenere Bachforelle, die reglos in der Strömung auf Insekten wartet.",
+            image: "/images/fiskar/oring-miljo.png",
+            alt: "Klarer Waldbach, der Lebensraum der Forelle",
+            caption: "Klare, fließende Bäche sind Heimat und Kinderstube der Forelle.",
+          },
+        ],
       },
     },
     media: {
@@ -2886,6 +3164,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/fiskar/Oring_Huvudbild_01.png", alt: "Öring i strömmande vatten" },
         { src: "/images/fiskar/oring-detalj.png", alt: "Närbild på öringens fläckar" },
+        { src: "/images/fiskar/oring-miljo.png", alt: "Klar skogsbäck som är öringens livsmiljö" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -2894,11 +3173,46 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Prata med Öringen", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
-      en: { title: "Talk to the Trout", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Sprich mit der Forelle", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      sv: {
+        title: "Prata med Öringen",
+        intro: "Undrar du hur det är att vandra mellan bäck och hav? Ställ en fråga till mig och lär dig mer om mitt liv i vattnen längs Kustvägen.",
+        presetQuestions: ["Varför är du prickig?", "Vart vandrar du?", "Hur hittar du hem för att leka?", "Vad är skillnaden på havsöring och bäcköring?", "Vad äter du?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Trout",
+        intro: "Curious what it's like to travel between stream and sea? Ask me a question and learn more about my life in the waters along Kustvägen.",
+        presetQuestions: ["Why are you spotted?", "Where do you migrate?", "How do you find your way home to spawn?", "What's the difference between sea trout and brook trout?", "What do you eat?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Forelle",
+        intro: "Neugierig, wie es ist, zwischen Bach und Meer zu wandern? Stell mir eine Frage und erfahre mehr über mein Leben in den Gewässern am Kustvägen.",
+        presetQuestions: ["Warum bist du gefleckt?", "Wohin wanderst du?", "Wie findest du zum Laichen nach Hause?", "Was ist der Unterschied zwischen Meer- und Bachforelle?", "Was frisst du?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
     },
-    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    chatSystemPrompt: `Du är en öring (Salmo trutta) som lever i bäckar, sjöar och kustvatten längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är öringen. Till exempel: "Jag simmar uppför bäcken för att leka där jag själv föddes!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om öringen:
+- Tillhör laxfiskarna. Finns i tre former: havsöring, insjööring och bäcköring.
+- Storlek: havsöring kan bli upp till 15 kg, bäcköring är liten (20-30 cm).
+- Utseende: kraftig kropp med svarta och röda prickar. Färgen varierar med miljön.
+- Vandrar som ung ut till sjö eller hav och återvänder på hösten till sitt eget födelsevatten för att leka.
+- Leker på hösten i rinnande vatten och gräver ner rommen i grus.
+- Kräver rent, kallt och syrerikt vatten.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller öringen, led vänligt tillbaka samtalet till vattnet och dig som öring.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
     avatarImage: "/images/fiskar/Oring_Huvudbild_01.png",
     chatAvatarAlt: "Öringens ansikte",
     relatedSpecies: [
@@ -2959,6 +3273,29 @@ SÄKERHET:
           "Siken tillhör laxfiskarna och producerar omkring 25 000 ägg per kilo kroppsvikt. Den leker under hösten i både rinnande och stilla vatten längs Kustvägen.\n\nMed sin silvriga, spolformade kropp och lilla mun trivs siken i kalla, syrerika vatten och är en omtyckt matfisk med djupa rötter i den lokala kulturen.",
         quote: "Siken glimmar silverblank i det kalla vattnet – en skatt från Norrlands älvar och kust.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Siken har en slank, silverblank kropp med mörkare rygg och en liten, underställd mun som passar för att söka föda på botten. Den känns igen på den lilla fettfenan mellan ryggfenan och stjärten – ett tecken på att den tillhör laxfiskarna.",
+            image: "/images/fiskar/Sik_Huvudbild_01.png",
+            alt: "Sik med silverblank kropp i klart vatten",
+            caption: "Den underställda munnen avslöjar att siken söker mat vid botten.",
+          },
+          {
+            heading: "Föda & Beteende",
+            body: "Siken lever ofta i stim och betar av bottendjur som insektslarver, kräftdjur och små snäckor. Den kan också sila plankton ur vattnet med sina fina gälräfständer, vars antal skiljer sikens många former åt.",
+            image: "/images/fiskar/sik-detalj.png",
+            alt: "Närbild på sikens huvud och underställda mun",
+            caption: "Med känsliga sinnen letar siken föda även i kallt, mörkt djupvatten.",
+          },
+          {
+            heading: "Livsmiljö & Lek",
+            body: "Siken trivs i kalla, klara och djupa sjöar samt i bräckt kustvatten längs Kustvägen. Den leker sent på hösten och vintern, då den samlas på grunda bankar och sprider sin rom över sten- och grusbottnar.",
+            image: "/images/fiskar/sik-miljo.png",
+            alt: "Kall, klar och djup sjö som är sikens livsmiljö",
+            caption: "Kalla, klara djup är sikens hem året runt.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The beloved whitefish of the north",
@@ -2966,6 +3303,29 @@ SÄKERHET:
           "The European Whitefish belongs to the salmon family and produces around 25,000 eggs per kilogram of body weight. It spawns in autumn in both flowing and still waters along Kustvägen.\n\nWith its silvery, spindle-shaped body and small mouth, the whitefish thrives in cold, oxygen-rich waters and is a beloved food fish with deep roots in local culture.",
         quote: "The whitefish shimmers silver in the cold water – a treasure from the northern rivers and coast.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The whitefish has a slender, silvery body with a darker back and a small, underslung mouth suited for feeding on the bottom. It is recognized by the small adipose fin between the dorsal fin and tail – a sign that it belongs to the salmon family.",
+            image: "/images/fiskar/Sik_Huvudbild_01.png",
+            alt: "Whitefish with silvery body in clear water",
+            caption: "Its underslung mouth reveals that the whitefish feeds near the bottom.",
+          },
+          {
+            heading: "Diet & Behavior",
+            body: "The whitefish often lives in schools and grazes on bottom animals such as insect larvae, crustaceans and small snails. It can also filter plankton from the water with its fine gill rakers, whose number distinguishes the whitefish's many forms.",
+            image: "/images/fiskar/sik-detalj.png",
+            alt: "Close-up of the whitefish's head and underslung mouth",
+            caption: "With keen senses the whitefish finds food even in cold, dark deep water.",
+          },
+          {
+            heading: "Habitat & Spawning",
+            body: "The whitefish thrives in cold, clear, deep lakes and in brackish coastal water along Kustvägen. It spawns in late autumn and winter, gathering on shallow banks to scatter its eggs over stony and gravelly bottoms.",
+            image: "/images/fiskar/sik-miljo.png",
+            alt: "Cold, clear and deep lake that is the whitefish's habitat",
+            caption: "Cold, clear depths are the whitefish's home all year round.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Die geliebte Maräne des Nordens",
@@ -2973,6 +3333,29 @@ SÄKERHET:
           "Die Maräne (Sik) gehört zu den Salmoniden und produziert etwa 25.000 Eier pro Kilogramm Körpergewicht. Sie laicht im Herbst sowohl in fließenden als auch in stillen Gewässern entlang des Kustvägen.\n\nMit ihrem silbrigen, spindelförmigen Körper und kleinen Maul fühlt sich die Maräne in kaltem, sauerstoffreichem Wasser wohl und ist ein beliebter Speisefisch mit tiefen Wurzeln in der lokalen Kultur.",
         quote: "Die Maräne glänzt silbern im kalten Wasser – ein Schatz aus den nordischen Flüssen und der Küste.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Maräne hat einen schlanken, silbrig glänzenden Körper mit dunklerem Rücken und ein kleines, unterständiges Maul, das zum Fressen am Grund geeignet ist. Sie ist an der kleinen Fettflosse zwischen Rückenflosse und Schwanz erkennbar – ein Zeichen, dass sie zu den Lachsfischen gehört.",
+            image: "/images/fiskar/Sik_Huvudbild_01.png",
+            alt: "Maräne mit silbrigem Körper im klaren Wasser",
+            caption: "Das unterständige Maul verrät, dass die Maräne am Grund frisst.",
+          },
+          {
+            heading: "Nahrung & Verhalten",
+            body: "Die Maräne lebt oft in Schwärmen und weidet Bodentiere wie Insektenlarven, Krebstiere und kleine Schnecken ab. Sie kann auch Plankton mit ihren feinen Kiemenreusen aus dem Wasser filtern, deren Anzahl die vielen Formen der Maräne unterscheidet.",
+            image: "/images/fiskar/sik-detalj.png",
+            alt: "Nahaufnahme des Kopfes und des unterständigen Mauls der Maräne",
+            caption: "Mit feinen Sinnen findet die Maräne selbst im kalten, dunklen Tiefenwasser Nahrung.",
+          },
+          {
+            heading: "Lebensraum & Laichzeit",
+            body: "Die Maräne fühlt sich in kalten, klaren, tiefen Seen und im brackigen Küstenwasser am Kustvägen wohl. Sie laicht im Spätherbst und Winter, wenn sie sich auf flachen Bänken sammelt und ihre Eier über Stein- und Kiesböden verteilt.",
+            image: "/images/fiskar/sik-miljo.png",
+            alt: "Kalter, klarer und tiefer See, der Lebensraum der Maräne",
+            caption: "Kalte, klare Tiefen sind das ganze Jahr über die Heimat der Maräne.",
+          },
+        ],
       },
     },
     media: {
@@ -2993,8 +3376,9 @@ SÄKERHET:
         },
       },
       galleryImages: [
-        { src: "/images/fiskar/Sik_Huvudbild_01.png", alt: "Sik i klart sjövatten" },
-        { src: "/images/fiskar/sik-detalj.png", alt: "Närbild på sikens fjäll" },
+        { src: "/images/fiskar/Sik_Huvudbild_01.png", alt: "Sik i klart vatten" },
+        { src: "/images/fiskar/sik-detalj.png", alt: "Närbild på sikens huvud" },
+        { src: "/images/fiskar/sik-miljo.png", alt: "Kall, klar och djup sjö som är sikens livsmiljö" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -3003,11 +3387,47 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Prata med Siken", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
-      en: { title: "Talk to the Whitefish", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Sprich mit der Maräne", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      sv: {
+        title: "Prata med Siken",
+        intro: "Undrar du hur det är att leva i det kalla, klara djupet? Ställ en fråga till mig och lär dig mer om mitt liv i vattnen längs Kustvägen.",
+        presetQuestions: ["Varför är du så silverblank?", "Vad äter du?", "Var i sjön bor du?", "När leker du?", "Är du släkt med laxen?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Whitefish",
+        intro: "Curious what it's like to live in the cold, clear depths? Ask me a question and learn more about my life in the waters along Kustvägen.",
+        presetQuestions: ["Why are you so silvery?", "What do you eat?", "Where in the lake do you live?", "When do you spawn?", "Are you related to the salmon?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit der Maräne",
+        intro: "Neugierig, wie es ist, in der kalten, klaren Tiefe zu leben? Stell mir eine Frage und erfahre mehr über mein Leben in den Gewässern am Kustvägen.",
+        presetQuestions: ["Warum bist du so silbrig?", "Was frisst du?", "Wo im See lebst du?", "Wann laichst du?", "Bist du mit dem Lachs verwandt?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
     },
-    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    chatSystemPrompt: `Du är en sik (Coregonus) som lever i djupa, kalla sjöar och bräckt kustvatten längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är siken. Till exempel: "Jag simmar långt nere i det kalla, klara vattnet!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om siken:
+- Tillhör laxfiskarna och har en liten fettfena på ryggen.
+- Storlek: oftast 25-50 cm.
+- Utseende: slank, silverblank kropp med mörkare rygg och liten, underställd mun.
+- Lever i stim i kalla, klara och djupa sjöar samt i bräckt kustvatten.
+- Mat: bottendjur som insektslarver, kräftdjur och små snäckor. Vissa former silar plankton.
+- Leker sent på hösten och vintern på grunda bankar.
+- Finns i många lokala former som skiljer sig i storlek och antal gälräfständer.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller siken, led vänligt tillbaka samtalet till vattnet och dig som sik.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
     avatarImage: "/images/fiskar/Sik_Huvudbild_01.png",
     chatAvatarAlt: "Sikens ansikte",
     relatedSpecies: [
@@ -3068,6 +3488,29 @@ SÄKERHET:
           "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram längs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
         quote: "En resa på tusentals mil, född av en enda gåtfull längtan tillbaka till havet därute.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Ålen har en lång, ormlik kropp täckt av ett tjockt lager slem som gör den hal och svår att greppa. Ryggen är mörk och buken ljusnar när ålen mognar och byter till sin blanka \"blankålsdräkt\" inför den långa vandringen.",
+            image: "/images/fiskar/Al_Huvudbild_01.png",
+            alt: "Ål som slingrar sig längs en lerig sjöbotten",
+            caption: "Det hala slemlagret skyddar ålen och hjälper den glida fram.",
+          },
+          {
+            heading: "Livscykel & Vandring",
+            body: "Ålen föds i Sargassohavet och driver som liten larv med havsströmmarna ända till Europas kuster. Efter många år i sjöar och vattendrag vänder den tillbaka tvärs över Atlanten för att leka en enda gång – och sedan dö.",
+            image: "/images/fiskar/al-detalj.png",
+            alt: "Närbild på ålens mörka, slemmiga hud",
+            caption: "En enda resa på tusentals mil avslutar ålens långa liv.",
+          },
+          {
+            heading: "Livsmiljö & Hotstatus",
+            body: "Om dagen gömmer sig ålen bland stenar och växter och jagar först i skydd av mörkret. Idag är den akut hotad och fridlyst – varje ål längs Kustvägen är en pusselbit i ett skört globalt bestånd.",
+            image: "/images/fiskar/al-miljo.png",
+            alt: "Lerig, växtrik sjöbotten där ålen gömmer sig",
+            caption: "Steniga, växtrika bottnar ger ålen skydd om dagen.",
+          },
+        ],
       },
       en: {
         heroSubtitle: "The sea's most enigmatic wanderer",
@@ -3075,6 +3518,29 @@ SÄKERHET:
           "The European Eel has one of the animal kingdom's most fascinating life cycles, traveling thousands of miles across the Atlantic to spawn in the Sargasso Sea.\n\nWith its long, slender, snake-like body, the eel moves along the bottom of Kustvägen's waters at night, often hidden among rocks and vegetation. Today the species is critically endangered, and every individual living along the coast is part of a fragile global population.",
         quote: "A journey of thousands of miles, born from one enigmatic longing to return to the sea beyond.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The eel has a long, snake-like body covered in a thick layer of slime that makes it slippery and hard to grip. Its back is dark and its belly lightens as the eel matures and shifts into its shiny \"silver eel\" dress before the long migration.",
+            image: "/images/fiskar/Al_Huvudbild_01.png",
+            alt: "Eel winding along a muddy lake bottom",
+            caption: "The slick layer of slime protects the eel and helps it glide along.",
+          },
+          {
+            heading: "Life Cycle & Migration",
+            body: "The eel is born in the Sargasso Sea and drifts as a tiny larva with the ocean currents all the way to Europe's coasts. After many years in lakes and waterways it returns across the Atlantic to spawn a single time – and then die.",
+            image: "/images/fiskar/al-detalj.png",
+            alt: "Close-up of the eel's dark, slimy skin",
+            caption: "A single journey of thousands of miles ends the eel's long life.",
+          },
+          {
+            heading: "Habitat & Conservation",
+            body: "By day the eel hides among rocks and plants and hunts only under cover of darkness. Today it is critically endangered and protected – every eel along Kustvägen is a piece of a fragile global population.",
+            image: "/images/fiskar/al-miljo.png",
+            alt: "Muddy, plant-rich lake bottom where the eel hides",
+            caption: "Rocky, plant-rich bottoms give the eel shelter during the day.",
+          },
+        ],
       },
       de: {
         heroSubtitle: "Der rätselhafteste Wanderer des Meeres",
@@ -3082,6 +3548,29 @@ SÄKERHET:
           "Der Europäische Aal hat einen der faszinierendsten Lebenszyklen des Tierreichs und reist tausende Kilometer über den Atlantik, um in der Sargassosee zu laichen.\n\nMit seinem langen, schlangenähnlichen Körper bewegt sich der Aal nachts am Grund der Gewässer entlang des Kustvägen, oft verborgen zwischen Steinen und Pflanzen. Heute ist die Art akut gefährdet, und jedes Individuum an der Küste ist Teil einer fragilen globalen Population.",
         quote: "Eine Reise über tausende Kilometer, geboren aus einer einzigen rätselhaften Sehnsucht nach dem fernen Meer.",
         sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Aal hat einen langen, schlangenähnlichen Körper mit einer dicken Schleimschicht, die ihn glatt und schwer zu greifen macht. Sein Rücken ist dunkel, und der Bauch hellt auf, wenn der Aal reift und vor der langen Wanderung sein glänzendes \"Blankaal-Kleid\" anlegt.",
+            image: "/images/fiskar/Al_Huvudbild_01.png",
+            alt: "Aal, der sich über einen schlammigen Seegrund schlängelt",
+            caption: "Die glatte Schleimschicht schützt den Aal und hilft ihm beim Gleiten.",
+          },
+          {
+            heading: "Lebenszyklus & Wanderung",
+            body: "Der Aal wird in der Sargassosee geboren und treibt als winzige Larve mit den Meeresströmungen bis zu den Küsten Europas. Nach vielen Jahren in Seen und Gewässern kehrt er über den Atlantik zurück, um ein einziges Mal zu laichen – und dann zu sterben.",
+            image: "/images/fiskar/al-detalj.png",
+            alt: "Nahaufnahme der dunklen, schleimigen Haut des Aals",
+            caption: "Eine einzige Reise über tausende Kilometer beendet das lange Leben des Aals.",
+          },
+          {
+            heading: "Lebensraum & Gefährdung",
+            body: "Tagsüber versteckt sich der Aal zwischen Steinen und Pflanzen und jagt erst im Schutz der Dunkelheit. Heute ist er akut gefährdet und geschützt – jeder Aal am Kustvägen ist ein Teil einer fragilen globalen Population.",
+            image: "/images/fiskar/al-miljo.png",
+            alt: "Schlammiger, pflanzenreicher Seegrund, in dem sich der Aal versteckt",
+            caption: "Steinige, pflanzenreiche Böden bieten dem Aal tagsüber Schutz.",
+          },
+        ],
       },
     },
     media: {
@@ -3104,6 +3593,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/fiskar/Al_Huvudbild_01.png", alt: "Ål på lerig sjöbotten" },
         { src: "/images/fiskar/al-detalj.png", alt: "Närbild på ålens hud" },
+        { src: "/images/fiskar/al-miljo.png", alt: "Lerig, växtrik sjöbotten där ålen gömmer sig" },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -3112,11 +3602,46 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Prata med Ålen", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
-      en: { title: "Talk to the Eel", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Sprich mit dem Aal", intro: "[AI INTRO PLACEHOLDER]", presetQuestions: ["[AI QUESTION PLACEHOLDER]"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      sv: {
+        title: "Prata med Ålen",
+        intro: "Undrar du hur det är att resa tvärs över havet? Ställ en fråga till mig och lär dig mer om mitt gåtfulla liv i vattnen längs Kustvägen.",
+        presetQuestions: ["Var föds du?", "Hur långt vandrar du?", "Varför är du så hal?", "Vad äter du?", "Varför är du hotad?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Eel",
+        intro: "Curious what it's like to travel across the entire ocean? Ask me a question and learn more about my enigmatic life in the waters along Kustvägen.",
+        presetQuestions: ["Where are you born?", "How far do you migrate?", "Why are you so slippery?", "What do you eat?", "Why are you endangered?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Aal",
+        intro: "Neugierig, wie es ist, über den ganzen Ozean zu reisen? Stell mir eine Frage und erfahre mehr über mein rätselhaftes Leben in den Gewässern am Kustvägen.",
+        presetQuestions: ["Wo wirst du geboren?", "Wie weit wanderst du?", "Warum bist du so glatt?", "Was frisst du?", "Warum bist du gefährdet?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
     },
-    chatSystemPrompt: "[AI RESPONSE DATA PLACEHOLDER]",
+    chatSystemPrompt: `Du är en ål (Anguilla anguilla) som lever i sjöar, vattendrag och kustvatten längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är ålen. Till exempel: "Jag har simmat tusentals mil för att komma hit!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om ålen:
+- Föds i Sargassohavet nära Amerika och driver som liten larv med havsströmmarna ända till Europa.
+- Lever många år (ibland över 20) i sjöar och vattendrag innan den vandrar tillbaka över Atlanten för att leka en enda gång, och dör sedan.
+- Utseende: lång, ormlik kropp med ett tjockt, halt slemlager. Blir blank och silvrig inför vandringen.
+- Är aktiv på natten och gömmer sig om dagen bland stenar och växter.
+- Mat: smådjur, maskar, kräftdjur och småfisk.
+- Är akut hotad och fridlyst i Sverige.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller ålen, led vänligt tillbaka samtalet till vattnet och dig som ål.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
     avatarImage: "/images/fiskar/Al_Huvudbild_01.png",
     chatAvatarAlt: "Ålens ansikte",
     relatedSpecies: [
