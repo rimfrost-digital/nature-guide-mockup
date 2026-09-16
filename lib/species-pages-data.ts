@@ -4106,6 +4106,1320 @@ SÄKERHET:
       de: "Alle Pilze & Pflanzen anzeigen",
     },
   },
+  "fjallig-blacksvamp": {
+    id: "fjallig-blacksvamp",
+    scientificName: "Coprinus comatus",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Fjällig bläcksvamp", en: "Shaggy Ink Cap", de: "Schopftintling" },
+    meta: {
+      sv: {
+        title: "Fjällig bläcksvamp – Kustvägen Naturguide",
+        description:
+          "Lär dig känna igen fjällig bläcksvamp längs Kustvägen – kännetecken, växtplatser och varför den måste tillagas samma dag den plockas.",
+      },
+      en: {
+        title: "Shaggy Ink Cap – Kustvägen Nature Guide",
+        description:
+          "Learn to recognize the shaggy ink cap along Kustvägen – characteristics, habitats and why it must be cooked the same day it is picked.",
+      },
+      de: {
+        title: "Schopftintling – Kustvägen Naturführer",
+        description:
+          "Lernen Sie den Schopftintling entlang des Kustvägen kennen – Merkmale, Standorte und warum er am selben Tag zubereitet werden muss.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ätlighet", value: "God matsvamp som ung" },
+        { label: "Habitat", value: "Näringsrika gräsmattor och vägrenar" },
+        { label: "Kännetecken", value: "Hög, cylinderformad hatt med vita fjäll" },
+        { label: "Egenskap", value: "Löses upp till svart bläck när den åldras" },
+      ],
+      en: [
+        { label: "Edibility", value: "Good edible when young" },
+        { label: "Habitat", value: "Nutrient-rich lawns and roadsides" },
+        { label: "Identification", value: "Tall, cylindrical cap with white scales" },
+        { label: "Trait", value: "Dissolves into black ink as it ages" },
+      ],
+      de: [
+        { label: "Essbarkeit", value: "Guter Speisepilz, wenn jung" },
+        { label: "Lebensraum", value: "Nährstoffreiche Wiesen und Wegränder" },
+        { label: "Merkmal", value: "Hoher, zylindrischer Hut mit weißen Schuppen" },
+        { label: "Eigenschaft", value: "Zerfließt im Alter zu schwarzer Tinte" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Svampen som blir till bläck",
+        intro:
+          "Fjällig bläcksvamp är en läcker matsvamp, men den måste tillagas direkt efter plockning eftersom den snabbt börjar självdöra. När svampen mognar börjar hatten flyta ut och förvandlas till en svart, bläckaktig vätska som sprider sporerna.\n\nLängs Kustvägen dyker den ofta upp i grupper på näringsrika gräsmattor och vägrenar, från sensommar till höst.",
+        quote: "Plocka mig på morgonen – till kvällen har jag redan förvandlats till bläck.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Fjällig bläcksvamp känns lätt igen på sin höga, cylinderformade hatt som täcks av vita, uppåtböjda fjäll. Som ung är hatten sluten och vit, men med tiden mörknar kanten och börjar lösas upp underifrån.",
+            image: "/images/svampar/fjallig-blacksvamp-detalj.png",
+            alt: "Närbild på bläcksvampens vita fjäll och mörknande kant",
+            caption: "De vita fjällen och den mörknande kanten är säkra kännetecken.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Svampen trivs på näringsrik, störd mark – gräsmattor, parker, dikeskanter och vägrenar. Den växer ofta i grupper och kan dyka upp i stort antal efter regn under sensommaren och hösten.",
+            image: "/images/svampar/fjallig-blacksvamp-miljo.png",
+            alt: "Fjälliga bläcksvampar i grön gräsmatta",
+            caption: "Näringsrika gräsmattor och vägrenar är typiska växtplatser.",
+          },
+          {
+            heading: "Mat & Försiktighet",
+            body: "Som ung och helvit är fjällig bläcksvamp en uppskattad matsvamp med mild smak. Den måste dock tillagas samma dag den plockas, eftersom den snabbt löses upp till bläck. Plocka bara exemplar som fortfarande är vita rakt igenom.",
+            image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+            alt: "Ung, vit fjällig bläcksvamp på en gräsmatta",
+            caption: "Plocka bara unga, helvita exemplar – och laga dem samma dag.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Mushroom That Turns to Ink",
+        intro:
+          "The shaggy ink cap is a delicious edible mushroom, but it must be cooked immediately after picking because it quickly begins to self-digest. As it matures, the cap dissolves into a black, ink-like liquid that spreads its spores.\n\nAlong Kustvägen it often appears in groups on nutrient-rich lawns and roadsides, from late summer into autumn.",
+        quote: "Pick me in the morning – by evening I will already have turned to ink.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The shaggy ink cap is easily recognized by its tall, cylindrical cap covered in white, upturned scales. When young the cap is closed and white, but over time the edge darkens and begins to dissolve from below.",
+            image: "/images/svampar/fjallig-blacksvamp-detalj.png",
+            alt: "Close-up of the ink cap's white scales and darkening edge",
+            caption: "The white scales and darkening rim are reliable field marks.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "It favors nutrient-rich, disturbed ground – lawns, parks, ditch edges and roadsides. It often grows in groups and can appear in large numbers after rain in late summer and autumn.",
+            image: "/images/svampar/fjallig-blacksvamp-miljo.png",
+            alt: "Shaggy ink caps in green lawn grass",
+            caption: "Nutrient-rich lawns and roadsides are typical spots.",
+          },
+          {
+            heading: "Culinary & Caution",
+            body: "When young and pure white, the shaggy ink cap is a prized edible with a mild flavor. However, it must be cooked the same day it is picked, as it quickly dissolves into ink. Only pick specimens that are still white all the way through.",
+            image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+            alt: "A young, white shaggy ink cap on a lawn",
+            caption: "Only pick young, all-white specimens – and cook them the same day.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Pilz, der zu Tinte wird",
+        intro:
+          "Der Schopftintling ist ein köstlicher Speisepilz, muss aber sofort nach dem Sammeln zubereitet werden, da er sich schnell selbst zersetzt. Reift er heran, zerfließt der Hut zu einer schwarzen, tintenartigen Flüssigkeit, die die Sporen verbreitet.\n\nEntlang des Kustvägen erscheint er oft in Gruppen auf nährstoffreichen Wiesen und Wegrändern, vom Spätsommer bis in den Herbst.",
+        quote: "Sammle mich am Morgen – bis zum Abend bin ich schon zu Tinte geworden.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Schopftintling ist leicht an seinem hohen, zylindrischen Hut mit weißen, aufwärts gebogenen Schuppen zu erkennen. Jung ist der Hut geschlossen und weiß, doch mit der Zeit dunkelt der Rand und beginnt sich von unten aufzulösen.",
+            image: "/images/svampar/fjallig-blacksvamp-detalj.png",
+            alt: "Nahaufnahme der weißen Schuppen und des dunkelnden Randes",
+            caption: "Die weißen Schuppen und der dunkelnde Rand sind sichere Kennzeichen.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Er bevorzugt nährstoffreichen, gestörten Boden – Rasen, Parks, Grabenränder und Wegränder. Oft wächst er in Gruppen und kann nach Regen im Spätsommer und Herbst zahlreich erscheinen.",
+            image: "/images/svampar/fjallig-blacksvamp-miljo.png",
+            alt: "Schopftintlinge im grünen Rasen",
+            caption: "Nährstoffreiche Wiesen und Wegränder sind typische Standorte.",
+          },
+          {
+            heading: "Küche & Vorsicht",
+            body: "Jung und reinweiß ist der Schopftintling ein geschätzter Speisepilz mit mildem Geschmack. Er muss jedoch am selben Tag zubereitet werden, da er sich rasch zu Tinte auflöst. Sammeln Sie nur durch und durch weiße Exemplare.",
+            image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+            alt: "Ein junger, weißer Schopftintling auf einer Wiese",
+            caption: "Nur junge, ganz weiße Exemplare sammeln – und am selben Tag zubereiten.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+        alt: {
+          sv: "En hög, vit fjällig bläcksvamp med fjällig hatt på en gräsmatta",
+          en: "A tall, white shaggy ink cap with a scaly cap on a lawn",
+          de: "Ein hoher, weißer Schopftintling mit schuppigem Hut auf einer Wiese",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+          alt: "En hög, vit fjällig bläcksvamp med fjällig hatt på en gräsmatta",
+        },
+        { src: "/images/svampar/fjallig-blacksvamp-detalj.png", alt: "Närbild på bläcksvampens vita fjäll och mörknande kant" },
+        { src: "/images/svampar/fjallig-blacksvamp-miljo.png", alt: "Fjälliga bläcksvampar i grön gräsmatta" },
+      ],
+      detailImage: {
+        url: "/images/svampar/fjallig-blacksvamp-miljo.png",
+        alt: {
+          sv: "Fjälliga bläcksvampar på en gräsmatta i sensommarljus",
+          en: "Shaggy ink caps on a lawn in late summer light",
+          de: "Schopftintlinge auf einer Wiese im Spätsommerlicht",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Fjällig bläcksvamp",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Shaggy Ink Cap",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Schopftintling",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+    chatAvatarAlt: "Fjällig bläcksvamps ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "farticka",
+        name: "Fårticka",
+        latin: "Albatrellus ovinus",
+        image: "/images/svampar/Farticka_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
+  "fjallig-taggsvamp": {
+    id: "fjallig-taggsvamp",
+    scientificName: "Sarcodon imbricatus",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Fjällig taggsvamp", en: "Scaly Hedgehog", de: "Habichtspilz" },
+    meta: {
+      sv: {
+        title: "Fjällig taggsvamp – Kustvägen Naturguide",
+        description:
+          "Fakta om fjällig taggsvamp längs Kustvägen – de grova fjällen, den taggiga undersidan och hur den används som kryddsvamp.",
+      },
+      en: {
+        title: "Scaly Hedgehog – Kustvägen Nature Guide",
+        description:
+          "Facts about the scaly hedgehog along Kustvägen – its coarse scales, spiny underside and use as a spice mushroom.",
+      },
+      de: {
+        title: "Habichtspilz – Kustvägen Naturführer",
+        description:
+          "Fakten über den Habichtspilz am Kustvägen – seine groben Schuppen, die stachelige Unterseite und die Nutzung als Gewürzpilz.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ätlighet", value: "God som ung (används som kryddsvamp)" },
+        { label: "Habitat", value: "Gamla gran- och barrskogar" },
+        { label: "Kännetecken", value: "Stora mörkbruna fjäll på hatten" },
+        { label: "Undersida", value: "Tätt sittande gråaktiga taggar" },
+      ],
+      en: [
+        { label: "Edibility", value: "Good when young (used as a spice)" },
+        { label: "Habitat", value: "Old spruce and coniferous forests" },
+        { label: "Identification", value: "Large dark brown scales on the cap" },
+        { label: "Underside", value: "Densely set greyish spines" },
+      ],
+      de: [
+        { label: "Essbarkeit", value: "Gut, wenn jung (als Gewürz genutzt)" },
+        { label: "Lebensraum", value: "Alte Fichten- und Nadelwälder" },
+        { label: "Merkmal", value: "Große dunkelbraune Schuppen auf dem Hut" },
+        { label: "Unterseite", value: "Dicht stehende gräuliche Stacheln" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Kryddsvampen med taggar",
+        intro:
+          "Fjällig taggsvamp är lätt att känna igen på sin ovansida som täcks av grova, mörkbruna fjäll och sin taggiga undersida. Äldre exemplar får en bitter smak och lämpar sig därför bäst torkade och malda som krydda.\n\nDen växer i gamla gran- och barrskogar längs Kustvägen och dyker upp från sensommar till höst.",
+        quote: "Vänd på mig – under hatten bär jag tusen små taggar istället för skivor.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Ovansidan täcks av grova, mörkbruna fjäll mot en ljusare botten. Vänder man på svampen sitter där inga skivor utan tätt sittande, gråaktiga taggar – ett säkert kännetecken för taggsvampar.",
+            image: "/images/svampar/fjallig-taggsvamp-detalj.png",
+            alt: "Närbild på den taggiga undersidan",
+            caption: "Undersidan bär tätt sittande gråa taggar istället för skivor.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Fjällig taggsvamp lever i symbios med gran och trivs i gamla, mossrika barrskogar. Den växer ofta i grupper eller ringar och återkommer gärna till samma plats år efter år.",
+            image: "/images/svampar/fjallig-taggsvamp-miljo.png",
+            alt: "Fjälliga taggsvampar i mossig granskog",
+            caption: "Gamla, mossrika granskogar är artens hemvist.",
+          },
+          {
+            heading: "Matkultur & Tradition",
+            body: "Unga exemplar är goda, men med åldern blir köttet bittert. Därför torkas svampen ofta och mals till ett kraftigt kryddpulver som ger fyllig smak åt såser och grytor – en uppskattad tradition i norrländska kök.",
+            image: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+            alt: "Hel fjällig taggsvamp i skogen",
+            caption: "Torkad och malen blir den en kraftfull krydda i grytor och såser.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Spice Mushroom With Teeth",
+        intro:
+          "The scaly hedgehog is easily recognized by its upper surface covered in coarse, dark brown scales and its spiny underside. Older specimens turn bitter and are therefore best dried and ground as a spice.\n\nIt grows in old spruce and coniferous forests along Kustvägen, appearing from late summer into autumn.",
+        quote: "Turn me over – beneath my cap I carry a thousand tiny teeth instead of gills.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The upper surface is covered in coarse, dark brown scales over a paler background. Turn the mushroom over and you find no gills but densely set, greyish spines – a sure sign of the hedgehog mushrooms.",
+            image: "/images/svampar/fjallig-taggsvamp-detalj.png",
+            alt: "Close-up of the spiny underside",
+            caption: "The underside bears densely set grey spines instead of gills.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "The scaly hedgehog lives in symbiosis with spruce and thrives in old, mossy coniferous forests. It often grows in groups or rings and readily returns to the same spot year after year.",
+            image: "/images/svampar/fjallig-taggsvamp-miljo.png",
+            alt: "Scaly hedgehog mushrooms in mossy spruce forest",
+            caption: "Old, mossy spruce forests are this species' home.",
+          },
+          {
+            heading: "Culinary Tradition",
+            body: "Young specimens are tasty, but with age the flesh turns bitter. It is therefore often dried and ground into a strong spice powder that adds depth to sauces and stews – a cherished tradition in northern Swedish kitchens.",
+            image: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+            alt: "A whole scaly hedgehog mushroom in the forest",
+            caption: "Dried and ground, it becomes a powerful spice for stews and sauces.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Gewürzpilz mit Stacheln",
+        intro:
+          "Der Habichtspilz ist leicht an seiner mit groben, dunkelbraunen Schuppen bedeckten Oberseite und seiner stacheligen Unterseite zu erkennen. Ältere Exemplare werden bitter und eignen sich daher am besten getrocknet und gemahlen als Gewürz.\n\nEr wächst in alten Fichten- und Nadelwäldern entlang des Kustvägen, von Spätsommer bis Herbst.",
+        quote: "Dreh mich um – unter dem Hut trage ich tausend kleine Stacheln statt Lamellen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Die Oberseite ist mit groben, dunkelbraunen Schuppen auf hellerem Grund bedeckt. Dreht man den Pilz um, finden sich keine Lamellen, sondern dicht stehende, gräuliche Stacheln – ein sicheres Kennzeichen der Stachelinge.",
+            image: "/images/svampar/fjallig-taggsvamp-detalj.png",
+            alt: "Nahaufnahme der stacheligen Unterseite",
+            caption: "Die Unterseite trägt dicht stehende graue Stacheln statt Lamellen.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Der Habichtspilz lebt in Symbiose mit der Fichte und gedeiht in alten, moosreichen Nadelwäldern. Oft wächst er in Gruppen oder Ringen und kehrt gern Jahr für Jahr an dieselbe Stelle zurück.",
+            image: "/images/svampar/fjallig-taggsvamp-miljo.png",
+            alt: "Habichtspilze im moosigen Fichtenwald",
+            caption: "Alte, moosreiche Fichtenwälder sind die Heimat der Art.",
+          },
+          {
+            heading: "Kulinarische Tradition",
+            body: "Junge Exemplare sind schmackhaft, doch mit dem Alter wird das Fleisch bitter. Daher wird der Pilz oft getrocknet und zu einem kräftigen Gewürzpulver gemahlen, das Saucen und Eintöpfen Tiefe verleiht – eine geschätzte Tradition in nordschwedischen Küchen.",
+            image: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+            alt: "Ein ganzer Habichtspilz im Wald",
+            caption: "Getrocknet und gemahlen wird er zu einem kräftigen Gewürz für Eintöpfe und Saucen.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+        alt: {
+          sv: "En stor fjällig taggsvamp med grova mörkbruna fjäll i mossig granskog",
+          en: "A large scaly hedgehog with coarse dark brown scales in mossy spruce forest",
+          de: "Ein großer Habichtspilz mit groben dunkelbraunen Schuppen im moosigen Fichtenwald",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+          alt: "En stor fjällig taggsvamp med grova mörkbruna fjäll i mossig granskog",
+        },
+        { src: "/images/svampar/fjallig-taggsvamp-detalj.png", alt: "Närbild på den taggiga undersidan" },
+        { src: "/images/svampar/fjallig-taggsvamp-miljo.png", alt: "Fjälliga taggsvampar i mossig granskog" },
+      ],
+      detailImage: {
+        url: "/images/svampar/fjallig-taggsvamp-miljo.png",
+        alt: {
+          sv: "Fjälliga taggsvampar på granskogens mossgolv",
+          en: "Scaly hedgehog mushrooms on the mossy floor of a spruce forest",
+          de: "Habichtspilze auf dem moosigen Boden eines Fichtenwaldes",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Fjällig taggsvamp",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Scaly Hedgehog",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Habichtspilz",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+    chatAvatarAlt: "Fjällig taggsvamps ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "farticka",
+        name: "Fårticka",
+        latin: "Albatrellus ovinus",
+        image: "/images/svampar/Farticka_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
+  "rod-flugsvamp": {
+    id: "rod-flugsvamp",
+    scientificName: "Amanita muscaria",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Röd flugsvamp", en: "Fly Agaric", de: "Fliegenpilz" },
+    meta: {
+      sv: {
+        title: "Röd flugsvamp – Kustvägen Naturguide",
+        description:
+          "Allt om röd flugsvamp längs Kustvägen – den röda hatten med vita prickar, giftigheten och dess plats i sagor och folktro.",
+      },
+      en: {
+        title: "Fly Agaric – Kustvägen Nature Guide",
+        description:
+          "All about the fly agaric along Kustvägen – the red cap with white spots, its toxicity and its place in fairy tales and folklore.",
+      },
+      de: {
+        title: "Fliegenpilz – Kustvägen Naturführer",
+        description:
+          "Alles über den Fliegenpilz am Kustvägen – der rote Hut mit weißen Punkten, seine Giftigkeit und sein Platz in Märchen und Volksglauben.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Giftighet", value: "Mycket giftig (muskimol/ibotensyra)" },
+        { label: "Kännetecken", value: "Starkt röd hatt med vita prickar" },
+        { label: "Habitat", value: "Mykorrhiza med björk och gran" },
+        { label: "Historia", value: "Känd från mytologi, sagor och folktro" },
+      ],
+      en: [
+        { label: "Toxicity", value: "Highly poisonous (muscimol/ibotenic acid)" },
+        { label: "Identification", value: "Bright red cap with white spots" },
+        { label: "Habitat", value: "Mycorrhiza with birch and spruce" },
+        { label: "History", value: "Known from mythology, fairy tales and folklore" },
+      ],
+      de: [
+        { label: "Giftigkeit", value: "Sehr giftig (Muscimol/Ibotensäure)" },
+        { label: "Merkmal", value: "Leuchtend roter Hut mit weißen Punkten" },
+        { label: "Lebensraum", value: "Mykorrhiza mit Birke und Fichte" },
+        { label: "Geschichte", value: "Aus Mythologie, Märchen und Volksglauben bekannt" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Sagans röda svamp – men giftig",
+        intro:
+          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande röda hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med björk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
+        quote: "Alla känner igen mig, men se bara – rör mig inte, för jag är giftig.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Den lysande röda hatten med vita, flagiga vårtor är omöjlig att förväxla. Vårtorna är rester av det vita hölje som täckte svampen som ung och kan sköljas bort av regn. Foten är vit med en ring och en knölig bas.",
+            image: "/images/svampar/rod-flugsvamp-detalj.png",
+            alt: "Närbild på den röda hatten med vita vårtor",
+            caption: "De vita vårtorna är rester av svampens ungdomshölje.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Röd flugsvamp lever i symbios med framför allt björk och gran och är vanlig i hela landet. Den kommer fram från sensommaren och långt in på hösten, ofta i sällskap med de träd den samarbetar med.",
+            image: "/images/svampar/rod-flugsvamp-miljo.png",
+            alt: "Röda flugsvampar bland björk och mossa",
+            caption: "Söker du björk och gran hittar du ofta flugsvampen i närheten.",
+          },
+          {
+            heading: "Giftighet & Folktro",
+            body: "Trots sin skönhet är svampen giftig och ska aldrig ätas. Namnet kommer från att den förr lades i mjölk för att döda flugor. I sagor, konst och folktro är den röda flugsvampen en symbol för det magiska och mystiska i skogen.",
+            image: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+            alt: "Röd flugsvamp lyser i höstskogen",
+            caption: "Vacker att fotografera – men titta med ögonen, inte med munnen.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Fairy-Tale Mushroom – But Poisonous",
+        intro:
+          "The fly agaric is one of our most well-known yet poisonous mushrooms. The characteristic white spots on the bright red cap are remnants of the protective veil the mushroom had when young.\n\nIt forms mycorrhiza with birch and spruce and lights up the forests along Kustvägen in autumn – beautiful to look at, but never to eat.",
+        quote: "Everyone recognizes me, but look only – don't touch me, for I am poisonous.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The glowing red cap with white, flaky warts is unmistakable. The warts are remnants of the white veil that covered the young mushroom and can be washed off by rain. The stem is white with a ring and a bulbous base.",
+            image: "/images/svampar/rod-flugsvamp-detalj.png",
+            alt: "Close-up of the red cap with white warts",
+            caption: "The white warts are remnants of the mushroom's youthful veil.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "The fly agaric lives in symbiosis mainly with birch and spruce and is common throughout the country. It emerges from late summer well into autumn, often near the trees it partners with.",
+            image: "/images/svampar/rod-flugsvamp-miljo.png",
+            alt: "Fly agarics among birch and moss",
+            caption: "Look for birch and spruce and you'll often find the fly agaric nearby.",
+          },
+          {
+            heading: "Toxicity & Folklore",
+            body: "Despite its beauty, the mushroom is poisonous and must never be eaten. Its name comes from the old practice of placing it in milk to kill flies. In fairy tales, art and folklore, the fly agaric is a symbol of the forest's magic and mystery.",
+            image: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+            alt: "A fly agaric glowing in the autumn forest",
+            caption: "Beautiful to photograph – but look with your eyes, not your mouth.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Märchenpilz – aber giftig",
+        intro:
+          "Der Fliegenpilz ist einer unserer bekanntesten, aber giftigen Pilze. Die charakteristischen weißen Punkte auf dem leuchtend roten Hut sind Reste der schützenden Hülle, die der Pilz in der Jugend besaß.\n\nEr bildet Mykorrhiza mit Birke und Fichte und erhellt im Herbst die Wälder entlang des Kustvägen – schön anzusehen, aber niemals zu essen.",
+        quote: "Jeder erkennt mich, doch schau nur – fass mich nicht an, denn ich bin giftig.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der leuchtend rote Hut mit weißen, flockigen Warzen ist unverwechselbar. Die Warzen sind Reste der weißen Hülle des jungen Pilzes und können vom Regen abgewaschen werden. Der Stiel ist weiß mit Ring und knolliger Basis.",
+            image: "/images/svampar/rod-flugsvamp-detalj.png",
+            alt: "Nahaufnahme des roten Hutes mit weißen Warzen",
+            caption: "Die weißen Warzen sind Reste der Jugendhülle des Pilzes.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Der Fliegenpilz lebt vor allem mit Birke und Fichte in Symbiose und ist im ganzen Land verbreitet. Er erscheint vom Spätsommer bis weit in den Herbst, oft in der Nähe seiner Partnerbäume.",
+            image: "/images/svampar/rod-flugsvamp-miljo.png",
+            alt: "Fliegenpilze zwischen Birke und Moos",
+            caption: "Wo Birke und Fichte stehen, ist der Fliegenpilz oft nicht weit.",
+          },
+          {
+            heading: "Giftigkeit & Volksglaube",
+            body: "Trotz seiner Schönheit ist der Pilz giftig und darf niemals gegessen werden. Sein Name stammt vom früheren Brauch, ihn in Milch zu legen, um Fliegen zu töten. In Märchen, Kunst und Volksglauben ist der Fliegenpilz ein Symbol für das Magische und Geheimnisvolle des Waldes.",
+            image: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+            alt: "Ein Fliegenpilz leuchtet im herbstlichen Wald",
+            caption: "Schön zum Fotografieren – aber mit den Augen schauen, nicht mit dem Mund.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+        alt: {
+          sv: "En lysande röd flugsvamp med vita prickar under en björk",
+          en: "A glowing red fly agaric with white spots under a birch",
+          de: "Ein leuchtend roter Fliegenpilz mit weißen Punkten unter einer Birke",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+          alt: "En lysande röd flugsvamp med vita prickar under en björk",
+        },
+        { src: "/images/svampar/rod-flugsvamp-detalj.png", alt: "Närbild på den röda hatten med vita vårtor" },
+        { src: "/images/svampar/rod-flugsvamp-miljo.png", alt: "Röda flugsvampar bland björk och mossa" },
+      ],
+      detailImage: {
+        url: "/images/svampar/rod-flugsvamp-miljo.png",
+        alt: {
+          sv: "En grupp röda flugsvampar i höstskogen",
+          en: "A group of fly agarics in the autumn forest",
+          de: "Eine Gruppe Fliegenpilze im herbstlichen Wald",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Röd flugsvamp",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Fly Agaric",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Fliegenpilz",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+    chatAvatarAlt: "Röd flugsvamps ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "vartig-roksvamp",
+        name: "Vårtig röksvamp",
+        latin: "Lycoperdon perlatum",
+        image: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
+  "fnoskticka": {
+    id: "fnoskticka",
+    scientificName: "Fomes fomentarius",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Fnöskticka", en: "Tinder Fungus", de: "Zunderschwamm" },
+    meta: {
+      sv: {
+        title: "Fnöskticka – Kustvägen Naturguide",
+        description:
+          "Fakta om fnösktickan längs Kustvägen – den hästskoformade trädsvampen på björk och dess historiska roll vid eldslagning.",
+      },
+      en: {
+        title: "Tinder Fungus – Kustvägen Nature Guide",
+        description:
+          "Facts about the tinder fungus along Kustvägen – the hoof-shaped tree fungus on birch and its historic role in fire-lighting.",
+      },
+      de: {
+        title: "Zunderschwamm – Kustvägen Naturführer",
+        description:
+          "Fakten über den Zunderschwamm am Kustvägen – der hufförmige Baumpilz an Birken und seine historische Rolle beim Feuermachen.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Typ", value: "Flerårig, hård trädsvamp" },
+        { label: "Habitat", value: "Växer främst på björkstammar" },
+        { label: "Användning", value: "Fnöske för eldslagning" },
+        { label: "Form", value: "Hästskoliknande grå/brun konsol" },
+      ],
+      en: [
+        { label: "Type", value: "Perennial, hard bracket fungus" },
+        { label: "Habitat", value: "Grows mainly on birch trunks" },
+        { label: "Use", value: "Tinder for fire-lighting" },
+        { label: "Shape", value: "Hoof-shaped grey/brown bracket" },
+      ],
+      de: [
+        { label: "Typ", value: "Mehrjähriger, harter Baumpilz" },
+        { label: "Lebensraum", value: "Wächst vor allem an Birkenstämmen" },
+        { label: "Nutzung", value: "Zunder zum Feuermachen" },
+        { label: "Form", value: "Hufförmige grau/braune Konsole" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Trädsvampen som gav eld",
+        intro:
+          "Fnösktickan bryter ner döda träd och har historiskt haft stor betydelse för människan. Det inre, mjukare skiktet bankades ut för att skapa ett glödfångande fnöske som användes vid eldslagning.\n\nLängs Kustvägen ser du den oftast som hästskoformade konsoler på gamla björkstammar, året runt.",
+        quote: "I tusentals år bar människan med sig min glöd för att kunna tända eld.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Fnösktickan bildar en hård, hästskoformad konsol i grått till gråbrunt, tydligt zonerad i band. Ytan är knölig och trä-hård, och en enda ticka kan bli många år gammal och växa till sig för varje säsong.",
+            image: "/images/svampar/fnoskticka-detalj.png",
+            alt: "Närbild på fnösktickans hårda, bandade yta",
+            caption: "Den hårda, bandade ytan visar tickans många levnadsår.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Svampen är en vednedbrytare som främst växer på levande och döda björkar, men även på andra lövträd. Eftersom den är flerårig och hård syns den året runt, även mitt i vintern.",
+            image: "/images/svampar/fnoskticka-miljo.png",
+            alt: "Fnösktickor på en död björkstam",
+            caption: "Gamla och döende björkar är fnösktickans favoritplats.",
+          },
+          {
+            heading: "Historia & Användning",
+            body: "Fnösktickan har följt människan sedan stenåldern. Det mjuka inre skiktet, fnösket, bereddes för att lätt fånga en gnista och glöda länge – helt avgörande innan tändstickans tid. Den har också använts till hattar och andra föremål.",
+            image: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+            alt: "Hel fnöskticka på en trädstam",
+            caption: "Fnösket från svampen bar människan elden vidare i årtusenden.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Tree Fungus That Made Fire",
+        intro:
+          "The tinder fungus breaks down dead wood and has historically been of great importance to people. Its inner, softer layer was beaten out to create a spark-catching tinder used to light fires.\n\nAlong Kustvägen you'll most often see it as hoof-shaped brackets on old birch trunks, all year round.",
+        quote: "For thousands of years people carried my ember with them to light their fires.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The tinder fungus forms a hard, hoof-shaped bracket in grey to greyish-brown, clearly banded in zones. The surface is knobbly and wood-hard, and a single bracket can grow for many years, adding to itself each season.",
+            image: "/images/svampar/fnoskticka-detalj.png",
+            alt: "Close-up of the tinder fungus's hard, banded surface",
+            caption: "The hard, banded surface reveals the bracket's many years of growth.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "The fungus is a wood-decomposer that grows mainly on living and dead birch, but also on other deciduous trees. Being perennial and hard, it can be seen all year round, even in the middle of winter.",
+            image: "/images/svampar/fnoskticka-miljo.png",
+            alt: "Tinder fungi on a dead birch trunk",
+            caption: "Old and dying birches are the tinder fungus's favorite place.",
+          },
+          {
+            heading: "History & Use",
+            body: "The tinder fungus has accompanied humans since the Stone Age. Its soft inner layer, the tinder, was prepared to easily catch a spark and glow for a long time – essential before the age of matches. It has also been used to make hats and other objects.",
+            image: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+            alt: "A whole tinder fungus on a tree trunk",
+            caption: "The tinder from this fungus carried human fire onward for millennia.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Baumpilz, der Feuer machte",
+        intro:
+          "Der Zunderschwamm zersetzt Totholz und war für den Menschen historisch von großer Bedeutung. Seine innere, weichere Schicht wurde herausgeklopft, um einen funkenfangenden Zunder zum Feuermachen herzustellen.\n\nEntlang des Kustvägen sieht man ihn meist als hufförmige Konsolen an alten Birkenstämmen, das ganze Jahr über.",
+        quote: "Jahrtausendelang trugen die Menschen meine Glut mit sich, um Feuer zu machen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Zunderschwamm bildet eine harte, hufförmige Konsole in Grau bis Graubraun, deutlich in Zonen gebändert. Die Oberfläche ist höckerig und holzhart, und eine einzelne Konsole kann viele Jahre wachsen und mit jeder Saison zunehmen.",
+            image: "/images/svampar/fnoskticka-detalj.png",
+            alt: "Nahaufnahme der harten, gebänderten Oberfläche",
+            caption: "Die harte, gebänderte Oberfläche zeigt die vielen Lebensjahre der Konsole.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Der Pilz ist ein Holzzersetzer, der vor allem an lebenden und toten Birken wächst, aber auch an anderen Laubbäumen. Da er mehrjährig und hart ist, sieht man ihn das ganze Jahr über, sogar mitten im Winter.",
+            image: "/images/svampar/fnoskticka-miljo.png",
+            alt: "Zunderschwämme an einem toten Birkenstamm",
+            caption: "Alte und absterbende Birken sind der Lieblingsplatz des Zunderschwamms.",
+          },
+          {
+            heading: "Geschichte & Nutzung",
+            body: "Der Zunderschwamm begleitet den Menschen seit der Steinzeit. Seine weiche Innenschicht, der Zunder, wurde so aufbereitet, dass sie leicht einen Funken fing und lange glühte – unentbehrlich vor der Zeit der Streichhölzer. Er wurde auch für Hüte und andere Gegenstände genutzt.",
+            image: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+            alt: "Ein ganzer Zunderschwamm an einem Baumstamm",
+            caption: "Der Zunder dieses Pilzes trug das Feuer der Menschen über Jahrtausende weiter.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+        alt: {
+          sv: "En hästskoformad grå fnöskticka på en björkstam",
+          en: "A hoof-shaped grey tinder fungus on a birch trunk",
+          de: "Ein hufförmiger grauer Zunderschwamm an einem Birkenstamm",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+          alt: "En hästskoformad grå fnöskticka på en björkstam",
+        },
+        { src: "/images/svampar/fnoskticka-detalj.png", alt: "Närbild på fnösktickans hårda, bandade yta" },
+        { src: "/images/svampar/fnoskticka-miljo.png", alt: "Fnösktickor på en död björkstam" },
+      ],
+      detailImage: {
+        url: "/images/svampar/fnoskticka-miljo.png",
+        alt: {
+          sv: "Flera fnösktickor på en fallen björkstam i skogen",
+          en: "Several tinder fungi on a fallen birch trunk in the forest",
+          de: "Mehrere Zunderschwämme an einem umgefallenen Birkenstamm im Wald",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Fnösktickan",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Tinder Fungus",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Zunderschwamm",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Fnoskticka_Huvudbild_01.png",
+    chatAvatarAlt: "Fnösktickans ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "fjallig-taggsvamp",
+        name: "Fjällig taggsvamp",
+        latin: "Sarcodon imbricatus",
+        image: "/images/svampar/Fjallig_Taggsvamp_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
+  "farticka": {
+    id: "farticka",
+    scientificName: "Albatrellus ovinus",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Fårticka", en: "Sheep Polypore", de: "Schaf-Porling" },
+    meta: {
+      sv: {
+        title: "Fårticka – Kustvägen Naturguide",
+        description:
+          "Lär dig om fårtickan längs Kustvägen – Medelpads landskapssvamp, en mild matsvamp som växer i stora grupper i mossig barrskog.",
+      },
+      en: {
+        title: "Sheep Polypore – Kustvägen Nature Guide",
+        description:
+          "Learn about the sheep polypore along Kustvägen – the provincial mushroom of Medelpad, a mild edible growing in large groups in mossy conifer forest.",
+      },
+      de: {
+        title: "Schaf-Porling – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie mehr über den Schaf-Porling am Kustvägen – den Landschaftspilz Medelpads, einen milden Speisepilz in moosigen Nadelwäldern.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ätlighet", value: "God matsvamp (Medelpads landskapssvamp)" },
+        { label: "Habitat", value: "Äldre barrskogar bland mossa" },
+        { label: "Kännetecken", value: "Gulvit hatt som spricker i rutor" },
+        { label: "Tillagning", value: "Köttet gulnar markant vid upphettning" },
+      ],
+      en: [
+        { label: "Edibility", value: "Good edible (provincial mushroom of Medelpad)" },
+        { label: "Habitat", value: "Older coniferous forests among moss" },
+        { label: "Identification", value: "Yellow-white cap that cracks into squares" },
+        { label: "Cooking", value: "Flesh yellows markedly when heated" },
+      ],
+      de: [
+        { label: "Essbarkeit", value: "Guter Speisepilz (Landschaftspilz Medelpads)" },
+        { label: "Lebensraum", value: "Ältere Nadelwälder im Moos" },
+        { label: "Merkmal", value: "Gelbweißer Hut, der in Felder aufreißt" },
+        { label: "Zubereitung", value: "Fleisch gilbt beim Erhitzen deutlich" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Medelpads landskapssvamp",
+        intro:
+          "Fårtickan växer ofta i stora grupper i mossig barrskog. Den har ett fast, vitt kött med mild smak och används ibland som ersättning för tryffel i matlagning.\n\nLängs Kustvägens gamla barrskogar är den en uppskattad matsvamp, och som Medelpads landskapssvamp har den en särskild plats i regionen.",
+        quote: "Hittar du en av oss står vi sällan ensamma – vi växer gärna i stora sällskap.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Fårtickan har en fast, gulvit till ljust gulbrun hatt vars yta ofta spricker upp i ett rutmönster vid torka. Istället för skivor har den små porer på undersidan, och köttet är vitt och sprött.",
+            image: "/images/svampar/farticka-detalj.png",
+            alt: "Närbild på fårtickans rutsprickande hatt",
+            caption: "Den rutsprickande hatten är ett tydligt kännetecken vid torrt väder.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Svampen lever i symbios med gran och trivs i äldre, mossrika barrskogar. Den växer nästan alltid i stora grupper eller täta samlingar, vilket gör den lätt att plocka i mängd när man väl hittat ett ställe.",
+            image: "/images/svampar/farticka-miljo.png",
+            alt: "En stor grupp fårtickor i mossa",
+            caption: "Fårtickan växer gärna i stora sällskap i granskogen.",
+          },
+          {
+            heading: "Matkultur & Tradition",
+            body: "Med sin milda smak och fasta konsistens är fårtickan en fin matsvamp som ibland används som tryffelersättning. Vid tillagning gulnar köttet tydligt. Som Medelpads landskapssvamp är den en stolthet i regionen.",
+            image: "/images/svampar/Farticka_Huvudbild_01.png",
+            alt: "Hel fårticka i mossig skog",
+            caption: "Mild och fast – ibland använd som prisvärd tryffelersättning.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Provincial Mushroom of Medelpad",
+        intro:
+          "The sheep polypore often grows in large groups in mossy coniferous forest. It has a firm, white flesh with a mild flavor and is sometimes used as a truffle substitute in cooking.\n\nIn the old coniferous forests along Kustvägen it is a prized edible, and as the provincial mushroom of Medelpad it holds a special place in the region.",
+        quote: "Find one of us and we are seldom alone – we like to grow in large company.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The sheep polypore has a firm, yellow-white to pale yellow-brown cap whose surface often cracks into a grid pattern in dry weather. Instead of gills it has small pores underneath, and the flesh is white and brittle.",
+            image: "/images/svampar/farticka-detalj.png",
+            alt: "Close-up of the sheep polypore's cracking cap",
+            caption: "The grid-cracking cap is a clear sign in dry weather.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "The mushroom lives in symbiosis with spruce and thrives in older, mossy coniferous forests. It almost always grows in large groups or dense clusters, making it easy to pick in quantity once you find a spot.",
+            image: "/images/svampar/farticka-miljo.png",
+            alt: "A large group of sheep polypores in moss",
+            caption: "The sheep polypore likes to grow in large companies in the spruce forest.",
+          },
+          {
+            heading: "Culinary Tradition",
+            body: "With its mild flavor and firm texture, the sheep polypore is a fine edible that is sometimes used as a truffle substitute. When cooked, the flesh yellows noticeably. As the provincial mushroom of Medelpad it is a regional pride.",
+            image: "/images/svampar/Farticka_Huvudbild_01.png",
+            alt: "A whole sheep polypore in mossy forest",
+            caption: "Mild and firm – sometimes used as an affordable truffle substitute.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Landschaftspilz von Medelpad",
+        intro:
+          "Der Schaf-Porling wächst oft in großen Gruppen im moosigen Nadelwald. Er hat ein festes, weißes Fleisch mit mildem Geschmack und wird beim Kochen manchmal als Trüffelersatz verwendet.\n\nIn den alten Nadelwäldern entlang des Kustvägen ist er ein geschätzter Speisepilz, und als Landschaftspilz von Medelpad hat er einen besonderen Platz in der Region.",
+        quote: "Findest du einen von uns, sind wir selten allein – wir wachsen gern in großer Gesellschaft.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Schaf-Porling hat einen festen, gelbweißen bis blass gelbbraunen Hut, dessen Oberfläche bei Trockenheit oft felderig aufreißt. Statt Lamellen hat er kleine Poren an der Unterseite, und das Fleisch ist weiß und brüchig.",
+            image: "/images/svampar/farticka-detalj.png",
+            alt: "Nahaufnahme des aufreißenden Hutes",
+            caption: "Der felderig aufreißende Hut ist bei trockenem Wetter ein deutliches Kennzeichen.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Der Pilz lebt in Symbiose mit der Fichte und gedeiht in älteren, moosreichen Nadelwäldern. Fast immer wächst er in großen Gruppen oder dichten Ansammlungen, sodass man ihn nach dem Fund leicht in Mengen sammeln kann.",
+            image: "/images/svampar/farticka-miljo.png",
+            alt: "Eine große Gruppe Schaf-Porlinge im Moos",
+            caption: "Der Schaf-Porling wächst gern in großer Gesellschaft im Fichtenwald.",
+          },
+          {
+            heading: "Kulinarische Tradition",
+            body: "Mit seinem milden Geschmack und der festen Konsistenz ist der Schaf-Porling ein feiner Speisepilz, der manchmal als Trüffelersatz dient. Beim Kochen gilbt das Fleisch deutlich. Als Landschaftspilz von Medelpad ist er ein Stolz der Region.",
+            image: "/images/svampar/Farticka_Huvudbild_01.png",
+            alt: "Ein ganzer Schaf-Porling im moosigen Wald",
+            caption: "Mild und fest – manchmal als günstiger Trüffelersatz genutzt.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Farticka_Huvudbild_01.png",
+        alt: {
+          sv: "En fårticka med gulvit, rutsprickande hatt bland mossa",
+          en: "A sheep polypore with a yellow-white, grid-cracking cap among moss",
+          de: "Ein Schaf-Porling mit gelbweißem, felderig aufreißendem Hut im Moos",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Farticka_Huvudbild_01.png",
+          alt: "En fårticka med gulvit, rutsprickande hatt bland mossa",
+        },
+        { src: "/images/svampar/farticka-detalj.png", alt: "Närbild på fårtickans rutsprickande hatt" },
+        { src: "/images/svampar/farticka-miljo.png", alt: "En stor grupp fårtickor i mossa" },
+      ],
+      detailImage: {
+        url: "/images/svampar/farticka-miljo.png",
+        alt: {
+          sv: "En stor grupp fårtickor i mossig granskog",
+          en: "A large group of sheep polypores in mossy spruce forest",
+          de: "Eine große Gruppe Schaf-Porlinge im moosigen Fichtenwald",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Fårtickan",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Sheep Polypore",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Schaf-Porling",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Farticka_Huvudbild_01.png",
+    chatAvatarAlt: "Fårtickans ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "fjallig-blacksvamp",
+        name: "Fjällig bläcksvamp",
+        latin: "Coprinus comatus",
+        image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
+  "vartig-roksvamp": {
+    id: "vartig-roksvamp",
+    scientificName: "Lycoperdon perlatum",
+    category: { sv: "Svampar", en: "Fungi", de: "Pilze" },
+    names: { sv: "Vårtig röksvamp", en: "Common Puffball", de: "Flaschenstäubling" },
+    meta: {
+      sv: {
+        title: "Vårtig röksvamp – Kustvägen Naturguide",
+        description:
+          "Fakta om vårtig röksvamp längs Kustvägen – den päronformade svampen med vårtor som puffar ut sporrök när den mognar.",
+      },
+      en: {
+        title: "Common Puffball – Kustvägen Nature Guide",
+        description:
+          "Facts about the common puffball along Kustvägen – the pear-shaped mushroom with warts that puffs out spore-smoke when mature.",
+      },
+      de: {
+        title: "Flaschenstäubling – Kustvägen Naturführer",
+        description:
+          "Fakten über den Flaschenstäubling am Kustvägen – der birnenförmige Pilz mit Warzen, der bei Reife Sporenrauch verpufft.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Ätlighet", value: "Ätlig så länge köttet är helt vitt" },
+        { label: "Kännetecken", value: "Täckt av små vårtor som lätt faller av" },
+        { label: "Sporspridning", value: "Släpper ut sporrök från ett topphål" },
+        { label: "Habitat", value: "Skogsmark, stigkanter och gläntor" },
+      ],
+      en: [
+        { label: "Edibility", value: "Edible as long as the flesh is pure white" },
+        { label: "Identification", value: "Covered in small warts that easily fall off" },
+        { label: "Spore dispersal", value: "Releases spore-smoke from a top hole" },
+        { label: "Habitat", value: "Woodland, path edges and clearings" },
+      ],
+      de: [
+        { label: "Essbarkeit", value: "Essbar, solange das Fleisch rein weiß ist" },
+        { label: "Merkmal", value: "Mit kleinen, leicht abfallenden Warzen bedeckt" },
+        { label: "Sporenverbreitung", value: "Stößt Sporenrauch aus einem Loch oben aus" },
+        { label: "Lebensraum", value: "Wälder, Wegränder und Lichtungen" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Svampen som puffar ut rök",
+        intro:
+          "Vårtig röksvamp känns igen på sin omvända päronform och vårtiga yta. När svampen mognar förvandlas det inre köttet till ett brunt sporpulver som puffar ut som rök när regndroppar träffar hatten.\n\nDen är vanlig i skogsmark, längs stigkanter och i gläntor längs hela Kustvägen.",
+        quote: "Tryck lätt på mig när jag är mogen, så puffar jag ut ett moln av sporer.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Vårtig röksvamp har en omvänd päronform med en bred topp och smalare fot. Ytan är täckt av små, pigglika vårtor som lätt lossnar och lämnar ett nätliknande mönster. Som ung är den vit både utanpå och inuti.",
+            image: "/images/svampar/vartig-roksvamp-detalj.png",
+            alt: "Närbild på röksvampens vårtiga yta",
+            caption: "De små vårtorna lossnar lätt och lämnar ett fint mönster.",
+          },
+          {
+            heading: "Växtplats & Säsong",
+            body: "Svampen är vanlig och trivs på skogsmark, längs stigkanter och i gläntor, ofta i grupper. Den dyker upp från sommar till höst och kan stå kvar länge, även efter att den mognat och börjat sprida sporer.",
+            image: "/images/svampar/vartig-roksvamp-miljo.png",
+            alt: "Vårtiga röksvampar längs en stigkant",
+            caption: "Stigkanter och gläntor är typiska platser att hitta röksvampen.",
+          },
+          {
+            heading: "Sporspridning & Mat",
+            body: "Så länge köttet inuti är helt vitt är unga röksvampar ätliga med mild smak. När svampen mognar blir insidan ett brunt sporpulver, och ett litet hål öppnas i toppen där sporerna puffar ut som rök vid minsta beröring eller regndroppe.",
+            image: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+            alt: "Hel vårtig röksvamp på skogsgolvet",
+            caption: "Ät bara helvita exemplar – mogna svampar puffar ut sporrök.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The Mushroom That Puffs Out Smoke",
+        intro:
+          "The common puffball is recognized by its inverted pear shape and warty surface. As it matures, the inner flesh turns into a brown spore powder that puffs out like smoke when raindrops hit the cap.\n\nIt is common in woodland, along path edges and in clearings all along Kustvägen.",
+        quote: "Press me gently when I am ripe, and I will puff out a cloud of spores.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The common puffball has an inverted pear shape with a broad top and narrower base. The surface is covered in small, spine-like warts that come off easily, leaving a net-like pattern. When young it is white both outside and inside.",
+            image: "/images/svampar/vartig-roksvamp-detalj.png",
+            alt: "Close-up of the puffball's warty surface",
+            caption: "The small warts come off easily, leaving a delicate pattern.",
+          },
+          {
+            heading: "Habitat & Season",
+            body: "The fungus is common and thrives on woodland ground, along path edges and in clearings, often in groups. It appears from summer to autumn and can remain for a long time, even after it has matured and begun to spread spores.",
+            image: "/images/svampar/vartig-roksvamp-miljo.png",
+            alt: "Common puffballs along a path edge",
+            caption: "Path edges and clearings are typical places to find the puffball.",
+          },
+          {
+            heading: "Spore Dispersal & Edibility",
+            body: "As long as the flesh inside is pure white, young puffballs are edible with a mild flavor. When the mushroom matures the inside becomes a brown spore powder, and a small hole opens at the top where the spores puff out like smoke at the slightest touch or raindrop.",
+            image: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+            alt: "A whole common puffball on the forest floor",
+            caption: "Only eat all-white specimens – mature ones puff out spore-smoke.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der Pilz, der Rauch verpufft",
+        intro:
+          "Der Flaschenstäubling ist an seiner umgekehrten Birnenform und der warzigen Oberfläche zu erkennen. Reift er, verwandelt sich das innere Fleisch in ein braunes Sporenpulver, das wie Rauch verpufft, wenn Regentropfen auf den Hut treffen.\n\nEr ist häufig in Wäldern, an Wegrändern und auf Lichtungen entlang des gesamten Kustvägen.",
+        quote: "Drück mich sanft, wenn ich reif bin, dann verpuffe ich eine Wolke aus Sporen.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Flaschenstäubling hat eine umgekehrte Birnenform mit breiter Spitze und schmalerer Basis. Die Oberfläche ist mit kleinen, stachelartigen Warzen bedeckt, die leicht abfallen und ein netzartiges Muster hinterlassen. Jung ist er außen wie innen weiß.",
+            image: "/images/svampar/vartig-roksvamp-detalj.png",
+            alt: "Nahaufnahme der warzigen Oberfläche",
+            caption: "Die kleinen Warzen fallen leicht ab und hinterlassen ein feines Muster.",
+          },
+          {
+            heading: "Lebensraum & Saison",
+            body: "Der Pilz ist häufig und gedeiht auf Waldboden, an Wegrändern und auf Lichtungen, oft in Gruppen. Er erscheint vom Sommer bis zum Herbst und bleibt lange stehen, auch nachdem er gereift ist und begonnen hat, Sporen zu verbreiten.",
+            image: "/images/svampar/vartig-roksvamp-miljo.png",
+            alt: "Flaschenstäublinge an einem Wegrand",
+            caption: "Wegränder und Lichtungen sind typische Fundorte des Stäublings.",
+          },
+          {
+            heading: "Sporenverbreitung & Küche",
+            body: "Solange das Fleisch im Inneren rein weiß ist, sind junge Stäublinge essbar und mild im Geschmack. Reift der Pilz, wird das Innere zu braunem Sporenpulver, und oben öffnet sich ein kleines Loch, aus dem die Sporen bei der kleinsten Berührung oder einem Regentropfen wie Rauch verpuffen.",
+            image: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+            alt: "Ein ganzer Flaschenstäubling auf dem Waldboden",
+            caption: "Nur ganz weiße Exemplare essen – reife stäuben Sporenrauch aus.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+        alt: {
+          sv: "En päronformad vit vårtig röksvamp på skogsgolvet",
+          en: "A pear-shaped white common puffball on the forest floor",
+          de: "Ein birnenförmiger weißer Flaschenstäubling auf dem Waldboden",
+        },
+      },
+      galleryImages: [
+        {
+          src: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+          alt: "En päronformad vit vårtig röksvamp på skogsgolvet",
+        },
+        { src: "/images/svampar/vartig-roksvamp-detalj.png", alt: "Närbild på röksvampens vårtiga yta" },
+        { src: "/images/svampar/vartig-roksvamp-miljo.png", alt: "Vårtiga röksvampar längs en stigkant" },
+      ],
+      detailImage: {
+        url: "/images/svampar/vartig-roksvamp-miljo.png",
+        alt: {
+          sv: "En grupp vårtiga röksvampar längs en mossig stig",
+          en: "A group of common puffballs along a mossy path",
+          de: "Eine Gruppe Flaschenstäublinge an einem moosigen Weg",
+        },
+      },
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Dem Führer lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Vårtig röksvamp",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Common Puffball",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Flaschenstäubling",
+        intro: "[AI INTRO PLACEHOLDER]",
+        presetQuestions: ["[AI QUESTION PLACEHOLDER]"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `[AI RESPONSE DATA PLACEHOLDER]`,
+    avatarImage: "/images/svampar/Vartig_Roksvamp_Huvudbild_01.png",
+    chatAvatarAlt: "Vårtig röksvamps ansikte",
+    relatedSpecies: [
+      {
+        slug: "kantarell",
+        name: "Kantarell",
+        latin: "Cantharellus cibarius",
+        image: "/images/kantarell-hero.png",
+      },
+      {
+        slug: "karljohan",
+        name: "Karljohan",
+        latin: "Boletus edulis",
+        image: "/images/sp-porcini.png",
+      },
+      {
+        slug: "rod-flugsvamp",
+        name: "Röd flugsvamp",
+        latin: "Amanita muscaria",
+        image: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
+      },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler skogens skatter",
+      en: "Discover more forest treasures",
+      de: "Weitere Schätze des Waldes entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla svampar & växter",
+      en: "View all fungi & plants",
+      de: "Alle Pilze & Pflanzen anzeigen",
+    },
+  },
   tall: {
     id: "tall",
     scientificName: "Pinus sylvestris",
@@ -4498,7 +5812,7 @@ SÄKERHET:
     interactive: {
       sv: { title: "Ställ en fråga om Tjädern", intro: "Jag spelar och klickar i skogen varje vår. Fråga mig om mitt spel, min föda eller var jag bor!", presetQuestions: ["Vad är ett tjäderspel?", "Vad äter du?", "Var i skogen bor du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
       en: { title: "Ask a question about the Capercaillie", intro: "I display and click in the forest every spring. Ask me about my display, my food, or where I live!", presetQuestions: ["What is a capercaillie display?", "What do you eat?", "Where in the forest do you live?"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
+      de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enth��lt das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
     chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tjäderns sida.",
     avatarImage: "/images/faglar/tjader-hero.png",
