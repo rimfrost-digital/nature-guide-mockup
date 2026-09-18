@@ -1,6 +1,7 @@
 "use client"
 
 import { useMemo, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import Image from "next/image"
 import { Search, QrCode } from "lucide-react"
 import {
@@ -10,8 +11,16 @@ import {
 } from "@/lib/species-data"
 
 export function ArchiveExplorer() {
+  const searchParams = useSearchParams()
+  const requestedCategory = searchParams.get("kategori")
+  const initialCategory: CategoryKey | "alla" = categoryFilters.some(
+    (c) => c.key === requestedCategory,
+  )
+    ? (requestedCategory as CategoryKey)
+    : "alla"
+
   const [query, setQuery] = useState("")
-  const [active, setActive] = useState<CategoryKey | "alla">("alla")
+  const [active, setActive] = useState<CategoryKey | "alla">(initialCategory)
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()

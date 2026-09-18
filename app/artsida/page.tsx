@@ -1,3 +1,4 @@
+import { Suspense } from "react"
 import Image from "next/image"
 import { ArchiveExplorer } from "@/components/archive-explorer"
 
@@ -25,7 +26,9 @@ export default function ArtsidaPage() {
         </div>
       </section>
 
-      <ArchiveExplorer />
+      <Suspense fallback={<div className="min-h-[50vh] bg-[#F4F1E8]" />}>
+        <ArchiveExplorer />
+      </Suspense>
     </main>
   )
 }

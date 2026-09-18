@@ -1,12 +1,20 @@
+import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
+// Featured species — images and slugs mirror the actual species pages (artsida),
+// so each card shows the same hero image and links to /art?namn=<slug>.
 const species = [
-  { title: "Älg", image: "/images/species-moose.png", category: "Däggdjur" },
-  { title: "Havsörn", image: "/images/species-eagle.png", category: "Fåglar" },
-  { title: "Gädda", image: "/images/species-pike.png", category: "Fiskar" },
-  { title: "Kantarell", image: "/images/species-chanterelle.png", category: "Svampar" },
-  { title: "Tall", image: "/images/species-pine.png", category: "Träd" },
-  { title: "Blåbär", image: "/images/species-blueberry.png", category: "Växter & Bär" },
+  { title: "Älg", slug: "alg", image: "/images/hero-forest-moose.png", category: "Däggdjur" },
+  { title: "Havsörn", slug: "havsorn", image: "/images/havsorn-hero.png", category: "Fåglar" },
+  { title: "Gädda", slug: "gadda", image: "/images/fiskar/Gadda_Huvudbild_01.png", category: "Fiskar" },
+  { title: "Kantarell", slug: "kantarell", image: "/images/kantarell-hero.png", category: "Svampar" },
+  { title: "Tall", slug: "tall", image: "/images/tall-hero.png", category: "Träd" },
+  {
+    title: "Lingon",
+    slug: "lingon",
+    image: "/images/vaxter_bar/Lingon_Huvudbild_01.png",
+    category: "Växter & Bär",
+  },
 ]
 
 export function SpeciesSection() {
@@ -18,8 +26,9 @@ export function SpeciesSection() {
         </h2>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {species.map((item) => (
-            <article
-              key={item.title}
+            <Link
+              key={item.slug}
+              href={`/art?namn=${item.slug}`}
               className="group overflow-hidden rounded-2xl bg-[#5A6B54]"
             >
               <div className="aspect-[4/3] overflow-hidden">
@@ -41,7 +50,7 @@ export function SpeciesSection() {
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </div>

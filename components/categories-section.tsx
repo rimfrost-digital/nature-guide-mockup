@@ -1,10 +1,11 @@
+// Each category links to the archive (artsida) pre-filtered to that category.
 const categories = [
-  { title: "Däggdjur", image: "/images/cat-mammal.png" },
-  { title: "Fåglar", image: "/images/cat-bird.png" },
-  { title: "Fiskar", image: "/images/cat-fish.png" },
-  { title: "Svampar", image: "/images/cat-mushroom.png" },
-  { title: "Träd", image: "/images/cat-tree.png" },
-  { title: "Växter & Bär", image: "/images/cat-berry.png" },
+  { title: "Däggdjur", image: "/images/cat-mammal.png", key: "daggdjur" },
+  { title: "Fåglar", image: "/images/cat-bird.png", key: "faglar" },
+  { title: "Fiskar", image: "/images/cat-fish.png", key: "fiskar" },
+  { title: "Svampar", image: "/images/cat-mushroom.png", key: "svampar" },
+  { title: "Träd", image: "/images/cat-tree.png", key: "trad" },
+  { title: "Växter & Bär", image: "/images/cat-berry.png", key: "vaxter" },
 ]
 
 export function CategoriesSection() {
@@ -18,7 +19,7 @@ export function CategoriesSection() {
           {categories.map((category) => (
             <a
               key={category.title}
-              href="#utvalda"
+              href={`/artsida?kategori=${category.key}`}
               className="group relative aspect-[4/5] overflow-hidden rounded-2xl"
             >
               <img
