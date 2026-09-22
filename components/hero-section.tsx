@@ -10,6 +10,10 @@ export function HeroSection() {
       />
       <div className="absolute inset-0 bg-[#1d2521]/65" />
       <div
+        className="absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-[#1d2521]/90 to-transparent"
+        aria-hidden="true"
+      />
+      <div
         className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#1d2521]/90 to-transparent"
         aria-hidden="true"
       />
