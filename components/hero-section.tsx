@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden">
       <img
-        src="/images/hero-forest-moose.png"
+        src="/images/hero-moose-banner.png"
         alt="Älg i en dimhöljd nordisk skog i morgonljuset"
         className="absolute inset-0 h-full w-full object-cover"
       />
