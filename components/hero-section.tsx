@@ -8,13 +8,9 @@ export function HeroSection() {
         alt="Älg i en dimhöljd nordisk skog i morgonljuset"
         className="absolute inset-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 bg-[#1d2521]/65" />
+      <div className="absolute inset-0 bg-[#1d2521]/45" />
       <div
-        className="absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-[#1d2521]/90 to-transparent"
-        aria-hidden="true"
-      />
-      <div
-        className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#1d2521]/90 to-transparent"
+        className="absolute inset-0 bg-gradient-to-b from-[#1d2521]/85 via-[#1d2521]/40 to-[#1d2521]/85"
         aria-hidden="true"
       />
 
