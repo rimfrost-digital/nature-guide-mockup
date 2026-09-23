@@ -18,12 +18,22 @@ export type Species = {
 export const categoryFilters: { key: CategoryKey | "alla"; label: string }[] = [
   { key: "alla", label: "Alla arter" },
   { key: "daggdjur", label: "Däggdjur" },
-  { key: "faglar", label: "Fågel" },
-  { key: "fiskar", label: "Fisk" },
-  { key: "svampar", label: "Svamp" },
+  { key: "faglar", label: "Fåglar" },
+  { key: "fiskar", label: "Fiskar" },
+  { key: "svampar", label: "Svampar" },
   { key: "trad", label: "Träd" },
-  { key: "vaxter", label: "Växt & Bär" },
+  { key: "vaxter", label: "Växter & Bär" },
 ]
+
+// Plural taxonomy label for a species category, matching the filter pills.
+export const categoryLabels: Record<CategoryKey, string> = {
+  daggdjur: "Däggdjur",
+  faglar: "Fåglar",
+  fiskar: "Fiskar",
+  svampar: "Svampar",
+  trad: "Träd",
+  vaxter: "Växter & Bär",
+}
 
 export const species: Species[] = [
   {

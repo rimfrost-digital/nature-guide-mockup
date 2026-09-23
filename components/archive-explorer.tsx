@@ -7,6 +7,7 @@ import { Search, QrCode } from "lucide-react"
 import {
   species as allSpecies,
   categoryFilters,
+  categoryLabels,
   type CategoryKey,
 } from "@/lib/species-data"
 
@@ -136,7 +137,7 @@ function SpeciesCard({
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
         <span className="absolute left-3 top-3 rounded bg-[#B89452] px-2 py-0.5 font-sans text-[10px] font-semibold uppercase tracking-wider text-[#1d2521]">
-          {species.badge}
+          {categoryLabels[species.category]}
         </span>
       </div>
       <div className="flex flex-1 flex-col gap-1 p-4">

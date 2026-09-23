@@ -18,7 +18,6 @@ const footerLinks = [
   { href: "/artsida", label: "Artsida" },
   { href: "/om-oss", label: "Om oss" },
   { href: "/quiz", label: "Quiz" },
-  { href: "#karta", label: "Karta" },
 ]
 
 export function SiteFooter() {
