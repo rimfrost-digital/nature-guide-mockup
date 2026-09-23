@@ -18,7 +18,7 @@ export type Species = {
 export const categoryFilters: { key: CategoryKey | "alla"; label: string }[] = [
   { key: "alla", label: "Alla arter" },
   { key: "daggdjur", label: "Däggdjur" },
-  { key: "faglar", label: "Fåglar" },
+  { key: "faglar", label: "Fågel" },
   { key: "fiskar", label: "Fiskar" },
   { key: "svampar", label: "Svampar" },
   { key: "trad", label: "Träd" },
