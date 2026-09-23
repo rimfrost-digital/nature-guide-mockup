@@ -2,18 +2,21 @@ import { notFound } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
 import type { Metadata } from "next"
-import { Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon } from "lucide-react"
+import { Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon, Headphones, MessagesSquare, LayoutGrid } from "lucide-react"
 import { SpeciesTopNav } from "@/components/species-top-nav"
 import { SpeciesAudioPlayer } from "@/components/species-audio-player"
 import { SpeciesGallery } from "@/components/species-gallery"
 import { TalkToNature } from "@/components/talk-to-nature"
+import { ModulePlaceholder } from "@/components/module-placeholder"
+import { ContentModeToggle } from "@/components/content-mode-toggle"
+import { getSpeciesTier, moduleState, TIER_DISPLAY, type ContentMode } from "@/lib/content-tiers"
 import { speciesPagesData, type Lang } from "@/lib/species-pages-data"
 
 // Icons to cycle through for quick facts
 const FACT_ICONS = [Scale, Beef, PawPrint, MapPin, Ruler, Leaf, Moon]
 
 type Props = {
-  searchParams: Promise<{ namn?: string; lang?: string }>
+  searchParams: Promise<{ namn?: string; lang?: string; mode?: string }>
 }
 
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
@@ -26,7 +29,7 @@ export async function generateMetadata({ searchParams }: Props): Promise<Metadat
 }
 
 export default async function ArtPage({ searchParams }: Props) {
-  const { namn = "lodjur", lang = "sv" } = await searchParams
+  const { namn = "lodjur", lang = "sv", mode: modeParam } = await searchParams
   const data = speciesPagesData[namn]
   if (!data) notFound()
 
@@ -62,6 +65,50 @@ export default async function ArtPage({ searchParams }: Props) {
   const relatedHeading = data.relatedSectionHeading[l]
   const relatedLink = data.relatedLinkLabel[l]
   const hasDetailsGrid = Boolean(content.detailsGrid && content.detailsGrid.length > 0)
+
+  // Content tier + staging/live mode
+  const mode: ContentMode = modeParam === "staging" ? "staging" : "live"
+  const speciesTier = getSpeciesTier(namn, data.category.sv)
+  const audioState = moduleState("full", speciesTier, Boolean(data.media.audio[l].url) && namn !== "lodjur-v2", mode)
+  const askState = moduleState("full", speciesTier, namn !== "lodjur-v2", mode)
+  const detailsState = moduleState("rich", speciesTier, hasDetailsGrid, mode)
+  const showDetailsBlock = detailsState !== "hidden"
+
+  const langParam = l !== "sv" ? `&lang=${l}` : ""
+  const liveHref = `/art?namn=${namn}${langParam}`
+  const stagingHref = `/art?namn=${namn}${langParam}&mode=staging`
+
+  const notProducedLabel =
+    l === "sv" ? "Ej producerad" : l === "en" ? "Not produced" : "Nicht produziert"
+  const stagingLabel = "Staging"
+  const liveLabel = "Live"
+  const levelLabel = l === "sv" ? "Nivå" : l === "en" ? "Level" : "Stufe"
+  const stagingNote =
+    l === "sv"
+      ? "Ej producerade moduler visas som platshållare."
+      : l === "en"
+        ? "Unproduced modules are shown as placeholders."
+        : "Nicht produzierte Module werden als Platzhalter angezeigt."
+  const audioPlaceholderDesc =
+    l === "sv"
+      ? "En inläst guide och dokumentärljud produceras för arter på Full-nivå."
+      : l === "en"
+        ? "A narrated guide and documentary audio are produced for Full-level species."
+        : "Ein gesprochener Guide und Dokumentaraudio werden für Full-Arten produziert."
+  const askPlaceholderDesc =
+    l === "sv"
+      ? "Interaktiv AI-dialog och artens läte produceras för arter på Full-nivå."
+      : l === "en"
+        ? "Interactive AI dialogue and species sound are produced for Full-level species."
+        : "Interaktiver KI-Dialog und Tierstimme werden für Full-Arten produziert."
+  const detailsTitle =
+    l === "sv" ? "Fördjupning & kännetecken" : l === "en" ? "In-depth details" : "Vertiefte Details"
+  const detailsPlaceholderDesc =
+    l === "sv"
+      ? "Fördjupande kort med bilder och kännetecken produceras för arter på Rich-nivå."
+      : l === "en"
+        ? "In-depth cards with images and characteristics are produced for Rich-level species."
+        : "Vertiefende Karten mit Bildern und Merkmalen werden für Rich-Arten produziert."
 
   // Localized UI strings
   const audioTitle = data.media.audio[l].title
@@ -130,11 +177,36 @@ export default async function ArtPage({ searchParams }: Props) {
         </div>
       </section>
 
-      {/* Audio guide */}
-      {namn !== "lodjur-v2" && (
+      {/* Staging notice */}
+      {mode === "staging" && (
+        <div className="bg-[#2f4437] text-[#F4F1E8]">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-4 gap-y-1 px-5 py-3 text-sm sm:px-8">
+            <span className="rounded-md bg-[#B89452] px-2 py-0.5 text-xs font-semibold uppercase tracking-[0.18em] text-[#1d2521]">
+              {stagingLabel}
+            </span>
+            <span className="font-medium">
+              {levelLabel}: {TIER_DISPLAY[speciesTier]}
+            </span>
+            <span className="text-[#c9b98e]">{stagingNote}</span>
+          </div>
+        </div>
+      )}
+
+      {/* Audio guide — Full module */}
+      {audioState !== "hidden" && (
         <section className="bg-[#F4F1E8]">
           <div className="mx-auto max-w-6xl px-5 pt-8 sm:px-8 sm:pt-10">
-            <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
+            {audioState === "live" ? (
+              <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
+            ) : (
+              <ModulePlaceholder
+                tierLabel="Full"
+                title={audioTitle}
+                notProducedLabel={notProducedLabel}
+                description={audioPlaceholderDesc}
+                Icon={Headphones}
+              />
+            )}
           </div>
         </section>
       )}
@@ -169,8 +241,8 @@ export default async function ArtPage({ searchParams }: Props) {
         </div>
       </section>
 
-      {/* Talk to nature */}
-      {namn !== "lodjur-v2" && (
+      {/* Talk to nature — Full module */}
+      {askState === "live" ? (
         <TalkToNature
           title={interactive.title}
           intro={interactive.intro}
@@ -187,13 +259,25 @@ export default async function ArtPage({ searchParams }: Props) {
           audioLabel={creatureSound?.label}
           soundDisabled={soundDisabled}
         />
-      )}
+      ) : askState === "placeholder" ? (
+        <section className="bg-[#F4F1E8]">
+          <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-20">
+            <ModulePlaceholder
+              tierLabel="Full"
+              title={interactive.title}
+              notProducedLabel={notProducedLabel}
+              description={askPlaceholderDesc}
+              Icon={MessagesSquare}
+            />
+          </div>
+        </section>
+      ) : null}
 
       {/* Main narrative */}
       <section className="bg-[#F4F1E8]">
         <div
           className={`mx-auto grid max-w-6xl items-start gap-10 px-5 pt-16 sm:px-8 sm:pt-20 lg:grid-cols-2 ${
-            hasDetailsGrid ? "" : "pb-16 sm:pb-20"
+            showDetailsBlock ? "" : "pb-16 sm:pb-20"
           }`}
         >
           <div>
@@ -227,10 +311,19 @@ export default async function ArtPage({ searchParams }: Props) {
         </div>
       </section>
 
-      {/* Details grid */}
-      {hasDetailsGrid && (
+      {/* Details grid — Rich module */}
+      {detailsState !== "hidden" && (
         <section className="bg-[#F4F1E8]">
           <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+            {detailsState === "placeholder" ? (
+              <ModulePlaceholder
+                tierLabel="Rich"
+                title={detailsTitle}
+                notProducedLabel={notProducedLabel}
+                description={detailsPlaceholderDesc}
+                Icon={LayoutGrid}
+              />
+            ) : (
             <div className="grid gap-8 sm:grid-cols-3">
               {content.detailsGrid?.map((card) => (
                 <div key={card.heading} className="flex flex-col">
@@ -252,6 +345,7 @@ export default async function ArtPage({ searchParams }: Props) {
                 </div>
               ))}
             </div>
+            )}
           </div>
         </section>
       )}
@@ -305,6 +399,14 @@ export default async function ArtPage({ searchParams }: Props) {
           </div>
         </div>
       </section>
+
+      <ContentModeToggle
+        mode={mode}
+        liveHref={liveHref}
+        stagingHref={stagingHref}
+        liveLabel={liveLabel}
+        stagingLabel={stagingLabel}
+      />
     </main>
   )
 }
