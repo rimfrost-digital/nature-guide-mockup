@@ -25,11 +25,11 @@ const TIER_OVERRIDES: Record<string, Tier> = {
 
 // Keyed by the Swedish category label used in the species page data.
 const CATEGORY_TIER: Record<string, Tier> = {
-  Däggdjur: "rich",
-  Fågel: "rich",
-  Fåglar: "rich",
-  Fisk: "rich",
-  Fiskar: "rich",
+  Däggdjur: "full",
+  Fågel: "full",
+  Fåglar: "full",
+  Fisk: "full",
+  Fiskar: "full",
   Svamp: "core",
   Svampar: "core",
   Träd: "core",
