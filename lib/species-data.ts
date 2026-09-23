@@ -19,10 +19,10 @@ export const categoryFilters: { key: CategoryKey | "alla"; label: string }[] = [
   { key: "alla", label: "Alla arter" },
   { key: "daggdjur", label: "Däggdjur" },
   { key: "faglar", label: "Fågel" },
-  { key: "fiskar", label: "Fiskar" },
-  { key: "svampar", label: "Svampar" },
+  { key: "fiskar", label: "Fisk" },
+  { key: "svampar", label: "Svamp" },
   { key: "trad", label: "Träd" },
-  { key: "vaxter", label: "Växter & Bär" },
+  { key: "vaxter", label: "Växt & Bär" },
 ]
 
 export const species: Species[] = [
