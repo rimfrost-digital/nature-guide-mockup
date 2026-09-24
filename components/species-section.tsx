@@ -46,7 +46,7 @@ export function SpeciesSection() {
               />
 
               {/* Floating category chip */}
-                <span className="absolute left-5 top-5 rounded bg-[#B89452] px-2 py-0.5 font-sans text-[10px] font-semibold uppercase tracking-wider text-[#1d2521]">
+                <span className="absolute left-3 top-3 rounded bg-[#B89452] px-2 py-0.5 font-sans text-[10px] font-semibold uppercase tracking-wider text-[#1d2521]">
                 {item.category}
               </span>
 
