@@ -622,7 +622,7 @@ SÄKERHET:
 VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
-- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i tr��den!"
+- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i tr����den!"
 - Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
 - Använd högst en enkel emoji ibland (som 🦌) om det passar, men inte i varje svar.
 - Förklara svåra ord på ett enkelt sätt.
@@ -3821,7 +3821,7 @@ SÄKERHET:
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "/audio/rodrav_guide_sv.mp3" },
+        sv: { title: "Lyssna på guiden", url: "" },
         en: { title: "Listen to the Red Fox", url: "" },
         de: { title: "Hören Sie den Rotfuchs", url: "" },
       },
@@ -6584,7 +6584,7 @@ SÄKERHET:
     category: { sv: "Växter", en: "Plants", de: "Pflanzen" },
     names: { sv: "Skogssmultron", en: "Wild Strawberry", de: "Wald-Erdbeere" },
     meta: {
-      sv: { title: "Skogssmultron – Kustvägen Naturguide", description: "Fakta om skogssmultron längs Kustvägen – en omtyckt delikatess med söta skenfrukter och krypande revor." },
+      sv: { title: "Skogssmultron – Kustvägen Naturguide", description: "Fakta om skogssmultron längs Kustvägen �� en omtyckt delikatess med söta skenfrukter och krypande revor." },
       en: { title: "Wild Strawberry – Kustvägen Nature Guide", description: "Facts about the wild strawberry along Kustvägen – a beloved delicacy with sweet accessory fruits and creeping runners." },
       de: { title: "Wald-Erdbeere – Kustvägen Naturführer", description: "Fakten über die Wald-Erdbeere am Kustvägen – eine beliebte Delikatesse mit süßen Scheinfrüchten und kriechenden Ausläufern." },
     },
