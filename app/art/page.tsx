@@ -8,6 +8,7 @@ import { SpeciesAudioPlayer } from "@/components/species-audio-player"
 import { SpeciesGallery } from "@/components/species-gallery"
 import { TalkToNature } from "@/components/talk-to-nature"
 import { ModulePlaceholder } from "@/components/module-placeholder"
+import { StagingDemoPlayer } from "@/components/staging-demo-player"
 import { getSpeciesTier, moduleState, TIER_DISPLAY, type ContentMode } from "@/lib/content-tiers"
 import { speciesPagesData, type Lang } from "@/lib/species-pages-data"
 
@@ -193,6 +194,11 @@ export default async function ArtPage({ searchParams }: Props) {
           <div className="mx-auto max-w-6xl px-5 pt-8 sm:px-8 sm:pt-10">
             {audioState === "live" ? (
               <SpeciesAudioPlayer audioTitle={audioTitle} audioSrc={audioSrc} />
+            ) : speciesTier === "full" ? (
+              <StagingDemoPlayer
+                title={audioTitle}
+                note="Staging example – guide audio will be added here."
+              />
             ) : (
               <ModulePlaceholder
                 tierLabel="Full"
@@ -253,6 +259,7 @@ export default async function ArtPage({ searchParams }: Props) {
           audioSrc={creatureSound?.src}
           audioLabel={creatureSound?.label}
           soundDisabled={soundDisabled}
+          stagingSoundDemo={mode === "staging" && !creatureSound?.src}
         />
       ) : askState === "placeholder" ? (
         <section className="bg-[#F4F1E8]">

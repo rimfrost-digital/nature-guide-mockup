@@ -5,6 +5,7 @@ import Image from "next/image"
 import { useChat } from "@ai-sdk/react"
 import { DefaultChatTransport } from "ai"
 import { PawPrint, Play, Send } from "lucide-react"
+import { StagingDemoPlayer } from "@/components/staging-demo-player"
 
 type TalkToNatureProps = {
   title: string
@@ -21,6 +22,7 @@ type TalkToNatureProps = {
   audioSrc?: string
   audioLabel?: string
   soundDisabled?: boolean
+  stagingSoundDemo?: boolean
 }
 
 function getText(message: { parts?: Array<{ type: string; text?: string }> }) {
@@ -47,6 +49,7 @@ export function TalkToNature({
   audioSrc,
   audioLabel = "Så här låter lodjuret",
   soundDisabled = false,
+  stagingSoundDemo = false,
 }: TalkToNatureProps) {
   const [input, setInput] = useState("")
   const [isPlayingSound, setIsPlayingSound] = useState(false)
@@ -111,7 +114,15 @@ export function TalkToNature({
           <p className="mt-3 max-w-2xl leading-relaxed text-[#F4F1E8]/80">{intro}</p>
           <p className="mt-2 text-sm italic text-[#B89452]">{subNote}</p>
 
-          {soundDisabled ? (
+          {stagingSoundDemo ? (
+            <div className="mt-5">
+              <StagingDemoPlayer
+                tone="dark"
+                title="Så låter den"
+                note="Staging example – species sound will be added here."
+              />
+            </div>
+          ) : soundDisabled ? (
             <div className="mt-5 flex justify-start">
               <button
                 type="button"
