@@ -3076,7 +3076,7 @@ SÄKERHET:
           },
           {
             heading: "Livsmiljö & Beteende",
-            body: "Öringen kräver rent, syrerikt och svalt vatten. Längs Kustvägen möter man den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen som står stilla i strömmen och väntar på insekter.",
+            body: "��ringen kräver rent, syrerikt och svalt vatten. Längs Kustvägen möter man den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen som står stilla i strömmen och väntar på insekter.",
             image: "/images/fiskar/oring-miljo.png",
             alt: "Klar skogsbäck som är öringens livsmiljö",
             caption: "Klara, strömmande bäckar är öringens hem och barnkammare.",
@@ -3821,7 +3821,7 @@ SÄKERHET:
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/rodrav_guide_sv.mp3" },
         en: { title: "Listen to the Red Fox", url: "" },
         de: { title: "Hören Sie den Rotfuchs", url: "" },
       },
@@ -9020,7 +9020,7 @@ SÄKERHET:
     meta: {
       sv: { title: "Nattskärra – Kustvägen Naturguide", description: "Lär känna nattskärran längs Kustvägen. Fakta om skymningens kryptiska insektsjägare." },
       en: { title: "European Nightjar – Kustvägen Nature Guide", description: "Discover the Nightjar along the Coastal Road, twilight's cryptic insect hunter." },
-      de: { title: "Ziegenmelker – Kustvägen Naturführer", description: "Entdecken Sie den Ziegenmelker entlang des Kustvägen, den kryptischen Insektenjäger der Dämmerung." },
+      de: { title: "Ziegenmelker – Kustvägen Naturführer", description: "Entdecken Sie den Ziegenmelker entlang des Kustv��gen, den kryptischen Insektenjäger der Dämmerung." },
     },
     quickFacts: {
       sv: [
