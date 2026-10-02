@@ -3821,7 +3821,7 @@ SÄKERHET:
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
       ],
       audio: {
-        sv: { title: "Lyssna på rödräven", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/rodrav_guide_sv.mp3" },
         en: { title: "Listen to the Red Fox", url: "" },
         de: { title: "Hören Sie den Rotfuchs", url: "" },
       },
