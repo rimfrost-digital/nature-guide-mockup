@@ -1720,7 +1720,7 @@ SÄKERHET:
       { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset", tall: true },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/radjur_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },
