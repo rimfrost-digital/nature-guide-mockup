@@ -51,6 +51,7 @@ export default async function ArtPage({ searchParams }: Props) {
     jarv: { src: "/audio/jarv_ljud.mp3", label: "Så här låter järven (exempel)" },
     gravling: { src: "/audio/gravling_ljud.mp3", label: "Så här låter grävlingen (exempel)" },
     radjur: { src: "/audio/radjur_ljud.mp3", label: "Så här låter rådjuret (exempel)" },
+    rodrav: { src: "/audio/rodrav_ljud.mp3", label: "Så här låter rödräven" },
     ronn: { src: "", label: "Så här låter rönnen" },
     salg: { src: "", label: "Så här låter sälgen" },
     graal: { src: "", label: "Så här låter gråalen" },
