@@ -826,7 +826,7 @@ SÄKERHET:
       { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/brunbjorn_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },
