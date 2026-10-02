@@ -1192,7 +1192,7 @@ SÄKERHET:
         heroSubtitle: "The hyena of the North",
         intro:
           "The wolverine is a shy predator that prefers to live alone, far from people. It is a rather poor hunter that often survives on leftovers from another animal's kill. This is why the wolverine is called \u201cthe hyena of the North,\u201d and it has no problem stealing other animals' food, which it then hoards in various caches around the forest.\n\nThe wolverine is small but fast, and with its large, flat paws that act like snowshoes, it moves easily across the snow. The female gives birth to 1-4 kits during February-March, often building her den in a snowdrift or a rock crevice. Intense hunting of the wolverine took place during the 1800s and 1900s, as part of an extermination campaign against predators, combined with a demand for its fur. The species was protected in 1969 and is today classified as vulnerable, with around 600 wolverines remaining in Sweden.",
-        quote: "The wolverine moves alone across the vast snowfields – a patient survivor far beyond the trails.",
+        quote: "The wolverine moves alone across the vast snowfields ��� a patient survivor far beyond the trails.",
         sections: [],
         detailsGrid: [
           {
@@ -1946,7 +1946,7 @@ SÄKERHET:
         { src: "/images/grasal-unge.png", alt: "Vit sälkut vid vattnet" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/grasal_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Dem Guide zuhören", url: "" },
       },
@@ -2211,7 +2211,7 @@ SÄKERHET:
         detailsGrid: [
           {
             heading: "Kännetecken & Flykt",
-            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdräkt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
+            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdr��kt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
             image: "/images/havsorn-flykt.png",
             alt: "Havsörn i flykt med utbredda vingar mot en klarblå sky",
             caption: "I luften känns havsörnen igen på sina breda, planka-liknande vingar.",
@@ -4625,7 +4625,7 @@ SÄKERHET:
           "Allt om röd flugsvamp längs Kustvägen – den röda hatten med vita prickar, giftigheten och dess plats i sagor och folktro.",
       },
       en: {
-        title: "Fly Agaric – Kustvägen Nature Guide",
+        title: "Fly Agaric �� Kustvägen Nature Guide",
         description:
           "All about the fly agaric along Kustvägen – the red cap with white spots, its toxicity and its place in fairy tales and folklore.",
       },
@@ -6901,7 +6901,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           { heading: "Kännetecken & Utseende", body: "Lingonriset är ett lågt, vintergrönt dvärgris med läderartade, blanka blad. Bären sitter i klasar och är först vita för att bli klarröda när de mognar under sensommaren.", image: "/images/vaxter_bar/lingon-detalj.png", alt: "Närbild på röda lingon i klase", caption: "De blanka, läderartade bladen är vintergröna." },
-          { heading: "Växtplats & Beteende", body: "Lingonet bildar täta ris i tall- och granskogar och på hedar. Det sprider sig med underjordiska utlöpare och kan täcka stora ytor av skogsbotten.", image: "/images/vaxter_bar/lingon-miljo.png", alt: "Lingonris på skogsbotten", caption: "Riset sprider sig med underjordiska utlöpare." },
+          { heading: "V��xtplats & Beteende", body: "Lingonet bildar täta ris i tall- och granskogar och på hedar. Det sprider sig med underjordiska utlöpare och kan täcka stora ytor av skogsbotten.", image: "/images/vaxter_bar/lingon-miljo.png", alt: "Lingonris på skogsbotten", caption: "Riset sprider sig med underjordiska utlöpare." },
           { heading: "Ekologi & Användning", body: "Lingonen innehåller naturligt konserverande bensoesyra, vilket gör att de håller sig länge. De plockas flitigt till sylt och saft och är viktig föda för många djur.", image: "/images/vaxter_bar/Lingon_Huvudbild_01.png", alt: "Lingonris med mogna bär", caption: "Bensoesyran gör att bären håller sig länge." },
         ],
       },
@@ -7831,7 +7831,7 @@ SÄKERHET:
         { label: "Ekologi", value: "Magnet för fjärilar och vildbin" },
       ],
       en: [
-        { label: "Flowering", value: "July–September" },
+        { label: "Flowering", value: "July���September" },
         { label: "Color", value: "Violet-blue flat flower heads" },
         { label: "Habitat", value: "Dry meadows, roadsides and fallow fields" },
         { label: "Ecology", value: "Magnet for butterflies and wild bees" },
