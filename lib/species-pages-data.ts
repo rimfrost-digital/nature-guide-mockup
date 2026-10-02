@@ -1496,7 +1496,7 @@ SÄKERHET:
       { src: "/images/gravling-gryt.png", alt: "Ingång till grävlingens gryt (Meles meles)" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/gravling_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },
