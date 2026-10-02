@@ -1273,7 +1273,7 @@ SÄKERHET:
       { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet", tall: true },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/jarv_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Hören Sie den Guide", url: "" },
       },
