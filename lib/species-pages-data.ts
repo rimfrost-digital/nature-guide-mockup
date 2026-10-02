@@ -547,7 +547,7 @@ SÄKERHET:
         { src: "/images/hero-forest-moose.png", alt: "Älg i dimmig morgonskog" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/alg_guide_sv.mp3" },
         en: { title: "Listen to the guide", url: "" },
         de: { title: "Dem Guide zuhören", url: "" },
       },
@@ -3491,7 +3491,7 @@ SÄKERHET:
         detailsGrid: [
           {
             heading: "Kännetecken & Utseende",
-            body: "Ålen har en lång, ormlik kropp täckt av ett tjockt lager slem som gör den hal och svår att greppa. Ryggen är mörk och buken ljusnar när ålen mognar och byter till sin blanka \"blankålsdräkt\" inför den långa vandringen.",
+            body: "Ålen har en l��ng, ormlik kropp täckt av ett tjockt lager slem som gör den hal och svår att greppa. Ryggen är mörk och buken ljusnar när ålen mognar och byter till sin blanka \"blankålsdräkt\" inför den långa vandringen.",
             image: "/images/fiskar/Al_Huvudbild_01.png",
             alt: "Ål som slingrar sig längs en lerig sjöbotten",
             caption: "Det hala slemlagret skyddar ålen och hjälper den glida fram.",
