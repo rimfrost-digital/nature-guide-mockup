@@ -8,6 +8,7 @@ import { SpeciesAudioPlayer } from "@/components/species-audio-player"
 import { SpeciesGallery } from "@/components/species-gallery"
 import { TalkToNature } from "@/components/talk-to-nature"
 import { ModulePlaceholder } from "@/components/module-placeholder"
+import { ContentModeToggle } from "@/components/content-mode-toggle"
 import { getSpeciesTier, moduleState, TIER_DISPLAY, type ContentMode } from "@/lib/content-tiers"
 import { speciesPagesData, type Lang } from "@/lib/species-pages-data"
 
@@ -73,9 +74,14 @@ export default async function ArtPage({ searchParams }: Props) {
   const detailsState = moduleState("rich", speciesTier, hasDetailsGrid, mode)
   const showDetailsBlock = detailsState !== "hidden"
 
+  const langParam = l !== "sv" ? `&lang=${l}` : ""
+  const liveHref = `/art?namn=${namn}${langParam}`
+  const stagingHref = `/art?namn=${namn}${langParam}&mode=staging`
+
   const notProducedLabel =
     l === "sv" ? "Ej producerad" : l === "en" ? "Not produced" : "Nicht produziert"
   const stagingLabel = "Staging"
+  const liveLabel = "Live"
   const levelLabel = l === "sv" ? "Nivå" : l === "en" ? "Level" : "Stufe"
   const stagingNote =
     l === "sv"
@@ -393,6 +399,14 @@ export default async function ArtPage({ searchParams }: Props) {
           </div>
         </div>
       </section>
+
+      <ContentModeToggle
+        mode={mode}
+        liveHref={liveHref}
+        stagingHref={stagingHref}
+        liveLabel={liveLabel}
+        stagingLabel={stagingLabel}
+      />
     </main>
   )
 }
