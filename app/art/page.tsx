@@ -44,7 +44,7 @@ export default async function ArtPage({ searchParams }: Props) {
   const CREATURE_SOUNDS: Record<string, { src: string; label: string }> = {
     lodjur: { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
     "lodjur-v2": { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
-    havsorn: { src: "/audio/what-does-the-havsorn-say.mp3", label: "Så här låter djuret" },
+    havsorn: { src: "/audio/havsorn_ljud.mp3", label: "Så här låter djuret" },
     alg: { src: "/audio/alg_ljud.mp3", label: "Så här låter älgen" },
     grasal: { src: "/audio/grasal_ljud.mp3", label: "Så här låter gråsälen" },
     brunbjorn: { src: "/audio/brunbjorn_ljud.mp3", label: "Så här låter brunbjörnen (exempel)" },
@@ -70,7 +70,10 @@ export default async function ArtPage({ searchParams }: Props) {
   // Content tier + staging/live mode
   const mode: ContentMode = modeParam === "staging" ? "staging" : "live"
   const speciesTier = getSpeciesTier(namn, data.category.sv)
-  const audioState = moduleState("full", speciesTier, Boolean(data.media.audio[l].url) && namn !== "lodjur-v2", mode)
+  const hideMammalGuide = data.category.sv === "Däggdjur" && namn !== "lodjur"
+  const audioState = hideMammalGuide
+    ? "hidden"
+    : moduleState("full", speciesTier, Boolean(data.media.audio[l].url) && namn !== "lodjur-v2", mode)
   const askState = moduleState("full", speciesTier, namn !== "lodjur-v2", mode)
   const detailsState = moduleState("rich", speciesTier, hasDetailsGrid, mode)
   const showDetailsBlock = detailsState !== "hidden"

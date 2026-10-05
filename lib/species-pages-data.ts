@@ -2323,7 +2323,7 @@ SÄKERHET:
         { src: "/images/havsorn-miljo.png", alt: "Kustlandskap där havsörnen söker sin föda" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/havsorn_guide_sv.mp3" },
         en: { title: "Listen to the White-tailed Eagle", url: "" },
         de: { title: "Dem Seeadler lauschen", url: "" },
       },
