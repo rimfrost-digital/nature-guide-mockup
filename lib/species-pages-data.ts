@@ -2530,7 +2530,7 @@ SÄKERHET:
         { src: "/images/stromming-miljo.png", alt: "Gammalt fiskeläge längs Kustvägen" },
       ],
       audio: {
-        sv: { title: "Lyssna på guiden", url: "" },
+        sv: { title: "Lyssna på guiden", url: "/audio/stromming_guide_sv.mp3" },
         en: { title: "Listen to the Story of the Baltic Herring", url: "" },
         de: { title: "Dem Ostseehering lauschen", url: "" },
       },
