@@ -16,14 +16,14 @@ type GalleryItem = {
 export function SpeciesGallery({ items }: { items: GalleryItem[] }) {
   return (
     <div className="columns-2 gap-4 lg:columns-3 [&>*]:mb-4">
-      {items.map((item) =>
+      {items.map((item, index) =>
         item.videoPlaceholder ? (
-          <VideoPlaceholderTile key={item.src} />
+          <VideoPlaceholderTile key={`${index}-placeholder`} />
         ) : item.video ? (
-          <VideoTile key={item.src} item={item} />
+          <VideoTile key={`${index}-${item.video}`} item={item} />
         ) : (
           <div
-            key={item.src}
+            key={`${index}-${item.src}`}
             className={`overflow-hidden rounded-2xl break-inside-avoid ${item.tall ? "aspect-[3/4]" : ""}`}
           >
             <Image
