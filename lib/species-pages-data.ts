@@ -539,19 +539,18 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/alg-naromradet.mp4",
+          alt: "Video med älg från närområdet",
+          video: "/video/alg-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/alg-hero.png", alt: "En ståtlig älgtjur i svensk barrskog" },
         { src: "/images/species-moose.png", alt: "Älg som betar i kvällsljus" },
         { src: "/images/alg-kalv.png", alt: "Älgkalv i gröngräs" },
         { src: "/images/sp-moosetracks.png", alt: "Älgspår i leran" },
         { src: "/images/alg-spillning.png", alt: "Älgspillning i skogen" },
         { src: "/images/hero-forest-moose.png", alt: "Älg i dimmig morgonskog" },
-        {
-          src: "/images/alg-hero.png",
-          alt: "Video med älg från närområdet",
-          video: "/video/alg-naromradet.mp4",
-          poster: "/images/alg-hero.png",
-          tall: true,
-        },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "/audio/alg_guide_sv.mp3" },
@@ -3825,10 +3824,9 @@ SÄKERHET:
         },
         { src: "/images/rodrav-ungar.png", alt: "Rävungar leker utomhus" },
         {
-          src: "/images/rodrav-hero.png",
+          src: "/video/rodrav-galleri.mp4",
           alt: "Rödräv i naturen",
           video: "/video/rodrav-galleri.mp4",
-          poster: "/images/rodrav-hero.png",
           tall: true,
         },
         { src: "/images/sp-hare.png", alt: "Skogshare – ett av rödravens bytesdjur" },
