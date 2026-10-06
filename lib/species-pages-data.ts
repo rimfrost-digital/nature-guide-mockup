@@ -3817,6 +3817,13 @@ SÄKERHET:
           tall: true,
         },
         { src: "/images/rodrav-ungar.png", alt: "Rävungar leker utomhus" },
+        {
+          src: "/images/rodrav-hero.png",
+          alt: "Rödräv i naturen",
+          video: "/video/rodrav-galleri.mp4",
+          poster: "/images/rodrav-hero.png",
+          tall: true,
+        },
         { src: "/images/sp-hare.png", alt: "Skogshare – ett av rödravens bytesdjur" },
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
       ],
@@ -7371,7 +7378,7 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Hedens rosa-lila täcke",
-        intro: "Ljungen bildar karakteristiska hedar på karga och torra marker. Det är ett förvedat dvärgris som håller kvar sina blommor långt in på hösten.\n\nLängs Kustvägen färgar ljungen öppna hällmarker och hedar i rosa och lila under sensommaren, när det mesta annat har blommat över.",
+        intro: "Ljungen bildar karakteristiska hedar på karga och torra marker. Det är ett förvedat dvärgris som håller kvar sina blommor långt in på hösten.\n\nLängs Kustv��gen färgar ljungen öppna hällmarker och hedar i rosa och lila under sensommaren, när det mesta annat har blommat över.",
         quote: "När sommaren tar slut färgar jag heden lila och bjuder bina på höstens sista nektar.",
         sections: [],
         detailsGrid: [
