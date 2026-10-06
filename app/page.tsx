@@ -12,7 +12,9 @@ export default function Home() {
       <CategoriesSection />
       <SpeciesSection />
       <AboutSection />
-      <QuizClient lang="sv" />
+      <div id="quiz" className="scroll-mt-20">
+        <QuizClient lang="sv" />
+      </div>
       <MapTeaserSection />
     </main>
   )
