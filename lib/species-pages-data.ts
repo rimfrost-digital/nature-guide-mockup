@@ -1614,7 +1614,7 @@ SÄKERHET:
         detailsGrid: [
           {
             heading: "Beskrivning & Kännetecken",
-            body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och trädgårdar.",
+            body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och tr��dgårdar.",
             image: "/images/radjur-hero.png",
             alt: "Rådjur (Capreolus capreolus) vid skogsbrynet",
             caption: "Rådjuret är lätt att känna igen på sin lilla, smidiga kropp.",
@@ -2978,7 +2978,7 @@ SÄKERHET:
         fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
       },
     },
-    chatSystemPrompt: `Du är en abborre (Perca fluviatilis) som lever i vikar och sjöar längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+    chatSystemPrompt: `Du är en abborre (Perca fluviatilis) som lever i vikar och sjöar längs Kustvägen i Hälsingland och V��sternorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
 
 VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
@@ -3826,6 +3826,13 @@ SÄKERHET:
         },
         { src: "/images/sp-hare.png", alt: "Skogshare – ett av rödravens bytesdjur" },
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
+        {
+          src: "/images/rodrav-ungar.png",
+          alt: "Video från närområdet",
+          video: "/video/rodrav-naromradet.mp4",
+          poster: "/images/rodrav-ungar.png",
+          tall: true,
+        },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "/audio/rodrav_guide_sv.mp3" },
@@ -7216,7 +7223,7 @@ SÄKERHET:
         detailsGrid: [
           { heading: "Merkmale & Aussehen", body: "Die Bach-Nelkenwurz ist an ihren nickenden, glockenartigen Blüten in matten rotbraunen und rosa Tönen zu erkennen. Die Stängel sind kurz und behaart, und die Blüte hängt oft zum Boden herab.", image: "/images/vaxter_bar/humleblomster-detalj.png", alt: "Nahaufnahme einer nickenden rotbraunen Bach-Nelkenwurz-Blüte", caption: "Die glockenartigen Blüten hängen nickend." },
           { heading: "Lebensraum & Verhalten", body: "Die Pflanze gedeiht auf feuchten Wiesen, an Bächen und Waldrändern. Sie sucht feuchten, nährstoffreichen Boden und blüht früh im Sommer.", image: "/images/vaxter_bar/humleblomster-miljo.png", alt: "Bach-Nelkenwurz auf einer feuchten Wiese", caption: "Gedeiht in Feuchtigkeit an Wiesen und Bächen." },
-          { heading: "Ökologie & Verwendung", body: "Hummeln schätzen die Blüten und besuchen sie gern für Nektar. Die Wurzeln wurden historisch als schokoladenähnlicher Ersatz verwendet.", image: "/images/vaxter_bar/Humleblomster_Huvudbild_01.png", alt: "Bach-Nelkenwurz mit Blüten und Blättern", caption: "Die Wurzeln dienten früher als Schokoladenersatz." },
+          { heading: "Ökologie & Verwendung", body: "Hummeln schätzen die Blüten und besuchen sie gern für Nektar. Die Wurzeln wurden historisch als schokoladenähnlicher Ersatz verwendet.", image: "/images/vaxter_bar/Humleblomster_Huvudbild_01.png", alt: "Bach-Nelkenwurz mit Blüten und Bl��ttern", caption: "Die Wurzeln dienten früher als Schokoladenersatz." },
         ],
       },
     },
