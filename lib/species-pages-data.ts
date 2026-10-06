@@ -545,6 +545,13 @@ SÄKERHET:
         { src: "/images/sp-moosetracks.png", alt: "Älgspår i leran" },
         { src: "/images/alg-spillning.png", alt: "Älgspillning i skogen" },
         { src: "/images/hero-forest-moose.png", alt: "Älg i dimmig morgonskog" },
+        {
+          src: "/images/alg-hero.png",
+          alt: "Video med älg från närområdet",
+          video: "/video/alg-naromradet.mp4",
+          poster: "/images/alg-hero.png",
+          tall: true,
+        },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "/audio/alg_guide_sv.mp3" },
@@ -3826,13 +3833,6 @@ SÄKERHET:
         },
         { src: "/images/sp-hare.png", alt: "Skogshare – ett av rödravens bytesdjur" },
         { src: "/images/about-forest-path.png", alt: "Skogssti längs Kustvägen" },
-        {
-          src: "/images/rodrav-ungar.png",
-          alt: "Video från närområdet",
-          video: "/video/rodrav-naromradet.mp4",
-          poster: "/images/rodrav-ungar.png",
-          tall: true,
-        },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "/audio/rodrav_guide_sv.mp3" },
@@ -6050,7 +6050,7 @@ SÄKERHET:
       },
       galleryImages: [
         { src: "/images/trad/Graal_Huvudbild_01.png", alt: "Gråal vid en älvstrand i norra Sverige" },
-        { src: "/images/trad/graal-detalj.png", alt: "Närbild på gråalens hängen och blad" },
+        { src: "/images/trad/graal-detalj.png", alt: "Närbild på gråalens h��ngen och blad" },
         { src: "/images/trad/graal-miljo.png", alt: "Gråalar längs en älvstrand" },
       ],
       detailImage: {
@@ -6629,7 +6629,7 @@ SÄKERHET:
         quote: "Följ mina revor längs marken så leder jag dig till sommarens sötaste smak.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Skogssmultronet känns igen på sina tretaliga, sågtandade blad och små vita blommor. De röda skenfrukterna är översållade med små nötter och sitter på späda stjälkar. Ett tydligt kännetecken är de bakåtriktade foderbladen.", image: "/images/vaxter_bar/skogssmultron-detalj.png", alt: "Närbild på moget rött skogssmultron", caption: "Skenfrukten är översållad med små nötter." },
+          { heading: "Kännetecken & Utseende", body: "Skogssmultronet känns igen på sina tretaliga, sågtandade blad och små vita blommor. De röda skenfrukterna är översållade med sm�� nötter och sitter på späda stjälkar. Ett tydligt kännetecken är de bakåtriktade foderbladen.", image: "/images/vaxter_bar/skogssmultron-detalj.png", alt: "Närbild på moget rött skogssmultron", caption: "Skenfrukten är översållad med små nötter." },
           { heading: "Växtplats & Beteende", body: "Plantan trivs på soliga, torra backar, i skogsbryn, gläntor och vägkanter. Den sprider sig effektivt med långa revor som rotar sig och bildar nya plantor längs marken.", image: "/images/vaxter_bar/skogssmultron-miljo.png", alt: "Skogssmultron i solig backe", caption: "Revorna rotar sig och bildar nya plantor." },
           { heading: "Ekologi & Användning", body: "Bären är en söt delikatess för både människor och djur och en viktig sommarföda för fåglar och smådjur. Carl von Linné ansåg själv att bären lindrade hans gikt.", image: "/images/vaxter_bar/Skogssmultron_Huvudbild_01.png", alt: "Skogssmultron med blommor och bär", caption: "En söt delikatess för både människor och djur." },
         ],
@@ -8439,7 +8439,7 @@ SÄKERHET:
       en: { title: "Ask a question about the Capercaillie", intro: "I display and click in the forest every spring. Ask me about my display, my food, or where I live!", presetQuestions: ["What is a capercaillie display?", "What do you eat?", "Where in the forest do you live?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enth��lt das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
-    chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tjäderns sida.",
+    chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta fr��n tjäderns sida.",
     avatarImage: "/images/faglar/tjader-hero.png",
     chatAvatarAlt: "En tjäderhane i skogen",
     relatedSpecies: [
@@ -9698,7 +9698,7 @@ SÄKERHET:
             body: "Der Sterntaucher ist ein schlanker Seetaucher mit aufwärts gerichtetem Schnabel, grauem Kopf und einem rostroten Kehlfleck im Sommerkleid. Auf dem Wasser liegt er tief, den Hals gerade nach oben.",
             image: "/images/faglar/smalom-hero.png",
             alt: "Sterntaucher auf einem Waldsee",
-            caption: "Der aufwärts gerichtete Schnabel unterscheidet ihn vom Prachttaucher.",
+            caption: "Der aufw��rts gerichtete Schnabel unterscheidet ihn vom Prachttaucher.",
           },
           {
             heading: "Ruf & Verhalten",
