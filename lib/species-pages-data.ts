@@ -826,7 +826,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
-      { src: "brunbjorn-video-placeholder", alt: "Här går video", videoPlaceholder: true },
+        {
+          src: "/video/brunbjorn-naromradet.mp4",
+          alt: "Video med brunbjörn från närområdet",
+          video: "/video/brunbjorn-naromradet.mp4",
+          tall: true,
+        },
       { src: "/images/brunbjorn-hero.png", alt: "Brunbjörn (Ursus arctos) i skogsmiljö" },
       { src: "/images/brunbjorn-detalj.png", alt: "Brunbjörn (Ursus arctos) söker föda", tall: true },
       { src: "/images/brunbjorn-ide.png", alt: "Björnide (Ursus arctos) i vinterskog" },
@@ -4677,7 +4682,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Sagans röda svamp – men giftig",
         intro:
-          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande röda hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med björk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
+          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med björk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
         quote: "Alla känner igen mig, men se bara – rör mig inte, för jag är giftig.",
         sections: [],
         detailsGrid: [
@@ -5754,7 +5759,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Vårens första skafferi för humlor och bin",
         intro:
-          "Sälgen är en oerhört viktig nyckelart i skogen. Dess tidiga blomning på bar kvist ger livsviktig nektar och pollen till yrvakna humlor och bin direkt efter vintern.\n\nLängs Kustvägen hittar du sälgen i fuktiga svackor och längs bäckar, där de silvriga videkissarna lyser i vårsolen.",
+          "Sälgen ��r en oerhört viktig nyckelart i skogen. Dess tidiga blomning på bar kvist ger livsviktig nektar och pollen till yrvakna humlor och bin direkt efter vintern.\n\nLängs Kustvägen hittar du sälgen i fuktiga svackor och längs bäckar, där de silvriga videkissarna lyser i vårsolen.",
         quote: "När jag blommar först av alla vaknar humlorna till liv igen.",
         sections: [],
         detailsGrid: [
