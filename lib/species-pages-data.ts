@@ -2553,6 +2553,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/fiskgjuse-naromradet.mp4",
+          alt: "Video med fiskgjuse från närområdet",
+          video: "/video/fiskgjuse-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/fiskgjuse-hero.png", alt: "En fiskgjuse som flyger över ett svenskt kustlandskap med vinklade vingar." },
         { src: "/images/fiskgjuse-kannetecken.png", alt: "Närbild på fiskgjusens huvud med gul iris och kraftig krokig näbb." },
         { src: "/images/fiskgjuse-boplats.png", alt: "Ett stort risbo av fiskgjuse byggt i toppen av en tall." },
@@ -4912,7 +4918,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Sagans röda svamp – men giftig",
         intro:
-          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med björk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
+          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med bj��rk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
         quote: "Alla känner igen mig, men se bara – rör mig inte, för jag är giftig.",
         sections: [],
         detailsGrid: [
@@ -6058,7 +6064,7 @@ SÄKERHET:
             body: "Die Salweide ist zweihäusig, mit getrennten männlichen und weiblichen Bäumen. Im Frühling, oft bevor die Blätter austreiben, sind die Zweige mit weichen silbergrauen Kätzchen bedeckt. Die männlichen Kätzchen werden schließlich gelb vor Pollen.",
             image: "/images/trad/salg-detalj.png",
             alt: "Nahaufnahme der gelben Kätzchen der Salweide",
-            caption: "Die Kätzchen blühen früh, oft an völlig kahlen Zweigen.",
+            caption: "Die Kätzchen blühen früh, oft an v��llig kahlen Zweigen.",
           },
           {
             heading: "Lebensraum & Verhalten",
