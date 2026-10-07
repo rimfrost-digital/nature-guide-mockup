@@ -1055,7 +1055,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
-      { src: "varg-video-placeholder", alt: "Här går video", videoPlaceholder: true },
+        {
+          src: "/video/varg-naromradet.mp4",
+          alt: "Video med varg från närområdet",
+          video: "/video/varg-naromradet.mp4",
+          tall: true,
+        },
       { src: "/images/varg-hero.png", alt: "Varg (Canis lupus) i vildmarksmiljö" },
       { src: "/images/varg-flock.png", alt: "Vargflock (Canis lupus) i skogen" },
       { src: "/images/varg-valpar.png", alt: "Vargvalpar (Canis lupus) i boet", tall: true },
@@ -2072,7 +2077,7 @@ SÄKERHET:
         { label: "Livsmiljö", value: "Skogar och oländig terräng" },
       ],
       en: [
-        { label: "Weight", value: "15–30 kg" },
+        { label: "Weight", value: "15��30 kg" },
         { label: "Length", value: "Up to 130 cm" },
         { label: "Diet", value: "Deer, reindeer and foxes" },
         { label: "Habitat", value: "Forests and rugged terrain" },
@@ -3970,7 +3975,7 @@ SÄKERHET:
         { label: "Växtplats", value: "Löv- och barrskog" },
       ],
       en: [
-        { label: "Cap Width", value: "3–10 cm" },
+        { label: "Cap Width", value: "3��10 cm" },
         { label: "Color", value: "Egg yolk to pale yellow" },
         { label: "Season", value: "July – October" },
         { label: "Habitat", value: "Deciduous & coniferous forest" },
@@ -7018,7 +7023,7 @@ SÄKERHET:
         quote: "Jag kryper tätt längs marken och bär svarta, saftiga bär åt fjällets fåglar.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Kråkbäret är ett lågt, krypande ris med smala, nålliknande och vintergröna blad. Bären är glänsande svarta, saftiga och har en svagt syrlig smak.", image: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild på glänsande svarta kråkbär", caption: "De nålliknande bladen är vintergröna." },
+          { heading: "Kännetecken & Utseende", body: "Kråkbäret är ett lågt, krypande ris med smala, nålliknande och vintergröna blad. Bären är glänsande svarta, saftiga och har en svagt syrlig smak.", image: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild p�� glänsande svarta kråkbär", caption: "De nålliknande bladen är vintergröna." },
           { heading: "Växtplats & Beteende", body: "Kråkbäret trivs på hedar, myrar och mager skogsmark, ofta i fjäll- och kustområden. Det bildar täta, marktäckande mattor på karg och näringsfattig mark.", image: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kråkris på öppen hed", caption: "Bildar täta mattor på karg mark." },
           { heading: "Ekologi & Användning", body: "Bären är viktig föda för flera fågelarter i fjäll och kust. För människan används kråkbär till saft och sylt, och de har traditionellt använts som naturligt färgämne.", image: "/images/vaxter_bar/Krakbar_Huvudbild_01.png", alt: "Kråkris med svarta bär", caption: "Viktig föda för fjällets och kustens fåglar." },
         ],
@@ -8033,7 +8038,7 @@ SÄKERHET:
     category: { sv: "Fågel", en: "Birds", de: "Vögel" },
     names: { sv: "Bofink", en: "Common Chaffinch", de: "Buchfink" },
     meta: {
-      sv: { title: "Bofink – Kustvägen Naturguide", description: "Lär känna bofinken längs Kustvägen. Fakta om en av Sveriges vanligaste och mest sångstarka småfåglar." },
+      sv: { title: "Bofink �� Kustvägen Naturguide", description: "Lär känna bofinken längs Kustvägen. Fakta om en av Sveriges vanligaste och mest sångstarka småfåglar." },
       en: { title: "Common Chaffinch – Kustvägen Nature Guide", description: "Discover the Common Chaffinch along the Coastal Road, one of Sweden's most common and vocal songbirds." },
       de: { title: "Buchfink – Kustvägen Naturführer", description: "Entdecken Sie den Buchfinken entlang des Kustvägen, einen der häufigsten und gesangsfreudigsten Singvögel Schwedens." },
     },
@@ -9619,7 +9624,7 @@ SÄKERHET:
     meta: {
       sv: { title: "Smålom – Kustvägen Naturguide", description: "Lär känna smålommen längs Kustvägen. Fakta om den strömlinjeformade dykaren på skogstjärnarna." },
       en: { title: "Red-throated Loon – Kustvägen Nature Guide", description: "Discover the Red-throated Loon along the Coastal Road, the streamlined diver of the forest tarns." },
-      de: { title: "Sterntaucher – Kustvägen Naturführer", description: "Entdecken Sie den Sterntaucher entlang des Kustvägen, den stromlinienförmigen Taucher der Waldtümpel." },
+      de: { title: "Sterntaucher �� Kustvägen Naturführer", description: "Entdecken Sie den Sterntaucher entlang des Kustvägen, den stromlinienförmigen Taucher der Waldtümpel." },
     },
     quickFacts: {
       sv: [
