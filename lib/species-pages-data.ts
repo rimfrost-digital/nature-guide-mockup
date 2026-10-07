@@ -1735,7 +1735,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
-      { src: "radjur-video-placeholder", alt: "Här går video", videoPlaceholder: true },
+        {
+          src: "/video/radjur-naromradet.mp4",
+          alt: "Video med rådjur från närområdet",
+          video: "/video/radjur-naromradet.mp4",
+          tall: true,
+        },
       { src: "/images/radjur-hero.png", alt: "Rådjur (Capreolus capreolus) vid skogsbrynet" },
       { src: "/images/radjur-betar.png", alt: "Rådjur (Capreolus capreolus) betar på en äng" },
       { src: "/images/radjur-kid.png", alt: "Rådjurskid (Capreolus capreolus) i gräset", tall: true },
@@ -7061,7 +7066,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/vaxter_bar/Krakbar_Huvudbild_01.png", alt: "Glänsande svarta kråkbär bland barrlika blad" },
         { src: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild på glänsande svarta kråkbär" },
-        { src: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kråkris på öppen hed" },
+        { src: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kr��kris på öppen hed" },
       ],
       detailImage: { url: "/images/vaxter_bar/krakbar-miljo.png", alt: { sv: "Kråkris på en öppen hed", en: "Crowberry mat on an open heath", de: "Krähenbeerteppich auf einer offenen Heide" } },
       audio: {
