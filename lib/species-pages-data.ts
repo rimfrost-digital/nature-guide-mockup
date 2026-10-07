@@ -2400,6 +2400,221 @@ SÄKERHET:
     },
   },
 
+  fiskgjuse: {
+    id: "fiskgjuse",
+    scientificName: "Pandion haliaetus",
+    category: { sv: "Fåglar", en: "Birds", de: "Vögel" },
+    names: { sv: "Fiskgjuse", en: "Osprey", de: "Fischadler" },
+    meta: {
+      sv: {
+        title: "Fiskgjuse – Kustvägen Naturguide",
+        description:
+          "Lär känna fiskgjusen (Pandion haliaetus) längs Kustvägen. Lyssna på guiden, utforska dess boplats och upptäck skärgårdens skickligaste fiskare.",
+      },
+      en: {
+        title: "Osprey – Kustvägen Nature Guide",
+        description:
+          "Get to know the osprey (Pandion haliaetus) along Kustvägen. Explore its nest and discover the archipelago's most skilled fisher.",
+      },
+      de: {
+        title: "Fischadler – Kustvägen Naturführer",
+        description:
+          "Lernen Sie den Fischadler (Pandion haliaetus) entlang des Kustvägen kennen und entdecken Sie den geschicktesten Fischer der Schären.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Längd & Vingspann", value: "55–60 cm | Vingspann 145–170 cm" },
+        { label: "Föda", value: "Nästan uteslutande fisk (mört, abborre, gädda)" },
+        { label: "Boplats", value: "Stort risbo i kraftiga talltoppar nära vatten" },
+        { label: "Status", value: "Flyttfågel (övervintrar i Västafrika, häckar i Sverige)" },
+      ],
+      en: [
+        { label: "Length & Wingspan", value: "55–60 cm | Wingspan 145–170 cm" },
+        { label: "Diet", value: "Almost exclusively fish (roach, perch, pike)" },
+        { label: "Nesting", value: "Large stick nest in sturdy pine tops near water" },
+        { label: "Status", value: "Migratory (winters in West Africa, breeds in Sweden)" },
+      ],
+      de: [
+        { label: "Länge & Spannweite", value: "55–60 cm | Spannweite 145–170 cm" },
+        { label: "Nahrung", value: "Fast ausschließlich Fisch (Plötze, Barsch, Hecht)" },
+        { label: "Nistplatz", value: "Großer Reisighorst in kräftigen Kiefernkronen am Wasser" },
+        { label: "Status", value: "Zugvogel (überwintert in Westafrika, brütet in Schweden)" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skärgårdens mästerfiskare",
+        intro:
+          "Fiskgjusen är skärgårdens och de klara sjöarnas ohotade mästerfiskare. Med sina långa, vinklade vingar och sin skarpa syn spanar den in sina byten från hög höjd innan den dyker rakt ner i vattnet med fötterna först.",
+        quote:
+          "Fiskgjusen känns lätt igen i luften på sina långa, smala vingar och mörka ögonmask.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Jakt",
+            body: "Fiskgjusen är en specialiserad rovfågel som nästan uteslutande livnär sig på fisk. Den har unika biologiska anpassningar för sin jaktmetod: vändbara yttertår, vassa mönstrade trampdynor för att hålla fast hala fiskar samt näsborrar som kan stängas vid kraftiga dyk.",
+            image: "/images/fiskgjuse-kannetecken.png",
+            alt: "Närbild på fiskgjusens huvud med gul iris och kraftig krokig näbb.",
+            caption: "Skarp syn och kraftiga klor gör fiskgjusen till en effektiv fiskare.",
+          },
+          {
+            heading: "Boplats",
+            body: "Den bygger sitt mäktiga risbo – som kan väga flera hundra kilo och återvändas till i generationer – i toppen av gamla, kraftiga tallar med fri sikt över landskapet.",
+            image: "/images/fiskgjuse-boplats.png",
+            alt: "Ett stort risbo av fiskgjuse byggt i toppen av en tall.",
+            caption: "Fiskgjusens bo återvänds till och byggs på år efter år.",
+          },
+          {
+            heading: "Flytt",
+            body: "Fiskgjusen är en utpräglad flyttfågel som tillbringar den svenska vintern i Västafrika innan den återvänder till Kustvägens sjöar och skärgårdar tidigt på våren.",
+            image: "/images/fiskgjuse-hero.png",
+            alt: "En fiskgjuse som flyger över ett svenskt kustlandskap med vinklade vingar.",
+            caption: "Fiskgjusen känns lätt igen i luften på sina långa, smala vingar och mörka ögonmask.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "Master fisher of the archipelago",
+        intro:
+          "The osprey is the master fisher of the archipelago and clear lakes. With long, angled wings and sharp eyesight it scans for prey from high above before plunging feet-first into the water.",
+        quote: "In the air, the osprey is easy to recognise by its long, narrow wings and dark eye mask.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Hunting",
+            body: "The osprey is a specialised raptor that feeds almost exclusively on fish. Reversible outer toes, spiny foot pads for gripping slippery fish and nostrils that close during dives make it a perfect fisher.",
+            image: "/images/fiskgjuse-kannetecken.png",
+            alt: "Close-up of an osprey's head with yellow iris and strong hooked beak.",
+            caption: "Sharp eyesight and powerful talons make the osprey an efficient fisher.",
+          },
+          {
+            heading: "Nesting",
+            body: "It builds its massive stick nest – which can weigh several hundred kilos and be used for generations – at the top of old, sturdy pines with a clear view of the landscape.",
+            image: "/images/fiskgjuse-boplats.png",
+            alt: "A large osprey stick nest built at the top of a pine.",
+            caption: "The nest is returned to and added to year after year.",
+          },
+          {
+            heading: "Migration",
+            body: "The osprey is a true migrant, spending the Swedish winter in West Africa before returning to Kustvägen's lakes and archipelago in early spring.",
+            image: "/images/fiskgjuse-hero.png",
+            alt: "An osprey flying over a Swedish coastal landscape with angled wings.",
+            caption: "In the air, the osprey is easy to recognise by its long, narrow wings.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Meisterfischer der Schären",
+        intro:
+          "Der Fischadler ist der Meisterfischer der Schären und klaren Seen. Mit langen, gewinkelten Flügeln und scharfem Blick späht er aus großer Höhe nach Beute, bevor er mit den Füßen voran ins Wasser stößt.",
+        quote: "Im Flug erkennt man den Fischadler leicht an den langen, schmalen Flügeln und der dunklen Augenmaske.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Jagd",
+            body: "Der Fischadler ernährt sich fast ausschließlich von Fisch. Wendezehen, raue Fußsohlen zum Festhalten glitschiger Fische und verschließbare Nasenlöcher machen ihn zum perfekten Fischer.",
+            image: "/images/fiskgjuse-kannetecken.png",
+            alt: "Nahaufnahme des Fischadlerkopfes mit gelber Iris und kräftigem Hakenschnabel.",
+            caption: "Scharfe Augen und kräftige Krallen machen ihn zum effizienten Fischer.",
+          },
+          {
+            heading: "Nistplatz",
+            body: "Sein mächtiger Reisighorst kann mehrere hundert Kilo wiegen und wird über Generationen in den Kronen alter, kräftiger Kiefern genutzt.",
+            image: "/images/fiskgjuse-boplats.png",
+            alt: "Ein großer Fischadlerhorst in der Krone einer Kiefer.",
+            caption: "Der Horst wird Jahr für Jahr erweitert.",
+          },
+          {
+            heading: "Zug",
+            body: "Der Fischadler überwintert in Westafrika und kehrt im zeitigen Frühjahr zu den Seen und Schären des Kustvägen zurück.",
+            image: "/images/fiskgjuse-hero.png",
+            alt: "Ein Fischadler fliegt über eine schwedische Küstenlandschaft.",
+            caption: "Im Flug an den langen, schmalen Flügeln leicht zu erkennen.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskgjuse-hero.png",
+        alt: {
+          sv: "En fiskgjuse som flyger över ett svenskt kustlandskap med vinklade vingar.",
+          en: "An osprey flying over a Swedish coastal landscape with angled wings.",
+          de: "Ein Fischadler fliegt mit gewinkelten Flügeln über eine schwedische Küstenlandschaft.",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskgjuse-kannetecken.png",
+        alt: {
+          sv: "Närbild på fiskgjusens huvud med gul iris och kraftig krokig näbb.",
+          en: "Close-up of an osprey's head with yellow iris and strong hooked beak.",
+          de: "Nahaufnahme des Fischadlerkopfes mit gelber Iris und kräftigem Hakenschnabel.",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskgjuse-hero.png", alt: "En fiskgjuse som flyger över ett svenskt kustlandskap med vinklade vingar." },
+        { src: "/images/fiskgjuse-kannetecken.png", alt: "Närbild på fiskgjusens huvud med gul iris och kraftig krokig näbb." },
+        { src: "/images/fiskgjuse-boplats.png", alt: "Ett stort risbo av fiskgjuse byggt i toppen av en tall." },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hör dem Guide zu", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Fiskgjusen",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR FISKGJUSE]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: Hur fångar fiskgjusen fisk?]",
+          "[AI QUESTION PLACEHOLDER 2: Varför bygger den bo i talltoppar?]",
+          "[AI QUESTION PLACEHOLDER 3: Vart flyttar fiskgjusen om vintern?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Talk to the Osprey",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR FISKGJUSE]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: How does the osprey catch fish?]",
+          "[AI QUESTION PLACEHOLDER 2: Why does it nest in pine tops?]",
+          "[AI QUESTION PLACEHOLDER 3: Where does the osprey spend the winter?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Sprich mit dem Fischadler",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR FISKGJUSE]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: Wie fängt der Fischadler Fische?]",
+          "[AI QUESTION PLACEHOLDER 2: Warum nistet er in Kiefernkronen?]",
+          "[AI QUESTION PLACEHOLDER 3: Wo überwintert der Fischadler?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en fiskgjuse (Pandion haliaetus) längs Kustvägen i Hälsingland och Västernorrland. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta i denna post: längd 55–60 cm, vingspann 145–170 cm, långa vinklade vingar, vit undersida, mörk ögonmask och gul iris. Du äter nästan bara fisk (mört, abborre, gädda) och dyker med fötterna först. Du har vändbara yttertår, vassa trampdynor för hala fiskar och näsborrar som stängs vid dyk. Ditt risbo ligger i toppen av gamla, kraftiga tallar nära vatten, kan väga flera hundra kilo och används i generationer. Du övervintrar i Västafrika och kommer tillbaka tidigt på våren. Om frågan inte handlar om fiskgjuse eller natur, led vänligt tillbaka till kusten. Hitta aldrig på fakta och säg att du inte vet när underlaget saknar svaret.`,
+    avatarImage: "/images/sp-osprey.png",
+    chatAvatarAlt: "Fiskgjusens ansikte",
+    relatedSpecies: [
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/havsorn-hero.png" },
+      { slug: "spillkraka", name: "Spillkråka", latin: "Dryocopus martius", image: "/images/sp-woodpecker.png" },
+      { slug: "lodjur", name: "Lodjur", latin: "Lynx lynx", image: "/images/lodjur-v2-hero.jpg" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler fåglar",
+      en: "Discover more birds",
+      de: "Weitere Vögel entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla fåglar",
+      en: "View all birds",
+      de: "Alle Vögel anzeigen",
+    },
+  },
+
   stromming: {
     id: "stromming",
     scientificName: "Clupea harengus membras",
