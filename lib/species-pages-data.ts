@@ -1947,6 +1947,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/grasal-naromradet.mp4",
+          alt: "Video med gråsäl från närområdet",
+          video: "/video/grasal-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/sp-seal.png", alt: "En gråsäl vilar på en klippa i yttre skärgården" },
         { src: "/images/grasal-simmar.png", alt: "Gråsäl som simmar i solbelyst vatten" },
         { src: "/images/grasal-unge.png", alt: "Vit sälkut vid vattnet" },
@@ -3491,7 +3497,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Havets mest gåtfulla vandrare",
         intro:
-          "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram längs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
+          "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram l��ngs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
         quote: "En resa på tusentals mil, född av en enda gåtfull längtan tillbaka till havet därute.",
         sections: [],
         detailsGrid: [
@@ -4910,7 +4916,7 @@ SÄKERHET:
           },
           {
             heading: "Historia & Användning",
-            body: "Fnösktickan har följt människan sedan stenåldern. Det mjuka inre skiktet, fnösket, bereddes för att lätt fånga en gnista och glöda länge – helt avgörande innan tändstickans tid. Den har också använts till hattar och andra föremål.",
+            body: "Fnösktickan har följt människan sedan stenåldern. Det mjuka inre skiktet, fnösket, bereddes för att lätt fånga en gnista och glöda länge �� helt avgörande innan tändstickans tid. Den har också använts till hattar och andra föremål.",
             image: "/images/svampar/Fnoskticka_Huvudbild_01.png",
             alt: "Hel fnöskticka på en trädstam",
             caption: "Fnösket från svampen bar människan elden vidare i årtusenden.",
@@ -7387,7 +7393,7 @@ SÄKERHET:
         quote: "När sommaren tar slut färgar jag heden lila och bjuder bina på höstens sista nektar.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Ljungen är ett lågt, förvedat dvärgris med tätt sittande, fjällika små blad och spiror av små rosa till lila blommor. Blommorna sitter kvar länge, även efter att de vissnat.", image: "/images/vaxter_bar/ljung-detalj.png", alt: "Närbild på rosa-lila ljungblommor", caption: "Spiror av små rosa till lila blommor." },
+          { heading: "Kännetecken & Utseende", body: "Ljungen är ett lågt, f��rvedat dvärgris med tätt sittande, fjällika små blad och spiror av små rosa till lila blommor. Blommorna sitter kvar länge, även efter att de vissnat.", image: "/images/vaxter_bar/ljung-detalj.png", alt: "Närbild på rosa-lila ljungblommor", caption: "Spiror av små rosa till lila blommor." },
           { heading: "Växtplats & Beteende", body: "Ljungen bildar karakteristiska hedar på karga, torra och magra marker. Den är ett förvedat dvärgris som tål brand och hårt väder och kan dominera stora öppna ytor.", image: "/images/vaxter_bar/ljung-miljo.png", alt: "Blommande ljunghed", caption: "Bildar vidsträckta hedar på karg mark." },
           { heading: "Ekologi & Användning", body: "Ljungen blommar sent på säsongen och är då en viktig nektarkälla för bin och andra pollinatörer. Den är landskapsblomma för Västergötland.", image: "/images/vaxter_bar/Ljung_Huvudbild_01.png", alt: "Ljung med rosa-lila blommor", caption: "Viktig sen nektarkälla för bin och humlor." },
         ],
@@ -9500,7 +9506,7 @@ SÄKERHET:
           },
           {
             heading: "Läte & Beteende",
-            body: "Dess hesa, skränande varningsrop ekar genom skogen och varnar allt vilt. Om hösten samlar och gömmer den tusentals ekollon som vinterförråd.",
+            body: "Dess hesa, skränande varningsrop ekar genom skogen och varnar allt vilt. Om hösten samlar och gömmer den tusentals ekollon som vinterförr��d.",
             image: "/images/faglar/notskrika-detalj.png",
             alt: "Nötskrika med ekollon i näbben",
             caption: "Det skränande ropet varnar hela skogen.",
