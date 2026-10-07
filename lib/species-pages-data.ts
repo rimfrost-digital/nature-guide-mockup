@@ -1283,7 +1283,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
-      { src: "jarv-video-placeholder", alt: "Här går video", videoPlaceholder: true },
+        {
+          src: "/video/jarv-naromradet.mp4",
+          alt: "Video med järv från närområdet",
+          video: "/video/jarv-naromradet.mp4",
+          tall: true,
+        },
       { src: "/images/jarv-hero.png", alt: "Järv (Gulo gulo) i vinterlandskap" },
       { src: "/images/jarv-detalj.png", alt: "Järv (Gulo gulo) letar föda" },
       { src: "/images/jarv-unge.png", alt: "Järvunge (Gulo gulo) i boet", tall: true },
