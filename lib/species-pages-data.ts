@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte för att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f��r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -6295,7 +6295,7 @@ SÄKERHET:
           },
           {
             heading: "Ökologie & Geschichte",
-            body: "Die Salweide ist eine lebenswichtige erste Nahrungsquelle für Bestäuber – Hummeln und Bienen sind ganz auf ihren frühen Pollen und Nektar angewiesen. Die Rinde enthält Salicin, einen schmerzstillenden Stoff, der historisch als natürliches Heilmittel genutzt wurde.",
+            body: "Die Salweide ist eine lebenswichtige erste Nahrungsquelle für Bestäuber – Hummeln und Bienen sind ganz auf ihren frühen Pollen und Nektar angewiesen. Die Rinde enth��lt Salicin, einen schmerzstillenden Stoff, der historisch als natürliches Heilmittel genutzt wurde.",
             image: "/images/trad/Salg_Huvudbild_01.png",
             alt: "Salweide in voller Blüte im Frühlingslicht",
             caption: "Eine einzige blühende Salweide kann Hunderte Insekten ernähren.",
@@ -8256,7 +8256,7 @@ SÄKERHET:
         quote: "Ich leihe mir Nährstoffe von den Bäumen um mich, trage aber dennoch meine eigenen grünen Blätter.",
         sections: [],
         detailsGrid: [
-          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter länglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenförmige Blüten wachsen paarweise." },
+          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter länglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenf��rmige Blüten wachsen paarweise." },
           { heading: "Lebensraum & Verhalten", body: "Die Pflanze ist häufig in Nadel- und Mischwald. Als Halbschmarotzer zapft sie umliegende Baum- und Graswurzeln an und zieht Wasser und Nährstoffe, während sie selbst Photosynthese betreibt.", image: "/images/vaxter_bar/angskovall-miljo.png", alt: "Wachtelweizen auf dem Waldboden", caption: "Halbschmarotzer an umliegenden Baum- und Graswurzeln." },
           { heading: "Ökologie & Verwendung", body: "Die Samen des Wachtelweizens werden von Ameisen verbreitet, die von einem nährstoffreichen Anhängsel am Samen angelockt werden. Die Pflanze ist ein natürlicher Teil der Bodenflora vieler Wälder.", image: "/images/vaxter_bar/Angskovall_Huvudbild_01.png", alt: "Wachtelweizen mit gelben Blüten", caption: "Ameisen verbreiten die nährstoffreichen Samen." },
         ],
@@ -9952,6 +9952,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/domherre-hero.png", alt: { sv: "Domherre på snöig grangren", en: "Bullfinch on a snowy spruce branch", de: "Gimpel auf einem verschneiten Fichtenzweig" } },
       galleryImages: [
+        {
+          src: "/video/domherre-naromradet.mp4",
+          alt: "Video med domherre från närområdet",
+          video: "/video/domherre-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/domherre-hero.png", alt: "Domherre (Pyrrhula pyrrhula) på gren" },
         { src: "/images/faglar/domherre-detalj.png", alt: "Domherrepar äter bär", tall: true },
       ],
