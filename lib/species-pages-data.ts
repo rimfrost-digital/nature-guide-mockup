@@ -628,7 +628,7 @@ SÄKERHET:
 VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
-- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i tr����den!"
+- Prata i jag-form, som om DU är älgen. Till exempel: "Jag är så stor att jag kan äta löv högt upp i träden!"
 - Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
 - Använd högst en enkel emoji ibland (som 🦌) om det passar, men inte i varje svar.
 - Förklara svåra ord på ett enkelt sätt.
@@ -1208,7 +1208,7 @@ SÄKERHET:
         heroSubtitle: "The hyena of the North",
         intro:
           "The wolverine is a shy predator that prefers to live alone, far from people. It is a rather poor hunter that often survives on leftovers from another animal's kill. This is why the wolverine is called \u201cthe hyena of the North,\u201d and it has no problem stealing other animals' food, which it then hoards in various caches around the forest.\n\nThe wolverine is small but fast, and with its large, flat paws that act like snowshoes, it moves easily across the snow. The female gives birth to 1-4 kits during February-March, often building her den in a snowdrift or a rock crevice. Intense hunting of the wolverine took place during the 1800s and 1900s, as part of an extermination campaign against predators, combined with a demand for its fur. The species was protected in 1969 and is today classified as vulnerable, with around 600 wolverines remaining in Sweden.",
-        quote: "The wolverine moves alone across the vast snowfields ��� a patient survivor far beyond the trails.",
+        quote: "The wolverine moves alone across the vast snowfields – a patient survivor far beyond the trails.",
         sections: [],
         detailsGrid: [
           {
@@ -1635,7 +1635,7 @@ SÄKERHET:
         detailsGrid: [
           {
             heading: "Beskrivning & Kännetecken",
-            body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och tr��dgårdar.",
+            body: "Rådjuret är Sveriges minsta hjortdjur, med en smidig kropp och stora, mörka ögon. Det syns ofta vid gryning och skymning nära skogsbryn och trädgårdar.",
             image: "/images/radjur-hero.png",
             alt: "Rådjur (Capreolus capreolus) vid skogsbrynet",
             caption: "Rådjuret är lätt att känna igen på sin lilla, smidiga kropp.",
@@ -2087,7 +2087,7 @@ SÄKERHET:
         { label: "Livsmiljö", value: "Skogar och oländig terräng" },
       ],
       en: [
-        { label: "Weight", value: "15��30 kg" },
+        { label: "Weight", value: "15–30 kg" },
         { label: "Length", value: "Up to 130 cm" },
         { label: "Diet", value: "Deer, reindeer and foxes" },
         { label: "Habitat", value: "Forests and rugged terrain" },
@@ -2243,7 +2243,7 @@ SÄKERHET:
         detailsGrid: [
           {
             heading: "Kännetecken & Flykt",
-            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdr��kt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
+            body: "En fullvuxen havsörn har breda, nästan rektangulära vingar med spretande handpennor, ljust gulbrunt huvud och en kritvit stjärt. Ungfåglar är mörkare med fläckig fjäderdräkt. Flykten kännetecknas av tunga, långsamma vingtag varvade med rak glidflykt.",
             image: "/images/havsorn-flykt.png",
             alt: "Havsörn i flykt med utbredda vingar mot en klarblå sky",
             caption: "I luften känns havsörnen igen på sina breda, planka-liknande vingar.",
@@ -2903,7 +2903,7 @@ SÄKERHET:
             body: "Under vår och höst söker sig strömmingen in mot grundare kustområden och skärgårdens tångbälten för att leka. Honan lägger sina klibbiga ägg på växter och stenar. Larverna kläcks efter ett par veckor och livnär sig på djurplankton.",
             image: "/images/stromming-bo.png",
             alt: "Undervattensbild av tångbälte i skärgården där strömmingen leker",
-            caption: "Skärgårdens grunda tångvikar är avg��rande barnkammare för strömmingen.",
+            caption: "Skärgårdens grunda tångvikar är avgörande barnkammare för strömmingen.",
           },
           {
             heading: "Kultur & Fiske",
@@ -3451,7 +3451,7 @@ SÄKERHET:
         fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
       },
     },
-    chatSystemPrompt: `Du är en abborre (Perca fluviatilis) som lever i vikar och sjöar längs Kustvägen i Hälsingland och V��sternorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+    chatSystemPrompt: `Du är en abborre (Perca fluviatilis) som lever i vikar och sjöar längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
 
 VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
@@ -3549,7 +3549,7 @@ SÄKERHET:
           },
           {
             heading: "Livsmiljö & Beteende",
-            body: "��ringen kräver rent, syrerikt och svalt vatten. Längs Kustvägen möter man den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen som står stilla i strömmen och väntar på insekter.",
+            body: "Öringen kräver rent, syrerikt och svalt vatten. Längs Kustvägen möter man den kraftfulla havsöringen i kustvattnen och den mer blygsamma bäcköringen som står stilla i strömmen och väntar på insekter.",
             image: "/images/fiskar/oring-miljo.png",
             alt: "Klar skogsbäck som är öringens livsmiljö",
             caption: "Klara, strömmande bäckar är öringens hem och barnkammare.",
@@ -3748,7 +3748,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           {
-            heading: "K��nnetecken & Utseende",
+            heading: "Kännetecken & Utseende",
             body: "Siken har en slank, silverblank kropp med mörkare rygg och en liten, underställd mun som passar för att söka föda på botten. Den känns igen på den lilla fettfenan mellan ryggfenan och stjärten – ett tecken på att den tillhör laxfiskarna.",
             image: "/images/fiskar/Sik_Huvudbild_01.png",
             alt: "Sik med silverblank kropp i klart vatten",
@@ -3793,7 +3793,7 @@ SÄKERHET:
           },
           {
             heading: "Habitat & Spawning",
-            body: "The whitefish thrives in cold, clear, deep lakes and in brackish coastal water along Kustv��gen. It spawns in late autumn and winter, gathering on shallow banks to scatter its eggs over stony and gravelly bottoms.",
+            body: "The whitefish thrives in cold, clear, deep lakes and in brackish coastal water along Kustvägen. It spawns in late autumn and winter, gathering on shallow banks to scatter its eggs over stony and gravelly bottoms.",
             image: "/images/fiskar/sik-miljo.png",
             alt: "Cold, clear and deep lake that is the whitefish's habitat",
             caption: "Cold, clear depths are the whitefish's home all year round.",
@@ -3924,7 +3924,7 @@ SÄKERHET:
           "Lär dig allt om ålen längs Kustvägen. Fakta om den sägenomspunna vandringsfisken, dess livscykel och akuta hotstatus.",
       },
       en: {
-        title: "European Eel – Kustv��gen Nature Guide",
+        title: "European Eel – Kustvägen Nature Guide",
         description:
           "Discover the European Eel along Kustvägen. Learn about this legendary migratory fish, its life cycle and critically endangered status.",
       },
@@ -3958,13 +3958,13 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Havets mest gåtfulla vandrare",
         intro:
-          "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram l��ngs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
+          "Ålen har en av djurrikets mest fascinerande livscykler där den färdas tusentals mil tvärs över Atlanten för att leka och föröka sig i Sargassohavet.\n\nMed sin långsmala, ormlika kropp letar sig ålen fram längs Kustvägens botten på natten, ofta gömd bland stenar och växtlighet. Idag är arten akut hotad, och varje individ som lever längs kusten är en del av ett skört globalt bestånd.",
         quote: "En resa på tusentals mil, född av en enda gåtfull längtan tillbaka till havet därute.",
         sections: [],
         detailsGrid: [
           {
             heading: "Kännetecken & Utseende",
-            body: "Ålen har en l��ng, ormlik kropp täckt av ett tjockt lager slem som gör den hal och svår att greppa. Ryggen är mörk och buken ljusnar när ålen mognar och byter till sin blanka \"blankålsdräkt\" inför den långa vandringen.",
+            body: "Ålen har en lång, ormlik kropp täckt av ett tjockt lager slem som gör den hal och svår att greppa. Ryggen är mörk och buken ljusnar när ålen mognar och byter till sin blanka \"blankålsdräkt\" inför den långa vandringen.",
             image: "/images/fiskar/Al_Huvudbild_01.png",
             alt: "Ål som slingrar sig längs en lerig sjöbotten",
             caption: "Det hala slemlagret skyddar ålen och hjälper den glida fram.",
@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����������������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den känns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -4426,7 +4426,7 @@ SÄKERHET:
         { label: "Växtplats", value: "Löv- och barrskog" },
       ],
       en: [
-        { label: "Cap Width", value: "3��10 cm" },
+        { label: "Cap Width", value: "3–10 cm" },
         { label: "Color", value: "Egg yolk to pale yellow" },
         { label: "Season", value: "July – October" },
         { label: "Habitat", value: "Deciduous & coniferous forest" },
@@ -4601,16 +4601,16 @@ SÄKERHET:
     chatSystemPrompt: `Du är en kantarell (Cantharellus cibarius) som växer i skogarna längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
 
 VIKTIGT - du pratar med BARN:
-- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) l��tt f��rstår.
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
 - Prata i jag-form, som om DU är kantarellen. Till exempel: "Jag gömmer mig gärna under mossan!"
-- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn k��nner till.
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
 - Använd högst en enkel emoji ibland (som 🍄) om det passar, men inte i varje svar.
 - Förklara svåra ord på ett enkelt sätt.
 
 INNEHÅLL - håll dig till fakta om kantarellen:
 - Hattbredd: 3-10 cm. Äggul till blekgul färg, trattlik form.
-- Har grenade åsar under hatten (inte skivor) som löper ner p�� foten. Doftar milt och fruktigt, som aprikos.
+- Har grenade åsar under hatten (inte skivor) som löper ner på foten. Doftar milt och fruktigt, som aprikos.
 - Trivs i symbios med björk, gran och tall i blandskog. Växer ofta i grupper på samma ställe år efter år.
 - Säsong: juli till oktober, bäst efter rejäla sommarregn. Kan komma redan runt midsommar om det varit varmt och regnigt.
 - Ingen farlig giftig dubbelgångare i Sverige. Den enda liknande svampen är narrkantarellen (falsk kantarell), som är tunnare, orangeare och har riktiga skivor - den är inte giftig men smakar inget vidare.
@@ -4779,7 +4779,7 @@ SÄKERHET:
             caption: "Nährstoffreiche Wiesen und Wegränder sind typische Standorte.",
           },
           {
-            heading: "K��che & Vorsicht",
+            heading: "Küche & Vorsicht",
             body: "Jung und reinweiß ist der Schopftintling ein geschätzter Speisepilz mit mildem Geschmack. Er muss jedoch am selben Tag zubereitet werden, da er sich rasch zu Tinte auflöst. Sammeln Sie nur durch und durch weiße Exemplare.",
             image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
             alt: "Ein junger, weißer Schopftintling auf einer Wiese",
@@ -4899,7 +4899,7 @@ SÄKERHET:
       sv: [
         { label: "Ätlighet", value: "God som ung (används som kryddsvamp)" },
         { label: "Habitat", value: "Gamla gran- och barrskogar" },
-        { label: "Kännetecken", value: "Stora m��rkbruna fjäll på hatten" },
+        { label: "Kännetecken", value: "Stora mörkbruna fjäll på hatten" },
         { label: "Undersida", value: "Tätt sittande gråaktiga taggar" },
       ],
       en: [
@@ -5104,7 +5104,7 @@ SÄKERHET:
           "Allt om röd flugsvamp längs Kustvägen – den röda hatten med vita prickar, giftigheten och dess plats i sagor och folktro.",
       },
       en: {
-        title: "Fly Agaric �� Kustvägen Nature Guide",
+        title: "Fly Agaric – Kustvägen Nature Guide",
         description:
           "All about the fly agaric along Kustvägen – the red cap with white spots, its toxicity and its place in fairy tales and folklore.",
       },
@@ -5138,7 +5138,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Sagans röda svamp – men giftig",
         intro:
-          "Röd flugsvamp ��r en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med bj��rk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
+          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande röda hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med björk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
         quote: "Alla känner igen mig, men se bara – rör mig inte, för jag är giftig.",
         sections: [],
         detailsGrid: [
@@ -5377,7 +5377,7 @@ SÄKERHET:
           },
           {
             heading: "Historia & Användning",
-            body: "Fnösktickan har följt människan sedan stenåldern. Det mjuka inre skiktet, fnösket, bereddes för att lätt fånga en gnista och glöda länge �� helt avgörande innan tändstickans tid. Den har också använts till hattar och andra föremål.",
+            body: "Fnösktickan har följt människan sedan stenåldern. Det mjuka inre skiktet, fnösket, bereddes för att lätt fånga en gnista och glöda länge – helt avgörande innan tändstickans tid. Den har också använts till hattar och andra föremål.",
             image: "/images/svampar/Fnoskticka_Huvudbild_01.png",
             alt: "Hel fnöskticka på en trädstam",
             caption: "Fnösket från svampen bar människan elden vidare i årtusenden.",
@@ -5659,7 +5659,7 @@ SÄKERHET:
             body: "Mit seinem milden Geschmack und der festen Konsistenz ist der Schaf-Porling ein feiner Speisepilz, der manchmal als Trüffelersatz dient. Beim Kochen gilbt das Fleisch deutlich. Als Landschaftspilz von Medelpad ist er ein Stolz der Region.",
             image: "/images/svampar/Farticka_Huvudbild_01.png",
             alt: "Ein ganzer Schaf-Porling im moosigen Wald",
-            caption: "Mild und fest – manchmal als günstiger Tr����ffelersatz genutzt.",
+            caption: "Mild und fest – manchmal als günstiger Trüffelersatz genutzt.",
           },
         ],
       },
@@ -6215,7 +6215,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Vårens första skafferi för humlor och bin",
         intro:
-          "Sälgen ��r en oerhört viktig nyckelart i skogen. Dess tidiga blomning på bar kvist ger livsviktig nektar och pollen till yrvakna humlor och bin direkt efter vintern.\n\nLängs Kustvägen hittar du sälgen i fuktiga svackor och längs bäckar, där de silvriga videkissarna lyser i vårsolen.",
+          "Sälgen är en oerhört viktig nyckelart i skogen. Dess tidiga blomning på bar kvist ger livsviktig nektar och pollen till yrvakna humlor och bin direkt efter vintern.\n\nLängs Kustvägen hittar du sälgen i fuktiga svackor och längs bäckar, där de silvriga videkissarna lyser i vårsolen.",
         quote: "När jag blommar först av alla vaknar humlorna till liv igen.",
         sections: [],
         detailsGrid: [
@@ -6284,7 +6284,7 @@ SÄKERHET:
             body: "Die Salweide ist zweihäusig, mit getrennten männlichen und weiblichen Bäumen. Im Frühling, oft bevor die Blätter austreiben, sind die Zweige mit weichen silbergrauen Kätzchen bedeckt. Die männlichen Kätzchen werden schließlich gelb vor Pollen.",
             image: "/images/trad/salg-detalj.png",
             alt: "Nahaufnahme der gelben Kätzchen der Salweide",
-            caption: "Die Kätzchen blühen früh, oft an v��llig kahlen Zweigen.",
+            caption: "Die Kätzchen blühen früh, oft an völlig kahlen Zweigen.",
           },
           {
             heading: "Lebensraum & Verhalten",
@@ -6515,7 +6515,7 @@ SÄKERHET:
       },
       galleryImages: [
         { src: "/images/trad/Graal_Huvudbild_01.png", alt: "Gråal vid en älvstrand i norra Sverige" },
-        { src: "/images/trad/graal-detalj.png", alt: "Närbild på gråalens h��ngen och blad" },
+        { src: "/images/trad/graal-detalj.png", alt: "Närbild på gråalens hängen och blad" },
         { src: "/images/trad/graal-miljo.png", alt: "Gråalar längs en älvstrand" },
       ],
       detailImage: {
@@ -6722,7 +6722,7 @@ SÄKERHET:
       detailImage: {
         url: "/images/trad/bjork-miljo.png",
         alt: {
-          sv: "En ljus bj��rkdunge i sommarljus",
+          sv: "En ljus björkdunge i sommarljus",
           en: "A bright birch grove in summer light",
           de: "Ein heller Birkenhain im Sommerlicht",
         },
@@ -7026,7 +7026,7 @@ SÄKERHET:
       },
     },
     media: {
-      heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der K��ste" } },
+      heroImage: { url: "/images/tall-hero.png", alt: { sv: "Ståtlig tall på ett klipputsprång vid kusten", en: "Majestic Scots pine on a coastal rocky outcrop", de: "Kiefer auf einem Felsen an der Küste" } },
       detailImage: { url: "/images/tall-bark.png", alt: { sv: "Tallstam med rödbrun bark och barr", en: "Scots pine bark and paired needles", de: "Rinde und Nadeln einer Waldkiefer" } },
       galleryImages: [
         { src: "/images/tall-video-poster.png", alt: "Tallskog längs Kustvägen", video: "/video/tall-kustvagen.mp4", tall: true },
@@ -7046,7 +7046,7 @@ SÄKERHET:
       en: { title: "Ask a question about the Scots Pine", intro: "I have weathered coastal storms for centuries. Ask me about how I survive drought, how old I can get, or who lives in my branches!", presetQuestions: ["How do you grow on bare rock?", "How old can coastal pines get?", "What is the difference between pine and spruce?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an die Waldkiefer", intro: "Ich trotze seit Jahrhunderten den Stürmen der Küste. Frage mich, wie ich auf kargem Fels überlebe oder wer in meiner Krone wohnt!", presetQuestions: ["Wie kannst du auf barem Fels wachsen?", "Wie alt können Küstenkiefern werden?", "Was ist der Unterschied zwischen Kiefer und Fichte?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
-    chatSystemPrompt: "Du är en tall (Pinus sylvestris) längs Kustvägen. Svara p�� enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tallens sida.",
+    chatSystemPrompt: "Du är en tall (Pinus sylvestris) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tallens sida.",
     avatarImage: "/images/tall-hero.png",
     chatAvatarAlt: "En tall vid kusten",
     relatedSpecies: [
@@ -7063,7 +7063,7 @@ SÄKERHET:
     category: { sv: "Växter", en: "Plants", de: "Pflanzen" },
     names: { sv: "Skogssmultron", en: "Wild Strawberry", de: "Wald-Erdbeere" },
     meta: {
-      sv: { title: "Skogssmultron – Kustvägen Naturguide", description: "Fakta om skogssmultron längs Kustvägen �� en omtyckt delikatess med söta skenfrukter och krypande revor." },
+      sv: { title: "Skogssmultron – Kustvägen Naturguide", description: "Fakta om skogssmultron längs Kustvägen – en omtyckt delikatess med söta skenfrukter och krypande revor." },
       en: { title: "Wild Strawberry – Kustvägen Nature Guide", description: "Facts about the wild strawberry along Kustvägen – a beloved delicacy with sweet accessory fruits and creeping runners." },
       de: { title: "Wald-Erdbeere – Kustvägen Naturführer", description: "Fakten über die Wald-Erdbeere am Kustvägen – eine beliebte Delikatesse mit süßen Scheinfrüchten und kriechenden Ausläufern." },
     },
@@ -7094,7 +7094,7 @@ SÄKERHET:
         quote: "Följ mina revor längs marken så leder jag dig till sommarens sötaste smak.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Skogssmultronet känns igen på sina tretaliga, sågtandade blad och små vita blommor. De röda skenfrukterna är översållade med sm�� nötter och sitter på späda stjälkar. Ett tydligt kännetecken är de bakåtriktade foderbladen.", image: "/images/vaxter_bar/skogssmultron-detalj.png", alt: "Närbild på moget rött skogssmultron", caption: "Skenfrukten är översållad med små nötter." },
+          { heading: "Kännetecken & Utseende", body: "Skogssmultronet känns igen på sina tretaliga, sågtandade blad och små vita blommor. De röda skenfrukterna är översållade med små nötter och sitter på späda stjälkar. Ett tydligt kännetecken är de bakåtriktade foderbladen.", image: "/images/vaxter_bar/skogssmultron-detalj.png", alt: "Närbild på moget rött skogssmultron", caption: "Skenfrukten är översållad med små nötter." },
           { heading: "Växtplats & Beteende", body: "Plantan trivs på soliga, torra backar, i skogsbryn, gläntor och vägkanter. Den sprider sig effektivt med långa revor som rotar sig och bildar nya plantor längs marken.", image: "/images/vaxter_bar/skogssmultron-miljo.png", alt: "Skogssmultron i solig backe", caption: "Revorna rotar sig och bildar nya plantor." },
           { heading: "Ekologi & Användning", body: "Bären är en söt delikatess för både människor och djur och en viktig sommarföda för fåglar och smådjur. Carl von Linné ansåg själv att bären lindrade hans gikt.", image: "/images/vaxter_bar/Skogssmultron_Huvudbild_01.png", alt: "Skogssmultron med blommor och bär", caption: "En söt delikatess för både människor och djur." },
         ],
@@ -7212,7 +7212,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           { heading: "Merkmale & Aussehen", body: "Die Wald-Himbeere gehört zu den Rosengewächsen und bildet stachelige, zweijährige Triebe. Die Beere ist eine Sammelsteinfrucht aus vielen kleinen Teilfrüchten und löst sich reif leicht vom Blütenboden.", image: "/images/vaxter_bar/skogshallon-detalj.png", alt: "Nahaufnahme reifer roter Wald-Himbeeren", caption: "Die Beere ist eine Sammelsteinfrucht aus vielen Teilfrüchten." },
-          { heading: "Lebensraum & Verhalten", body: "Die Himbeere gedeiht an trockenen, offenen Stellen, Kahlschl��gen und Waldrändern. Die zweijährigen Stängel blühen und fruchten erst im zweiten Jahr, und die Sträucher breiten sich schnell auf gestörtem Boden aus.", image: "/images/vaxter_bar/skogshallon-miljo.png", alt: "Himbeergebüsch am Waldrand", caption: "Die Sträucher besiedeln schnell Kahlschläge und Ränder." },
+          { heading: "Lebensraum & Verhalten", body: "Die Himbeere gedeiht an trockenen, offenen Stellen, Kahlschlägen und Waldrändern. Die zweijährigen Stängel blühen und fruchten erst im zweiten Jahr, und die Sträucher breiten sich schnell auf gestörtem Boden aus.", image: "/images/vaxter_bar/skogshallon-miljo.png", alt: "Himbeergebüsch am Waldrand", caption: "Die Sträucher besiedeln schnell Kahlschläge und Ränder." },
           { heading: "Ökologie & Verwendung", body: "Die Blüten locken zahlreiche Bestäuber wie Bienen und Hummeln an. Die Beeren werden zu Marmelade und Saft verarbeitet und dienten traditionell als Hausmittel gegen Erkältung.", image: "/images/vaxter_bar/Skogshallon_Huvudbild_01.png", alt: "Wald-Himbeere mit Blättern und Beeren", caption: "Die Blüten locken Bienen und Hummeln in Massen an." },
         ],
       },
@@ -7280,7 +7280,7 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Den tåliga vintergröna busken",
-        intro: "Enbärsbusken är extremt tålig och växer över hela Sverige. Bären är först gröna det första året och skiftar till blåsvart färg n��r de mognar under sitt andra eller tredje år.\n\nLängs Kustvägen står enbuskarna i alla former, från låga kuddar på hällmark till smala pelare i hagar och bryn.",
+        intro: "Enbärsbusken är extremt tålig och växer över hela Sverige. Bären är först gröna det första året och skiftar till blåsvart färg när de mognar under sitt andra eller tredje år.\n\nLängs Kustvägen står enbuskarna i alla former, från låga kuddar på hällmark till smala pelare i hagar och bryn.",
         quote: "Jag är hård och taggig, men mina bär mognar i lugn takt under flera år.",
         sections: [],
         detailsGrid: [
@@ -7380,7 +7380,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           { heading: "Kännetecken & Utseende", body: "Lingonriset är ett lågt, vintergrönt dvärgris med läderartade, blanka blad. Bären sitter i klasar och är först vita för att bli klarröda när de mognar under sensommaren.", image: "/images/vaxter_bar/lingon-detalj.png", alt: "Närbild på röda lingon i klase", caption: "De blanka, läderartade bladen är vintergröna." },
-          { heading: "V��xtplats & Beteende", body: "Lingonet bildar täta ris i tall- och granskogar och på hedar. Det sprider sig med underjordiska utlöpare och kan täcka stora ytor av skogsbotten.", image: "/images/vaxter_bar/lingon-miljo.png", alt: "Lingonris på skogsbotten", caption: "Riset sprider sig med underjordiska utlöpare." },
+          { heading: "Växtplats & Beteende", body: "Lingonet bildar täta ris i tall- och granskogar och på hedar. Det sprider sig med underjordiska utlöpare och kan täcka stora ytor av skogsbotten.", image: "/images/vaxter_bar/lingon-miljo.png", alt: "Lingonris på skogsbotten", caption: "Riset sprider sig med underjordiska utlöpare." },
           { heading: "Ekologi & Användning", body: "Lingonen innehåller naturligt konserverande bensoesyra, vilket gör att de håller sig länge. De plockas flitigt till sylt och saft och är viktig föda för många djur.", image: "/images/vaxter_bar/Lingon_Huvudbild_01.png", alt: "Lingonris med mogna bär", caption: "Bensoesyran gör att bären håller sig länge." },
         ],
       },
@@ -7474,7 +7474,7 @@ SÄKERHET:
         quote: "Jag kryper tätt längs marken och bär svarta, saftiga bär åt fjällets fåglar.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Kråkbäret är ett lågt, krypande ris med smala, nålliknande och vintergröna blad. Bären är glänsande svarta, saftiga och har en svagt syrlig smak.", image: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild p�� glänsande svarta kråkbär", caption: "De nålliknande bladen är vintergröna." },
+          { heading: "Kännetecken & Utseende", body: "Kråkbäret är ett lågt, krypande ris med smala, nålliknande och vintergröna blad. Bären är glänsande svarta, saftiga och har en svagt syrlig smak.", image: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild på glänsande svarta kråkbär", caption: "De nålliknande bladen är vintergröna." },
           { heading: "Växtplats & Beteende", body: "Kråkbäret trivs på hedar, myrar och mager skogsmark, ofta i fjäll- och kustområden. Det bildar täta, marktäckande mattor på karg och näringsfattig mark.", image: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kråkris på öppen hed", caption: "Bildar täta mattor på karg mark." },
           { heading: "Ekologi & Användning", body: "Bären är viktig föda för flera fågelarter i fjäll och kust. För människan används kråkbär till saft och sylt, och de har traditionellt använts som naturligt färgämne.", image: "/images/vaxter_bar/Krakbar_Huvudbild_01.png", alt: "Kråkris med svarta bär", caption: "Viktig föda för fjällets och kustens fåglar." },
         ],
@@ -7507,7 +7507,7 @@ SÄKERHET:
       galleryImages: [
         { src: "/images/vaxter_bar/Krakbar_Huvudbild_01.png", alt: "Glänsande svarta kråkbär bland barrlika blad" },
         { src: "/images/vaxter_bar/krakbar-detalj.png", alt: "Närbild på glänsande svarta kråkbär" },
-        { src: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kr��kris på öppen hed" },
+        { src: "/images/vaxter_bar/krakbar-miljo.png", alt: "Kråkris på öppen hed" },
       ],
       detailImage: { url: "/images/vaxter_bar/krakbar-miljo.png", alt: { sv: "Kråkris på en öppen hed", en: "Crowberry mat on an open heath", de: "Krähenbeerteppich auf einer offenen Heide" } },
       audio: {
@@ -7688,7 +7688,7 @@ SÄKERHET:
         detailsGrid: [
           { heading: "Merkmale & Aussehen", body: "Die Bach-Nelkenwurz ist an ihren nickenden, glockenartigen Blüten in matten rotbraunen und rosa Tönen zu erkennen. Die Stängel sind kurz und behaart, und die Blüte hängt oft zum Boden herab.", image: "/images/vaxter_bar/humleblomster-detalj.png", alt: "Nahaufnahme einer nickenden rotbraunen Bach-Nelkenwurz-Blüte", caption: "Die glockenartigen Blüten hängen nickend." },
           { heading: "Lebensraum & Verhalten", body: "Die Pflanze gedeiht auf feuchten Wiesen, an Bächen und Waldrändern. Sie sucht feuchten, nährstoffreichen Boden und blüht früh im Sommer.", image: "/images/vaxter_bar/humleblomster-miljo.png", alt: "Bach-Nelkenwurz auf einer feuchten Wiese", caption: "Gedeiht in Feuchtigkeit an Wiesen und Bächen." },
-          { heading: "Ökologie & Verwendung", body: "Hummeln schätzen die Blüten und besuchen sie gern für Nektar. Die Wurzeln wurden historisch als schokoladenähnlicher Ersatz verwendet.", image: "/images/vaxter_bar/Humleblomster_Huvudbild_01.png", alt: "Bach-Nelkenwurz mit Blüten und Bl��ttern", caption: "Die Wurzeln dienten früher als Schokoladenersatz." },
+          { heading: "Ökologie & Verwendung", body: "Hummeln schätzen die Blüten und besuchen sie gern für Nektar. Die Wurzeln wurden historisch als schokoladenähnlicher Ersatz verwendet.", image: "/images/vaxter_bar/Humleblomster_Huvudbild_01.png", alt: "Bach-Nelkenwurz mit Blüten und Blättern", caption: "Die Wurzeln dienten früher als Schokoladenersatz." },
         ],
       },
     },
@@ -7850,11 +7850,11 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Hedens rosa-lila täcke",
-        intro: "Ljungen bildar karakteristiska hedar på karga och torra marker. Det är ett förvedat dvärgris som håller kvar sina blommor långt in på hösten.\n\nLängs Kustv��gen färgar ljungen öppna hällmarker och hedar i rosa och lila under sensommaren, när det mesta annat har blommat över.",
+        intro: "Ljungen bildar karakteristiska hedar på karga och torra marker. Det är ett förvedat dvärgris som håller kvar sina blommor långt in på hösten.\n\nLängs Kustvägen färgar ljungen öppna hällmarker och hedar i rosa och lila under sensommaren, när det mesta annat har blommat över.",
         quote: "När sommaren tar slut färgar jag heden lila och bjuder bina på höstens sista nektar.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Ljungen är ett lågt, f��rvedat dvärgris med tätt sittande, fjällika små blad och spiror av små rosa till lila blommor. Blommorna sitter kvar länge, även efter att de vissnat.", image: "/images/vaxter_bar/ljung-detalj.png", alt: "Närbild på rosa-lila ljungblommor", caption: "Spiror av små rosa till lila blommor." },
+          { heading: "Kännetecken & Utseende", body: "Ljungen är ett lågt, förvedat dvärgris med tätt sittande, fjällika små blad och spiror av små rosa till lila blommor. Blommorna sitter kvar länge, även efter att de vissnat.", image: "/images/vaxter_bar/ljung-detalj.png", alt: "Närbild på rosa-lila ljungblommor", caption: "Spiror av små rosa till lila blommor." },
           { heading: "Växtplats & Beteende", body: "Ljungen bildar karakteristiska hedar på karga, torra och magra marker. Den är ett förvedat dvärgris som tål brand och hårt väder och kan dominera stora öppna ytor.", image: "/images/vaxter_bar/ljung-miljo.png", alt: "Blommande ljunghed", caption: "Bildar vidsträckta hedar på karg mark." },
           { heading: "Ekologi & Användning", body: "Ljungen blommar sent på säsongen och är då en viktig nektarkälla för bin och andra pollinatörer. Den är landskapsblomma för Västergötland.", image: "/images/vaxter_bar/Ljung_Huvudbild_01.png", alt: "Ljung med rosa-lila blommor", caption: "Viktig sen nektarkälla för bin och humlor." },
         ],
@@ -8157,7 +8157,7 @@ SÄKERHET:
       },
       de: {
         heroSubtitle: "Die leuchtend rote Blume des Waldrands",
-        intro: "Die Rote Lichtnelke erhellt Waldränder und Wegränder mit ihren leuchtend roten Blüten. Sie öffnet ihre Bl��ten tagsüber, um Tagfalter und Hummeln anzulocken.\n\nEntlang des Kustvägen wächst die Rote Lichtnelke an üppigen Rändern, an Straßen und nahe Meeresküsten, wo die leuchtend roten Blüten im Grün hervorstechen.",
+        intro: "Die Rote Lichtnelke erhellt Waldränder und Wegränder mit ihren leuchtend roten Blüten. Sie öffnet ihre Blüten tagsüber, um Tagfalter und Hummeln anzulocken.\n\nEntlang des Kustvägen wächst die Rote Lichtnelke an üppigen Rändern, an Straßen und nahe Meeresküsten, wo die leuchtend roten Blüten im Grün hervorstechen.",
         quote: "Mit meinen leuchtend roten Blüten locke ich Tagfalter und Hummeln an den Waldrand.",
         sections: [],
         detailsGrid: [
@@ -8256,7 +8256,7 @@ SÄKERHET:
         quote: "Ich leihe mir Nährstoffe von den Bäumen um mich, trage aber dennoch meine eigenen grünen Blätter.",
         sections: [],
         detailsGrid: [
-          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter l��nglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenförmige Blüten wachsen paarweise." },
+          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter länglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenförmige Blüten wachsen paarweise." },
           { heading: "Lebensraum & Verhalten", body: "Die Pflanze ist häufig in Nadel- und Mischwald. Als Halbschmarotzer zapft sie umliegende Baum- und Graswurzeln an und zieht Wasser und Nährstoffe, während sie selbst Photosynthese betreibt.", image: "/images/vaxter_bar/angskovall-miljo.png", alt: "Wachtelweizen auf dem Waldboden", caption: "Halbschmarotzer an umliegenden Baum- und Graswurzeln." },
           { heading: "Ökologie & Verwendung", body: "Die Samen des Wachtelweizens werden von Ameisen verbreitet, die von einem nährstoffreichen Anhängsel am Samen angelockt werden. Die Pflanze ist ein natürlicher Teil der Bodenflora vieler Wälder.", image: "/images/vaxter_bar/Angskovall_Huvudbild_01.png", alt: "Wachtelweizen mit gelben Blüten", caption: "Ameisen verbreiten die nährstoffreichen Samen." },
         ],
@@ -8310,7 +8310,7 @@ SÄKERHET:
         { label: "Ekologi", value: "Magnet för fjärilar och vildbin" },
       ],
       en: [
-        { label: "Flowering", value: "July���September" },
+        { label: "Flowering", value: "July–September" },
         { label: "Color", value: "Violet-blue flat flower heads" },
         { label: "Habitat", value: "Dry meadows, roadsides and fallow fields" },
         { label: "Ecology", value: "Magnet for butterflies and wild bees" },
@@ -8452,7 +8452,7 @@ SÄKERHET:
       },
     },
     media: {
-      heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der K��ste" } },
+      heroImage: { url: "/images/lin-hero.png", alt: { sv: "Ett fält med blommande blått lin nära kusten", en: "A field of blooming blue flax near the coast", de: "Ein blühendes blaues Flachsfeld nahe der Küste" } },
       detailImage: { url: "/images/lin-blomma.png", alt: { sv: "Närbild på blå linblomma", en: "Close-up of a blue flax flower", de: "Nahaufnahme einer Flachsblüte" } },
       galleryImages: [
         { src: "/images/lin-hero.png", alt: "Video från närområdet", video: "/video/lin-naromradet.mp4", tall: true },
@@ -8489,7 +8489,7 @@ SÄKERHET:
     category: { sv: "Fågel", en: "Birds", de: "Vögel" },
     names: { sv: "Bofink", en: "Common Chaffinch", de: "Buchfink" },
     meta: {
-      sv: { title: "Bofink �� Kustvägen Naturguide", description: "Lär känna bofinken längs Kustvägen. Fakta om en av Sveriges vanligaste och mest sångstarka småfåglar." },
+      sv: { title: "Bofink – Kustvägen Naturguide", description: "Lär känna bofinken längs Kustvägen. Fakta om en av Sveriges vanligaste och mest sångstarka småfåglar." },
       en: { title: "Common Chaffinch – Kustvägen Nature Guide", description: "Discover the Common Chaffinch along the Coastal Road, one of Sweden's most common and vocal songbirds." },
       de: { title: "Buchfink – Kustvägen Naturführer", description: "Entdecken Sie den Buchfinken entlang des Kustvägen, einen der häufigsten und gesangsfreudigsten Singvögel Schwedens." },
     },
@@ -8920,9 +8920,9 @@ SÄKERHET:
     interactive: {
       sv: { title: "Ställ en fråga om Tjädern", intro: "Jag spelar och klickar i skogen varje vår. Fråga mig om mitt spel, min föda eller var jag bor!", presetQuestions: ["Vad är ett tjäderspel?", "Vad äter du?", "Var i skogen bor du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
       en: { title: "Ask a question about the Capercaillie", intro: "I display and click in the forest every spring. Ask me about my display, my food, or where I live!", presetQuestions: ["What is a capercaillie display?", "What do you eat?", "Where in the forest do you live?"], fallback: "There is not enough information about that in the project source material." },
-      de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enth��lt das Quellenmaterial des Projekts nicht genügend Informationen." },
+      de: { title: "Stelle eine Frage an den Auerhahn", intro: "Ich balze und klicke jeden Frühling im Wald. Frage mich nach meiner Balz, meiner Nahrung oder wo ich wohne!", presetQuestions: ["Was ist eine Auerhahn-Balz?", "Was isst du?", "Wo im Wald wohnst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
-    chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta fr��n tjäderns sida.",
+    chatSystemPrompt: "Du är en tjäder (Tetrao urogallus) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från tjäderns sida.",
     avatarImage: "/images/faglar/tjader-hero.png",
     chatAvatarAlt: "En tjäderhane i skogen",
     relatedSpecies: [
@@ -9134,7 +9134,7 @@ SÄKERHET:
           },
           {
             heading: "Livsmiljö & Häckning",
-            body: "Orren trivs i mosaiken av myr, hygge och glesa skogsbryn. Öppna myrkanter ger b��de spelplatser och föda.",
+            body: "Orren trivs i mosaiken av myr, hygge och glesa skogsbryn. Öppna myrkanter ger både spelplatser och föda.",
             image: "/images/faglar/orre-miljo.png",
             alt: "Dimmig myr och hedmark i gryningen",
             caption: "Myrens öppna kanter är orrens spelplats.",
@@ -9200,7 +9200,7 @@ SÄKERHET:
       },
     },
     media: {
-      heroImage: { url: "/images/faglar/orre-hero.png", alt: { sv: "Orrhane p�� myr", en: "Black grouse male on a bog", de: "Birkhahn auf einem Moor" } },
+      heroImage: { url: "/images/faglar/orre-hero.png", alt: { sv: "Orrhane på myr", en: "Black grouse male on a bog", de: "Birkhahn auf einem Moor" } },
       galleryImages: [
         {
           src: "/video/orre-naromradet.mp4",
@@ -9218,7 +9218,7 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Ställ en fr��ga om Orren", intro: "Jag dansar och bubblar på myren varje vår. Fråga mig om mitt spel, min föda eller mina ungar!", presetQuestions: ["Vad gör du på lekplatsen?", "Vad äter du?", "Var gömmer du dina ungar?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      sv: { title: "Ställ en fråga om Orren", intro: "Jag dansar och bubblar på myren varje vår. Fråga mig om mitt spel, min föda eller mina ungar!", presetQuestions: ["Vad gör du på lekplatsen?", "Vad äter du?", "Var gömmer du dina ungar?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
       en: { title: "Ask a question about the Black Grouse", intro: "I dance and bubble on the bog every spring. Ask me about my display, my food, or my chicks!", presetQuestions: ["What do you do at the display ground?", "What do you eat?", "Where do you hide your chicks?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an das Birkhuhn", intro: "Ich tanze und blubbere jeden Frühling auf dem Moor. Frage mich nach meiner Balz, meiner Nahrung oder meinen Küken!", presetQuestions: ["Was machst du am Balzplatz?", "Was isst du?", "Wo versteckst du deine Küken?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
@@ -9518,7 +9518,7 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Ställ en fråga om Gråhägern", intro: "Jag står stilla i vattnet och väntar tåligt p�� min fångst. Fråga mig om min jakt, mitt bo eller min föda!", presetQuestions: ["Hur länge kan du stå stilla?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      sv: { title: "Ställ en fråga om Gråhägern", intro: "Jag står stilla i vattnet och väntar tåligt på min fångst. Fråga mig om min jakt, mitt bo eller min föda!", presetQuestions: ["Hur länge kan du stå stilla?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
       en: { title: "Ask a question about the Grey Heron", intro: "I stand still in the water and wait patiently for my catch. Ask me about my hunting, my nest, or my food!", presetQuestions: ["How long can you stand still?", "Where do you build your nest?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an den Graureiher", intro: "Ich stehe still im Wasser und warte geduldig auf meinen Fang. Frage mich nach meiner Jagd, meinem Nest oder meiner Nahrung!", presetQuestions: ["Wie lange kannst du still stehen?", "Wo baust du dein Nest?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
@@ -9541,7 +9541,7 @@ SÄKERHET:
     meta: {
       sv: { title: "Nattskärra – Kustvägen Naturguide", description: "Lär känna nattskärran längs Kustvägen. Fakta om skymningens kryptiska insektsjägare." },
       en: { title: "European Nightjar – Kustvägen Nature Guide", description: "Discover the Nightjar along the Coastal Road, twilight's cryptic insect hunter." },
-      de: { title: "Ziegenmelker – Kustvägen Naturführer", description: "Entdecken Sie den Ziegenmelker entlang des Kustv��gen, den kryptischen Insektenjäger der Dämmerung." },
+      de: { title: "Ziegenmelker – Kustvägen Naturführer", description: "Entdecken Sie den Ziegenmelker entlang des Kustvägen, den kryptischen Insektenjäger der Dämmerung." },
     },
     quickFacts: {
       sv: [
@@ -9866,7 +9866,7 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Vinterns rosenröda juvel",
-        intro: "Domherrehanen lyser upp den snötäckta granskogen med sitt rosenröda bröst och svarta huvudmössa. Paret håller ofta ihop hela året och kommunicerar med sina mjuka, melankoliska visslingar när de rör sig genom skogen. Vintertid söker de sig gärna till trädgårdar där de plockar knoppar och frön från fruktträd och r��nnbär.",
+        intro: "Domherrehanen lyser upp den snötäckta granskogen med sitt rosenröda bröst och svarta huvudmössa. Paret håller ofta ihop hela året och kommunicerar med sina mjuka, melankoliska visslingar när de rör sig genom skogen. Vintertid söker de sig gärna till trädgårdar där de plockar knoppar och frön från fruktträd och rönnbär.",
         detailsGrid: [
           {
             heading: "Kännetecken & Utseende",
@@ -10021,7 +10021,7 @@ SÄKERHET:
           },
           {
             heading: "Läte & Beteende",
-            body: "Dess hesa, skränande varningsrop ekar genom skogen och varnar allt vilt. Om hösten samlar och gömmer den tusentals ekollon som vinterförr��d.",
+            body: "Dess hesa, skränande varningsrop ekar genom skogen och varnar allt vilt. Om hösten samlar och gömmer den tusentals ekollon som vinterförråd.",
             image: "/images/faglar/notskrika-detalj.png",
             alt: "Nötskrika med ekollon i näbben",
             caption: "Det skränande ropet varnar hela skogen.",
@@ -10129,7 +10129,7 @@ SÄKERHET:
     meta: {
       sv: { title: "Smålom – Kustvägen Naturguide", description: "Lär känna smålommen längs Kustvägen. Fakta om den strömlinjeformade dykaren på skogstjärnarna." },
       en: { title: "Red-throated Loon – Kustvägen Nature Guide", description: "Discover the Red-throated Loon along the Coastal Road, the streamlined diver of the forest tarns." },
-      de: { title: "Sterntaucher �� Kustvägen Naturführer", description: "Entdecken Sie den Sterntaucher entlang des Kustvägen, den stromlinienförmigen Taucher der Waldtümpel." },
+      de: { title: "Sterntaucher – Kustvägen Naturführer", description: "Entdecken Sie den Sterntaucher entlang des Kustvägen, den stromlinienförmigen Taucher der Waldtümpel." },
     },
     quickFacts: {
       sv: [
@@ -10217,7 +10217,7 @@ SÄKERHET:
             body: "Der Sterntaucher ist ein schlanker Seetaucher mit aufwärts gerichtetem Schnabel, grauem Kopf und einem rostroten Kehlfleck im Sommerkleid. Auf dem Wasser liegt er tief, den Hals gerade nach oben.",
             image: "/images/faglar/smalom-hero.png",
             alt: "Sterntaucher auf einem Waldsee",
-            caption: "Der aufw��rts gerichtete Schnabel unterscheidet ihn vom Prachttaucher.",
+            caption: "Der aufwärts gerichtete Schnabel unterscheidet ihn vom Prachttaucher.",
           },
           {
             heading: "Ruf & Verhalten",
