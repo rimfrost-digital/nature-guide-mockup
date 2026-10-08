@@ -2621,6 +2621,220 @@ SÄKERHET:
     },
   },
 
+  spillkraka: {
+    id: "spillkraka",
+    scientificName: "Dryocopus martius",
+    category: { sv: "Fåglar", en: "Birds", de: "Vögel" },
+    names: { sv: "Spillkråka", en: "Black Woodpecker", de: "Schwarzspecht" },
+    meta: {
+      sv: {
+        title: "Spillkråka – Kustvägen Naturguide",
+        description:
+          "Lär känna spillkråkan (Dryocopus martius), Europas största hackspett, längs Kustvägen. Upptäck dess kännetecken, spår i skogen och varför den är så viktig för andra djur.",
+      },
+      en: {
+        title: "Black Woodpecker – Kustvägen Nature Guide",
+        description:
+          "Get to know the black woodpecker (Dryocopus martius), Europe's largest woodpecker, along Kustvägen.",
+      },
+      de: {
+        title: "Schwarzspecht – Kustvägen Naturführer",
+        description:
+          "Lernen Sie den Schwarzspecht (Dryocopus martius), Europas größten Specht, entlang des Kustvägen kennen.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Längd & Vingspann", value: "45–55 cm | Vingspann 64–84 cm" },
+        { label: "Föda", value: "Myror, skalbaggslarver och andra insekter i ved" },
+        { label: "Boplats", value: "Ovalt bohål i grova aspar och tallar" },
+        { label: "Status", value: "Stannfågel, året runt i Sverige" },
+      ],
+      en: [
+        { label: "Length & Wingspan", value: "45–55 cm | Wingspan 64–84 cm" },
+        { label: "Diet", value: "Ants, beetle larvae and other wood-living insects" },
+        { label: "Nesting", value: "Oval nest hole in large aspens and pines" },
+        { label: "Status", value: "Resident, year-round in Sweden" },
+      ],
+      de: [
+        { label: "Länge & Spannweite", value: "45–55 cm | Spannweite 64–84 cm" },
+        { label: "Nahrung", value: "Ameisen, Käferlarven und andere Holzinsekten" },
+        { label: "Nistplatz", value: "Ovale Bruthöhle in dicken Espen und Kiefern" },
+        { label: "Status", value: "Standvogel, ganzjährig in Schweden" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Skogens största hackspett",
+        intro:
+          "Spillkråkan är Europas största hackspett, nästan lika stor som en kråka. Den är helt svart med en lysande röd hjässa och hörs på långt håll när den trummar eller ropar sitt klagande \"kliiee\" genom skogen.",
+        quote: "Spillkråkans gamla bohål blir nya hem för ugglor, knipor och fladdermöss.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken",
+            body: "Fjäderdräkten är helt svart. Hanen har röd hjässa från pannan till nacken, honan bara en röd fläck i nacken. Näbben är kraftig och ljust elfenbensfärgad, och ögat är ljust.",
+            image: "/images/spillkraka-kannetecken.png",
+            alt: "Närbild på en spillkråka med röd hjässa, svart fjäderdräkt och ljus näbb.",
+            caption: "Hanen känns igen på den helt röda hjässan.",
+          },
+          {
+            heading: "Spår i skogen",
+            body: "Spillkråkan hackar stora, avlånga hål i stammar och stubbar för att komma åt myror och larver. Under träden ligger ofta stora flisor av ved. Bohålet är ovalt och sitter högt upp i grova aspar eller tallar.",
+            image: "/images/spillkraka-spar.png",
+            alt: "Stora avlånga hackhål och ett ovalt bohål i en trädstam med flisor på marken.",
+            caption: "Stora flisor under ett träd avslöjar att spillkråkan varit där.",
+          },
+          {
+            heading: "Viktig för andra djur",
+            body: "Spillkråkan hackar ut ett nytt bohål nästan varje år. De gamla hålen blir boplatser för knipor, ugglor, skogsduvor och fladdermöss, så spillkråkan hjälper många andra arter i skogen.",
+            image: "/images/spillkraka-hero.png",
+            alt: "En spillkråka som klättrar på stammen av en gammal tall i en svensk skog.",
+            caption: "Spillkråkan trivs i skog med gamla, grova träd.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The forest's largest woodpecker",
+        intro:
+          "The black woodpecker is Europe's largest woodpecker, almost the size of a crow. It is all black with a bright red crown and can be heard from far away when it drums or calls through the forest.",
+        quote: "Its old nest holes become new homes for owls, goldeneyes and bats.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics",
+            body: "The plumage is all black. The male has a red crown from forehead to nape, the female only a red patch on the nape. The beak is strong and pale ivory, and the eye is pale.",
+            image: "/images/spillkraka-kannetecken.png",
+            alt: "Close-up of a black woodpecker with red crown, black plumage and pale beak.",
+            caption: "The male is recognised by its fully red crown.",
+          },
+          {
+            heading: "Signs in the forest",
+            body: "It chisels large, oblong holes in trunks and stumps to reach ants and larvae, leaving big wood chips on the ground. The oval nest hole sits high up in large aspens or pines.",
+            image: "/images/spillkraka-spar.png",
+            alt: "Large oblong feeding holes and an oval nest hole in a tree trunk with wood chips below.",
+            caption: "Big wood chips under a tree reveal a black woodpecker's visit.",
+          },
+          {
+            heading: "Important for others",
+            body: "It excavates a new nest hole almost every year. The old holes become homes for goldeneyes, owls, stock doves and bats.",
+            image: "/images/spillkraka-hero.png",
+            alt: "A black woodpecker climbing the trunk of an old pine in a Swedish forest.",
+            caption: "The black woodpecker thrives in forests with old, large trees.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der größte Specht des Waldes",
+        intro:
+          "Der Schwarzspecht ist Europas größter Specht, fast so groß wie eine Krähe. Er ist ganz schwarz mit leuchtend roter Kopfplatte und weithin zu hören, wenn er trommelt oder ruft.",
+        quote: "Seine alten Höhlen werden zu neuen Zuhause für Eulen, Schellenten und Fledermäuse.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale",
+            body: "Das Gefieder ist ganz schwarz. Das Männchen hat einen roten Scheitel von der Stirn bis zum Nacken, das Weibchen nur einen roten Nackenfleck. Der Schnabel ist kräftig und hell elfenbeinfarben.",
+            image: "/images/spillkraka-kannetecken.png",
+            alt: "Nahaufnahme eines Schwarzspechts mit roter Kopfplatte und hellem Schnabel.",
+            caption: "Das Männchen erkennt man am ganz roten Scheitel.",
+          },
+          {
+            heading: "Spuren im Wald",
+            body: "Er hackt große, längliche Löcher in Stämme und Stümpfe, um an Ameisen und Larven zu kommen. Darunter liegen oft große Holzspäne. Die ovale Bruthöhle liegt hoch in dicken Espen oder Kiefern.",
+            image: "/images/spillkraka-spar.png",
+            alt: "Große längliche Hacklöcher und eine ovale Bruthöhle in einem Baumstamm.",
+            caption: "Große Holzspäne verraten den Schwarzspecht.",
+          },
+          {
+            heading: "Wichtig für andere",
+            body: "Fast jedes Jahr hackt er eine neue Höhle. Die alten werden von Schellenten, Eulen, Hohltauben und Fledermäusen genutzt.",
+            image: "/images/spillkraka-hero.png",
+            alt: "Ein Schwarzspecht klettert an einer alten Kiefer in einem schwedischen Wald.",
+            caption: "Der Schwarzspecht liebt Wälder mit alten, dicken Bäumen.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/spillkraka-hero.png",
+        alt: {
+          sv: "En spillkråka som klättrar på stammen av en gammal tall i en svensk skog.",
+          en: "A black woodpecker climbing the trunk of an old pine in a Swedish forest.",
+          de: "Ein Schwarzspecht klettert an einer alten Kiefer in einem schwedischen Wald.",
+        },
+      },
+      detailImage: {
+        url: "/images/spillkraka-kannetecken.png",
+        alt: {
+          sv: "Närbild på en spillkråka med röd hjässa, svart fjäderdräkt och ljus näbb.",
+          en: "Close-up of a black woodpecker with red crown, black plumage and pale beak.",
+          de: "Nahaufnahme eines Schwarzspechts mit roter Kopfplatte und hellem Schnabel.",
+        },
+      },
+      galleryImages: [
+        { src: "/images/spillkraka-hero.png", alt: "En spillkråka som klättrar på stammen av en gammal tall." },
+        { src: "/images/spillkraka-kannetecken.png", alt: "Närbild på en spillkråka med röd hjässa." },
+        { src: "/images/spillkraka-spar.png", alt: "Hackhål och bohål av spillkråka i en trädstam." },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the guide", url: "" },
+        de: { title: "Hör dem Guide zu", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Spillkråkan",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR SPILLKRÅKA]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: Varför hackar spillkråkan i träd?]",
+          "[AI QUESTION PLACEHOLDER 2: Vem bor i dina gamla bohål?]",
+          "[AI QUESTION PLACEHOLDER 3: Hur skiljer man hane från hona?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      en: {
+        title: "Talk to the Black Woodpecker",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR SPILLKRÅKA]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: Why do you peck at trees?]",
+          "[AI QUESTION PLACEHOLDER 2: Who lives in your old nest holes?]",
+          "[AI QUESTION PLACEHOLDER 3: How do you tell male from female?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+      de: {
+        title: "Sprich mit dem Schwarzspecht",
+        intro: "[AI INTRO PLACEHOLDER – TO BE COMPLETED FOR SPILLKRÅKA]",
+        presetQuestions: [
+          "[AI QUESTION PLACEHOLDER 1: Warum hackst du in Bäume?]",
+          "[AI QUESTION PLACEHOLDER 2: Wer wohnt in deinen alten Höhlen?]",
+          "[AI QUESTION PLACEHOLDER 3: Wie unterscheidet man Männchen und Weibchen?]",
+        ],
+        fallback: "[AI RESPONSE DATA PLACEHOLDER]",
+      },
+    },
+    chatSystemPrompt: `Du är en spillkråka (Dryocopus martius) längs Kustvägen i Hälsingland och Västernorrland. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta i denna post: Europas största hackspett, längd 45–55 cm, vingspann 64–84 cm, helt svart med ljus elfenbensfärgad näbb och ljust öga. Hanen har röd hjässa från pannan till nacken, honan bara en röd fläck i nacken. Du äter myror, skalbaggslarver och andra insekter i ved och hackar stora avlånga hål som lämnar stora flisor på marken. Ditt bohål är ovalt och sitter högt i grova aspar eller tallar. Du hackar ett nytt bohål nästan varje år och de gamla blir hem åt knipor, ugglor, skogsduvor och fladdermöss. Du är stannfågel och stannar i Sverige hela året. Om frågan inte handlar om spillkråka eller natur, led vänligt tillbaka till skogen. Hitta aldrig på fakta och säg att du inte vet när underlaget saknar svaret.`,
+    avatarImage: "/images/sp-woodpecker.png",
+    chatAvatarAlt: "Spillkråkans ansikte",
+    relatedSpecies: [
+      { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/fiskgjuse-hero.png" },
+      { slug: "havsorn", name: "Havsörn", latin: "Haliaeetus albicilla", image: "/images/havsorn-hero.png" },
+      { slug: "radjur", name: "Rådjur", latin: "Capreolus capreolus", image: "/images/sp-roedeer.png" },
+    ],
+    relatedSectionHeading: {
+      sv: "Upptäck fler fåglar",
+      en: "Discover more birds",
+      de: "Weitere Vögel entdecken",
+    },
+    relatedLinkLabel: {
+      sv: "Visa alla fåglar",
+      en: "View all birds",
+      de: "Alle Vögel anzeigen",
+    },
+  },
+
   stromming: {
     id: "stromming",
     scientificName: "Clupea harengus membras",
@@ -3528,7 +3742,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           {
-            heading: "Kännetecken & Utseende",
+            heading: "K��nnetecken & Utseende",
             body: "Siken har en slank, silverblank kropp med mörkare rygg och en liten, underställd mun som passar för att söka föda på botten. Den känns igen på den lilla fettfenan mellan ryggfenan och stjärten – ett tecken på att den tillhör laxfiskarna.",
             image: "/images/fiskar/Sik_Huvudbild_01.png",
             alt: "Sik med silverblank kropp i klart vatten",
@@ -4918,7 +5132,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Sagans röda svamp – men giftig",
         intro:
-          "Röd flugsvamp är en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med bj��rk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
+          "Röd flugsvamp ��r en av våra mest välkända men giftiga svampar. De karakteristiska vita prickarna på den lysande r��da hatten är rester av det skyddande hölje som svampen hade som ung.\n\nDen bildar mykorrhiza med bj��rk och gran och lyser upp skogarna längs Kustvägen under hösten – vacker att titta på, men aldrig att äta.",
         quote: "Alla känner igen mig, men se bara – rör mig inte, för jag är giftig.",
         sections: [],
         detailsGrid: [

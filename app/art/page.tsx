@@ -46,6 +46,7 @@ export default async function ArtPage({ searchParams }: Props) {
     "lodjur-v2": { src: "/audio/what-does-the-lynx-say.mp3", label: "Så här låter lodjuret" },
     havsorn: { src: "/audio/havsorn_ljud.mp3", label: "Så här låter djuret" },
     fiskgjuse: { src: "", label: "Så här låter fiskgjusen" },
+    spillkraka: { src: "", label: "Så här låter spillkråkan" },
     alg: { src: "/audio/alg_ljud.mp3", label: "Så här låter älgen" },
     grasal: { src: "/audio/grasal_ljud.mp3", label: "Så här låter gråsälen" },
     brunbjorn: { src: "/audio/brunbjorn_ljud.mp3", label: "Så här låter brunbjörnen (exempel)" },
