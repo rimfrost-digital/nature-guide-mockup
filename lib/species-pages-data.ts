@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k������������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -9502,6 +9502,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/grahager-hero.png", alt: { sv: "Gråhäger som fiskar vid strandkant", en: "Grey heron fishing at the water's edge", de: "Graureiher beim Fischen am Ufer" } },
       galleryImages: [
+        {
+          src: "/video/grahager-naromradet.mp4",
+          alt: "Video med gråhäger från närområdet",
+          video: "/video/grahager-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/grahager-hero.png", alt: "Gråhäger (Ardea cinerea) vid vattnet" },
         { src: "/images/faglar/grahager-detalj.png", alt: "Gråhägerkoloni högt i träd", tall: true },
       ],
