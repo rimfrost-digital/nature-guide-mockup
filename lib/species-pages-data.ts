@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -8902,6 +8902,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/tjader-hero.png", alt: { sv: "Tjäderhane i barrskog", en: "Capercaillie male in coniferous forest", de: "Auerhahn im Nadelwald" } },
       galleryImages: [
+        {
+          src: "/video/tjader-naromradet.mp4",
+          alt: "Video med tjäder från närområdet",
+          video: "/video/tjader-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/tjader-hero.png", alt: "Tjäder (Tetrao urogallus) i skogen" },
         { src: "/images/faglar/tjader-detalj.png", alt: "Tjäderhane spelar i skogsgläntan", tall: true },
       ],
@@ -9488,7 +9494,7 @@ SÄKERHET:
       },
     },
     interactive: {
-      sv: { title: "Ställ en fråga om Gråhägern", intro: "Jag står stilla i vattnet och väntar tåligt på min fångst. Fråga mig om min jakt, mitt bo eller min föda!", presetQuestions: ["Hur länge kan du stå stilla?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
+      sv: { title: "Ställ en fråga om Gråhägern", intro: "Jag står stilla i vattnet och väntar tåligt p�� min fångst. Fråga mig om min jakt, mitt bo eller min föda!", presetQuestions: ["Hur länge kan du stå stilla?", "Var bygger du ditt bo?", "Vad äter du?"], fallback: "Det finns inte tillräcklig information om det i projektets underlag." },
       en: { title: "Ask a question about the Grey Heron", intro: "I stand still in the water and wait patiently for my catch. Ask me about my hunting, my nest, or my food!", presetQuestions: ["How long can you stand still?", "Where do you build your nest?", "What do you eat?"], fallback: "There is not enough information about that in the project source material." },
       de: { title: "Stelle eine Frage an den Graureiher", intro: "Ich stehe still im Wasser und warte geduldig auf meinen Fang. Frage mich nach meiner Jagd, meinem Nest oder meiner Nahrung!", presetQuestions: ["Wie lange kannst du still stehen?", "Wo baust du dein Nest?", "Was isst du?"], fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen." },
     },
