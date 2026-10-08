@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k��������������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����������������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -4601,7 +4601,7 @@ SÄKERHET:
     chatSystemPrompt: `Du är en kantarell (Cantharellus cibarius) som växer i skogarna längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
 
 VIKTIGT - du pratar med BARN:
-- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt f��rstår.
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) l��tt f��rstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
 - Prata i jag-form, som om DU är kantarellen. Till exempel: "Jag gömmer mig gärna under mossan!"
 - Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn k��nner till.
@@ -4899,7 +4899,7 @@ SÄKERHET:
       sv: [
         { label: "Ätlighet", value: "God som ung (används som kryddsvamp)" },
         { label: "Habitat", value: "Gamla gran- och barrskogar" },
-        { label: "Kännetecken", value: "Stora mörkbruna fjäll på hatten" },
+        { label: "Kännetecken", value: "Stora m��rkbruna fjäll på hatten" },
         { label: "Undersida", value: "Tätt sittande gråaktiga taggar" },
       ],
       en: [
@@ -9802,6 +9802,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/koltrast-hero.png", alt: { sv: "Koltrast på gren", en: "Blackbird on a branch", de: "Amsel auf einem Zweig" } },
       galleryImages: [
+        {
+          src: "/video/koltrast-naromradet.mp4",
+          alt: "Video med koltrast från närområdet",
+          video: "/video/koltrast-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/koltrast-hero.png", alt: "Koltrast (Turdus merula) på gren" },
         { src: "/images/faglar/koltrast-detalj.png", alt: "Koltrast sjunger vid gryning", tall: true },
       ],
