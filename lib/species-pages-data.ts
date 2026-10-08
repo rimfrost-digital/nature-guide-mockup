@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k��nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -4779,7 +4779,7 @@ SÄKERHET:
             caption: "Nährstoffreiche Wiesen und Wegränder sind typische Standorte.",
           },
           {
-            heading: "Küche & Vorsicht",
+            heading: "K��che & Vorsicht",
             body: "Jung und reinweiß ist der Schopftintling ein geschätzter Speisepilz mit mildem Geschmack. Er muss jedoch am selben Tag zubereitet werden, da er sich rasch zu Tinte auflöst. Sammeln Sie nur durch und durch weiße Exemplare.",
             image: "/images/svampar/Fjallig_Blacksvamp_Huvudbild_01.png",
             alt: "Ein junger, weißer Schopftintling auf einer Wiese",
@@ -6722,7 +6722,7 @@ SÄKERHET:
       detailImage: {
         url: "/images/trad/bjork-miljo.png",
         alt: {
-          sv: "En ljus björkdunge i sommarljus",
+          sv: "En ljus bj��rkdunge i sommarljus",
           en: "A bright birch grove in summer light",
           de: "Ein heller Birkenhain im Sommerlicht",
         },
@@ -7280,7 +7280,7 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Den tåliga vintergröna busken",
-        intro: "Enbärsbusken är extremt tålig och växer över hela Sverige. Bären är först gröna det första året och skiftar till blåsvart färg när de mognar under sitt andra eller tredje år.\n\nLängs Kustvägen står enbuskarna i alla former, från låga kuddar på hällmark till smala pelare i hagar och bryn.",
+        intro: "Enbärsbusken är extremt tålig och växer över hela Sverige. Bären är först gröna det första året och skiftar till blåsvart färg n��r de mognar under sitt andra eller tredje år.\n\nLängs Kustvägen står enbuskarna i alla former, från låga kuddar på hällmark till smala pelare i hagar och bryn.",
         quote: "Jag är hård och taggig, men mina bär mognar i lugn takt under flera år.",
         sections: [],
         detailsGrid: [
@@ -8256,7 +8256,7 @@ SÄKERHET:
         quote: "Ich leihe mir Nährstoffe von den Bäumen um mich, trage aber dennoch meine eigenen grünen Blätter.",
         sections: [],
         detailsGrid: [
-          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter länglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenförmige Blüten wachsen paarweise." },
+          { heading: "Merkmale & Aussehen", body: "Der Wiesen-Wachtelweizen ist an seinen gelben, röhrenförmigen Blüten zu erkennen, die paarweise in den Blattachseln sitzen. Der Stängel ist schlank und die Blätter l��nglich und spitz.", image: "/images/vaxter_bar/angskovall-detalj.png", alt: "Nahaufnahme gelber röhrenförmiger Wachtelweizenblüten", caption: "Gelbe röhrenförmige Blüten wachsen paarweise." },
           { heading: "Lebensraum & Verhalten", body: "Die Pflanze ist häufig in Nadel- und Mischwald. Als Halbschmarotzer zapft sie umliegende Baum- und Graswurzeln an und zieht Wasser und Nährstoffe, während sie selbst Photosynthese betreibt.", image: "/images/vaxter_bar/angskovall-miljo.png", alt: "Wachtelweizen auf dem Waldboden", caption: "Halbschmarotzer an umliegenden Baum- und Graswurzeln." },
           { heading: "Ökologie & Verwendung", body: "Die Samen des Wachtelweizens werden von Ameisen verbreitet, die von einem nährstoffreichen Anhängsel am Samen angelockt werden. Die Pflanze ist ein natürlicher Teil der Bodenflora vieler Wälder.", image: "/images/vaxter_bar/Angskovall_Huvudbild_01.png", alt: "Wachtelweizen mit gelben Blüten", caption: "Ameisen verbreiten die nährstoffreichen Samen." },
         ],
@@ -8752,6 +8752,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/gratrut-hero.png", alt: { sv: "Gråtrut på klippa vid havet", en: "Herring gull on a coastal cliff", de: "Silbermöwe auf einem Küstenfelsen" } },
       galleryImages: [
+        {
+          src: "/video/gratrut-naromradet.mp4",
+          alt: "Video med gråtrut från närområdet",
+          video: "/video/gratrut-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/gratrut-hero.png", alt: "Gråtrut (Larus argentatus) på klippa" },
         { src: "/images/faglar/gratrut-detalj.png", alt: "Gråtrutens bo med ägg på klipphäll", tall: true },
       ],
@@ -9116,7 +9122,7 @@ SÄKERHET:
           },
           {
             heading: "Livsmiljö & Häckning",
-            body: "Orren trivs i mosaiken av myr, hygge och glesa skogsbryn. Öppna myrkanter ger både spelplatser och föda.",
+            body: "Orren trivs i mosaiken av myr, hygge och glesa skogsbryn. Öppna myrkanter ger b��de spelplatser och föda.",
             image: "/images/faglar/orre-miljo.png",
             alt: "Dimmig myr och hedmark i gryningen",
             caption: "Myrens öppna kanter är orrens spelplats.",
@@ -9818,7 +9824,7 @@ SÄKERHET:
     content: {
       sv: {
         heroSubtitle: "Vinterns rosenröda juvel",
-        intro: "Domherrehanen lyser upp den snötäckta granskogen med sitt rosenröda bröst och svarta huvudmössa. Paret håller ofta ihop hela året och kommunicerar med sina mjuka, melankoliska visslingar när de rör sig genom skogen. Vintertid söker de sig gärna till trädgårdar där de plockar knoppar och frön från fruktträd och rönnbär.",
+        intro: "Domherrehanen lyser upp den snötäckta granskogen med sitt rosenröda bröst och svarta huvudmössa. Paret håller ofta ihop hela året och kommunicerar med sina mjuka, melankoliska visslingar när de rör sig genom skogen. Vintertid söker de sig gärna till trädgårdar där de plockar knoppar och frön från fruktträd och r��nnbär.",
         detailsGrid: [
           {
             heading: "Kännetecken & Utseende",
