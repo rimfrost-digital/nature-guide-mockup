@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den känns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k��nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -8602,6 +8602,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/bofink-hero.png", alt: { sv: "Bofink på en björkgren", en: "Chaffinch on a birch branch", de: "Buchfink auf einem Birkenzweig" } },
       galleryImages: [
+        {
+          src: "/video/bofink-naromradet.mp4",
+          alt: "Video med bofink från närområdet",
+          video: "/video/bofink-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/bofink-hero.png", alt: "Bofink (Fringilla coelebs) på gren" },
         { src: "/images/faglar/bofink-detalj.png", alt: "Bofink söker föda på marken", tall: true },
       ],
