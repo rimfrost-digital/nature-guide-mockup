@@ -5659,7 +5659,7 @@ SÄKERHET:
             body: "Mit seinem milden Geschmack und der festen Konsistenz ist der Schaf-Porling ein feiner Speisepilz, der manchmal als Trüffelersatz dient. Beim Kochen gilbt das Fleisch deutlich. Als Landschaftspilz von Medelpad ist er ein Stolz der Region.",
             image: "/images/svampar/Farticka_Huvudbild_01.png",
             alt: "Ein ganzer Schaf-Porling im moosigen Wald",
-            caption: "Mild und fest – manchmal als günstiger Trüffelersatz genutzt.",
+            caption: "Mild und fest – manchmal als günstiger Tr��ffelersatz genutzt.",
           },
         ],
       },
@@ -9202,6 +9202,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/orre-hero.png", alt: { sv: "Orrhane p�� myr", en: "Black grouse male on a bog", de: "Birkhahn auf einem Moor" } },
       galleryImages: [
+        {
+          src: "/video/orre-naromradet.mp4",
+          alt: "Video med orre från närområdet",
+          video: "/video/orre-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/orre-hero.png", alt: "Orre (Lyrurus tetrix) på myrmark" },
         { src: "/images/faglar/orre-detalj.png", alt: "Orrhöna med kycklingar", tall: true },
       ],
