@@ -4175,7 +4175,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Skogens och kustens smidiga jägare",
         intro:
-          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k��������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
+          "Rödräven är en av Sveriges mest anpassningsbara rovdjur, lika hemma i tät barrskog som på öppna strandängar längs Kustvägen. Den k����������nns igen på sin rödbruna päls, vita strupe och den buskiga svansens vita spets. Som opportunistisk allätare jagar räven sork och möss med sitt karakteristiska mushopp, men tar även bär, fågelägg och slaktavfall. Spåren bildar en rak linje i snön, så kallad snörlöpning, och avslöjar en skicklig men sällan sedd jägare.",
         quote:
           "I skymningen glider räven som en rödbrun skugga mellan skog och strand – här en stund, borta i nästa.",
         detailsGrid: [
@@ -5659,7 +5659,7 @@ SÄKERHET:
             body: "Mit seinem milden Geschmack und der festen Konsistenz ist der Schaf-Porling ein feiner Speisepilz, der manchmal als Trüffelersatz dient. Beim Kochen gilbt das Fleisch deutlich. Als Landschaftspilz von Medelpad ist er ein Stolz der Region.",
             image: "/images/svampar/Farticka_Huvudbild_01.png",
             alt: "Ein ganzer Schaf-Porling im moosigen Wald",
-            caption: "Mild und fest – manchmal als günstiger Tr��ffelersatz genutzt.",
+            caption: "Mild und fest – manchmal als günstiger Tr����ffelersatz genutzt.",
           },
         ],
       },
@@ -9352,6 +9352,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/lappuggla-hero.png", alt: { sv: "Lappuggla på en grangren", en: "Great grey owl on a spruce branch", de: "Bartkauz auf einem Fichtenzweig" } },
       galleryImages: [
+        {
+          src: "/video/lappuggla-naromradet.mp4",
+          alt: "Video med lappuggla från närområdet",
+          video: "/video/lappuggla-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/lappuggla-hero.png", alt: "Lappuggla (Strix nebulosa) i skogen" },
         { src: "/images/faglar/lappuggla-detalj.png", alt: "Lappuggla i flykt över snötäckt mark", tall: true },
       ],
