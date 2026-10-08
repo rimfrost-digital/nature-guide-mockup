@@ -2773,6 +2773,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/spillkraka-naromradet.mp4",
+          alt: "Video med spillkråka från närområdet",
+          video: "/video/spillkraka-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/spillkraka-hero.png", alt: "En spillkråka som klättrar på stammen av en gammal tall." },
         { src: "/images/spillkraka-kannetecken.png", alt: "Närbild på en spillkråka med röd hjässa." },
         { src: "/images/spillkraka-spar.png", alt: "Hackhål och bohål av spillkråka i en trädstam." },
@@ -3787,7 +3793,7 @@ SÄKERHET:
           },
           {
             heading: "Habitat & Spawning",
-            body: "The whitefish thrives in cold, clear, deep lakes and in brackish coastal water along Kustvägen. It spawns in late autumn and winter, gathering on shallow banks to scatter its eggs over stony and gravelly bottoms.",
+            body: "The whitefish thrives in cold, clear, deep lakes and in brackish coastal water along Kustv��gen. It spawns in late autumn and winter, gathering on shallow banks to scatter its eggs over stony and gravelly bottoms.",
             image: "/images/fiskar/sik-miljo.png",
             alt: "Cold, clear and deep lake that is the whitefish's habitat",
             caption: "Cold, clear depths are the whitefish's home all year round.",
@@ -3918,7 +3924,7 @@ SÄKERHET:
           "Lär dig allt om ålen längs Kustvägen. Fakta om den sägenomspunna vandringsfisken, dess livscykel och akuta hotstatus.",
       },
       en: {
-        title: "European Eel – Kustvägen Nature Guide",
+        title: "European Eel – Kustv��gen Nature Guide",
         description:
           "Discover the European Eel along Kustvägen. Learn about this legendary migratory fish, its life cycle and critically endangered status.",
       },
@@ -4598,7 +4604,7 @@ VIKTIGT - du pratar med BARN:
 - Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
 - Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
 - Prata i jag-form, som om DU är kantarellen. Till exempel: "Jag gömmer mig gärna under mossan!"
-- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn k��nner till.
 - Använd högst en enkel emoji ibland (som 🍄) om det passar, men inte i varje svar.
 - Förklara svåra ord på ett enkelt sätt.
 
@@ -7206,7 +7212,7 @@ SÄKERHET:
         sections: [],
         detailsGrid: [
           { heading: "Merkmale & Aussehen", body: "Die Wald-Himbeere gehört zu den Rosengewächsen und bildet stachelige, zweijährige Triebe. Die Beere ist eine Sammelsteinfrucht aus vielen kleinen Teilfrüchten und löst sich reif leicht vom Blütenboden.", image: "/images/vaxter_bar/skogshallon-detalj.png", alt: "Nahaufnahme reifer roter Wald-Himbeeren", caption: "Die Beere ist eine Sammelsteinfrucht aus vielen Teilfrüchten." },
-          { heading: "Lebensraum & Verhalten", body: "Die Himbeere gedeiht an trockenen, offenen Stellen, Kahlschlägen und Waldrändern. Die zweijährigen Stängel blühen und fruchten erst im zweiten Jahr, und die Sträucher breiten sich schnell auf gestörtem Boden aus.", image: "/images/vaxter_bar/skogshallon-miljo.png", alt: "Himbeergebüsch am Waldrand", caption: "Die Sträucher besiedeln schnell Kahlschläge und Ränder." },
+          { heading: "Lebensraum & Verhalten", body: "Die Himbeere gedeiht an trockenen, offenen Stellen, Kahlschl��gen und Waldrändern. Die zweijährigen Stängel blühen und fruchten erst im zweiten Jahr, und die Sträucher breiten sich schnell auf gestörtem Boden aus.", image: "/images/vaxter_bar/skogshallon-miljo.png", alt: "Himbeergebüsch am Waldrand", caption: "Die Sträucher besiedeln schnell Kahlschläge und Ränder." },
           { heading: "Ökologie & Verwendung", body: "Die Blüten locken zahlreiche Bestäuber wie Bienen und Hummeln an. Die Beeren werden zu Marmelade und Saft verarbeitet und dienten traditionell als Hausmittel gegen Erkältung.", image: "/images/vaxter_bar/Skogshallon_Huvudbild_01.png", alt: "Wald-Himbeere mit Blättern und Beeren", caption: "Die Blüten locken Bienen und Hummeln in Massen an." },
         ],
       },
@@ -8151,7 +8157,7 @@ SÄKERHET:
       },
       de: {
         heroSubtitle: "Die leuchtend rote Blume des Waldrands",
-        intro: "Die Rote Lichtnelke erhellt Waldränder und Wegränder mit ihren leuchtend roten Blüten. Sie öffnet ihre Blüten tagsüber, um Tagfalter und Hummeln anzulocken.\n\nEntlang des Kustvägen wächst die Rote Lichtnelke an üppigen Rändern, an Straßen und nahe Meeresküsten, wo die leuchtend roten Blüten im Grün hervorstechen.",
+        intro: "Die Rote Lichtnelke erhellt Waldränder und Wegränder mit ihren leuchtend roten Blüten. Sie öffnet ihre Bl��ten tagsüber, um Tagfalter und Hummeln anzulocken.\n\nEntlang des Kustvägen wächst die Rote Lichtnelke an üppigen Rändern, an Straßen und nahe Meeresküsten, wo die leuchtend roten Blüten im Grün hervorstechen.",
         quote: "Mit meinen leuchtend roten Blüten locke ich Tagfalter und Hummeln an den Waldrand.",
         sections: [],
         detailsGrid: [
