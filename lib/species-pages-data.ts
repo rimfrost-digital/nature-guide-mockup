@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f��������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f����������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -2860,7 +2860,7 @@ SÄKERHET:
       de: {
         title: "Ostseehering – Kustvägen Naturführer",
         description:
-          "Erfahren Sie alles über den Ostseehering (Strömming) am Kustvägen. Fakten zu Ökologie, Laichplätzen und historischem Heringsfang.",
+          "Erfahren Sie alles über den Ostseehering (Strömming) am Kustvägen. Fakten zu Ökologie, Laichpl��tzen und historischem Heringsfang.",
       },
     },
     quickFacts: {
@@ -3866,8 +3866,14 @@ SÄKERHET:
           de: "Nahaufnahme der silbrigen Schuppen und des kleinen Mauls der Maräne",
         },
       },
-      galleryImages: [
-        { src: "/images/fiskar/Sik_Huvudbild_01.png", alt: "Sik i klart vatten" },
+  galleryImages: [
+  {
+  src: "/video/sik-naromradet.mp4",
+  alt: "Video med sik från närområdet",
+  video: "/video/sik-naromradet.mp4",
+  tall: true,
+  },
+  { src: "/images/fiskar/Sik_Huvudbild_01.png", alt: "Sik i klart vatten" },
         { src: "/images/fiskar/sik-detalj.png", alt: "Närbild på sikens huvud" },
         { src: "/images/fiskar/sik-miljo.png", alt: "Kall, klar och djup sjö som är sikens livsmiljö" },
       ],
@@ -7523,7 +7529,7 @@ SÄKERHET:
         quote: "Jag är hård och taggig, men mina bär mognar i lugn takt under flera år.",
         sections: [],
         detailsGrid: [
-          { heading: "Kännetecken & Utseende", body: "Enen är en vintergrön barrbuske med vassa, stickiga barr och kan bli allt från en låg buske till ett smalt tio meter högt träd. De mjuka, kottliknande bären är först gröna och blir blåsvarta när de mognar.", image: "/images/vaxter_bar/enbar-detalj.png", alt: "Närbild på blåsvarta enbär bland barr", caption: "Bären mognar från grönt till blåsvart under flera år." },
+          { heading: "Kännetecken & Utseende", body: "Enen är en vintergrön barrbuske med vassa, stickiga barr och kan bli allt från en låg buske till ett smalt tio meter högt träd. De mjuka, kottliknande bären är först gröna och blir blåsvarta när de mognar.", image: "/images/vaxter_bar/enbar-detalj.png", alt: "Närbild på blåsvarta enbär bland barr", caption: "Bären mognar fr��n grönt till blåsvart under flera år." },
           { heading: "Växtplats & Beteende", body: "Enen är extremt tålig och växer över hela Sverige, på hällmarker, i hagar, bryn och magra skogar. Den tål både torka, kyla och hårt bete och kan bli mycket gammal.", image: "/images/vaxter_bar/enbar-miljo.png", alt: "Enbuskar i öppet landskap", caption: "En anspråkslös buske som tål torka, kyla och bete." },
           { heading: "Ekologi & Användning", body: "Enbären är en klassisk krydda till vilt och används för att smaksätta gin och dricka. Den täta busken ger också skydd och f��da åt fåglar under vintern.", image: "/images/vaxter_bar/Enbar_Huvudbild_01.png", alt: "Enbuske med bär", caption: "Bären kryddar vilt och smaksätter gin och dricka." },
         ],
