@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f����r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -3907,6 +3907,221 @@ SÄKERHET:
       { slug: "oring", name: "Öring", latin: "Salmo trutta", image: "/images/fiskar/Oring_Huvudbild_01.png" },
       { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
       { slug: "abborre", name: "Abborre", latin: "Perca fluviatilis", image: "/images/fiskar/Abborre_Huvudbild_01.png" },
+    ],
+    relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
+    relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
+  },
+
+  lax: {
+    id: "lax",
+    scientificName: "Salmo salar",
+    category: { sv: "Fiskar", en: "Fish", de: "Fische" },
+    names: { sv: "Lax", en: "Atlantic Salmon", de: "Atlantischer Lachs" },
+    meta: {
+      sv: {
+        title: "Lax – Kustvägens Naturguide",
+        description:
+          "Lär dig allt om laxen längs Kustvägen. Fakta om vandringsfisken som föds i älven, växer upp i havet och återvänder för att leka.",
+      },
+      en: {
+        title: "Atlantic Salmon – Kustvägen Nature Guide",
+        description:
+          "Discover the Atlantic salmon along Kustvägen. Learn about the migratory fish that is born in the river, grows up at sea and returns to spawn.",
+      },
+      de: {
+        title: "Atlantischer Lachs – Kustvägen Naturführer",
+        description:
+          "Erfahren Sie alles über den Lachs am Kustvägen. Fakten zum Wanderfisch, der im Fluss geboren wird, im Meer aufwächst und zum Laichen zurückkehrt.",
+      },
+    },
+    quickFacts: {
+      sv: [
+        { label: "Status", value: "Vandringsfisk mellan älv och hav" },
+        { label: "Storlek", value: "Vanligtvis 60–110 cm (kan väga över 20 kg)" },
+        { label: "Föda", value: "Insektslarver som ung, fisk som strömming i havet" },
+        { label: "Lek", value: "På hösten i grusbottnar i strömmande älvar" },
+      ],
+      en: [
+        { label: "Status", value: "Migratory fish between river and sea" },
+        { label: "Size", value: "Typically 60–110 cm (can weigh over 20 kg)" },
+        { label: "Diet", value: "Insect larvae when young, fish such as herring at sea" },
+        { label: "Spawning", value: "In autumn on gravel beds in flowing rivers" },
+      ],
+      de: [
+        { label: "Status", value: "Wanderfisch zwischen Fluss und Meer" },
+        { label: "Größe", value: "Meist 60–110 cm (kann über 20 kg wiegen)" },
+        { label: "Nahrung", value: "Insektenlarven als Jungfisch, Fische wie Hering im Meer" },
+        { label: "Laichzeit", value: "Im Herbst auf Kiesbetten in fließenden Flüssen" },
+      ],
+    },
+    content: {
+      sv: {
+        heroSubtitle: "Älvens silverblanka vandrare",
+        intro:
+          "Laxen föds i älvarnas strömmande vatten och lever sina första år där som liten ungfisk. Sedan vandrar den ut i Östersjön för att äta och växa sig stor.\n\nEfter några år i havet hittar laxen tillbaka till just den älv där den föddes – ofta genom forsar och upp för vattenfall – för att leka och ge liv åt nästa generation.",
+        quote: "Laxen hittar hem till sin egen älv, även efter flera år ute i havet.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Kännetecken & Utseende",
+            body: "Laxen har en kraftig, strömlinjeformad kropp med silverblanka sidor, blågrå rygg och små svarta, ofta x-formade fläckar ovanför sidolinjen. Som alla laxfiskar har den en liten fettfena mellan ryggfenan och stjärtfenan.",
+            image: "/images/fiskar/lax-detalj.png",
+            alt: "Närbild på laxens huvud och silverblanka fjäll med svarta fläckar",
+            caption: "De små x-formade fläckarna hjälper dig att känna igen laxen.",
+          },
+          {
+            heading: "Föda & Vandring",
+            body: "Som ung äter laxen insektslarver och små kräftdjur i älven. När den vandrat ut i havet jagar den fisk som strömming och skarpsill och växer snabbt. Inför leken slutar den äta och lever på sina fettreserver under hela resan uppströms.",
+            image: "/images/fiskar/lax-hero.png",
+            alt: "Lax som hoppar upp för ett vattenfall i en norrländsk älv",
+            caption: "Laxen kan hoppa flera meter för att ta sig förbi forsar och fall.",
+          },
+          {
+            heading: "Livsmiljö & Lek",
+            body: "Laxen leker på hösten i strömmande älvar med rent, syrerikt vatten och grusbottnar. Honan gräver en grop i gruset där rommen läggs och täcks över. Ungarna stannar i älven i ett par år innan de själva vandrar ut mot havet.",
+            image: "/images/fiskar/lax-miljo.png",
+            alt: "Klar, strömmande älv med grus- och stenbotten",
+            caption: "Rena älvar med grusbottnar är laxens barnkammare.",
+          },
+        ],
+      },
+      en: {
+        heroSubtitle: "The silvery wanderer of the river",
+        intro:
+          "The salmon is born in the flowing water of rivers and spends its first years there as a small juvenile. It then migrates out into the Baltic Sea to feed and grow large.\n\nAfter a few years at sea, the salmon finds its way back to the very river where it was born – often through rapids and up waterfalls – to spawn and give life to the next generation.",
+        quote: "The salmon finds its way home to its own river, even after years at sea.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Characteristics & Appearance",
+            body: "The salmon has a powerful, streamlined body with silvery flanks, a blue-grey back and small black, often x-shaped spots above the lateral line. Like all salmonids, it has a small adipose fin between the dorsal fin and the tail.",
+            image: "/images/fiskar/lax-detalj.png",
+            alt: "Close-up of the salmon's head and silvery scales with black spots",
+            caption: "The small x-shaped spots help you recognize the salmon.",
+          },
+          {
+            heading: "Diet & Migration",
+            body: "When young, the salmon eats insect larvae and small crustaceans in the river. Once at sea, it hunts fish such as herring and sprat and grows quickly. Before spawning it stops eating and lives on its fat reserves for the whole journey upstream.",
+            image: "/images/fiskar/lax-hero.png",
+            alt: "Salmon leaping up a waterfall in a northern Swedish river",
+            caption: "The salmon can leap several metres to get past rapids and falls.",
+          },
+          {
+            heading: "Habitat & Spawning",
+            body: "The salmon spawns in autumn in flowing rivers with clean, oxygen-rich water and gravel beds. The female digs a hollow in the gravel where the eggs are laid and covered. The young stay in the river for a couple of years before migrating out to sea themselves.",
+            image: "/images/fiskar/lax-miljo.png",
+            alt: "Clear, flowing river with gravel and stone bed",
+            caption: "Clean rivers with gravel beds are the salmon's nursery.",
+          },
+        ],
+      },
+      de: {
+        heroSubtitle: "Der silberne Wanderer des Flusses",
+        intro:
+          "Der Lachs wird im fließenden Wasser der Flüsse geboren und verbringt dort seine ersten Jahre als kleiner Jungfisch. Dann wandert er in die Ostsee, um zu fressen und groß zu werden.\n\nNach einigen Jahren im Meer findet der Lachs zurück in genau den Fluss, in dem er geboren wurde – oft durch Stromschnellen und Wasserfälle hinauf –, um zu laichen und der nächsten Generation das Leben zu schenken.",
+        quote: "Der Lachs findet nach Jahren im Meer zurück in seinen eigenen Fluss.",
+        sections: [],
+        detailsGrid: [
+          {
+            heading: "Merkmale & Aussehen",
+            body: "Der Lachs hat einen kräftigen, stromlinienförmigen Körper mit silbernen Flanken, blaugrauem Rücken und kleinen schwarzen, oft x-förmigen Flecken oberhalb der Seitenlinie. Wie alle Lachsfische hat er eine kleine Fettflosse zwischen Rücken- und Schwanzflosse.",
+            image: "/images/fiskar/lax-detalj.png",
+            alt: "Nahaufnahme von Kopf und silbernen Schuppen des Lachses mit schwarzen Flecken",
+            caption: "Die kleinen x-förmigen Flecken helfen, den Lachs zu erkennen.",
+          },
+          {
+            heading: "Nahrung & Wanderung",
+            body: "Als Jungfisch frisst der Lachs Insektenlarven und kleine Krebstiere im Fluss. Im Meer jagt er Fische wie Hering und Sprotte und wächst schnell. Vor dem Laichen hört er auf zu fressen und lebt auf der ganzen Reise flussaufwärts von seinen Fettreserven.",
+            image: "/images/fiskar/lax-hero.png",
+            alt: "Lachs springt in einem nordschwedischen Fluss einen Wasserfall hinauf",
+            caption: "Der Lachs kann mehrere Meter springen, um Stromschnellen zu überwinden.",
+          },
+          {
+            heading: "Lebensraum & Laichzeit",
+            body: "Der Lachs laicht im Herbst in fließenden Flüssen mit sauberem, sauerstoffreichem Wasser und Kiesgrund. Das Weibchen gräbt eine Mulde in den Kies, in die die Eier gelegt und bedeckt werden. Die Jungen bleiben einige Jahre im Fluss, bevor sie selbst ins Meer wandern.",
+            image: "/images/fiskar/lax-miljo.png",
+            alt: "Klarer, fließender Fluss mit Kies- und Steingrund",
+            caption: "Saubere Flüsse mit Kiesgrund sind die Kinderstube des Lachses.",
+          },
+        ],
+      },
+    },
+    media: {
+      heroImage: {
+        url: "/images/fiskar/lax-hero.png",
+        alt: {
+          sv: "En lax hoppar upp för ett vattenfall i en norrländsk älv",
+          en: "A salmon leaping up a waterfall in a northern Swedish river",
+          de: "Ein Lachs springt in einem nordschwedischen Fluss einen Wasserfall hinauf",
+        },
+      },
+      detailImage: {
+        url: "/images/fiskar/lax-detalj.png",
+        alt: {
+          sv: "Närbild på laxens silverblanka fjäll och svarta fläckar",
+          en: "Close-up of the salmon's silvery scales and black spots",
+          de: "Nahaufnahme der silbernen Schuppen und schwarzen Flecken des Lachses",
+        },
+      },
+      galleryImages: [
+        { src: "/images/fiskar/lax-hero.png", alt: "Lax som hoppar upp för ett vattenfall" },
+        { src: "/images/fiskar/lax-detalj.png", alt: "Närbild på laxens huvud" },
+        { src: "/images/fiskar/lax-miljo.png", alt: "Strömmande älv med grusbotten där laxen leker" },
+      ],
+      audio: {
+        sv: { title: "Lyssna på guiden", url: "" },
+        en: { title: "Listen to the Story of the Salmon", url: "" },
+        de: { title: "Dem Lachs lauschen", url: "" },
+      },
+    },
+    interactive: {
+      sv: {
+        title: "Prata med Laxen",
+        intro: "Undrar du hur det är att simma från älven ut i havet och hem igen? Ställ en fråga till mig och lär dig mer om min långa resa.",
+        presetQuestions: ["Hur hittar du hem till din älv?", "Vad äter du?", "Hur högt kan du hoppa?", "När leker du?", "Varför har du prickar?"],
+        fallback: "Det finns inte tillräcklig information om det i projektets underlag.",
+      },
+      en: {
+        title: "Talk to the Salmon",
+        intro: "Curious what it's like to swim from the river out to sea and back home again? Ask me a question and learn more about my long journey.",
+        presetQuestions: ["How do you find your way home?", "What do you eat?", "How high can you jump?", "When do you spawn?", "Why do you have spots?"],
+        fallback: "There is not enough information about that in the project source material.",
+      },
+      de: {
+        title: "Sprich mit dem Lachs",
+        intro: "Neugierig, wie es ist, vom Fluss ins Meer und wieder nach Hause zu schwimmen? Stell mir eine Frage und erfahre mehr über meine lange Reise.",
+        presetQuestions: ["Wie findest du nach Hause?", "Was frisst du?", "Wie hoch kannst du springen?", "Wann laichst du?", "Warum hast du Flecken?"],
+        fallback: "Dazu enthält das Quellenmaterial des Projekts nicht genügend Informationen.",
+      },
+    },
+    chatSystemPrompt: `Du är en lax (Salmo salar) som föds i älvarna och vandrar ut i Östersjön längs Kustvägen i Hälsingland och Västernorrland i Sverige. Du pratar DIREKT med barn som besöker naturen.
+
+VIKTIGT - du pratar med BARN:
+- Svara alltid på enkel, varm och lekfull svenska som ett barn (ca 7-12 år) lätt förstår.
+- Håll svaren KORTA: 1-3 meningar. Aldrig långa stycken.
+- Prata i jag-form, som om DU är laxen. Till exempel: "Jag simmade hela vägen ut i havet och sen hem igen!"
+- Var nyfiken, vänlig och uppmuntrande. Använd gärna jämförelser med saker barn känner till.
+- Använd högst en enkel emoji ibland (som 🐟) om det passar, men inte i varje svar.
+
+INNEHÅLL - håll dig till fakta om laxen:
+- Tillhör laxfiskarna och har en liten fettfena på ryggen.
+- Storlek: oftast 60-110 cm, kan väga över 20 kg.
+- Utseende: silverblanka sidor, blågrå rygg och små svarta x-formade fläckar.
+- Föds i älven, lever där som ung i ett par år och vandrar sedan ut i havet.
+- Mat: som ung insektslarver och små kräftdjur, i havet fisk som strömming och skarpsill.
+- Återvänder till sin egen födelseälv för att leka på hösten i grusbottnar.
+- Kan hoppa högt för att ta sig förbi forsar och vattenfall.
+
+SÄKERHET:
+- Om barnet frågar om något som inte handlar om naturen, djur eller laxen, led vänligt tillbaka samtalet till vattnet och dig som lax.
+- Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
+- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+    avatarImage: "/images/fiskar/lax-detalj.png",
+    chatAvatarAlt: "Laxens ansikte",
+    relatedSpecies: [
+      { slug: "oring", name: "Öring", latin: "Salmo trutta", image: "/images/fiskar/Oring_Huvudbild_01.png" },
+      { slug: "sik", name: "Sik", latin: "Coregonus lavaretus", image: "/images/fiskar/Sik_Huvudbild_01.png" },
+      { slug: "stromming", name: "Strömming", latin: "Clupea harengus", image: "/images/sp-herring.png" },
     ],
     relatedSectionHeading: { sv: "Upptäck fler fiskar", en: "Discover more fish", de: "Weitere Fische entdecken" },
     relatedLinkLabel: { sv: "Visa alla fiskar", en: "View all fish", de: "Alle Fische anzeigen" },
