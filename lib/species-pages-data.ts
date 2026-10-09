@@ -10252,6 +10252,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/smalom-hero.png", alt: { sv: "Smålom simmar på skogstjärn", en: "Red-throated loon swimming on a forest tarn", de: "Sterntaucher schwimmt auf einem Waldtümpel" } },
       galleryImages: [
+        {
+          src: "/video/smalom-naromradet.mp4",
+          alt: "Video med smålom från närområdet",
+          video: "/video/smalom-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/smalom-hero.png", alt: "Smålom (Gavia stellata) på tjärn" },
         { src: "/images/faglar/smalom-detalj.png", alt: "Smålomsunge simmar bredvid föräldern", tall: true },
       ],
