@@ -3647,6 +3647,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/oring-naromradet.mp4",
+          alt: "Video med öring från närområdet",
+          video: "/video/oring-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/fiskar/Oring_Huvudbild_01.png", alt: "Öring i strömmande vatten" },
         { src: "/images/fiskar/oring-detalj.png", alt: "Närbild på öringens fläckar" },
         { src: "/images/fiskar/oring-miljo.png", alt: "Klar skogsbäck som är öringens livsmiljö" },
