@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f����������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f������������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -4312,6 +4312,12 @@ SÄKERHET:
         { src: "/images/fiskar/Al_Huvudbild_01.png", alt: "Ål på lerig sjöbotten" },
         { src: "/images/fiskar/al-detalj.png", alt: "Närbild på ålens hud" },
         { src: "/images/fiskar/al-miljo.png", alt: "Lerig, växtrik sjöbotten där ålen gömmer sig" },
+        {
+          src: "/video/al-naromradet.mp4",
+          alt: "Video med ål från närområdet",
+          video: "/video/al-naromradet.mp4",
+          tall: true,
+        },
       ],
       audio: {
         sv: { title: "Lyssna på guiden", url: "" },
@@ -4433,7 +4439,7 @@ SÄKERHET:
           },
           {
             heading: "Familj & Ungar",
-            body: "På våren föds valparna i ett gryt och leker utanför ingången under sommaren. Föräldrarna bär hem byte tills ungarna kan jaga själva.",
+            body: "På våren föds valparna i ett gryt och leker utanför ingången under sommaren. F��räldrarna bär hem byte tills ungarna kan jaga själva.",
             image: "/images/rodrav-ungar.png",
             alt: "Rävungar utanför sitt gryt",
             caption: "Rävungarna leker utanför grytet i sommarljuset.",
@@ -5164,7 +5170,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Kryddsvampen med taggar",
         intro:
-          "Fjällig taggsvamp är lätt att känna igen på sin ovansida som täcks av grova, mörkbruna fjäll och sin taggiga undersida. Äldre exemplar får en bitter smak och lämpar sig därför bäst torkade och malda som krydda.\n\nDen växer i gamla gran- och barrskogar längs Kustvägen och dyker upp från sensommar till höst.",
+          "Fjällig taggsvamp är lätt att känna igen på sin ovansida som täcks av grova, mörkbruna fjäll och sin taggiga undersida. Äldre exemplar får en bitter smak och lämpar sig därför b��st torkade och malda som krydda.\n\nDen växer i gamla gran- och barrskogar längs Kustvägen och dyker upp från sensommar till höst.",
         quote: "Vänd på mig – under hatten bär jag tusen små taggar istället för skivor.",
         sections: [],
         detailsGrid: [
