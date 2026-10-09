@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f��r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f����r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -5101,7 +5101,7 @@ SÄKERHET:
       sv: {
         title: "Röd flugsvamp – Kustvägen Naturguide",
         description:
-          "Allt om röd flugsvamp längs Kustvägen – den röda hatten med vita prickar, giftigheten och dess plats i sagor och folktro.",
+          "Allt om röd flugsvamp längs Kustvägen – den r��da hatten med vita prickar, giftigheten och dess plats i sagor och folktro.",
       },
       en: {
         title: "Fly Agaric – Kustvägen Nature Guide",
@@ -5218,7 +5218,7 @@ SÄKERHET:
           },
           {
             heading: "Giftigkeit & Volksglaube",
-            body: "Trotz seiner Schönheit ist der Pilz giftig und darf niemals gegessen werden. Sein Name stammt vom früheren Brauch, ihn in Milch zu legen, um Fliegen zu töten. In Märchen, Kunst und Volksglauben ist der Fliegenpilz ein Symbol für das Magische und Geheimnisvolle des Waldes.",
+            body: "Trotz seiner Schönheit ist der Pilz giftig und darf niemals gegessen werden. Sein Name stammt vom früheren Brauch, ihn in Milch zu legen, um Fliegen zu töten. In Märchen, Kunst und Volksglauben ist der Fliegenpilz ein Symbol f��r das Magische und Geheimnisvolle des Waldes.",
             image: "/images/svampar/Rod_Flugsvamp_Huvudbild_01.png",
             alt: "Ein Fliegenpilz leuchtet im herbstlichen Wald",
             caption: "Schön zum Fotografieren – aber mit den Augen schauen, nicht mit dem Mund.",
@@ -10102,6 +10102,12 @@ SÄKERHET:
     media: {
       heroImage: { url: "/images/faglar/notskrika-hero.png", alt: { sv: "Nötskrika på ekgren", en: "Jay on an oak branch", de: "Eichelhäher auf einem Eichenzweig" } },
       galleryImages: [
+        {
+          src: "/video/notskrika-naromradet.mp4",
+          alt: "Video med nötskrika från närområdet",
+          video: "/video/notskrika-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/faglar/notskrika-hero.png", alt: "Nötskrika (Garrulus glandarius) på gren" },
         { src: "/images/faglar/notskrika-detalj.png", alt: "Nötskrika gömmer ekollon i marken", tall: true },
       ],
