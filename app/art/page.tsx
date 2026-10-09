@@ -74,7 +74,7 @@ export default async function ArtPage({ searchParams }: Props) {
   const mode: ContentMode = modeParam === "staging" ? "staging" : "live"
   const speciesTier = getSpeciesTier(namn, data.category.sv)
   const hideMammalGuide = data.category.sv === "Däggdjur" && namn !== "lodjur"
-  const showGuideWithoutAudio = namn === "fiskgjuse" || namn === "spillkraka"
+  const showGuideWithoutAudio = namn === "fiskgjuse" || namn === "spillkraka" || namn === "lax"
   const audioState = hideMammalGuide
     ? "hidden"
     : moduleState(
