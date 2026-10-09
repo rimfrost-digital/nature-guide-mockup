@@ -1177,7 +1177,7 @@ SÄKERHET:
       sv: {
         heroSubtitle: "Nordens hyena",
         intro:
-          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
+          "Järven är ett skyggt rovdjur som gärna lever ensam, långt från människor. Den är en halvdålig jägare som ofta livnär sig på kvarlämnade rester från någon annans byte. Järven kallas därför \u201dNordens hyena\u201d och den drar sig inte f��������r att stjäla andras mat, som den sedan samlar i olika matförråd i skogen.\n\nJärven är liten men snabb och med sina stora, platta tassar, som fungerar som snöskor, tar den sig lätt fram på snön. Honan föder 1-4 ungar under februari-mars och bygger då gärna sitt bo i en snöhög eller i en klippskreva. En intensiv jakt på järv pågick under 1800- och 1900-talet, då en utrotningskampanj bedrevs mot rovdjur, samtidigt som man ville åt pälsen. Arten fridlystes 1969 och den är idag klassad som sårbar med runt 600 järvar i Sverige.",
         quote: "Järven rör sig ensam genom de vidsträckta snöfälten – en tålmodig överlevare långt bortom stigarna.",
         sections: [],
         detailsGrid: [
@@ -4064,6 +4064,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/lax-naromradet.mp4",
+          alt: "Video med lax från närområdet",
+          video: "/video/lax-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/fiskar/lax-hero.png", alt: "Lax som hoppar upp för ett vattenfall" },
         { src: "/images/fiskar/lax-detalj.png", alt: "Närbild på laxens huvud" },
         { src: "/images/fiskar/lax-miljo.png", alt: "Strömmande älv med grusbotten där laxen leker" },
@@ -4454,7 +4460,7 @@ SÄKERHET:
         intro:
           "Der Rotfuchs ist eines der anpassungsfähigsten Raubtiere Schwedens, ebenso zu Hause in dichtem Nadelwald wie auf offenen Küstenwiesen entlang des Kustvägen. Erkennbar ist er an seinem rotbraunen Fell, der weißen Kehle und der buschigen Schwanzspitze. Als Allesfresser jagt er Wühlmäuse und Mäuse mit seinem charakteristischen Sprung, frisst aber auch Beeren, Vogeleier und Aas. Seine Spuren bilden im Schnee eine gerade Linie – das sogenannte Schnüren – und verraten einen geschickten, selten gesehenen Jäger.",
         quote:
-          "In der Dämmerung gleitet der Fuchs wie ein rotbrauner Schatten zwischen Wald und Küste – eben noch da, im nächsten Moment verschwunden.",
+          "In der Dämmerung gleitet der Fuchs wie ein rotbrauner Schatten zwischen Wald und K��ste – eben noch da, im nächsten Moment verschwunden.",
         detailsGrid: [
           {
             heading: "Merkmale & Aussehen",
