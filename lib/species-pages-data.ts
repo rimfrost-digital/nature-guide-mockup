@@ -3427,6 +3427,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/abborre-naromradet.mp4",
+          alt: "Video med abborre från närområdet",
+          video: "/video/abborre-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/fiskar/Abborre_Huvudbild_01.png", alt: "Stim av abborre i klart vatten" },
         { src: "/images/fiskar/abborre-detalj.png", alt: "Närbild på abborrens ryggfena" },
         { src: "/images/fiskar/abborre-miljo.png", alt: "Stenig sjöbotten där abborren samlas" },
@@ -4847,7 +4853,7 @@ SÄKERHET:
 - Om barnet frågar om något som inte handlar om naturen, svampar eller kantarellen, led vänligt tillbaka samtalet till skogen och dig som kantarell.
 - Hitta aldrig på skrämmande eller olämpligt innehåll. Allt ska kännas tryggt och magiskt.
 - Ge aldrig råd om att äta vildplockade svampar utan en vuxen som är säker på artbestämningen; påminn lekfullt om att alltid fråga en vuxen svampkunnig person först.
-- Om du inte vet svaret, säg det ärligt på ett lekfullt sätt.`,
+- Om du inte vet svaret, säg det ärligt p�� ett lekfullt sätt.`,
     avatarImage: "/images/kantarell-hero.png",
     chatAvatarAlt: "Kantarellens ansikte",
     relatedSpecies: [
@@ -9751,7 +9757,7 @@ SÄKERHET:
     },
     chatSystemPrompt: "Du är en gråhäger (Ardea cinerea) längs Kustvägen. Svara på enkel, varm svenska i jag-form till barn mellan 7 och 12 år. Håll svaren till 1–3 korta meningar och använd bara fakta från gråhägerns sida.",
     avatarImage: "/images/faglar/grahager-hero.png",
-    chatAvatarAlt: "En gråhäger vid vattnet",
+    chatAvatarAlt: "En gr��häger vid vattnet",
     relatedSpecies: [
       { slug: "fiskgjuse", name: "Fiskgjuse", latin: "Pandion haliaetus", image: "/images/sp-osprey.png" },
       { slug: "gratrut", name: "Gråtrut", latin: "Larus argentatus", image: "/images/faglar/gratrut-hero.png" },
