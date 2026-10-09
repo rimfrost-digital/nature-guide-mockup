@@ -3208,6 +3208,12 @@ SÄKERHET:
         },
       },
       galleryImages: [
+        {
+          src: "/video/gadda-naromradet.mp4",
+          alt: "Video med gädda från närområdet",
+          video: "/video/gadda-naromradet.mp4",
+          tall: true,
+        },
         { src: "/images/fiskar/Gadda_Huvudbild_01.png", alt: "Gädda som simmar bland vattenväxter" },
         { src: "/images/fiskar/gadda-detalj.png", alt: "Närbild på gäddans käkar" },
         { src: "/images/fiskar/gadda-miljo.png", alt: "Vassrik vik där gäddan jagar" },
@@ -6610,7 +6616,7 @@ SÄKERHET:
       de: {
         title: "Grauerle – Kustvägen Naturführer",
         description:
-          "Fakten über die Grauerle am Kustvägen – der schnell wachsende Baum, der Stickstoff bindet und den Boden entlang von Gewässern verbessert.",
+          "Fakten über die Grauerle am Kustv��gen – der schnell wachsende Baum, der Stickstoff bindet und den Boden entlang von Gewässern verbessert.",
       },
     },
     quickFacts: {
@@ -7507,7 +7513,7 @@ SÄKERHET:
         detailsGrid: [
           { heading: "Kännetecken & Utseende", body: "Enen är en vintergrön barrbuske med vassa, stickiga barr och kan bli allt från en låg buske till ett smalt tio meter högt träd. De mjuka, kottliknande bären är först gröna och blir blåsvarta när de mognar.", image: "/images/vaxter_bar/enbar-detalj.png", alt: "Närbild på blåsvarta enbär bland barr", caption: "Bären mognar från grönt till blåsvart under flera år." },
           { heading: "Växtplats & Beteende", body: "Enen är extremt tålig och växer över hela Sverige, på hällmarker, i hagar, bryn och magra skogar. Den tål både torka, kyla och hårt bete och kan bli mycket gammal.", image: "/images/vaxter_bar/enbar-miljo.png", alt: "Enbuskar i öppet landskap", caption: "En anspråkslös buske som tål torka, kyla och bete." },
-          { heading: "Ekologi & Användning", body: "Enbären är en klassisk krydda till vilt och används för att smaksätta gin och dricka. Den täta busken ger också skydd och föda åt fåglar under vintern.", image: "/images/vaxter_bar/Enbar_Huvudbild_01.png", alt: "Enbuske med bär", caption: "Bären kryddar vilt och smaksätter gin och dricka." },
+          { heading: "Ekologi & Användning", body: "Enbären är en klassisk krydda till vilt och används för att smaksätta gin och dricka. Den täta busken ger också skydd och f��da åt fåglar under vintern.", image: "/images/vaxter_bar/Enbar_Huvudbild_01.png", alt: "Enbuske med bär", caption: "Bären kryddar vilt och smaksätter gin och dricka." },
         ],
       },
       en: {
@@ -10372,7 +10378,7 @@ SÄKERHET:
         { label: "Livsmiljö", value: "Skogstjärnar och kustvatten" },
       ],
       en: [
-        { label: "Weight", value: "1–2.3 kg" },
+        { label: "Weight", value: "1���2.3 kg" },
         { label: "Diet", value: "Fish, caught by diving" },
         { label: "Call", value: "Wailing, hollow howl" },
         { label: "Habitat", value: "Forest tarns and coastal waters" },
